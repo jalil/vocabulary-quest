@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFFBEB; /* Amber 50 - Creamy */
+  --foreground: #1E293B; /* Slate 800 - Soft Black */
+  
+  /* Vibrant Kid Colors */
+  --card: #FFFFFF;
+  --card-foreground: #1E293B;
+  
+  --primary: #8B5CF6; /* Violet 500 */
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #F59E0B; /* Amber 500 */
+  --secondary-foreground: #FFFFFF;
+  
+  --accent: #EC4899; /* Pink 500 */
+  --accent-foreground: #FFFFFF;
+  
+  --success: #22C55E; /* Green 500 */
+  --success-foreground: #FFFFFF;
+
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+
+  --radius: 1.5rem; /* Very rounded */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-sm: calc(var(--radius) - 8px);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family will be set by Next.js font loader */
+}
+
+/* Custom Utilities */
+.text-stroke {
+  -webkit-text-stroke: 1.5px white;
+  paint-order: stroke fill;
 }
