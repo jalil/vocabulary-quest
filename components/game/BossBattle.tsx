@@ -6,7 +6,7 @@ import { MOCK_WORDS } from '@/lib/data';
 import { VocabularyWord } from '@/lib/types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
-import { Heart, Sword, Shield, Skull, Trophy } from 'lucide-react';
+import { Heart, Sword, Shield, Skull, Trophy, X } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { QuizStep } from './QuizStep';
 import Link from 'next/link';
@@ -86,6 +86,16 @@ export function BossBattle() {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 via-slate-900 to-black opacity-50 z-0" />
 
             <div className="z-10 w-full max-w-md flex flex-col h-full">
+
+
+                {/* Top Bar / Exit */}
+                <div className="w-full flex justify-end mb-4">
+                    <Link href="/">
+                        <Button variant="ghost" className="text-slate-400 hover:text-white hover:bg-slate-800 rounded-full w-10 h-10 p-0">
+                            <X className="w-6 h-6" />
+                        </Button>
+                    </Link>
+                </div>
 
                 {/* HUD */}
                 <div className="flex justify-between items-center mb-8 bg-slate-800/80 p-4 rounded-xl border border-slate-700">

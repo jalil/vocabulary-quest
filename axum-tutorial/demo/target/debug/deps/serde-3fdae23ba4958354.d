@@ -1,0 +1,14 @@
+/Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/deps/serde-3fdae23ba4958354.d: /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/build/serde-86d82c992695b0ad/out/private.rs
+
+/Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/deps/libserde-3fdae23ba4958354.rlib: /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/build/serde-86d82c992695b0ad/out/private.rs
+
+/Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/deps/libserde-3fdae23ba4958354.rmeta: /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/build/serde-86d82c992695b0ad/out/private.rs
+
+/Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/jalil/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/build/serde-86d82c992695b0ad/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/jalil/code/vocabulary-quest/axum-tutorial/demo/target/debug/build/serde-86d82c992695b0ad/out

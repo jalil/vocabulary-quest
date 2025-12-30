@@ -1,0 +1,9 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+axum = { version = "~0.8.4" } # Web framework that focuses on ergonomics and modularity.
+tokio = { version = "~1.45.1", features = ["full"] } # Event-driven, non-blocking I/O platform.

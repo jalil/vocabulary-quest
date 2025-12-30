@@ -5,6 +5,7 @@ import { DayLesson } from '@/lib/types';
 import { Button } from '@/components/ui/Button';
 import { FlashCard } from '@/components/flashcard/FlashCard';
 import { QuizStep } from '@/components/game/QuizStep';
+import { ActiveRecallStep } from '@/components/game/ActiveRecallStep';
 import { StoryViewer } from '@/components/story/StoryViewer';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useUserStore } from '@/lib/store';
@@ -144,12 +145,21 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                         exit={{ opacity: 0, x: -100 }}
                         className="flex-1 flex flex-col items-center w-full"
                     >
-                        <QuizStep
-                            targetWord={lesson.words[currentWordIndex]}
-                            allWords={lesson.words}
-                            onComplete={handleNext}
-                            onWrong={(wordId) => markWordAsWeak(wordId)}
-                        />
+                        {/* Mix: Active Recall on Even indices, Multiple Choice on Odd */}
+                        {currentWordIndex % 2 === 0 ? (
+                            <ActiveRecallStep
+                                targetWord={lesson.words[currentWordIndex]}
+                                onComplete={handleNext}
+                                onWrong={(wordId) => markWordAsWeak(wordId)}
+                            />
+                        ) : (
+                            <QuizStep
+                                targetWord={lesson.words[currentWordIndex]}
+                                allWords={lesson.words}
+                                onComplete={handleNext}
+                                onWrong={(wordId) => markWordAsWeak(wordId)}
+                            />
+                        )}
                     </motion.div>
                 )}
 
