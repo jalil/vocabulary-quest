@@ -12,9 +12,19 @@ function LoginForm() {
     const searchParams = useSearchParams();
     const returnUrl = searchParams.get('returnUrl');
 
+    const [error, setError] = useState('');
+    const ALLOWED_USERS = ['aio', 'umi', 'jalil'];
+
     const handleLogin = () => {
-        if (!name.trim()) return;
-        setUsername(name.trim());
+        const trimmedName = name.trim().toLowerCase();
+        if (!trimmedName) return;
+
+        if (!ALLOWED_USERS.includes(trimmedName)) {
+            setError('Access Denied: You are not on the guest list!');
+            return;
+        }
+
+        setUsername(trimmedName);
         const target = returnUrl ? decodeURIComponent(returnUrl) : '/';
         router.push(target);
     };
@@ -34,11 +44,21 @@ function LoginForm() {
                 <input
                     type="text"
                     value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    onChange={(e) => {
+                        setName(e.target.value);
+                        setError('');
+                    }}
                     placeholder="Enter your name..."
-                    className="w-full p-4 rounded-2xl bg-slate-100 border-4 border-transparent focus:border-violet-400 focus:bg-white text-xl font-bold text-slate-800 text-center outline-none transition-all placeholder:text-slate-300"
+                    className={`
+                        w-full p-4 rounded-2xl bg-slate-100 border-4 text-xl font-bold text-slate-800 text-center outline-none transition-all placeholder:text-slate-300
+                        ${error ? 'border-rose-400 bg-rose-50' : 'border-transparent focus:border-violet-400 focus:bg-white'}
+                    `}
                     onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
                 />
+
+                {error && (
+                    <p className="text-rose-500 font-bold animate-shake">{error}</p>
+                )}
 
                 <Button
                     onClick={handleLogin}

@@ -39,18 +39,31 @@ export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStep
     }, [targetWord, allWords]);
 
     const handleSelect = (id: string) => {
+        console.log("QuizStep: Selected", id, "Target:", targetWord.id);
         if (status === 'correct') return;
         setSelectedId(id);
 
         if (id === targetWord.id) {
+            console.log("QuizStep: Correct answer!");
             setStatus('correct');
-            canvasConfetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
-            setTimeout(onComplete, 1500); // Auto advance
+            // Ensure we advance even if confetti fails
+            // We kept the timeout, but we also add a manual button below
+            setTimeout(() => {
+                console.log("QuizStep: Timeout triggered, calling onComplete");
+                onComplete();
+            }, 1500);
+
+            try {
+                canvasConfetti({
+                    particleCount: 100,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+            } catch (e) {
+                console.error("Confetti failed:", e);
+            }
         } else {
+            console.log("QuizStep: Wrong answer");
             setStatus('wrong');
             // Notify parent about the weak word
             onWrong?.(targetWord.id);
@@ -101,6 +114,20 @@ export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStep
                     )
                 })}
             </div>
+
+            {status === 'correct' && (
+                <div className="mt-6 w-full animate-in fade-in slide-in-from-bottom-4">
+                    <Button
+                        onClick={() => {
+                            console.log("QuizStep: Manual Continue Clicked");
+                            onComplete();
+                        }}
+                        className="w-full h-14 text-xl bg-green-500 hover:bg-green-600 shadow-lg shadow-green-200"
+                    >
+                        Continue ➔
+                    </Button>
+                </div>
+            )}
         </div>
     );
 }

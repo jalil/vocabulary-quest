@@ -1,8 +1,10 @@
 import { DayLesson, VocabularyWord, Story } from "./types";
 import { SAT_WORDS } from "./sat_data";
 import { KAAT_WORDS } from "./kaat_data";
+import { KA_5A_5B_WORDS } from "./ka_5a_5b_data";
 import { KA_5A_WORDS } from "./ka_5a_data";
 import { PRE_1_WORDS } from "./pre_1_data";
+import { WORD_MASTERY_LESSONS } from "./word_mastery_data";
 
 export const DAY_1_WORDS: VocabularyWord[] = [
     {
@@ -53,11 +55,12 @@ export const DAY_1_WORDS: VocabularyWord[] = [
 ];
 
 export const MOCK_WORDS: VocabularyWord[] = [
-    ...DAY_1_WORDS,
     ...SAT_WORDS,
     ...KAAT_WORDS,
     ...KA_5A_WORDS,
-    ...PRE_1_WORDS
+    ...PRE_1_WORDS,
+    ...KA_5A_5B_WORDS,
+    ...WORD_MASTERY_LESSONS.flatMap(l => l.words)
 ];
 
 export const MOCK_STORIES: Story[] = [
@@ -85,9 +88,51 @@ Nature is **brilliant** because every animal has exactly what it needs to surviv
     }
 ];
 
+// Helper to chunk array
+// Helper to chunk array
+function chunkArray<T>(array: T[], size: number): T[][] {
+    const chunked: T[][] = [];
+    for (let i = 0; i < array.length; i += size) {
+        chunked.push(array.slice(i, i + size));
+    }
+    return chunked;
+}
+
+// Generate KAAT Lessons
+// Explicitly setting chunk size to 10
+const KAAT_CHUNKS = chunkArray(KAAT_WORDS, 10);
+
+export const KAAT_LESSONS: DayLesson[] = KAAT_CHUNKS.map((chunk, index) => ({
+    id: `kaat-day-${index + 1}`,
+    dayNumber: index + 1, // Ensures starts at Day 1
+    words: chunk,
+    stories: []
+}));
+
+const KA_5A_5B_CHUNKS = chunkArray(KA_5A_5B_WORDS, 10);
+
+export const KA_5A_5B_LESSONS: DayLesson[] = KA_5A_5B_CHUNKS.map((chunk, index) => ({
+    id: `5a-5b-day-${index + 1}`,
+    dayNumber: index + 1,
+    words: chunk,
+    stories: []
+}));
+
 export const DAY_1_LESSON: DayLesson = {
     id: "day-1",
-    dayNumber: 1,
+    dayNumber: 0, // Demo day is Day 0
     words: DAY_1_WORDS,
     stories: MOCK_STORIES
 };
+
+export const ALL_LESSONS: DayLesson[] = [
+    DAY_1_LESSON,
+    ...KAAT_LESSONS,
+    ...KA_5A_5B_LESSONS,
+    ...WORD_MASTERY_LESSONS
+];
+
+export function getLesson(id: string): DayLesson | undefined {
+    return ALL_LESSONS.find(l => l.id === id);
+}
+

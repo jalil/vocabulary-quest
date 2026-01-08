@@ -13,6 +13,7 @@ interface UserState extends UserProgress {
     logout: () => void;
     markWordAsWeak: (wordId: string) => void;
     markWordAsMastered: (wordId: string) => void;
+    processReview: (wordId: string, isCorrect: boolean) => void;
 }
 
 const DEFAULT_USER_DATA: UserData = {
@@ -24,7 +25,8 @@ const DEFAULT_USER_DATA: UserData = {
     customWords: [],
     deletedCategories: [],
     lastLoginDate: undefined,
-    weakWords: []
+    weakWords: [],
+    srsProgress: {}
 };
 
 const INITIAL_STATE: UserProgress = {
@@ -64,6 +66,57 @@ export const useUserStore = create<UserState>()(
                 weakWords: state.weakWords.filter(id => id !== wordId)
             })),
 
+            // SRS Logic (Simplified SM-2)
+            processReview: (wordId, isCorrect) => set((state) => {
+                const current = state.srsProgress[wordId] || {
+                    wordId,
+                    nextReviewDate: 0,
+                    interval: 0,
+                    repetition: 0,
+                    easeFactor: 2.5
+                };
+
+                let newInterval = 0;
+                let newRepetition = 0;
+                let newEaseFactor = current.easeFactor;
+
+                if (isCorrect) {
+                    if (current.repetition === 0) {
+                        newInterval = 1;
+                    } else if (current.repetition === 1) {
+                        newInterval = 6;
+                    } else {
+                        newInterval = Math.round(current.interval * current.easeFactor);
+                    }
+                    newRepetition = current.repetition + 1;
+                    // Slight bump to EF for consistency
+                    newEaseFactor = Math.min(newEaseFactor + 0.1, 5.0);
+                } else {
+                    newInterval = 1;
+                    newRepetition = 0;
+                    newEaseFactor = Math.max(1.3, newEaseFactor - 0.2);
+                }
+
+                const nextDate = Date.now() + (newInterval * 24 * 60 * 60 * 1000);
+
+                return {
+                    srsProgress: {
+                        ...state.srsProgress,
+                        [wordId]: {
+                            wordId,
+                            nextReviewDate: nextDate,
+                            interval: newInterval,
+                            repetition: newRepetition,
+                            easeFactor: newEaseFactor
+                        }
+                    },
+                    // Also auto-remove from weak words if correct, add if wrong
+                    weakWords: isCorrect
+                        ? state.weakWords.filter(id => id !== wordId)
+                        : (state.weakWords.includes(wordId) ? state.weakWords : [...state.weakWords, wordId])
+                };
+            }),
+
             // Critical Profile Switching Logic
             setUsername: (name) => set((state) => {
                 // 1. Archive current user if exists
@@ -78,7 +131,8 @@ export const useUserStore = create<UserState>()(
                         customWords: state.customWords,
                         deletedCategories: state.deletedCategories,
                         lastLoginDate: state.lastLoginDate,
-                        weakWords: state.weakWords
+                        weakWords: state.weakWords,
+                        srsProgress: state.srsProgress
                     };
                 }
 
@@ -87,6 +141,8 @@ export const useUserStore = create<UserState>()(
 
                 return {
                     ...targetUserData,
+                    // Ensure deep merge or default for new fields if loading old profile
+                    srsProgress: targetUserData.srsProgress || {},
                     username: name,
                     lastLoginDate: new Date().toISOString(),
                     archivedUsers: newArchivedUsers
@@ -106,7 +162,8 @@ export const useUserStore = create<UserState>()(
                         customWords: state.customWords,
                         deletedCategories: state.deletedCategories,
                         lastLoginDate: state.lastLoginDate,
-                        weakWords: state.weakWords
+                        weakWords: state.weakWords,
+                        srsProgress: state.srsProgress
                     };
                 }
 

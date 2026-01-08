@@ -19,6 +19,7 @@ export function BossBattle() {
     const [userHp, setUserHp] = useState(100);
     const [bossHp, setBossHp] = useState(100);
     const [attackAnim, setAttackAnim] = useState<'none' | 'user' | 'boss'>('none');
+    const [combo, setCombo] = useState(0);
 
     // Setup Battle
     useEffect(() => {
@@ -40,9 +41,20 @@ export function BossBattle() {
 
     const handleTurnComplete = (success: boolean) => {
         if (success) {
+            // Increment Combo
+            const newCombo = combo + 1;
+            setCombo(newCombo);
+
             // User Attacks
             setAttackAnim('user');
-            setBossHp(prev => Math.max(0, prev - (100 / battleWords.length)));
+
+            // Calculate Damage with Combo Multiplier
+            // Base is enough to kill boss in N hits. Combo makes it faster.
+            const baseDamage = 100 / battleWords.length;
+            const multiplier = 1 + (newCombo * 0.1); // 10% bonus per combo
+            const damage = baseDamage * multiplier;
+
+            setBossHp(prev => Math.max(0, prev - damage));
 
             // If it was a weak word, master it!
             const currentWord = battleWords[currentWordIndex];
@@ -50,13 +62,14 @@ export function BossBattle() {
                 markWordAsMastered(currentWord.id);
             }
 
-            if (bossHp <= (100 / battleWords.length)) {
+            if (bossHp <= damage) { // Check if this hit kills
                 setTimeout(() => setGameState('victory'), 1000);
                 confetti();
-                addXp(200); // Boss Bonus!
+                addXp(200 + (newCombo * 10)); // Boss Bonus + Combo Bonus!
             }
         } else {
             // Boss Attacks
+            setCombo(0); // Reset Combo
             setAttackAnim('boss');
             setUserHp(prev => Math.max(0, prev - 25)); // 4 hits -> Dead
 
@@ -71,10 +84,17 @@ export function BossBattle() {
                 if (currentWordIndex < battleWords.length - 1) {
                     setCurrentWordIndex(prev => prev + 1);
                 } else {
-                    // Out of words but boss alive? (Should verify math)
-                    // If we treat "Survival" as win:
-                    setGameState('victory');
-                    addXp(100);
+                    // Out of words. If boss still alive, we check HP
+                    // Strictly speaking, if boss is alive after all words, maybe we didn't do enough damage?
+                    // But with combo, we likely killed him.
+                    // If we missed words, boss might be alive.
+                    if (bossHp > 0) {
+                        // Decide: do we let them win? Or draw? 
+                        // Let's say Victory if they survived, but maybe less XP?
+                        // For now simplified to Victory.
+                        setGameState('victory');
+                        addXp(100);
+                    }
                 }
             }
         }, 1000);
@@ -98,7 +118,27 @@ export function BossBattle() {
                 </div>
 
                 {/* HUD */}
-                <div className="flex justify-between items-center mb-8 bg-slate-800/80 p-4 rounded-xl border border-slate-700">
+                <div className="flex justify-between items-center mb-8 bg-slate-800/80 p-4 rounded-xl border border-slate-700 relative">
+                    {/* Combo Indicator */}
+                    <AnimatePresence>
+                        {combo > 1 && (
+                            <motion.div
+                                key={combo}
+                                initial={{ scale: 0, rotate: -20, opacity: 0 }}
+                                animate={{ scale: 1.5, rotate: -5, opacity: 1 }}
+                                exit={{ scale: 0, opacity: 0 }}
+                                className="absolute -top-12 left-1/2 -translate-x-1/2 z-50 whitespace-nowrap pointer-events-none"
+                            >
+                                <div className="text-5xl font-black text-yellow-400 drop-shadow-[0_4px_0_rgba(0,0,0,0.5)] text-stroke italic">
+                                    {combo}x COMBO!
+                                </div>
+                                <div className="text-center text-sm font-bold text-yellow-200 mt-1 uppercase tracking-widest">
+                                    Damage Boost!
+                                </div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+
                     <div className="flex flex-col items-center">
                         <div className="text-sm font-bold text-slate-400 mb-1">YOU</div>
                         <div className="flex items-center gap-2">
@@ -219,6 +259,7 @@ export function BossBattle() {
                                         setUserHp(100);
                                         setBossHp(100);
                                         setCurrentWordIndex(0);
+                                        setCombo(0);
                                         setGameState('battle');
                                     }}
                                 >

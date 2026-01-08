@@ -122,7 +122,8 @@ export function ActiveRecallStep({ targetWord, onComplete, onWrong }: ActiveReca
                 </motion.div>
 
                 <Button
-                    type="submit"
+                    type="button"
+                    onClick={() => handleSubmit()}
                     className="w-full h-16 text-xl"
                     variant={status === 'correct' ? 'success' : 'primary'}
                     disabled={status === 'correct'}
@@ -131,14 +132,13 @@ export function ActiveRecallStep({ targetWord, onComplete, onWrong }: ActiveReca
                 </Button>
 
                 {attempts >= 3 && status !== 'correct' && (
-                    <motion.button
-                        initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                        type="button"
+                    <Button
+                        variant="ghost"
                         onClick={handleGiveUp}
-                        className="w-full text-slate-400 font-bold text-sm hover:text-slate-600 transition-colors py-2"
+                        className="w-full text-slate-400 hover:text-slate-600 font-bold transition-colors py-2 h-auto"
                     >
                         I don't know, show me
-                    </motion.button>
+                    </Button>
                 )}
             </form>
         </div>

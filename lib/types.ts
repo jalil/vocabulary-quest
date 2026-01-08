@@ -19,6 +19,15 @@ export interface Story {
     relatedWordIds?: string[];
 }
 
+// Spaced Repetition System Data
+export interface SRSItem {
+    wordId: string;
+    nextReviewDate: number; // Timestamp (Date.now())
+    interval: number; // Days until next review
+    repetition: number; // Consecutive correct answers
+    easeFactor: number; // Multiplier for interval (default 2.5)
+}
+
 // Data specific to a single user's progress
 export interface UserData {
     xp: number;
@@ -30,6 +39,7 @@ export interface UserData {
     deletedCategories?: string[];
     lastLoginDate?: string;
     weakWords: string[];
+    srsProgress: Record<string, SRSItem>; // Map wordId -> SRS data
 }
 
 export interface UserProgress extends UserData {

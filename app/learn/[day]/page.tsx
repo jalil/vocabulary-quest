@@ -1,14 +1,16 @@
-import { DAY_1_LESSON } from '@/lib/data';
+import { getLesson, ALL_LESSONS } from '@/lib/data';
 import { LearningSession } from '@/components/game/LearningSession';
 import { notFound } from 'next/navigation';
 
 export function generateStaticParams() {
-    return [{ day: 'day-1' }];
+    return ALL_LESSONS.map(lesson => ({ day: lesson.id }));
 }
 
 export default async function Page({ params }: { params: Promise<{ day: string }> }) {
     const { day } = await params;
-    if (day !== 'day-1') notFound();
+    const lesson = getLesson(day);
 
-    return <LearningSession lesson={DAY_1_LESSON} />;
+    if (!lesson) notFound();
+
+    return <LearningSession lesson={lesson} />;
 }

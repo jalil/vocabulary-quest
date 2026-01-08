@@ -24,10 +24,17 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
     const [readingPassages, setReadingPassages] = useState<Story[]>([]);
     const [readingTab, setReadingTab] = useState<'fiction' | 'non-fiction'>('non-fiction');
 
+    const [isProcessing, setIsProcessing] = useState(false);
+
     // Progress Actions
-    const { addXp, completeDay, markWordAsWeak } = useUserStore();
+    const addXp = useUserStore(state => state.addXp);
+    const completeDay = useUserStore(state => state.completeDay);
+    const markWordAsWeak = useUserStore(state => state.markWordAsWeak);
 
     const handleNext = () => {
+        if (isProcessing) return;
+        console.log("handleNext called. Phase:", phase, "Index:", currentWordIndex, "Total:", lesson.words.length);
+
         if (phase === 'intro') {
             setPhase('flashcards');
             setCurrentWordIndex(0);
@@ -43,11 +50,35 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
             if (currentWordIndex < lesson.words.length - 1) {
                 setCurrentWordIndex(prev => prev + 1);
             } else {
-                // Generate and move to reading
-                const passages = generateAcademicPassages(lesson.words);
-                setReadingPassages(passages);
-                setPhase('reading');
-                setCurrentReadingIndex(0);
+                // Generate and move to reading using async scheduling to prevent UI freeze
+                console.log("LearningSession: Finishing quiz, moving to reading...");
+                setIsProcessing(true);
+
+                // Use setTimeout to ensure state updates from previous events clear before heavy lifting
+                setTimeout(() => {
+                    try {
+                        console.log("LearningSession: Calling generateAcademicPassages...");
+                        const passages = generateAcademicPassages(lesson.words);
+                        console.log("LearningSession: Generated passages:", passages);
+
+                        if (passages && passages.length > 0) {
+                            console.log("LearningSession: Setting reading passages and phase 'reading'");
+                            setReadingPassages(passages);
+                            setPhase('reading');
+                            setCurrentReadingIndex(0);
+                        } else {
+                            console.warn("LearningSession: No passages generated, skipping to complete.");
+                            setPhase('complete');
+                            completeDay(lesson.id);
+                        }
+                    } catch (error) {
+                        console.error("LearningSession: Failed to generate passages:", error);
+                        setPhase('complete');
+                        completeDay(lesson.id);
+                    } finally {
+                        setIsProcessing(false);
+                    }
+                }, 10);
             }
         } else if (phase === 'reading') {
             if (currentReadingIndex < readingPassages.length - 1) {
@@ -109,8 +140,33 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                                 </div>
                             ))}
                         </div>
-                        <div className="mt-auto w-full pt-8">
+                        <div className="mt-auto w-full pt-8 flex flex-col gap-3">
                             <Button onClick={handleNext} className="w-full">Let's Go!</Button>
+
+                            {/* Admin Shortcut */}
+                            {useUserStore.getState().username?.toLowerCase() === 'admin' && (
+                                <Button
+                                    onClick={() => {
+                                        console.log("Admin Skip: Jumping to Reading Phase");
+                                        try {
+                                            const passages = generateAcademicPassages(lesson.words);
+                                            if (passages && passages.length > 0) {
+                                                setReadingPassages(passages);
+                                                setPhase('reading');
+                                                setCurrentReadingIndex(0);
+                                            } else {
+                                                console.warn("Admin Skip: No passages generated");
+                                            }
+                                        } catch (e) {
+                                            console.error("Admin Skip Error:", e);
+                                        }
+                                    }}
+                                    variant="outline"
+                                    className="w-full text-amber-600 border-amber-200"
+                                >
+                                    👑 Admin: Skip to Passage
+                                </Button>
+                            )}
                         </div>
                     </motion.div>
                 )}
@@ -212,15 +268,9 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                                         <div className="prose prose-slate prose-lg max-w-none leading-relaxed">
                                             {story.content.split('\n\n').map((paragraph, idx) => (
                                                 <p key={idx} className="mb-4 text-slate-700">
-                                                    {paragraph.split(' ').map((word, i) => {
-                                                        const cleanWord = word.replace(/[^a-zA-Z]/g, '');
-                                                        const isTarget = lesson.words.some(w => w.word.toLowerCase() === cleanWord.toLowerCase());
-                                                        return isTarget ? (
-                                                            <span key={i} className="font-bold text-indigo-600 bg-indigo-50 px-1 rounded">{word} </span>
-                                                        ) : (
-                                                            <span key={i}>{word} </span>
-                                                        );
-                                                    })}
+                                                    {paragraph.split(' ').map((word, i) => (
+                                                        <span key={i}>{word} </span>
+                                                    ))}
                                                 </p>
                                             ))}
                                         </div>

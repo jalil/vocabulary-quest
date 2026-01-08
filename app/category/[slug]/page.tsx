@@ -16,7 +16,8 @@ import { StoryViewer } from '@/components/story/StoryViewer';
 
 export default function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = use(params);
-    const { customWords, completedDays, deleteCategory } = useUserStore();
+    const decodedSlug = decodeURIComponent(slug);
+    const { customWords, completedDays, deleteCategory, completeDay } = useUserStore();
     const router = useRouter();
 
     const [isPlaying, setIsPlaying] = useState(false);
@@ -32,10 +33,10 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
 
     // Combine words and filter
     const allWords = isMounted ? [...MOCK_WORDS, ...customWords] : MOCK_WORDS;
-    const categoryWords = allWords.filter(w => w.category?.toLowerCase() === slug.toLowerCase());
+    const categoryWords = allWords.filter(w => w.category?.toLowerCase() === decodedSlug.toLowerCase());
 
     const handleDeleteCategory = () => {
-        deleteCategory(slug);
+        deleteCategory(decodedSlug);
         router.push('/');
     };
 
@@ -60,7 +61,7 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
     const startBatch = (index: number) => {
         const batch = batches[index];
         setSelectedBatch(batch);
-        setSelectedBatchId(`cat-${slug}-day-${index + 1}`);
+        setSelectedBatchId(`cat-${decodedSlug}-day-${index + 1}`);
         setIsPlaying(true);
     };
 
@@ -77,7 +78,7 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
     if (isPlaying) {
         // ... (Learning Session Logic) ...
         const wordsToLearn = selectedBatch || categoryWords;
-        const lessonId = selectedBatchId || `cat-${slug}`;
+        const lessonId = selectedBatchId || `cat-${decodedSlug}`;
 
         const customLesson: DayLesson = {
             id: lessonId,
@@ -102,7 +103,7 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
                         </Button>
                     </Link>
                     <div>
-                        <h1 className="text-3xl font-black text-slate-800 uppercase">{slug}</h1>
+                        <h1 className="text-3xl font-black text-slate-800 uppercase">{decodedSlug}</h1>
                         {isCourseMode && <p className="text-slate-500 font-bold">Complete Course • {categoryWords.length} Words</p>}
                     </div>
                 </div>
@@ -149,7 +150,7 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {batches.map((batch, idx) => {
                         const dayNum = idx + 1;
-                        const dayId = `cat-${slug}-day-${dayNum}`;
+                        const dayId = `cat-${decodedSlug}-day-${dayNum}`;
                         const isCompleted = isMounted ? completedDays.includes(dayId) : false;
 
                         return (
@@ -163,7 +164,20 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
                             >
                                 <div className="flex items-center justify-between mb-4">
                                     <h3 className="text-2xl font-black">Day {dayNum}</h3>
-                                    {isCompleted ? <div className="bg-white/20 p-2 rounded-full">🏆</div> : <div className="bg-slate-100 p-2 rounded-full">🔒</div>}
+                                    {isCompleted ? (
+                                        <div className="bg-white/20 p-2 rounded-full">🏆</div>
+                                    ) : (
+                                        <button
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                completeDay(dayId);
+                                            }}
+                                            className="bg-slate-100 p-2 rounded-full hover:bg-slate-200 transaction-colors"
+                                            title="Debug: Click to Complete"
+                                        >
+                                            🔒
+                                        </button>
+                                    )}
                                 </div>
                                 <div className="flex -space-x-2 mb-4 overflow-hidden h-10 w-full">
                                     {batch.slice(0, 5).map(w => (
