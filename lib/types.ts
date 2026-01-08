@@ -1,7 +1,7 @@
 export interface VocabularyWord {
     id: string;
     word: string;
-    pronunciation: string;
+    pronunciation?: string;
     definition: string;
     exampleSentence: string;
     imageEmoji: string; // Using emoji for MVP, can be replace with URL
