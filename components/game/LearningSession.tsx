@@ -92,7 +92,7 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
     };
 
     return (
-        <div className="min-h-screen bg-slate-50 flex flex-col p-6 max-w-md mx-auto relative overflow-hidden">
+        <div className={`min-h-screen bg-slate-50 flex flex-col p-6 mx-auto relative overflow-hidden ${phase === 'reading' ? 'max-w-2xl' : 'max-w-md'}`}>
             {/* Top Bar */}
             <div className="flex items-center justify-between mb-8">
                 <Link href="/">
@@ -227,17 +227,17 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                         exit={{ opacity: 0 }}
                         className="flex-1 flex flex-col items-center w-full h-full pb-4 overflow-y-auto"
                     >
-                        <div className="text-center space-y-2 mb-6">
+                        <div className="text-center space-y-2 mb-8">
                             <h2 className="text-3xl font-bold text-slate-800">Reading Time! 📚</h2>
-                            <p className="text-slate-600">See your new words in action.</p>
+                            <p className="text-slate-500">See your new words in action.</p>
                         </div>
 
-                        {/* Tabs */}
-                        <div className="flex p-1 bg-slate-100 rounded-xl mx-auto w-full max-w-sm mb-6">
+                        {/* Tabs - Larger and More Prominent */}
+                        <div className="flex p-1.5 bg-slate-100 rounded-2xl mx-auto w-full max-w-md mb-8 shadow-inner">
                             <button
                                 onClick={() => setReadingTab('non-fiction')}
-                                className={`flex-1 py-2 text-sm font-bold rounded-lg transition-all ${readingTab === 'non-fiction'
-                                    ? 'bg-white text-indigo-600 shadow-sm'
+                                className={`flex-1 py-3 text-base font-bold rounded-xl transition-all ${readingTab === 'non-fiction'
+                                    ? 'bg-white text-indigo-600 shadow-md'
                                     : 'text-slate-500 hover:text-slate-700'
                                     }`}
                             >
@@ -245,8 +245,8 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                             </button>
                             <button
                                 onClick={() => setReadingTab('fiction')}
-                                className={`flex-1 py-2 text-sm font-bold rounded-lg transition-all ${readingTab === 'fiction'
-                                    ? 'bg-white text-indigo-600 shadow-sm'
+                                className={`flex-1 py-3 text-base font-bold rounded-xl transition-all ${readingTab === 'fiction'
+                                    ? 'bg-white text-indigo-600 shadow-md'
                                     : 'text-slate-500 hover:text-slate-700'
                                     }`}
                             >
@@ -258,23 +258,89 @@ export function LearningSession({ lesson, onComplete }: { lesson: DayLesson, onC
                         <div className="flex-1 w-full overflow-y-auto space-y-6">
                             {readingPassages.filter(s => s.type === readingTab).length > 0 ? (
                                 readingPassages.filter(s => s.type === readingTab).map((story) => (
-                                    <div key={story.id} className="bg-white p-6 rounded-2xl border-2 border-indigo-100 shadow-lg hover:shadow-xl transition-shadow">
-                                        <div className="flex items-center gap-3 mb-4">
-                                            <div className="p-2 bg-indigo-100 rounded-lg">
-                                                {story.type === 'fiction' ? <span className="text-xl">✨</span> : <span className="text-xl">📖</span>}
+                                    <article key={story.id} className="bg-white rounded-3xl border border-slate-200 shadow-lg overflow-hidden">
+                                        {/* Story Header */}
+                                        <div className="bg-gradient-to-r from-indigo-500 to-purple-500 px-8 py-5">
+                                            <div className="flex items-center gap-3">
+                                                <div className="p-2.5 bg-white/20 rounded-xl backdrop-blur-sm">
+                                                    {story.type === 'fiction' ? <span className="text-2xl">✨</span> : <span className="text-2xl">📖</span>}
+                                                </div>
+                                                <h3 className="text-2xl font-bold text-white">{story.title}</h3>
                                             </div>
-                                            <h3 className="text-xl font-bold text-slate-800">{story.title}</h3>
                                         </div>
-                                        <div className="prose prose-slate prose-lg max-w-none leading-relaxed">
-                                            {story.content.split('\n\n').map((paragraph, idx) => (
-                                                <p key={idx} className="mb-4 text-slate-700">
-                                                    {paragraph.split(' ').map((word, i) => (
-                                                        <span key={i}>{word} </span>
-                                                    ))}
-                                                </p>
-                                            ))}
+
+                                        {/* Story Content - Optimized for Reading */}
+                                        <div className="px-8 py-8">
+                                            <div className="prose prose-lg max-w-none">
+                                                {story.content.split('\n\n').map((paragraph, idx) => {
+                                                    // Helper function to render text with thesis, support, and vocab highlighting
+                                                    const renderFormattedText = (text: string) => {
+                                                        // 1. Split by THESIS tags
+                                                        const thesisParts = text.split(/(\{\{THESIS\}\}[\s\S]*?\{\{\/THESIS\}\})/g);
+
+                                                        return thesisParts.map((part, partIdx) => {
+                                                            // Handle Thesis
+                                                            if (part.startsWith('{{THESIS}}') && part.endsWith('{{/THESIS}}')) {
+                                                                const thesisText = part.slice(10, -11);
+                                                                return (
+                                                                    <span
+                                                                        key={`thesis-${partIdx}`}
+                                                                        className="font-bold text-red-600 bg-red-50 px-2 py-1 rounded-lg border-l-4 border-red-500"
+                                                                        style={{ textIndent: 0 }}
+                                                                    >
+                                                                        {thesisText}
+                                                                        <span className="ml-2 text-[10px] uppercase tracking-widest text-red-400 font-extrabold select-none">Thesis Statement</span>
+                                                                    </span>
+                                                                );
+                                                            }
+
+                                                            // 2. Split remainder by SUPPORT tags
+                                                            const supportParts = part.split(/(\{\{SUPPORT\}\}[\s\S]*?\{\{\/SUPPORT\}\})/g);
+                                                            return supportParts.map((subPart, subIdx) => {
+                                                                // Handle Support Points
+                                                                if (subPart.startsWith('{{SUPPORT}}') && subPart.endsWith('{{/SUPPORT}}')) {
+                                                                    return (
+                                                                        <span
+                                                                            key={`support-${partIdx}-${subIdx}`}
+                                                                            className="font-bold text-red-600"
+                                                                        >
+                                                                            {subPart.slice(11, -12)}
+                                                                        </span>
+                                                                    );
+                                                                }
+
+                                                                // 3. Split remainder by Vocabulary (**) tags
+                                                                const vocabParts = subPart.split(/(\*\*.*?\*\*)/g);
+                                                                return vocabParts.map((segment, segIdx) => {
+                                                                    if (segment.startsWith('**') && segment.endsWith('**')) {
+                                                                        return (
+                                                                            <span
+                                                                                key={`vocab-${partIdx}-${subIdx}-${segIdx}`}
+                                                                                className="font-bold text-indigo-600 bg-indigo-50 px-1.5 py-0.5 rounded-md mx-0.5"
+                                                                            >
+                                                                                {segment.slice(2, -2)}
+                                                                            </span>
+                                                                        );
+                                                                    }
+                                                                    return <span key={`text-${partIdx}-${subIdx}-${segIdx}`}>{segment}</span>;
+                                                                });
+                                                            });
+                                                        });
+                                                    };
+
+                                                    return (
+                                                        <p
+                                                            key={idx}
+                                                            className="text-lg text-slate-700 leading-8 mb-6 last:mb-0"
+                                                            style={{ textIndent: '2em' }}
+                                                        >
+                                                            {renderFormattedText(paragraph)}
+                                                        </p>
+                                                    );
+                                                })}
+                                            </div>
                                         </div>
-                                    </div>
+                                    </article>
                                 ))
                             ) : (
                                 <div className="text-center py-12 text-slate-400">

@@ -402,39 +402,131 @@ The addition of sound was a major turning point in the production of movies. The
 
 Even as the film industry was thriving, a new idea in home entertainment captured Americans’ interest by the end of the 1920s. Like radio and movies, experiments with television had been performed in the late 1800s. Combining the work and discoveries of many inventors and scientists, the black-and-white picture that the earliest televisions showed was not big or clear. Yet, that “box” eventually would change how Americans viewed entertainment in a way that few living during the Roaring 20s could imagine.`
         },
-        // Day 14: Starts with 'Poignant'
-        "Poignant": {
-            title: "The Camera Does Lie",
-            content: `Let’s face it: the Internet is a wonderful place. Where else can you read all the works of William Shakespeare without having to pull a huge book off your shelf? Or catch up on the news from around the world with only a few clicks? See eagles snatching children! Witness men flying with homemade bird wings! Cheer for pigs that are saving goats!
-Whoa — if you think those last three sound sketchy, you should. There’s a whole world of video con-artistry out there, and the Internet loves it. Besides ordinary pranksters and video artists, corporations are even getting into the act, faking videos to sell products.
-What’s a trusting person to do? Learn to call out the fakes.
+        // Day 14: Starts with 'Animosity'
+        "Animosity": {
+            title: "Friendship",
+            content: `A dictionary contains a definition of friendship somewhere in the F's between the words "fear" and "Friday." An encyclopedia supplies interesting facts on friendship. But all the definitions and facts do not convey what friendship is really all about. It cannot be understood through words or exaggerations. {{THESIS}}The only way to understand friendship is through experience. It is an experience that involves all the senses.{{/THESIS}}
 
-Ye Olde Fakeroo
-There’s nothing new about faking images. Falsified pictures of ghosts, unidentified flying objects (UFOs), and monsters have been around for years.
-In the 19th century, “spirit photography” captured the public’s imagination. Clever photographers created portraits of living people alongside ghostly versions of their deceased relatives or friends. (Fakers still love to record “paranormal activity” with cell phones and handheld video recorders.) “Photographing” UFOs became popular after World War II.
-Perhaps the most famous fake photograph was taken in 1934 at Loch Ness in Scotland. Gray and grainy, it supposedly shows the head and neck of Nessie, the dinosaur-like monster of the lake. And you can still view the first moving images of “Bigfoot,” shot in 1967, on YouTube.
+{{SUPPORT}}Friendship can be seen.{{/SUPPORT}} It is seen in an old couple sitting in the park holding hands. It is the way they touch, a touch as light as a leaf floating in the autumn air, a touch so strong that years of living could not pull them apart. Friendship is seen in a child freely sharing the last cookie. It is the small arm over the shoulder of another as they walk on the playground. Seeing friendship is not casual. It is watching for subtlety, but friendship is there for eyes that can see.
 
-Fooled You Once
-While some people still debate whether the Bigfoot film is real, it looks plenty bogus compared to today’s slick videos. The best modern fakers spare no expense or sleight of hand.
-Several years ago, a video of a pig saving a drowning goat (all together now: awwwww!) made the rounds on the Internet. The 30-second scene took days to make. Legions of animal trainers who were sworn to secrecy participated. An elaborate track was built for the pig to follow in the water. With millions of views, the really good videos like that one — go viral, spreading like wildfire and keeping the whole world guessing.
-One person who’d rather not guess is Rhett Allain, an associate professor of physics at Southeastern Louisiana University and author of the Wired Science blog Dot Physics. Allain enjoys analyzing online videos. He smacks down those that don’t live up to the rigors of physics and obsesses about those he suspects but can’t pin down.
-Allain explains that when he looks at fishy videos, he asks, “Is this video physically possible?” Then he uses “known physics models to see if I could come up with a way to get the video to be real.”
+{{SUPPORT}}Friendship can be heard.{{/SUPPORT}} It is heard in the words of two friends who squeezed in lunch together on an extremely busy day. It is the way they talk to each other, not the words. Their tone is unique. Friendship can be heard by those willing to listen.
 
-Fooled You Twice
-A viral video in 2012 showed an eagle snatching up a small child in its claws, then dropping the kid safely on the ground. Very convincing — until you do the math.
-The best way to start your analysis is to ask questions like, “Could an eagle lift and carry a child that size?” The larger the bird is, the larger its wingspan must be to get it off the ground and keep it airborne. Doing a little research, Allain discovered that a golden eagle must have a 7.5-foot (2.3 meter) wingspan just to lift its own body weight of about 14 pounds (6.4 kilograms) plus perhaps one small prey. If the child in the video weighs about 28 pounds (13 kilograms), the eagle is lifting almost twice its own weight. This would require a wingspan of about 33 feet (10 meters)!
-In a video like this one, Allain also measures the way things move, accelerate, and fall to see if they obey natural laws. He asks more questions: At what angle does the child fall? How does the child move through the air as the eagle lifts them up. Does the child accelerate constantly through the fall as a falling object should? In the eagle video, none of the answers adds up.
+{{SUPPORT}}Friendship is felt in a touch.{{/SUPPORT}} It is a pat on the back from a teammate, a high five between classes, the slimy, wet kiss from the family dog. It's a touch that reassures that someone is there, someone who cares. The touch communicates more than words or gestures. It is instantly understood and speaks volumes beyond the point of contact, to the heart.
 
-Fake Shake
-One of Allain’s favorite techniques is to analyze camera shake — you know, the quaking that occurs in a video when the person filming it holds the camera in their hand instead of mounting it on a tripod.
-Allain explains, “To make editing easier and the video more realistic, some people use a tripod for their camera to record the video. They then add fake shake to make it look like the camera was handheld.” Voilà — the jerking and unsteady motion of a camera in the hands of someone who is walking. A software program lets you graph camera shake by analyzing the movement of the background. If there’s a pattern to the jumpiness, it’s a fake. Real camera shake is random.
-Of course, there are also some simple common-sense ways to spot an imposter just by looking.
-One fact to check is continuity. Is everyone wearing the same outfit throughout a video that is supposedly a single take?
+{{SUPPORT}}Friendship has a taste.{{/SUPPORT}} It tastes like homemade bread, the ingredients all measured and planned, then carefully mixed and kneaded, then the quiet waiting as the dough rises. Hot from the oven, the bread tastes more than the sum of its ingredients. There is something else there, perhaps the thoughts of the baker as her hands knead the dough, or her patience as she waits for the dough to rise. Unseen and unmeasured, this is the ingredient that makes the difference. Warm, fresh from the oven with a little butter, the difference you taste is friendship.
 
-Faux Flight
-As technology improves and fakers become more determined (with bigger budgets), it gets harder to weed out the hoaxes. Sometimes, a little old-fashioned research goes a long way.
-People loved to be entertained — and fooled. We are drawn to amazing feats and want to believe they’re real. With a willing audience, and social media making it easier to reach us, there’s no reason to think the fakers will quit anytime soon.`
-        }
+{{SUPPORT}}Friendship has a smell.{{/SUPPORT}} It smells like the slightly burnt cookies your brother made especially for you. It smells like your home when stepping into it after being away for a long time. It smells like a sandbox or a sweaty gym. Friendship has a variety of smells. Taken for granted at the moment, they define the memory of friendship.
+
+{{SUPPORT}}Finally, more than the other senses, friendship is an experience of the heart.{{/SUPPORT}} It is the language of the heart—a language without words, vowels, or consonants; a language that, whether seen, felt, heard, or tasted, is understood by the heart. Like air fills the lungs, friendship fills the heart, allowing us to experience the best life has to offer: a friend.`
+        },
+        // Day 15: Starts with 'Cathartic'
+        "Cathartic": {
+            title: "Why Students Should Eat Breakfast Every Day",
+            content: `A lot of people, especially young people, go through the day without having breakfast. Many people believe that it is not necessary, or they say that they don’t have time for that, and begin their day with no meal. I believe that everyone should eat breakfast before going to their activities. {{THESIS}}The purpose of this paper is to show the importance of breakfast, especially for students.{{/THESIS}}
+
+{{SUPPORT}}The first reason why you should eat breakfast before going to school is for your health.{{/SUPPORT}} When you skip breakfast and go to school, you are looking for a disease because it’s not healthy to have an empty stomach all day long. It’s very important to have a meal and not let your stomach work empty. All you are going to get is gastritis and a lot of problems with your health if you don’t eat breakfast.
+
+{{SUPPORT}}Another reason for eating breakfast is because you need food for to do well in your classes.{{/SUPPORT}} You body and your brain are not going to function as good as they could because you have no energy and no strength. When you try to learn something and have nothing in your stomach, you are going to have a lot of trouble succeeding. A lot of people think that they should not eat because they are going to feel tired, but that’s not true. Breakfast is not a very big meal, and on the contrary, you’re going to feel tired if you don’t have breakfast because you have spent the entire previous night without food.
+
+{{SUPPORT}}The last reason to have breakfast every day is because you can avoid diseases if you eat some breakfast in the morning.{{/SUPPORT}} If you don’t eat, you are going to get sick, and these diseases will have a stronger effect on you because you’re going to get sick easier than people who have breakfast every day.
+
+You have to realize that breakfast is the most important meal of the day, and you cannot skip it without consequences for your health, your school and your defense mechanism. It is better to wake up earlier and have a good breakfast that run to school without eating anything. It is time for you to do something for your health, and eating breakfast is the better way to start your day.`
+        },
+        // Day 16: Starts with 'Coerce'
+        "Coerce": {
+            title: "The Importance of Reading and Writing",
+            content: `Today science and technology has come to pervade every aspect of our lives. Computer, television and radio have almost replaced the newspaper and letter once dominated our lives. Accordingly, the issue about whether the ability to read and write is more important today may attract our attentions. It is clear that classified views have converged into two: some think reading and writing ability is more important today than in the past, while others deny its importance. {{THESIS}}As I see it, I agree with the former view without any hesitation and my choice is based on a careful consideration of the following reasons.{{/THESIS}}
+
+{{SUPPORT}}The main reason{{/SUPPORT}} which may win most of people's support is that if lack the reading and writing ability, one would be considered as illiterate who has been deprived of the most basic right of human beings in the 21st century. It will be hard for us to imagine how somebody who can't read and write communicates with other people. A case in point is that one of my neighbors who is an old man and cannot read and write may only talk with others face to face. As for making friends by email and search information in newspaper, it is absolutely impossible.
+
+{{SUPPORT}}The second reason{{/SUPPORT}} I would like to point out is that people today who cannot read and write cannot even make a living. Good jobs are difficult to find because of economic depression. Nearly all the jobs require people who can read and write very well. Even if one just plans to be a driver, he must read the road sign and know where he is and where he will go.
+
+{{SUPPORT}}Furthermore{{/SUPPORT}}, the ability to read and write could bring us lots of advantages. Suppose that people who have tired out with a hard week's sweat and effort may get lots of benefits and relief from reading a short novel and broaden his horizon by appreciating a nice poem. Many friends around me would believe reading and writing some effective ways to relax themselves.
+
+People today especially those children may find it easier for them to manipulate the mouse of the computer than to write things down by hand. Watching TV instead of reading may still occupy someone's most leisure time. Yet if all the factors I discussed above are contemplated and we are to minimize the losses and maximize the gains, it will not be hard for us to realize that the ability to read and write is more important today than in the past.`
+        },
+        // Day 17: Starts with 'Didactic'
+        "Didactic": {
+            title: "The Importance of Reading and Writing (2)",
+            content: `Is the ability to read and write more important today than in the past? Everyone has his answer depending on his experience and life style. Some people think it is true because people need not read and write in past. On the contrary, other people believe there is not big difference between today and yesterday. {{THESIS}}As far as I am concerned, I would like to say that reading and writing are getting more important for our life day by day.{{/THESIS}} In the following discussion, I will provide some reasons and examples to support my viewpoints.
+
+{{SUPPORT}}The main reason{{/SUPPORT}} for my propensity is that knowledge is very important for us today. Without education, it is very hard to find a good job and you will have a hard time to do the work. There is too much new knowledge today. In the past days, people can teach each other by oral, therefore, reading and writing is not as important as now. However, if you enter a company today, your supervisor will only give you a instruction book and tell you begin to study it. Nobody has time to teach you by oral. If you can read and write well, you will get more smoothly at work.
+
+{{SUPPORT}}Communication is another head and chief reason{{/SUPPORT}} I have chosen to put here. Many professions require people to work in team to solve problems and make decisions. Reading and writing can help you to know other colleague are doing, on the other hand, it can also help you to tell other people what you have done and your plan for next step.
+
+To be honest, I cannot deny that some people who cannot read or write also have a nice life today. Nevertheless, for the normal people, the benefits of reading and writing carry much more weight than illiterate, so the conclusion is obvious. For all factors presented above, we can safely draw the conclusion that reading and writing are more important today than in the past. Furthermore, we should pay more attention to improve our ability of reading and writing`
+        },
+        // Day 18: Starts with 'Disdain'
+        "Disdain": {
+            title: "Why You Should Not Smoke",
+            content: `I am sure that you know that smoking harms your body. Then why do you continue smoking? Maybe you do it because you haven’t really become conscious about all the effects that smoking has. {{THESIS}}There are a lot of reasons why you shouldn’t smoke. Some of them are that smoking affects your health, that you spend a lot of money on cigarettes, and that when you smoke you are not respecting people around you.{{/THESIS}}
+
+{{SUPPORT}}The first reason{{/SUPPORT}} why you shouldn’t smoke is that smoking affects your health. If you smoke, your physical condition will be negatively affected, so it will be very difficult for you to succeed in sports. Also, smoking produces lethal diseases like cancer and reduces the length and quality of your life. Maybe you don’t notice all the physical effects of smoking immediately, but you surely will be sorry one day.
+
+{{SUPPORT}}The second reason{{/SUPPORT}} why you shouldn’t smoke is because of all the money that you spend on it. Maybe you start smoking only when someone offers you a cigarette, but there will be a day when you will feel the need of a cigarette. By this time, you will pay whatever to smoke, and each time you will smoke more, and you will spend more money. All the money you would spend on cigars could have be spent in something better, don’t you think?
+
+{{SUPPORT}}The last reason{{/SUPPORT}} why you shouldn’t smoke is out of respect for the people around you. When you smoke, you not only harm yourself, but you also harm all the people around you. So you mustn’t be selfish; you should at least avoid smoking in front of people who don’t smoke. Also, many people don’t like the cigarette’s smell, so they won’t enjoy your company. Would you like that?
+
+I have said just some reasons of why you shouldn’t smoke, so I hope that now those of you who smoke are able to think a little and try to make a smart decision. In addition to all the reasons I’ve said, I would like you to think about how much you love yourself and then whether you want to continue harming yourself. Think also about all the people who love you, like your family who doesn’t want to see you suffering or sick. If you decide to continue smoking, what a pity. But if you decide to stop smoking, congratulations! Remember that "If you can dream it, you can do it."`
+        },
+        // Day 19: Starts with 'Enumerate'
+        "Enumerate": {
+            title: "Why People Should Read for Pleasure",
+            content: `In the past years the use of the television and the internet has increased; this situation has caused many people to change their likes and the way that they enjoy their free time. Because of television and the internet, many people spend less time reading, so the purpose for this essay is to present reasons why people should read just for pleasure. {{THESIS}}The reasons that I give you are quite simple: to improve your knowledge, to expand your general culture, to have more fun, to make your imagination fly, to find new ways to express your ideas, and finally to expand your vocabulary.{{/THESIS}}
+
+{{SUPPORT}}The first reason{{/SUPPORT}} that I give you to enjoy reading is that when you read, you can expand your knowledge and also your culture. There are a lot of good books in which you can find history, novels, tragedies, comedies and a variety of other themes. You can see that people who read more often frequently have a bigger knowledge of life and also a bigger perspective of their environment. I think that fact gives them an advantage over all others who do not read frequently.
+
+{{SUPPORT}}The second reason{{/SUPPORT}} to read more often is that through books you can have fun and even travel in your imagination. Children have not yet lost the ability of getting into their dreams, and because of this, in their first years the parents read a lot of tales in which they use their imagination. Adults should try to keep this ability, so we do not forget the importance of the use of the imagination. The imagination also represents a tool that could help you to develop your professional career in a creative way.
+
+{{SUPPORT}}Finally, the third and the most important feature{{/SUPPORT}} that reading offers you is that it does not matter the age that you have, you always could expand your vocabulary and the ways to express your ideas to the others in a simple and correct form. By the time you can improve the kind of books that you read, there are a lot of categories, so you will never stop learning from the pleasure of reading. People who know how to choose a book generally have the capability of choosing a formal book in which they can find formal grammatical structures and obviously a formal vocabulary. All these things allow them to gain greater fluency in their communication.
+
+In conclusion, I recommend that you enjoy reading more often. There are excellent reasons for doing it; you just have to want to expand your knowledge and your culture, to improve your imagination and also your vocabulary. I know that we should evolve with the technology; that is, it is good to know how to navigate in the internet, but we must also not forget the books. Try to choose good books at the beginning, and then I ensure you that you never will stop reading`
+        },
+        // Day 20: Starts with 'Fallacious'
+        "Fallacious": {
+            title: "Why We Should Not Compare Ourselves with Others",
+            content: `In our culture a lot of times people advise us to compare ourselves with others. "You should be like your father," "You can win; the others aren’t as good as you," "You must be the best of your class," etc., and this is not always the best way of thinking. {{THESIS}}There are many reasons to change this way of thinking and begin to compare ourselves only with ourselves. This is the way it should be, and in this paper I will discuss some of the most important reasons for this.{{/THESIS}}
+
+{{SUPPORT}}The first reason{{/SUPPORT}} to avoid comparing yourself with others is that there will be always someone better than you. It doesn’t mater in which aspect, but it is always true. Therefore, you could feel inferior to others and maybe without a real reason. For example, you can be an incredible architect and the best of your generation, and this can make you feel incredibly good, but if someday someone is better than you are, you could feel sad although you are still the same incredible architect that you were before.
+
+{{SUPPORT}}The second reason{{/SUPPORT}} to elude this kind of comparison is that you will always find someone worse than you, but as opposed to the first reason, this can make you feel better than the others, and this feeling can turn into a horrible pride. For example, if you are the second best student of your class, and one day the very best student leaves the school, you will then be the best one although you are still only as good as you were before.
+
+{{SUPPORT}}These two first reasons{{/SUPPORT}} leads us to a third one: If you want to be better than the others, you don’t need to improve yourself; you only have to make the others look bad. If I want to be the leader of the group, but you are the leader now, what I need to do is to make you look like a traitor or stupid and then I can take your place. Then I will be better than you.
+
+{{SUPPORT}}A fourth reason{{/SUPPORT}} to stop comparing ourselves is that the one who compares him/herself with others is judging, and this doesn’t help us develop as human beings. Nobody knows the internal reality of the other; nobody knows his/her story and his/her most deep intentions, and when we judge it’s harder to accept the others.
+
+{{SUPPORT}}The last but most important reason{{/SUPPORT}} to avoid comparing ourselves with others is that when we do, we can be tempted to copy them, to do the same things, and to act and think like them. The problem with this is that if we copy someone, we will never know who we really are and what we really want, and then we will never grow spiritually.
+
+For all these reasons and because we are unique, we should not compare ourselves with others, only with ourselves. The only comparison pattern that we really have is our consciousness. So, if we use this pattern we will not feel less or more than others; we will not try to make others look bad; we will not judge so much; and we will accept ourselves as we really are. In other words, we will live happier`
+        },
+        // Day 21: Starts with 'Fervent'
+        "Fervent": {
+            title: "Why People Should Exercise",
+            content: `In the past, I have never been inclined to participate in sports. Honestly, I didn’t like it, but many persons whom I lived with kept telling me everyday how good it was. Since the peer pressure was growing, I decided to go to the gym. {{THESIS}}It wasn’t until then that I could really understand people when they said exercise really helped a person get organized and keep yourself in a healthy physically and mentally.{{/THESIS}}
+
+{{SUPPORT}}For starters{{/SUPPORT}}, when you are a lazy person, it is difficult to take the first step, but it is all a matter of committing yourself to something that will provide you a lot of positive feedback. Once you start doing exercise and observing positive results, you actually enjoy it. It takes a lot of effort and strong will, but it's worth it. The principal thing to do is to participate in an activity you like. If you do you’ll start organizing your day in a way that enables you to do everything you have to, including exercising. You will no longer be a person stressed-out without time to carry on with all your activities.
+
+{{SUPPORT}}Second{{/SUPPORT}}, it is obvious that once you exercise you will have a better condition. You will be healthier in a physical way. It is probable that you will lose weight and your muscles will get stronger and stronger. Your body will feel good, full of energy and it will respond immediately to any action you want to do, any activity that has to be done with high spirits.
+
+{{SUPPORT}}The third reason{{/SUPPORT}} why exercising is good is that it affects you positively in a mental and psychological way. Doing exercise helps you set specific goals which along with strong will can be achieved. When you do that, you are aware of your abilities, accept your weaknesses, and your self-esteem goes up. Any sport distracts you because it helps you not to think about school, friends, problems, among other things. It brings you time to think about yourself and no one else. It helps you keep your mind busy and to avoid dangerous habits like drugs.
+
+Doing exercise is very important to any person of any age. The positive effects of exercising, which I’ve already mentioned, are like a chain. Once you do a sports activity that you like, you get organized; therefore, you start doing things the right way and get enormous benefits which make you feel good as a whole human being. You start living your life happily`
+        },
+        // Day 22: Starts with 'Hackneyed'
+        "Hackneyed": {
+            title: "Why You Should Communicate Effectively",
+            content: `Establishing and developing effective communication is important in order to be heard and change your environment according to your own thoughts. No one will guess what you want or what you think if you don’t tell them, and nothing is going to change if you do not propose a change. {{THESIS}}The purpose of this essay is to discuss four important skills that will help you communicate effectively. Such skills are not to be afraid of speaking, always defend what you want to say, express exactly what you mean to say, and listen while you are not speaking.{{/THESIS}}
+
+{{SUPPORT}}The first{{/SUPPORT}} aspect to communicate effectively is not to be afraid of speaking. Anytime you need to say something, go ahead and do it. Most of the times people are afraid of speaking because they are not sure if it is the right thing to say and/or the right moment to say it. Be sure, say what you want to say, and do not regret it. If you speak you will be heard and taken into account. You are important so you need to be heard. There is one thing you should not do somehow: Do not say something that will hurt somebody’s feelings. Unless that something has to be said inevitably, say it, but as softly and gently as you can. Never hurt anyone intentionally. Always think twice before saying something. You choose what to say, just be sure to say the right thing at the right time. If you do that, you won’t regret a thing.
+
+{{SUPPORT}}Second,{{/SUPPORT}} if you want to communicate effectively, defend what you say. Once you have said something you can never go backward; you must back it up. The worst thing that you can do when speaking is to hesitate. Hesitance means self-insecurity and this means weakness. The strength of your words will surely determine their effect on the listener. The way that you speak and the content of your speech tell a lot about yourself and your personality. A conversation allows speakers and listeners to get to know each other better. Besides, people will only know what you say; they cannot go any further if you do not let them. It is only by means of intelligence, strength, and security that you will be able to change the world around you. And, it is also by means of intelligence, strength, and security that you will be heard and taken into account.
+
+{{SUPPORT}}The third main aspect{{/SUPPORT}} of effective communication is to express exactly what you mean to say. Pick up the words that will express exactly what you are thinking of. Do not forget that one half of a word belongs to the listener and the other to the speaker. The listener gets his or her own version of what is said. However your job is to express yourself clearly, so that you can avoid misunderstandings. Although, avoiding misunderstandings is a hard task (not impossible), when it is achieved you will be expressing yourself effectively. Everybody will be able to identify exactly what you say, what you think, and what you want. Words are double edged weapons which can be used either to defend or to attack. If you make a good use of them, you will be able to do almost everything.
+
+{{SUPPORT}}The fourth main point{{/SUPPORT}} to effective communication, and probably the most important of all, is the listening part. Listen and do not interrupt when it is no longer your turn to speak. You will surely learn new things from listening to others. If a person is speaking, it’s because she or he wants to be heard. Effective communication is based on both listening and speaking. If communication were based only on speaking, it would be an absolute tyranny. Nevertheless, communication is the means through which you express yourself in order to be heard and change your environment according to your own version of reality. Thus, it would be impossible to change anything if there were no one to listen, learn, and accept new ideas. Listening is a gift, and good listeners are always very appreciated because there are only a few.
+
+Effective communication will help you to express yourself better, allow you to let other people express themselves, and help you to change your environment toward your own thoughts and beliefs. Words inspire no fear. Speak them. Words make you strong. Support them. Words show what you are and what you think. Do not let yourself be misunderstood. Words are valuable. Listen to them!`
+        },
     };
 
     if (KAAT_STATIC_STORIES[firstWord]) {

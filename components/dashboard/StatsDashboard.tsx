@@ -62,6 +62,6 @@ export function StatsDashboard() {
                     </div>
                 </motion.div>
             ))}
-        </div>
+        </div >
     );
 }
