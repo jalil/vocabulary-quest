@@ -17,7 +17,13 @@ export function Navbar() {
     // Logic from page.tsx: combine mock + custom words -> unique categories
     const allWords = mounted ? [...MOCK_WORDS, ...customWords] : MOCK_WORDS;
     const allCategories = Array.from(new Set(allWords.map(w => w.category || 'General').filter(Boolean)));
-    const categories = allCategories.filter(cat => !deletedCategories?.includes(cat));
+    const categories = allCategories
+        .filter(cat => !deletedCategories?.includes(cat))
+        .sort((a, b) => {
+            const gradeA = parseInt(a.replace(/\D/g, '')) || 0;
+            const gradeB = parseInt(b.replace(/\D/g, '')) || 0;
+            return gradeA - gradeB;
+        });
 
     if (!mounted) return <div className="h-16 w-full bg-white shadow-sm md:hidden" />;
 

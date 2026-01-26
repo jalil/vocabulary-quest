@@ -13,7 +13,9 @@ interface UserState extends UserProgress {
     logout: () => void;
     markWordAsWeak: (wordId: string) => void;
     markWordAsMastered: (wordId: string) => void;
+    addBadge: (badge: string) => void;
     processReview: (wordId: string, isCorrect: boolean) => void;
+    recordExerciseCompletion: (log: ExerciseLog) => void;
 }
 
 const DEFAULT_USER_DATA: UserData = {
@@ -26,7 +28,8 @@ const DEFAULT_USER_DATA: UserData = {
     deletedCategories: [],
     lastLoginDate: undefined,
     weakWords: [],
-    srsProgress: {}
+    srsProgress: {},
+    exerciseHistory: []
 };
 
 const INITIAL_STATE: UserProgress = {
@@ -64,6 +67,13 @@ export const useUserStore = create<UserState>()(
             }),
             markWordAsMastered: (wordId) => set((state) => ({
                 weakWords: state.weakWords.filter(id => id !== wordId)
+            })),
+            addBadge: (badge) => set((state) => {
+                if (state.unlockedBadges.includes(badge)) return state;
+                return { unlockedBadges: [...state.unlockedBadges, badge] };
+            }),
+            recordExerciseCompletion: (log) => set((state) => ({
+                exerciseHistory: [...(state.exerciseHistory || []), log]
             })),
 
             // SRS Logic (Simplified SM-2)
@@ -132,7 +142,8 @@ export const useUserStore = create<UserState>()(
                         deletedCategories: state.deletedCategories,
                         lastLoginDate: state.lastLoginDate,
                         weakWords: state.weakWords,
-                        srsProgress: state.srsProgress
+                        srsProgress: state.srsProgress,
+                        exerciseHistory: state.exerciseHistory || []
                     };
                 }
 
@@ -143,6 +154,7 @@ export const useUserStore = create<UserState>()(
                     ...targetUserData,
                     // Ensure deep merge or default for new fields if loading old profile
                     srsProgress: targetUserData.srsProgress || {},
+                    exerciseHistory: targetUserData.exerciseHistory || [],
                     username: name,
                     lastLoginDate: new Date().toISOString(),
                     archivedUsers: newArchivedUsers
@@ -163,7 +175,8 @@ export const useUserStore = create<UserState>()(
                         deletedCategories: state.deletedCategories,
                         lastLoginDate: state.lastLoginDate,
                         weakWords: state.weakWords,
-                        srsProgress: state.srsProgress
+                        srsProgress: state.srsProgress,
+                        exerciseHistory: state.exerciseHistory || []
                     };
                 }
 

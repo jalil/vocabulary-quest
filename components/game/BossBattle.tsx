@@ -6,13 +6,15 @@ import { MOCK_WORDS } from '@/lib/data';
 import { VocabularyWord } from '@/lib/types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
-import { Heart, Sword, Shield, Skull, Trophy, X } from 'lucide-react';
+import { Heart, Sword, Shield, Skull, Trophy, X, Medal } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { QuizStep } from './QuizStep';
 import Link from 'next/link';
+import { getBossQuestionsForBook, BossCheckpoint } from '@/lib/boss_logic';
+import { cn } from '@/lib/utils';
 
 export function BossBattle() {
-    const { weakWords, markWordAsMastered, addXp } = useUserStore();
+    const { weakWords, markWordAsMastered, addXp, level, addBadge } = useUserStore();
     const [gameState, setGameState] = useState<'intro' | 'battle' | 'victory' | 'defeat'>('intro');
     const [battleWords, setBattleWords] = useState<VocabularyWord[]>([]);
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -21,57 +23,67 @@ export function BossBattle() {
     const [attackAnim, setAttackAnim] = useState<'none' | 'user' | 'boss'>('none');
     const [combo, setCombo] = useState(0);
 
+    // Checkpoint Data
+    const [checkpoint, setCheckpoint] = useState<BossCheckpoint | null>(null);
+
     // Setup Battle
     useEffect(() => {
-        // 1. Get weak words objects
-        const weakObjects = MOCK_WORDS.filter(w => weakWords.includes(w.id));
+        // Check for Book Mastery Checkpoint first
+        const cp = getBossQuestionsForBook(level);
 
-        // 2. Fill options if needed (min 5 words for a battle)
-        let pool = [...weakObjects];
-        if (pool.length < 5) {
-            const others = MOCK_WORDS.filter(w => !weakWords.includes(w.id))
-                .sort(() => 0.5 - Math.random())
-                .slice(0, 5 - pool.length);
-            pool = [...pool, ...others];
+        if (cp.isCheckpoint) {
+            setCheckpoint(cp);
+            // Use words from the book, prioritize domain words?
+            // For now just shuffle the book words.
+            // If fewer than 5 words exists (unlikely in real usage but possible in test), we might need padding?
+            // Assuming at least 5 words exist in a book's lessons.
+            setBattleWords(cp.words.sort(() => 0.5 - Math.random()));
+        } else {
+            // Standard Boss Logic (Random Weak Words)
+            setCheckpoint(null);
+            const weakObjects = MOCK_WORDS.filter(w => weakWords.includes(w.id));
+            let pool = [...weakObjects];
+            if (pool.length < 5) {
+                const others = MOCK_WORDS.filter(w => !weakWords.includes(w.id))
+                    .sort(() => 0.5 - Math.random())
+                    .slice(0, 5 - pool.length);
+                pool = [...pool, ...others];
+            }
+            setBattleWords(pool.sort(() => 0.5 - Math.random()));
         }
-
-        // 3. Shuffle
-        setBattleWords(pool.sort(() => 0.5 - Math.random()));
-    }, [weakWords]);
+    }, [weakWords, level]);
 
     const handleTurnComplete = (success: boolean) => {
         if (success) {
-            // Increment Combo
             const newCombo = combo + 1;
             setCombo(newCombo);
-
-            // User Attacks
             setAttackAnim('user');
 
-            // Calculate Damage with Combo Multiplier
-            // Base is enough to kill boss in N hits. Combo makes it faster.
             const baseDamage = 100 / battleWords.length;
-            const multiplier = 1 + (newCombo * 0.1); // 10% bonus per combo
+            const multiplier = 1 + (newCombo * 0.1);
             const damage = baseDamage * multiplier;
 
             setBossHp(prev => Math.max(0, prev - damage));
 
-            // If it was a weak word, master it!
             const currentWord = battleWords[currentWordIndex];
             if (weakWords.includes(currentWord.id)) {
                 markWordAsMastered(currentWord.id);
             }
 
-            if (bossHp <= damage) { // Check if this hit kills
-                setTimeout(() => setGameState('victory'), 1000);
+            if (bossHp <= damage) {
+                setTimeout(() => {
+                    setGameState('victory');
+                    if (checkpoint?.isCheckpoint && checkpoint.badgeName) {
+                        addBadge(checkpoint.badgeName);
+                    }
+                }, 1000);
                 confetti();
-                addXp(200 + (newCombo * 10)); // Boss Bonus + Combo Bonus!
+                addXp(200 + (newCombo * 10));
             }
         } else {
-            // Boss Attacks
-            setCombo(0); // Reset Combo
+            setCombo(0);
             setAttackAnim('boss');
-            setUserHp(prev => Math.max(0, prev - 25)); // 4 hits -> Dead
+            setUserHp(prev => Math.max(0, prev - 25));
 
             if (userHp <= 25) {
                 setTimeout(() => setGameState('defeat'), 1000);
@@ -80,20 +92,16 @@ export function BossBattle() {
 
         setTimeout(() => {
             setAttackAnim('none');
-            if (gameState === 'battle') { // Only advance if not game over
+            if (gameState === 'battle') {
                 if (currentWordIndex < battleWords.length - 1) {
                     setCurrentWordIndex(prev => prev + 1);
                 } else {
-                    // Out of words. If boss still alive, we check HP
-                    // Strictly speaking, if boss is alive after all words, maybe we didn't do enough damage?
-                    // But with combo, we likely killed him.
-                    // If we missed words, boss might be alive.
                     if (bossHp > 0) {
-                        // Decide: do we let them win? Or draw? 
-                        // Let's say Victory if they survived, but maybe less XP?
-                        // For now simplified to Victory.
                         setGameState('victory');
                         addXp(100);
+                        if (checkpoint?.isCheckpoint && checkpoint.badgeName) {
+                            addBadge(checkpoint.badgeName);
+                        }
                     }
                 }
             }
@@ -101,12 +109,17 @@ export function BossBattle() {
     };
 
     return (
-        <div className="min-h-screen bg-slate-900 text-white p-6 flex flex-col items-center relative overflow-hidden">
+        <div className={cn("min-h-screen text-white p-6 flex flex-col items-center relative overflow-hidden",
+            checkpoint?.isCheckpoint ? "bg-indigo-950" : "bg-slate-900")}>
+
             {/* Background Effects */}
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 via-slate-900 to-black opacity-50 z-0" />
+            <div className={cn("absolute inset-0 opacity-50 z-0",
+                checkpoint?.isCheckpoint
+                    ? "bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 via-slate-900 to-black"
+                    : "bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 via-slate-900 to-black"
+            )} />
 
             <div className="z-10 w-full max-w-md flex flex-col h-full">
-
 
                 {/* Top Bar / Exit */}
                 <div className="w-full flex justify-end mb-4">
@@ -119,7 +132,6 @@ export function BossBattle() {
 
                 {/* HUD */}
                 <div className="flex justify-between items-center mb-8 bg-slate-800/80 p-4 rounded-xl border border-slate-700 relative">
-                    {/* Combo Indicator */}
                     <AnimatePresence>
                         {combo > 1 && (
                             <motion.div
@@ -131,9 +143,6 @@ export function BossBattle() {
                             >
                                 <div className="text-5xl font-black text-yellow-400 drop-shadow-[0_4px_0_rgba(0,0,0,0.5)] text-stroke italic">
                                     {combo}x COMBO!
-                                </div>
-                                <div className="text-center text-sm font-bold text-yellow-200 mt-1 uppercase tracking-widest">
-                                    Damage Boost!
                                 </div>
                             </motion.div>
                         )}
@@ -154,7 +163,9 @@ export function BossBattle() {
                     </div>
                     <div className="text-2xl font-black text-rose-500">VS</div>
                     <div className="flex flex-col items-center">
-                        <div className="text-sm font-bold text-slate-400 mb-1">BOSS</div>
+                        <div className="text-sm font-bold text-slate-400 mb-1">
+                            {checkpoint?.isCheckpoint ? "BOOK BOSS" : "BOSS"}
+                        </div>
                         <div className="flex items-center gap-2">
                             <div className="w-24 h-4 bg-slate-700 rounded-full overflow-hidden">
                                 <motion.div
@@ -179,11 +190,26 @@ export function BossBattle() {
                                 exit={{ scale: 1.2, opacity: 0 }}
                                 className="text-center space-y-6"
                             >
-                                <div className="text-9xl animate-pulse">👹</div>
-                                <h1 className="text-4xl font-black text-rose-500 uppercase">Boss Battle</h1>
+                                <div className="text-9xl animate-pulse">
+                                    {checkpoint?.isCheckpoint ? '📚' : '👹'}
+                                </div>
+
+                                <div>
+                                    <h1 className="text-3xl font-black text-rose-500 uppercase leading-tight">
+                                        {checkpoint?.isCheckpoint ? `Book Mastery:\n${checkpoint.bookTitle}` : 'Boss Battle'}
+                                    </h1>
+                                    {checkpoint?.isCheckpoint && (
+                                        <p className="text-indigo-400 font-bold mt-2">
+                                            Theme: {checkpoint.theme}
+                                        </p>
+                                    )}
+                                </div>
+
                                 <p className="text-slate-400 text-lg">
-                                    The Grammar Goblin blocks your path!<br />
-                                    defeat him to master your weak words.
+                                    {checkpoint?.isCheckpoint
+                                        ? "Prove you mastered this book to earn the Badge!"
+                                        : "The Grammar Goblin blocks your path!\nDefeat him to master your weak words."
+                                    }
                                 </p>
                                 <Button
                                     className="w-full bg-rose-600 hover:bg-rose-700 text-white text-xl py-6"
@@ -201,21 +227,20 @@ export function BossBattle() {
                                 animate={{ opacity: 1 }}
                                 className="w-full"
                             >
-                                {/* Boss Sprite */}
                                 <motion.div
                                     className="text-9xl text-center mb-8"
                                     animate={attackAnim === 'user' ? { x: [0, 10, -10, 10, -10, 0], color: '#ef4444' } : { y: [0, -10, 0] }}
                                     transition={{ duration: 0.5 }}
                                 >
-                                    {attackAnim === 'user' ? '💥' : '👹'}
+                                    {attackAnim === 'user' ? '💥' : (checkpoint?.isCheckpoint ? '📚' : '👹')}
                                 </motion.div>
 
                                 <div className="bg-slate-100 rounded-[2rem] p-2">
                                     <QuizStep
                                         targetWord={battleWords[currentWordIndex]}
                                         allWords={MOCK_WORDS}
-                                        onComplete={() => handleTurnComplete(true)} // Correct
-                                        onWrong={() => handleTurnComplete(false)} // Wrong
+                                        onComplete={() => handleTurnComplete(true)}
+                                        onWrong={() => handleTurnComplete(false)}
                                     />
                                 </div>
                             </motion.div>
@@ -230,8 +255,25 @@ export function BossBattle() {
                             >
                                 <Trophy className="w-32 h-32 text-yellow-400 mx-auto" />
                                 <h1 className="text-4xl font-black text-yellow-400">VICTORY!</h1>
+
+                                {checkpoint?.isCheckpoint && checkpoint.badgeName && (
+                                    <motion.div
+                                        initial={{ y: 20, opacity: 0 }}
+                                        animate={{ y: 0, opacity: 1 }}
+                                        className="bg-slate-800 p-4 rounded-xl border border-yellow-500/50"
+                                    >
+                                        <div className="flex items-center justify-center gap-3 text-yellow-500 mb-2">
+                                            <Medal className="w-6 h-6" />
+                                            <span className="font-bold uppercase tracking-widest">Badge Unlocked</span>
+                                        </div>
+                                        <div className="text-2xl font-black text-white">
+                                            "{checkpoint.badgeName}"
+                                        </div>
+                                    </motion.div>
+                                )}
+
                                 <p className="text-slate-400 text-lg">
-                                    You defeated the Goblin and earned 200 XP!
+                                    You earned 200 XP!
                                 </p>
                                 <Link href="/">
                                     <Button className="w-full bg-green-600 hover:bg-green-700 py-4 mt-8">
@@ -251,7 +293,7 @@ export function BossBattle() {
                                 <Skull className="w-32 h-32 text-slate-600 mx-auto" />
                                 <h1 className="text-4xl font-black text-slate-500">DEFEAT...</h1>
                                 <p className="text-slate-400 text-lg">
-                                    The Goblin was too strong this time.
+                                    The Boss was too strong this time.
                                 </p>
                                 <Button
                                     className="w-full bg-slate-700 hover:bg-slate-600 py-4 mt-8"
@@ -278,3 +320,6 @@ export function BossBattle() {
         </div>
     );
 }
+
+// End of file
+

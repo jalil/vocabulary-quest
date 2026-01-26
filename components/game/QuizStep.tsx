@@ -1,57 +1,71 @@
 'use client';
 
-import { VocabularyWord } from '@/lib/types';
+import { VocabularyWord, WordStudyQuestion } from '@/lib/types';
 import { MOCK_WORDS } from '@/lib/data';
 import { Button } from '@/components/ui/Button';
 import { useState, useEffect } from 'react';
 import canvasConfetti from 'canvas-confetti';
-import { Check, X } from 'lucide-react';
+import { Check, X, Star, BookOpen } from 'lucide-react';
+import { cn } from '@/lib/utils';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface QuizStepProps {
-    targetWord: VocabularyWord;
-    allWords: VocabularyWord[]; // Needed to generate distractors
+    targetWord?: VocabularyWord;
+    customQuestion?: WordStudyQuestion;
+    allWords?: VocabularyWord[]; // Needed for standard generator
     onComplete: () => void;
     onWrong?: (wordId: string) => void;
 }
 
-export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStepProps) {
-    const [options, setOptions] = useState<VocabularyWord[]>([]);
+export function QuizStep({ targetWord, customQuestion, allWords, onComplete, onWrong }: QuizStepProps) {
+    const [options, setOptions] = useState<string[] | VocabularyWord[]>([]);
     const [selectedId, setSelectedId] = useState<string | null>(null);
     const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle');
 
     useEffect(() => {
-        // Generate distractors
-        const others = allWords.filter(w => w.id !== targetWord.id);
-
-        // Fallback if not enough custom words: use MOCK_WORDS
-        let pool = others;
-        if (pool.length < 3) {
-            const backups = MOCK_WORDS.filter(w => w.id !== targetWord.id && !pool.some(p => p.id === w.id));
-            pool = [...pool, ...backups];
+        if (customQuestion) {
+            // Mita Mode: Use provided options
+            // Shuffle them for randomness if not already shuffled, though analogies usually have specific order?
+            // Let's shuffle options to prevent pattern guessing
+            const shuffled = [...customQuestion.options].sort(() => 0.5 - Math.random());
+            setOptions(shuffled);
+        } else if (targetWord && allWords) {
+            // Standard Mode: Generate distractors
+            const others = allWords.filter(w => w.id !== targetWord.id);
+            let pool = others;
+            if (pool.length < 3) {
+                const backups = MOCK_WORDS.filter(w => w.id !== targetWord.id && !pool.some(p => p.id === w.id));
+                pool = [...pool, ...backups];
+            }
+            const shuffled = [...pool].sort(() => 0.5 - Math.random()).slice(0, 3);
+            const stepOptions = [...shuffled, targetWord].sort(() => 0.5 - Math.random());
+            setOptions(stepOptions);
         }
 
-        // Shuffle and pick 3
-        const shuffled = [...pool].sort(() => 0.5 - Math.random()).slice(0, 3);
-        const stepOptions = [...shuffled, targetWord].sort(() => 0.5 - Math.random());
-        setOptions(stepOptions);
         setSelectedId(null);
         setStatus('idle');
-    }, [targetWord, allWords]);
+    }, [targetWord, allWords, customQuestion]);
 
     const handleSelect = (id: string) => {
-        console.log("QuizStep: Selected", id, "Target:", targetWord.id);
         if (status === 'correct') return;
         setSelectedId(id);
 
-        if (id === targetWord.id) {
-            console.log("QuizStep: Correct answer!");
+        let isCorrect = false;
+
+        if (customQuestion) {
+            isCorrect = id === customQuestion.correctAnswer;
+        } else if (targetWord) {
+            isCorrect = id === targetWord.id;
+        }
+
+        if (isCorrect) {
             setStatus('correct');
-            // Ensure we advance even if confetti fails
-            // We kept the timeout, but we also add a manual button below
-            setTimeout(() => {
-                console.log("QuizStep: Timeout triggered, calling onComplete");
-                onComplete();
-            }, 1500);
+            // If custom question, we might want to show explanation before auto-advance?
+            // We'll rely on the "Continue" button or timeout.
+
+            if (!customQuestion) {
+                setTimeout(() => onComplete(), 1500);
+            }
 
             try {
                 canvasConfetti({
@@ -63,10 +77,9 @@ export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStep
                 console.error("Confetti failed:", e);
             }
         } else {
-            console.log("QuizStep: Wrong answer");
             setStatus('wrong');
-            // Notify parent about the weak word
-            onWrong?.(targetWord.id);
+            if (targetWord) onWrong?.(targetWord.id);
+
             setTimeout(() => {
                 setStatus('idle');
                 setSelectedId(null);
@@ -74,40 +87,81 @@ export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStep
         }
     };
 
-    // Mask the word in the sentence (case insensitive)
-    const sentenceMasked = targetWord.exampleSentence.replace(
-        new RegExp(targetWord.word, 'gi'),
-        '_______'
-    );
+    // Render Content
+    let questionContent = null;
+    if (customQuestion) {
+        questionContent = (
+            <p className="text-xl font-bold text-slate-800 leading-relaxed">
+                {customQuestion.question}
+            </p>
+        );
+    } else if (targetWord) {
+        const sentenceMasked = targetWord.exampleSentence.replace(
+            new RegExp(targetWord.word, 'gi'),
+            '_______'
+        );
+        questionContent = (
+            <p className="text-2xl font-bold text-slate-800 leading-relaxed">
+                "{sentenceMasked}"
+            </p>
+        );
+    }
 
     return (
-        <div className="flex flex-col h-full items-center max-w-sm mx-auto w-full">
-            <h2 className="text-xl font-bold text-slate-400 mb-8 uppercase tracking-widest text-center">Complete the Sentence</h2>
+        <div className="flex flex-col h-full items-center max-w-sm mx-auto w-full relative">
 
-            <div className="bg-white p-8 rounded-[2rem] shadow-lg border-[3px] border-slate-100 mb-8 w-full text-center min-h-[160px] flex items-center justify-center">
-                <p className="text-2xl font-bold text-slate-800 leading-relaxed">
-                    "{sentenceMasked}"
-                </p>
+            <h2 className="text-xl font-bold text-slate-400 mb-8 uppercase tracking-widest text-center">
+                {customQuestion ? `Word Study: ${customQuestion.type}` : 'Complete the Sentence'}
+            </h2>
+
+            <div className={cn(
+                "bg-white p-8 rounded-[2rem] shadow-lg border-[3px] mb-8 w-full text-center min-h-[160px] flex flex-col items-center justify-center relative overflow-hidden transition-colors duration-300",
+                status === 'correct' ? "border-green-400 bg-green-50" : "border-slate-100"
+            )}>
+                {/* Mita Special Badge */}
+                {customQuestion && (
+                    <div className="absolute top-0 right-0 bg-violet-100 text-violet-700 px-3 py-1 rounded-bl-xl font-bold text-xs flex items-center gap-1">
+                        <BookOpen className="w-3 h-3" />
+                        <span>Mita Challenge</span>
+                    </div>
+                )}
+
+                {questionContent}
+
+                {/* Explanation for Custom Questions */}
+                <AnimatePresence>
+                    {status === 'correct' && customQuestion && (
+                        <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            className="mt-4 pt-4 border-t border-green-200 text-green-800 text-sm font-medium"
+                        >
+                            <span className="font-bold block mb-1">Explanation:</span>
+                            {customQuestion.explanation}
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </div>
 
             <div className="grid grid-cols-1 gap-3 w-full">
-                {options.map(opt => {
-                    const isSelected = selectedId === opt.id;
+                {options.map((opt) => {
+                    const id = typeof opt === 'string' ? opt : opt.id;
+                    const text = typeof opt === 'string' ? opt : opt.word;
+
+                    const isSelected = selectedId === id;
                     let variant = 'outline';
-                    // Using any to bypass strict type check for conditional string if needed, 
-                    // but values should match ButtonProps
                     if (isSelected && status === 'correct') variant = 'success';
                     if (isSelected && status === 'wrong') variant = 'secondary';
 
                     return (
                         <Button
-                            key={opt.id}
+                            key={id}
                             variant={variant as any}
-                            onClick={() => handleSelect(opt.id)}
+                            onClick={() => handleSelect(id)}
                             className="justify-between py-4 text-xl"
                             disabled={status === 'correct'}
                         >
-                            <span className="flex-1 text-center">{opt.word}</span>
+                            <span className="flex-1 text-center">{text}</span>
                             {isSelected && status === 'correct' && <Check className="absolute right-4" />}
                             {isSelected && status === 'wrong' && <X className="absolute right-4" />}
                         </Button>
@@ -118,10 +172,7 @@ export function QuizStep({ targetWord, allWords, onComplete, onWrong }: QuizStep
             {status === 'correct' && (
                 <div className="mt-6 w-full animate-in fade-in slide-in-from-bottom-4">
                     <Button
-                        onClick={() => {
-                            console.log("QuizStep: Manual Continue Clicked");
-                            onComplete();
-                        }}
+                        onClick={() => onComplete()}
                         className="w-full h-14 text-xl bg-green-500 hover:bg-green-600 shadow-lg shadow-green-200"
                     >
                         Continue ➔

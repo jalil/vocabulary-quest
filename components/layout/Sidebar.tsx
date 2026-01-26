@@ -51,9 +51,10 @@ export function Sidebar() {
                 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Categories</h3>
                 <div className="space-y-1">
                     {categories.map(cat => {
-                        const isActive = pathname === `/category/${cat}`;
+                        const encodedCat = encodeURIComponent(cat);
+                        const isActive = pathname === `/category/${encodedCat}`;
                         return (
-                            <Link key={cat} href={`/category/${cat}`}>
+                            <Link key={cat} href={`/category/${encodedCat}`}>
                                 <div className={cn("flex items-center justify-between px-3 py-2 rounded-lg text-sm font-bold transition-colors",
                                     isActive ? "bg-slate-100 text-slate-900" : "text-slate-500 hover:bg-slate-50 hover:text-slate-700")}>
                                     <span>{cat}</span>

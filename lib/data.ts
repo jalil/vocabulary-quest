@@ -5,6 +5,15 @@ import { KA_5A_5B_WORDS } from "./ka_5a_5b_data";
 import { KA_5A_WORDS } from "./ka_5a_data";
 import { PRE_1_WORDS } from "./pre_1_data";
 import { WORD_MASTERY_LESSONS } from "./word_mastery_data";
+import { IDIOM_WORDS } from "./idioms_data";
+import { PASSAGE_LESSONS } from "./passages_data";
+import { BOOK_5_LESSONS } from "./book_5_data_v2";
+
+import { BOOK_4_LESSONS } from "./book_4_data";
+import { book_6_lessons } from "./book_6_data";
+import { BOOK_7_LESSONS } from "./book_7_data";
+import { BOOK_8_LESSONS } from "./book_8_data";
+import { mita_lessons } from "./mita_data";
 
 export const DAY_1_WORDS: VocabularyWord[] = [
     {
@@ -57,10 +66,19 @@ export const DAY_1_WORDS: VocabularyWord[] = [
 export const MOCK_WORDS: VocabularyWord[] = [
     ...SAT_WORDS,
     ...KAAT_WORDS,
+    ...PASSAGE_LESSONS.flatMap(l => l.words),
     ...KA_5A_WORDS,
     ...PRE_1_WORDS,
     ...KA_5A_5B_WORDS,
-    ...WORD_MASTERY_LESSONS.flatMap(l => l.words)
+    ...IDIOM_WORDS,
+    ...WORD_MASTERY_LESSONS.flatMap(l => l.words),
+    ...BOOK_5_LESSONS.flatMap(l => l.words),
+
+    ...BOOK_4_LESSONS.flatMap(l => l.words),
+    ...book_6_lessons.flatMap(l => l.words),
+    ...BOOK_7_LESSONS.flatMap(l => l.words),
+    ...BOOK_8_LESSONS.flatMap(l => l.words),
+    ...mita_lessons.flatMap(l => l.words)
 ];
 
 export const MOCK_STORIES: Story[] = [
@@ -88,7 +106,6 @@ Nature is **brilliant** because every animal has exactly what it needs to surviv
     }
 ];
 
-// Helper to chunk array
 // Helper to chunk array
 function chunkArray<T>(array: T[], size: number): T[][] {
     const chunked: T[][] = [];
@@ -118,6 +135,15 @@ export const KA_5A_5B_LESSONS: DayLesson[] = KA_5A_5B_CHUNKS.map((chunk, index) 
     stories: []
 }));
 
+const IDIOM_CHUNKS = chunkArray(IDIOM_WORDS, 10);
+
+export const IDIOM_LESSONS: DayLesson[] = IDIOM_CHUNKS.map((chunk, index) => ({
+    id: `idioms-day-${index + 1}`,
+    dayNumber: index + 1,
+    words: chunk,
+    stories: []
+}));
+
 export const DAY_1_LESSON: DayLesson = {
     id: "day-1",
     dayNumber: 0, // Demo day is Day 0
@@ -129,7 +155,15 @@ export const ALL_LESSONS: DayLesson[] = [
     DAY_1_LESSON,
     ...KAAT_LESSONS,
     ...KA_5A_5B_LESSONS,
-    ...WORD_MASTERY_LESSONS
+    ...IDIOM_LESSONS,
+    ...PASSAGE_LESSONS,
+    ...WORD_MASTERY_LESSONS,
+    ...BOOK_5_LESSONS,
+    ...BOOK_4_LESSONS,
+    ...book_6_lessons,
+    ...BOOK_7_LESSONS,
+    ...BOOK_8_LESSONS,
+    ...mita_lessons
 ];
 
 export function getLesson(id: string): DayLesson | undefined {
