@@ -1,6 +1,6 @@
 
 import { VocabularyWord } from "./types";
-import { book6Data } from "./book_6_data";
+import { book_6_lessons } from "./book_6_data";
 
 export interface BossCheckpoint {
     isCheckpoint: boolean;
@@ -43,8 +43,8 @@ export function getBossQuestionsForBook(userLevel: number): BossCheckpoint {
     const endLesson = userLevel;
 
     // Get target lessons from Book 6 data
-    const targetLessons = book6Data.filter(l =>
-        l.lessonNumber >= startLesson && l.lessonNumber <= endLesson
+    const targetLessons = book_6_lessons.filter(l =>
+        l.dayNumber >= startLesson && l.dayNumber <= endLesson
     );
 
     // 3. Extract words
@@ -53,13 +53,13 @@ export function getBossQuestionsForBook(userLevel: number): BossCheckpoint {
     targetLessons.forEach(lesson => {
         // Map Mita words to compatible VocabularyWord format for the game
         const gameWords: VocabularyWord[] = lesson.words.map((w, i) => ({
-            id: `b6-l${lesson.lessonNumber}-w${i}`,
+            id: `b6-l${lesson.dayNumber}-w${i}`,
             word: w.word,
             definition: w.definition,
             pronunciation: w.pronunciation,
-            exampleSentence: w.contextSentence,
+            exampleSentence: w.exampleSentence,
             imageEmoji: "📖",
-            category: w.type // Preserving type to prioritize domain words if needed
+            category: w.category || "Grade 6"
         }));
         pool = [...pool, ...gameWords];
     });

@@ -100,7 +100,7 @@ export default function EssayWriter() {
                     </span>
                     {!isFinished && (
                         <Button
-                            variant={isActive ? 'danger' : 'success'}
+                            variant={isActive ? 'secondary' : 'success'}
                             onClick={() => setIsActive(!isActive)}
                         >
                             {isActive ? 'Pause' : 'Start'}
@@ -118,7 +118,7 @@ export default function EssayWriter() {
                         <p className="text-xl font-bold text-indigo-900 leading-tight">
                             {prompt}
                         </p>
-                        <Button variant="outline" size="sm" className="mt-4 text-xs" onClick={() => setPrompt(MITA_PROMPTS[Math.floor(Math.random() * MITA_PROMPTS.length)])}>
+                        <Button variant="outline" className="mt-4 text-xs px-3 py-2 h-auto" onClick={() => setPrompt(MITA_PROMPTS[Math.floor(Math.random() * MITA_PROMPTS.length)])}>
                             New Topic
                         </Button>
                     </div>

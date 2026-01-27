@@ -78,7 +78,7 @@ export function StoryViewer({ story, onComplete }: { story: Story, onComplete: (
                                 </h3>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                    {q.options.map((opt) => {
+                                    {q.options?.map((opt) => {
                                         const isSelected = selectedAnswers[q.id] === opt;
                                         const isCorrect = feedback[q.id] === 'correct' && isSelected;
                                         const isWrong = feedback[q.id] === 'wrong' && selectedAnswers[q.id] === undefined; // This logic is tricky with click handler, simplifying
@@ -86,7 +86,7 @@ export function StoryViewer({ story, onComplete }: { story: Story, onComplete: (
                                         return (
                                             <Button
                                                 key={opt}
-                                                onClick={() => handleOptionClick(q.id, opt, q.correctAnswer)}
+                                                onClick={() => handleOptionClick(q.id, opt, q.correctAnswer || '')}
                                                 disabled={feedback[q.id] === 'correct'}
                                                 className={`
                                                     justify-start text-left h-auto py-3 px-4 text-base

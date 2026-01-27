@@ -296,7 +296,7 @@ Given our **dismal** record of dealing with wild creatures, it would probably be
             question: "Why does the passage describe spottings of Bigfoot as \"alleged\"?",
             type: "open-ended",
             sampleAnswer: "Because they are stated as fact but no proof is offered."
-        }
+        },
         {
             id: "b7-l14-s-reading-q10",
             question: "Why do most people not accept claims of Bigfoot sightings?",

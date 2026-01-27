@@ -42,6 +42,8 @@ export function LearningSession({ lesson, onComplete, onExit }: { lesson: DayLes
     const [combo, setCombo] = useState(0);
     const [completedStories, setCompletedStories] = useState<Set<string>>(new Set());
     const [textInputs, setTextInputs] = useState<Record<string, string>>({});
+    const [storyStartTime, setStoryStartTime] = useState(0);
+    const [storyWpms, setStoryWpms] = useState<Record<string, number>>({});
 
     const handleTextSubmit = (q: Question) => {
         const text = textInputs[q.id]?.trim() || '';

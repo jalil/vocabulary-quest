@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { UserProgress, VocabularyWord, UserData } from './types';
+import { UserProgress, VocabularyWord, UserData, ExerciseLog } from './types';
 
 interface UserState extends UserProgress {
     addXp: (amount: number) => void;
