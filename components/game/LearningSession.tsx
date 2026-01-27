@@ -414,14 +414,14 @@ export function LearningSession({ lesson, onComplete, onExit }: { lesson: DayLes
                             <Button onClick={handleNext} className="w-full">Let's Go!</Button>
 
                             {/* Admin Shortcut */}
-                            {useUserStore.getState().username?.toLowerCase() === 'admin' && (
+                            {['root', 'jalil'].includes(useUserStore.getState().username?.toLowerCase() || '') && (
                                 <Button
                                     onClick={() => {
-                                        console.log("Admin Skip: Jumping to Reading Phase");
+                                        console.log("Root Skip: Jumping to Reading Phase");
                                         try {
                                             // Check for pre-defined stories first
                                             if (lesson.stories && lesson.stories.length > 0) {
-                                                console.log("Admin Skip: Using pre-defined stories");
+                                                console.log("Root Skip: Using pre-defined stories");
                                                 const filtered = getVisibleStories(lesson.id, lesson.stories);
                                                 setReadingPassages(filtered);
                                                 setPhase('reading');
@@ -438,16 +438,16 @@ export function LearningSession({ lesson, onComplete, onExit }: { lesson: DayLes
                                                 setPhase('reading');
                                                 setCurrentReadingIndex(0);
                                             } else {
-                                                console.warn("Admin Skip: No passages generated");
+                                                console.warn("Root Skip: No passages generated");
                                             }
                                         } catch (e) {
-                                            console.error("Admin Skip Error:", e);
+                                            console.error("Root Skip Error:", e);
                                         }
                                     }}
                                     variant="outline"
                                     className="w-full text-amber-600 border-amber-200"
                                 >
-                                    👑 Admin: Skip to Passage
+                                    👑 Root: Skip to Passage
                                 </Button>
                             )}
                         </div>

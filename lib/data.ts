@@ -1,10 +1,6 @@
 import { DayLesson, VocabularyWord, Story } from "./types";
-import { SAT_WORDS } from "./sat_data";
-import { KAAT_WORDS } from "./kaat_data";
-import { KA_5A_5B_WORDS } from "./ka_5a_5b_data";
-import { KA_5A_WORDS } from "./ka_5a_data";
+
 import { PRE_1_WORDS } from "./pre_1_data";
-import { WORD_MASTERY_LESSONS } from "./word_mastery_data";
 import { IDIOM_WORDS } from "./idioms_data";
 import { PASSAGE_LESSONS } from "./passages_data";
 import { BOOK_5_LESSONS } from "./book_5_data_v2";
@@ -64,14 +60,8 @@ export const DAY_1_WORDS: VocabularyWord[] = [
 ];
 
 export const MOCK_WORDS: VocabularyWord[] = [
-    ...SAT_WORDS,
-    ...KAAT_WORDS,
-    ...PASSAGE_LESSONS.flatMap(l => l.words),
-    ...KA_5A_WORDS,
     ...PRE_1_WORDS,
-    ...KA_5A_5B_WORDS,
     ...IDIOM_WORDS,
-    ...WORD_MASTERY_LESSONS.flatMap(l => l.words),
     ...BOOK_5_LESSONS.flatMap(l => l.words),
 
     ...BOOK_4_LESSONS.flatMap(l => l.words),
@@ -115,25 +105,6 @@ function chunkArray<T>(array: T[], size: number): T[][] {
     return chunked;
 }
 
-// Generate KAAT Lessons
-// Explicitly setting chunk size to 10
-const KAAT_CHUNKS = chunkArray(KAAT_WORDS, 10);
-
-export const KAAT_LESSONS: DayLesson[] = KAAT_CHUNKS.map((chunk, index) => ({
-    id: `kaat-day-${index + 1}`,
-    dayNumber: index + 1, // Ensures starts at Day 1
-    words: chunk,
-    stories: []
-}));
-
-const KA_5A_5B_CHUNKS = chunkArray(KA_5A_5B_WORDS, 10);
-
-export const KA_5A_5B_LESSONS: DayLesson[] = KA_5A_5B_CHUNKS.map((chunk, index) => ({
-    id: `5a-5b-day-${index + 1}`,
-    dayNumber: index + 1,
-    words: chunk,
-    stories: []
-}));
 
 const IDIOM_CHUNKS = chunkArray(IDIOM_WORDS, 10);
 
@@ -153,11 +124,8 @@ export const DAY_1_LESSON: DayLesson = {
 
 export const ALL_LESSONS: DayLesson[] = [
     DAY_1_LESSON,
-    ...KAAT_LESSONS,
-    ...KA_5A_5B_LESSONS,
     ...IDIOM_LESSONS,
     ...PASSAGE_LESSONS,
-    ...WORD_MASTERY_LESSONS,
     ...BOOK_5_LESSONS,
     ...BOOK_4_LESSONS,
     ...book_6_lessons,

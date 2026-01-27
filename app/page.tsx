@@ -1,7 +1,7 @@
 'use client';
 
 import { useUserStore } from '@/lib/store';
-import { KAAT_LESSONS } from '@/lib/data';
+
 import { StatsDashboard } from '@/components/dashboard/StatsDashboard';
 import { Play, CheckCircle, Lock, Brain } from 'lucide-react';
 import Link from 'next/link';
@@ -107,6 +107,7 @@ export default function Home() {
           </Link>
 
           {/* Boss Arena */}
+          {/* Boss Arena
           <Link href="/boss" className="transform transition-transform hover:scale-[1.02] active:scale-95">
             <div className="bg-rose-500 border-b-8 border-rose-700 p-8 rounded-3xl flex flex-col items-center text-center gap-4 text-white shadow-lg shadow-rose-200 h-full justify-center">
               <div className="p-4 rounded-2xl bg-rose-600/50">
@@ -118,6 +119,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
+          */}
 
           {/* Mini-Games */}
           <Link href="/play/match" className="transform transition-transform hover:scale-[1.02] active:scale-95">
@@ -145,7 +147,7 @@ export default function Home() {
             </div>
           </Link>
 
-          {/* Word Detective */}
+          {/* Word Detective
           <Link href="/play/detective" className="transform transition-transform hover:scale-[1.02] active:scale-95">
             <div className="bg-slate-700 border-b-8 border-slate-900 p-8 rounded-3xl flex flex-col items-center text-center gap-4 text-white shadow-lg shadow-slate-400 h-full justify-center">
               <div className="p-4 rounded-2xl bg-slate-600">
@@ -157,8 +159,10 @@ export default function Home() {
               </div>
             </div>
           </Link>
+          */}
 
           {/* Listening Practice */}
+          {/* Listening Practice
           <Link href="/play/listening" className="transform transition-transform hover:scale-[1.02] active:scale-95">
             <div className="bg-fuchsia-500 border-b-8 border-fuchsia-700 p-8 rounded-3xl flex flex-col items-center text-center gap-4 text-white shadow-lg shadow-fuchsia-300 h-full justify-center">
               <div className="p-4 rounded-2xl bg-fuchsia-600">
@@ -170,6 +174,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
+          */}
 
         </div>
       </div>
