@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
 
 export function Sidebar() {
-    const { xp, streak, customWords, deletedCategories, logout } = useUserStore();
+    const { xp, streak, customWords, deletedCategories, logout, username } = useUserStore();
     const [mounted, setMounted] = useState(false);
     const pathname = usePathname();
 
@@ -17,7 +17,13 @@ export function Sidebar() {
 
     const allWords = mounted ? [...MOCK_WORDS, ...customWords] : MOCK_WORDS;
     const allCategories = Array.from(new Set(allWords.map(w => w.category || 'General').filter(Boolean)));
-    const categories = allCategories.filter(cat => !deletedCategories?.includes(cat));
+    let categories = allCategories.filter(cat => !deletedCategories?.includes(cat));
+
+    // Special filter for 'umi'
+    if (username === 'umi') {
+        const UMI_ALLOWED = ['Grade 4', 'Grade 5', 'Idioms'];
+        categories = categories.filter(cat => UMI_ALLOWED.includes(cat));
+    }
 
     if (!mounted) return <div className="hidden md:flex w-64 bg-white border-r border-slate-200 flex-col" />;
 

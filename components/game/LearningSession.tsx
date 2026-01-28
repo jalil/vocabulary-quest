@@ -14,6 +14,7 @@ import Link from 'next/link';
 import confetti from 'canvas-confetti';
 
 import { generateAcademicPassages } from '@/lib/generator';
+import { MOCK_STORIES } from '@/lib/data';
 import { Story } from '@/lib/types';
 import RiddleRun from './RiddleRun';
 import { CrosswordSession } from './CrosswordSession';
@@ -199,50 +200,44 @@ export function LearningSession({ lesson, onComplete, onExit }: { lesson: DayLes
     const completeDay = useUserStore(state => state.completeDay);
     const markWordAsWeak = useUserStore(state => state.markWordAsWeak);
 
-    // Curriculum Filter Helper
-    const getVisibleStories = (lessonId: string, stories: Story[]) => {
-        // Only apply filter to Book 6 (ID: "day-6-XX")
-        // Check for 'day-6-' prefix to target Book 6 specifically
-        if (!lessonId.startsWith('day-6-')) {
-            return stories;
+
+    // Helper to filter stories
+    const getVisibleStories = (lessonId: string, stories: Story[] | string[] | undefined) => {
+        if (!stories) return [];
+        const hiddenExercises = useUserStore.getState().hiddenExercises || [];
+
+        // Helper to get ID/Title from string or object
+        const getStoryId = (s: string | Story) => typeof s === 'string' ? s : s.id;
+        const getStoryTitle = (s: string | Story) => typeof s === 'string' ? (MOCK_STORIES.find(ms => ms.id === s)?.title || '') : s.title;
+        const getStoryType = (s: string | Story) => typeof s === 'string' ? (MOCK_STORIES.find(ms => ms.id === s)?.type || '') : s.type;
+
+        // 1. Filter out globally hidden exercises
+        let visible = (stories as any[]).filter((s: string | Story) => !hiddenExercises.includes(getStoryId(s)));
+
+        // 2. Apply Curriculum Filter (Book 6 specifics)
+        if (lessonId.startsWith('b6-') || lessonId.startsWith('day-6-')) {
+            visible = visible.filter((s: string | Story) => {
+                const title = getStoryTitle(s).toLowerCase();
+                const type = getStoryType(s);
+
+                // Always allow Reading Passages
+                if (type === 'story' || title.includes('reading passage')) return true;
+
+                // Allow Exercises A and B
+                if (title.includes('exercise a') || title.includes('exercise b')) return true;
+
+                // Allow specific whitelisted types
+                if (title.includes('finding meanings') || title.includes('just the right word') || title.includes('using words in context')) return true;
+
+                // Book 6 Word Study Whitelist
+                const wordStudyWhitelist = ['day-6-1', 'day-6-3', 'day-6-5', 'day-6-9', 'day-6-13', 'day-6-15', 'day-6-17'];
+                if (wordStudyWhitelist.includes(lessonId) && title.includes('word study')) return true;
+
+                return false;
+            });
         }
 
-        return stories.filter(s => {
-            const t = s.title.toLowerCase();
-            const upperTitle = s.title.toUpperCase();
-
-            // Whitelist Logic:
-            // 1. "Reading Passage" (Keep)
-            if (t.includes('reading passage')) return true;
-
-            // 2. Sections A and B ONLY
-            // We want titles like "19A Finding Meanings", "2B Just the Right Word"
-            // We DO NOT want "19C Applying Meanings", "19D Word Study"
-
-            // Regex matches: Start of string -> Number -> 'A' or 'B' -> Space or End of String
-            // This strictly enforces A or B subsections.
-            // Example: "19A " matches. "19C " does not.
-            const sectionABPattern = /^\d+[AB](\s|$)/;
-
-            if (sectionABPattern.test(upperTitle)) {
-                return true;
-            }
-
-            // 3. Fallback for potential naming variations or Specific Exceptions
-
-            // Exception: Allow "Word Study" specifically for whitelisted lessons
-            const wordStudyWhitelist = ['day-6-1', 'day-6-3', 'day-6-5', 'day-6-9', 'day-6-13', 'day-6-15', 'day-6-17'];
-            if (wordStudyWhitelist.includes(lessonId) && t.includes('word study')) {
-                return true;
-            }
-
-            // Standard Whitelist logic remains
-            if (t.includes('finding meanings') || t.includes('just the right word') || t.includes('using words in context')) {
-                return true;
-            }
-
-            return false;
-        });
+        return visible;
     };
 
     // Sync stories from lesson if they change (e.g. new exercise added)

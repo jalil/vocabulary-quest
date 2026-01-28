@@ -16,6 +16,9 @@ interface UserState extends UserProgress {
     addBadge: (badge: string) => void;
     processReview: (wordId: string, isCorrect: boolean) => void;
     recordExerciseCompletion: (log: ExerciseLog) => void;
+    restoreCategory: (category: string) => void;
+    hiddenExercises: string[];
+    toggleExerciseVisibility: (exerciseId: string) => void;
 }
 
 const DEFAULT_USER_DATA: UserData = {
@@ -26,6 +29,7 @@ const DEFAULT_USER_DATA: UserData = {
     unlockedBadges: [],
     customWords: [],
     deletedCategories: [],
+    hiddenExercises: [],
     lastLoginDate: undefined,
     weakWords: [],
     srsProgress: {},
@@ -42,6 +46,7 @@ export const useUserStore = create<UserState>()(
     persist(
         (set, get) => ({
             ...INITIAL_STATE,
+            hiddenExercises: [],
             addXp: (amount) => set((state) => {
                 const newXp = state.xp + amount;
                 const newLevel = Math.floor(newXp / 100) + 1;
@@ -61,6 +66,16 @@ export const useUserStore = create<UserState>()(
             deleteCategory: (category) => set((state) => ({
                 deletedCategories: [...(state.deletedCategories || []), category]
             })),
+            restoreCategory: (category) => set((state) => ({
+                deletedCategories: (state.deletedCategories || []).filter(c => c !== category)
+            })),
+            toggleExerciseVisibility: (exerciseId) => set((state) => {
+                const hidden = state.hiddenExercises || [];
+                if (hidden.includes(exerciseId)) {
+                    return { hiddenExercises: hidden.filter(id => id !== exerciseId) };
+                }
+                return { hiddenExercises: [...hidden, exerciseId] };
+            }),
             markWordAsWeak: (wordId) => set((state) => {
                 if (state.weakWords.includes(wordId)) return state;
                 return { weakWords: [...state.weakWords, wordId] };
@@ -140,6 +155,7 @@ export const useUserStore = create<UserState>()(
                         unlockedBadges: state.unlockedBadges,
                         customWords: state.customWords,
                         deletedCategories: state.deletedCategories,
+                        hiddenExercises: state.hiddenExercises || [],
                         lastLoginDate: state.lastLoginDate,
                         weakWords: state.weakWords,
                         srsProgress: state.srsProgress,
@@ -155,6 +171,7 @@ export const useUserStore = create<UserState>()(
                     // Ensure deep merge or default for new fields if loading old profile
                     srsProgress: targetUserData.srsProgress || {},
                     exerciseHistory: targetUserData.exerciseHistory || [],
+                    hiddenExercises: targetUserData.hiddenExercises || [],
                     username: name,
                     lastLoginDate: new Date().toISOString(),
                     archivedUsers: newArchivedUsers
@@ -173,6 +190,7 @@ export const useUserStore = create<UserState>()(
                         unlockedBadges: state.unlockedBadges,
                         customWords: state.customWords,
                         deletedCategories: state.deletedCategories,
+                        hiddenExercises: state.hiddenExercises || [],
                         lastLoginDate: state.lastLoginDate,
                         weakWords: state.weakWords,
                         srsProgress: state.srsProgress,

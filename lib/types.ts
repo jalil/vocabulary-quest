@@ -78,6 +78,7 @@ export interface UserData {
     unlockedBadges: string[];
     customWords: VocabularyWord[];
     deletedCategories?: string[];
+    hiddenExercises?: string[];
     lastLoginDate?: string;
     weakWords: string[];
     srsProgress: Record<string, SRSItem>; // Map wordId -> SRS data
