@@ -260,15 +260,22 @@ export default function AdminDashboard() {
                 <ContentManager
                     deletedCategories={deletedCategories || []}
                     hiddenExercises={hiddenExercises || []}
-                    onToggleCategory={(cat) => deletedCategories?.includes(cat) ? restoreCategory(cat) : deleteCategory(cat)}
-                    onToggleExercise={(id) => toggleExerciseVisibility(id)}
+                    onToggleCategory={(cat: string) => deletedCategories?.includes(cat) ? restoreCategory(cat) : deleteCategory(cat)}
+                    onToggleExercise={(id: string) => toggleExerciseVisibility(id)}
                 />
             )}
         </div>
     );
 }
 
-function ContentManager({ deletedCategories, hiddenExercises, onToggleCategory, onToggleExercise }: any) {
+interface ContentManagerProps {
+    deletedCategories: string[];
+    hiddenExercises: string[];
+    onToggleCategory: (category: string) => void;
+    onToggleExercise: (exerciseId: string) => void;
+}
+
+function ContentManager({ deletedCategories, hiddenExercises, onToggleCategory, onToggleExercise }: ContentManagerProps) {
     // Group lessons by category
     const contentTree = ALL_LESSONS.reduce((acc: any, lesson) => {
         // Find category from first word (fallback to Uncategorized)
