@@ -7,7 +7,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "n. Heavy material used to make a ship steady or control the rising and falling of a vessel like a balloon.",
         exampleSentence: "The hot-air balloon rose when the water used as ballast was let go.",
         imageEmoji: "⚖️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["counterbalance", "stability", "weight"],
+        antonyms: ["instability"]
     },
     {
         id: "buoyant",
@@ -15,7 +17,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "adj. 1. Able to float. 2. Cheerful and carefree.",
         exampleSentence: "The life jackets are buoyant enough to support a 200-pound person.",
         imageEmoji: "🛟",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["floatable", "light", "cheerful"],
+        antonyms: ["heavy", "sinking", "depressed"]
     },
     {
         id: "clamber",
@@ -23,7 +27,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. To climb awkwardly.",
         exampleSentence: "I clambered onto the roof to get the kite.",
         imageEmoji: "🧗",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["scramble", "climb", "scale"],
+        antonyms: ["descend", "fall"]
     },
     {
         id: "detach",
@@ -31,7 +37,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. To separate from.",
         exampleSentence: "I detached the trailer from the truck.",
         imageEmoji: "🔗",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["separate", "disconnect", "remove"],
+        antonyms: ["attach", "connect", "join"]
     },
     {
         id: "eerie",
@@ -39,7 +47,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "adj. Causing uneasiness; strange or mysterious.",
         exampleSentence: "The eerie sound of the owl hooting at night made us shiver.",
         imageEmoji: "👻",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["strange", "creepy", "mysterious"],
+        antonyms: ["normal", "ordinary", "comforting"]
     },
     {
         id: "fathom",
@@ -47,7 +57,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "n. A length of six feet, used in measuring the depth of water. v. To figure out; to understand.",
         exampleSentence: "It is hard to fathom how the Egyptians built the pyramids.",
         imageEmoji: "📏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["understand", "comprehend", "measure"],
+        antonyms: ["misunderstand", "confuse"]
     },
     {
         id: "pique",
@@ -55,7 +67,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. To arouse or excite. n. A feeling of resentment caused by being ignored, insulted, etc.",
         exampleSentence: "Pandora's curiosity was piqued by the mysterious box.",
         imageEmoji: "🤔",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["arouse", "provoke", "annoy"],
+        antonyms: ["soothe", "calm", "bore"]
     },
     {
         id: "probe",
@@ -63,7 +77,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. 1. To poke or prod. 2. To examine closely. n. 1. A long, slender instrument used to examine a wound or part of the body. 2. A thorough investigation.",
         exampleSentence: "I probed the snow with my ski pole to determine how deep it was.",
         imageEmoji: "🔍",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["examine", "investigate", "explore"],
+        antonyms: ["ignore", "overlook"]
     },
     {
         id: "realize",
@@ -71,7 +87,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. 1. To be aware of. 2. To bring into being; to make happen.",
         exampleSentence: "I didn't realize how astute you were until you came up with that brilliant idea.",
         imageEmoji: "💡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["understand", "recognize", "accomplish"],
+        antonyms: ["misunderstand", "fail"]
     },
     {
         id: "rupture",
@@ -79,7 +97,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. To split or break. n. 1. A breaking or tearing apart by force. 2. The breaking of a friendly relationship.",
         exampleSentence: "The diggers ruptured the water pipe, flooding the basement.",
         imageEmoji: "💔",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["break", "burst", "split"],
+        antonyms: ["repair", "mend", "join"]
     },
     {
         id: "sphere",
@@ -87,7 +107,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "n. 1. An object with all points on its surface equally distant from its center; a ball or globe. 2. An area of power, influence, or activity.",
         exampleSentence: "The earth is not a perfect sphere; it is slightly flattened at the poles.",
         imageEmoji: "🌍",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["ball", "globe", "domain"],
+        antonyms: ["cube", "square"]
     },
     {
         id: "submerge",
@@ -95,7 +117,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "v. 1. To go underwater. 2. To put underwater or cover with water.",
         exampleSentence: "Divers submerge to explore the ocean floor.",
         imageEmoji: "🌊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["sink", "dive", "immerse"],
+        antonyms: ["surface", "rise", "float"]
     },
     {
         id: "tedious",
@@ -103,7 +127,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "adj. Seeming to go on for a long time; boring.",
         exampleSentence: "The lecture was so tedious that I fell asleep.",
         imageEmoji: "🥱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["boring", "dull", "monotonous"],
+        antonyms: ["exciting", "interesting", "fun"]
     },
     {
         id: "ultimate",
@@ -111,7 +137,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "adj. 1. Final. 2. The greatest possible; maximum. n. Something that is the greatest; the maximum.",
         exampleSentence: "The ultimate goal of the game is to score the most points.",
         imageEmoji: "🏁",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["final", "last", "supreme"],
+        antonyms: ["first", "beginning", "worst"]
     },
     {
         id: "unscathed",
@@ -119,7 +147,9 @@ export const b7_l11_words: VocabularyWord[] = [
         definition: "adj. Completely unharmed.",
         exampleSentence: "Assume that those who emerged unscathed from the wreck were very lucky.",
         imageEmoji: "🛡️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unharmed", "safe", "intact"],
+        antonyms: ["injured", "damaged", "hurt"]
     }
 ];
 

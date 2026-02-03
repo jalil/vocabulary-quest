@@ -6,28 +6,34 @@ export const b8_l9_words: VocabularyWord[] = [
         id: "abet",
         word: "abet",
         pronunciation: "/əˈbet/",
-        definition: "To encourage or assist in some activity, especially a questionable one.",
-        exampleSentence: "Randy abetted his friend in stealing pumpkins by helping him lug them home.",
+        definition: "To encourage or assist in some activity, typically a questionable one.",
+        exampleSentence: "Randy abetted his friend in hiding the teacher's chalk.",
         imageEmoji: "🤝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["help", "assist"],
+        antonyms: ["hinder", "stop"]
     },
     {
         id: "agile",
         word: "agile",
         pronunciation: "/ˈædʒl/",
         definition: "1. Able to move quickly and easily; nimble. 2. Able to think quickly.",
-        exampleSentence: "Alexandra's agile steps followed Wilfredo's as the band played a tango.",
+        exampleSentence: "Alexandra's agile steps allowed her to avoid the defender's attempt to steal the basketball.",
         imageEmoji: "🤸",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["nimble", "quick"],
+        antonyms: ["clumsy", "slow"]
     },
     {
         id: "allot",
         word: "allot",
         pronunciation: "/əˈlɒt/",
         definition: "To assign or distribute as a portion or share.",
-        exampleSentence: "Ms. Kaplan usually allotted fifteen minutes at the beginning of each French class for conversation practice.",
-        imageEmoji: "🍰",
-        category: "Grade 8"
+        exampleSentence: "Ms. Kape allotted fifteen minutes for the test, but I finished in ten.",
+        imageEmoji: "➗",
+        category: "Grade 8",
+        synonyms: ["assign", "distribute"],
+        antonyms: ["keep", "withhold"]
     },
     {
         id: "balmy",
@@ -35,26 +41,32 @@ export const b8_l9_words: VocabularyWord[] = [
         pronunciation: "/ˈbɑːmi/",
         definition: "Soothing, mild.",
         exampleSentence: "Instead of the balmy spring weather we were expecting, the skies turned gray and a light snow fell.",
-        imageEmoji: "🌴",
-        category: "Grade 8"
+        imageEmoji: "🌤️",
+        category: "Grade 8",
+        synonyms: ["mild", "pleasant"],
+        antonyms: ["harsh", "stormy"]
     },
     {
         id: "congregate",
         word: "congregate",
         pronunciation: "/ˈkɒŋɡrɪɡeɪt/",
         definition: "To come together in a group; to assemble.",
-        exampleSentence: "The principal instructed us to congregate in the parking lot while the firefighters checked the building.",
+        exampleSentence: "The principal told the students not to congregate in the hallways before school.",
         imageEmoji: "👨‍👩‍👧‍👦",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["gather", "assemble"],
+        antonyms: ["disperse", "scatter"]
     },
     {
         id: "divert",
         word: "divert",
-        pronunciation: "/daɪˈvɜːrt/",
+        pronunciation: "/dɪˈvɜːrt/",
         definition: "1. To turn aside. 2. To entertain or amuse.",
-        exampleSentence: "By sandbagging the shore, we can divert some of the floodwaters.",
-        imageEmoji: "↩️",
-        category: "Grade 8"
+        exampleSentence: "By diverting the creek into a ditch, Grandpa saved the wheat field from being flooded.",
+        imageEmoji: "🔀",
+        category: "Grade 8",
+        synonyms: ["distract", "amuse"],
+        antonyms: ["bore"]
     },
     {
         id: "humdrum",
@@ -62,71 +74,87 @@ export const b8_l9_words: VocabularyWord[] = [
         pronunciation: "/ˈhʌmdrʌm/",
         definition: "Lacking excitement; boring or monotonous.",
         exampleSentence: "Bagging groceries is a humdrum job, but the flexible hours allow me to finish all my homework.",
-        imageEmoji: "😐",
-        category: "Grade 8"
+        imageEmoji: "🥱",
+        category: "Grade 8",
+        synonyms: ["boring", "dull"],
+        antonyms: ["exciting", "interesting"]
     },
     {
         id: "influx",
         word: "influx",
         pronunciation: "/ˈɪnflʌks/",
         definition: "A flowing or pouring in; arrival in massive numbers.",
-        exampleSentence: "Local restaurant owners are hiring extra help because of the expected influx of visitors during the holidays.",
-        imageEmoji: "🌊",
-        category: "Grade 8"
+        exampleSentence: "Local hotel owners are hoping for an influx of tourists during the holiday weekend.",
+        imageEmoji: "📥",
+        category: "Grade 8",
+        synonyms: ["arrival", "inflow"],
+        antonyms: ["outflow", "exodus"]
     },
     {
         id: "intricate",
         word: "intricate",
         pronunciation: "/ˈɪntrɪkət/",
         definition: "Complicated; having many related details or parts.",
-        exampleSentence: "Chen builds intricate sculptures using metal pieces she finds at junkyards.",
-        imageEmoji: "🕸️",
-        category: "Grade 8"
+        exampleSentence: "Chen builds intricate sculptures using metal pieces he finds at the junkyard.",
+        imageEmoji: "🧩",
+        category: "Grade 8",
+        synonyms: ["complex", "complicated"],
+        antonyms: ["simple", "plain"]
     },
     {
         id: "memento",
         word: "memento",
         pronunciation: "/məˈmentoʊ/",
         definition: "Something kept as a reminder of a past event; a souvenir.",
-        exampleSentence: "Madelaine kept the sand dollar as a memento of her day at the New Jersey shore.",
-        imageEmoji: "🐚",
-        category: "Grade 8"
+        exampleSentence: "Madeline kept the sand dollar as a memento of her day at the beach.",
+        imageEmoji: "🎗️",
+        category: "Grade 8",
+        synonyms: ["souvenir", "keepsake"],
+        antonyms: []
     },
     {
         id: "query",
         word: "query",
-        pronunciation: "/ˈkwɪəri/",
-        definition: "A question.",
-        exampleSentence: "Raise your hand if you have a query to ask the teacher.",
+        pronunciation: "/ˈkwɪri/",
+        definition: "A question. To ask or ask about.",
+        exampleSentence: "Naomi's job is to answer queries from customers about their bills.",
         imageEmoji: "❓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["question", "inquiry"],
+        antonyms: ["answer", "reply"]
     },
     {
         id: "sporadic",
         word: "sporadic",
         pronunciation: "/spəˈrædɪk/",
         definition: "Happening occasionally; not regularly.",
-        exampleSentence: "Last summer, between sporadic acting jobs, we worked as lifeguards.",
+        exampleSentence: "Last summer, between sporadic acting jobs, I worked as a waiter.",
         imageEmoji: "📉",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["occasional", "irregular"],
+        antonyms: ["constant", "steady"]
     },
     {
         id: "staple",
         word: "staple",
         pronunciation: "/ˈsteɪpl/",
-        definition: "1. A basic food that is used frequently and in large amounts. 2. A U-shaped fastener with sharp ends. 3. Most important, principal.",
-        exampleSentence: "Rice and beans are staples in many households.",
-        imageEmoji: "🍚",
-        category: "Grade 8"
+        definition: "1. A basic food that is used frequently and in large amounts. 2. A U-shaped fastener with sharp ends. 3. To attach with staples. 4. Most important, principal.",
+        exampleSentence: "Rice and beans are staples in many Caribbean households.",
+        imageEmoji: "🍞",
+        category: "Grade 8",
+        synonyms: ["basic", "essential"],
+        antonyms: ["extra", "luxury"]
     },
     {
         id: "tumult",
         word: "tumult",
         pronunciation: "/ˈtuːmʌlt/",
         definition: "Noisy excitement; an uproar or disturbance.",
-        exampleSentence: "Entering the house through the chimney, the squirrel caused a tumult until my sister finally caught it and released it in the backyard.",
-        imageEmoji: "🔊",
-        category: "Grade 8"
+        exampleSentence: "Entering the house through the chimney, the squirrel caused a tumult until the door was opened.",
+        imageEmoji: "🌩️",
+        category: "Grade 8",
+        synonyms: ["uproar", "chaos"],
+        antonyms: ["peace", "calm"]
     },
     {
         id: "unseemly",
@@ -135,7 +163,9 @@ export const b8_l9_words: VocabularyWord[] = [
         definition: "Not suitable; inappropriate or improper.",
         exampleSentence: "The two fathers had an unseemly argument at the monthly PTA meeting.",
         imageEmoji: "🚫",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["inappropriate", "improper"],
+        antonyms: ["proper", "suitable"]
     }
 ];
 

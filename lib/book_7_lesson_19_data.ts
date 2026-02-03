@@ -7,7 +7,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. 1. Working against; serving to oppose. 2. Harmful; unfavorable.",
         exampleSentence: "The response to the proposed year-round school was so adverse that the school board dropped the idea.",
         imageEmoji: "👎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["harmful", "bad", "unfavorable"],
+        antonyms: ["beneficial", "good", "favorable"]
     },
     {
         id: "aloof",
@@ -15,7 +17,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Remote or distant, usually by choice; showing no interest. adv. In an aloof manner.",
         exampleSentence: "His aloof manner kept us from becoming close friends.",
         imageEmoji: "😶",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["distant", "cold", "detached"],
+        antonyms: ["friendly", "warm", "sociable"]
     },
     {
         id: "alternative",
@@ -23,7 +27,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Allowing a choice between two or more things. n. 1. A choice between two or more things. 2. Any one of the things that can be chosen.",
         exampleSentence: "There is an alternative route you could take to get to town, but it's a bit longer.",
         imageEmoji: "🔀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["choice", "option", "substitute"],
+        antonyms: ["requirement", "obligation"]
     },
     {
         id: "canine",
@@ -31,7 +37,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Of, or relating to, dogs or related animals. n. A member of the canine family.",
         exampleSentence: "Wolves, foxes, dogs, jackals, and coyotes are members of the canine family.",
         imageEmoji: "🐶",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["dog", "wolf", "fox"],
+        antonyms: []
     },
     {
         id: "compulsory",
@@ -39,7 +47,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Required by law or a firm rule.",
         exampleSentence: "Training is compulsory for all lifeguards.",
         imageEmoji: "⚠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["required", "mandatory", "forced"],
+        antonyms: ["optional", "voluntary"]
     },
     {
         id: "consecutive",
@@ -47,7 +57,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Following one after another in order.",
         exampleSentence: "It rained for five consecutive days last week.",
         imageEmoji: "🔢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["successive", "continuous", "sequential"],
+        antonyms: ["interrupted", "broken", "random"]
     },
     {
         id: "desolate",
@@ -55,7 +67,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. 1. Deserted; lonely; without signs of life. 2. Filled with sorrow.",
         exampleSentence: "There was not even a gas station on the desolate stretch of highway.",
         imageEmoji: "🏜️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["deserted", "lonely", "barren"],
+        antonyms: ["populated", "crowded", "fertile"]
     },
     {
         id: "dispatch",
@@ -63,7 +77,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "v. 1. To send on specific business. 2. To finish or complete promptly. 3. To kill quickly. n. 1. Speed in movement or performance. 2. A written message sent quickly.",
         exampleSentence: "The senator dispatched an aide to meet with reporters.",
         imageEmoji: "📤",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["send", "kill", "finish"],
+        antonyms: ["delay", "keep", "hold"]
     },
     {
         id: "distinction",
@@ -71,7 +87,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "n. 1. A recognition of the way things differ. 2. Special honor or regard. 3. Excellence of performance or ability.",
         exampleSentence: "The lunchroom makes a distinction between the regular menu and the gluten-free menu.",
         imageEmoji: "🏆",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["difference", "honor", "excellence"],
+        antonyms: ["similarity", "mediocrity"]
     },
     {
         id: "endure",
@@ -79,7 +97,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "v. 1. To put up with; to bear. 2. To go on for a long time; to last. endurance n. The ability to put up with hardship; the quality of putting up with hardship.",
         exampleSentence: "The pioneers who headed west had to endure incredible hardship along the way.",
         imageEmoji: "😓",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["bear", "suffer", "last"],
+        antonyms: ["give up", "quit", "stop"]
     },
     {
         id: "fluctuate",
@@ -87,7 +107,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "v. To rise and fall; to keep changing. fluctuation n. A rising and falling movement.",
         exampleSentence: "The supply of fresh vegetables fluctuates with the seasons.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["change", "vary", "waver"],
+        antonyms: ["stabilize", "remain", "stay"]
     },
     {
         id: "grueling",
@@ -95,7 +117,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Tiring; exhausting.",
         exampleSentence: "Mount Washington is a grueling climb for most hikers.",
         imageEmoji: "😫",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["tiring", "exhausting", "hard"],
+        antonyms: ["easy", "effortless"]
     },
     {
         id: "maul",
@@ -103,7 +127,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "v. To handle roughly so as to cause injury.",
         exampleSentence: "We chased the cat away before it could maul the mouse it had caught.",
         imageEmoji: "🐻",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["injure", "hurt", "attack"],
+        antonyms: ["protect", "heal", "help"]
     },
     {
         id: "participate",
@@ -111,7 +137,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "v. To take part in. participant n. One who takes part in.",
         exampleSentence: "The entire class participated in the ticket sale for the school musical.",
         imageEmoji: "🙋",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["take part", "join", "share"],
+        antonyms: ["watch", "observe"]
     },
     {
         id: "robust",
@@ -119,7 +147,9 @@ export const b7_l19_words: VocabularyWord[] = [
         definition: "adj. Strong and vigorous.",
         exampleSentence: "My grandfather is in robust health for an eighty-year-old.",
         imageEmoji: "💪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["strong", "healthy", "vigorous"],
+        antonyms: ["weak", "sickly", "frail"]
     }
 ];
 

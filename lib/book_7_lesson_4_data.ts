@@ -7,7 +7,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. To gain ownership of something; to get by one's own efforts or actions.",
         exampleSentence: "Most tourists acquire souvenirs from the places they visit.",
         imageEmoji: "🛍️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["obtain", "gain", "procure"],
+        antonyms: ["lose", "forfeit"]
     },
     {
         id: "antagonize",
@@ -15,7 +17,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. To make an enemy of; to stir up anger or dislike.",
         exampleSentence: "You will antagonize your classmates if you make derogatory comments about them.",
         imageEmoji: "😠",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["provoke", "annoy", "alienate"],
+        antonyms: ["befriend", "pacify", "appease"]
     },
     {
         id: "competent",
@@ -23,7 +27,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "adj. Having the ability to do what is needed.",
         exampleSentence: "The mechanic is competent to work on the car's brakes.",
         imageEmoji: "👌",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["capable", "able", "qualified"],
+        antonyms: ["incompetent", "inept", "incapable"]
     },
     {
         id: "comprise",
@@ -31,7 +37,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. 1. To form; to make up. 2. To consist of or include.",
         exampleSentence: "Six states comprise New England.",
         imageEmoji: "🧩",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["consist of", "include", "contain"],
+        antonyms: ["exclude", "lack"]
     },
     {
         id: "correspond",
@@ -39,7 +47,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. 1. To match; to be equal to. 2. To exchange letters with another person.",
         exampleSentence: "The two handwriting samples correspond in every way.",
         imageEmoji: "📨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["match", "agree", "tally"],
+        antonyms: ["differ", "disagree", "clash"]
     },
     {
         id: "dilapidated",
@@ -47,7 +57,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "adj. In poor condition from neglect or age.",
         exampleSentence: "The shed was so dilapidated that it wasn't worth repairing.",
         imageEmoji: "🏚️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["run-down", "decrepit", "ramshackle"],
+        antonyms: ["maintained", "new", "pristine"]
     },
     {
         id: "illustrious",
@@ -55,7 +67,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "adj. Very famous; outstanding.",
         exampleSentence: "Anton Chekov, the illustrious Russian writer, is famous for his plays and short stories.",
         imageEmoji: "🌟",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["famous", "distinguished", "renowned"],
+        antonyms: ["unknown", "obscure", "insignificant"]
     },
     {
         id: "incident",
@@ -63,7 +77,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "n. Something that happens in real life or in a story; an event, often of little importance.",
         exampleSentence: "Our car was struck from behind, but I thought no more about the incident until my neck began to hurt.",
         imageEmoji: "💥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["event", "occurrence", "happening"],
+        antonyms: []
     },
     {
         id: "inherit",
@@ -71,7 +87,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. 1. To receive something from someone after that person's death. 2. To receive, as part of one's physical or mental makeup, from one's parents.",
         exampleSentence: "I inherited this house from my grandparents.",
         imageEmoji: "📜",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["receive", "succeed to"],
+        antonyms: []
     },
     {
         id: "latitude",
@@ -79,7 +97,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "n. 1. The distance north or south of the equator, measured in degrees. 2. A region as marked by its distance from the equator. 3. Freedom from strict rules.",
         exampleSentence: "The latitude of New Orleans is thirty degrees north.",
         imageEmoji: "🌐",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["leeway", "freedom", "room"],
+        antonyms: ["restriction", "constraint"]
     },
     {
         id: "loath",
@@ -87,7 +107,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "adj. Unwilling; reluctant.",
         exampleSentence: "I was loath to put my trust in such a devious person.",
         imageEmoji: "😒",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reluctant", "unwilling", "hesitant"],
+        antonyms: ["eager", "willing", "enthusiastic"]
     },
     {
         id: "maintain",
@@ -95,7 +117,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. 1. To declare something to be true. 2. To continue in the same way or condition. 3. To keep in good condition.",
         exampleSentence: "Although the evidence against her is strong, she continues to maintain her innocence.",
         imageEmoji: "🛠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["preserve", "keep", "sustain"],
+        antonyms: ["neglect", "abandon", "destroy"]
     },
     {
         id: "renovate",
@@ -103,7 +127,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. To make like new again.",
         exampleSentence: "My parents intend to renovate the apartment completely before we move in.",
         imageEmoji: "🔨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["restore", "refurbish", "revamp"],
+        antonyms: ["neglect", "damage"]
     },
     {
         id: "reprimand",
@@ -111,7 +137,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. To scold in a harsh or formal manner. n. A strong scolding from someone in authority.",
         exampleSentence: "The principal reprimanded us for being late to school.",
         imageEmoji: "☝️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["scold", "rebuke", "admonish"],
+        antonyms: ["praise", "commend"]
     },
     {
         id: "supervise",
@@ -119,7 +147,9 @@ export const b7_l4_words: VocabularyWord[] = [
         definition: "v. To direct or manage activities.",
         exampleSentence: "Ms. Agostino will supervise the students in the study hall.",
         imageEmoji: "👀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["oversee", "manage", "direct"],
+        antonyms: []
     }
 ];
 

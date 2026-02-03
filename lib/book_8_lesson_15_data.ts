@@ -9,7 +9,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "To find out for certain.",
         exampleSentence: "Ms. Jenckes sent Tyrone to ascertain the cause of the delay.",
         imageEmoji: "🔍",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["determine", "discover"],
+        antonyms: ["guess", "ignore"]
     },
     {
         id: "chastise",
@@ -18,7 +20,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "1. To punish by beating. 2. To rebuke or criticize severely.",
         exampleSentence: "A hundred years ago disruptive students were chastised with a cane.",
         imageEmoji: "😠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["reprimand", "scold"],
+        antonyms: ["praise", "commend"]
     },
     {
         id: "cull",
@@ -27,7 +31,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "To select and remove weak or inferior members from.",
         exampleSentence: "Game wardens cull the deer herd when it grows too large for the deer's food supply.",
         imageEmoji: "🦌",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["remove", "select"],
+        antonyms: []
     },
     {
         id: "defer",
@@ -36,7 +42,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "1. To put off or postpone. 2. To yield to out of respect for the knowledge or authority of another.",
         exampleSentence: "Timothy deferred his decision about which team to join until he could talk to the coaches.",
         imageEmoji: "📅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["postpone", "yield"],
+        antonyms: ["hasten", "persist"]
     },
     {
         id: "desist",
@@ -45,7 +53,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "To refrain from continuing something.",
         exampleSentence: "Our principal told us we must desist from talking in study hall.",
         imageEmoji: "🛑",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["cease", "stop"],
+        antonyms: ["continue", "resume"]
     },
     {
         id: "discredit",
@@ -54,7 +64,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "1. To hurt the reputation of. 2. To destroy confidence or trust in.",
         exampleSentence: "Beckham was discredited when his own lies were found out.",
         imageEmoji: "📉",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["disprove", "disgrace"],
+        antonyms: ["believe", "validate"]
     },
     {
         id: "encroach",
@@ -63,7 +75,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "To advance little by little beyond the usual limits or boundaries.",
         exampleSentence: "We pruned the branches of the maple tree that encroached on our property.",
         imageEmoji: "🚧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["intrude", "infringe"],
+        antonyms: []
     },
     {
         id: "foreboding",
@@ -72,7 +86,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "A strong feeling that something bad is about to happen.",
         exampleSentence: "It was with foreboding that we began to search for the missing kitten.",
         imageEmoji: "😨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["dread", "apprehension"],
+        antonyms: ["optimism", "confidence"]
     },
     {
         id: "humane",
@@ -81,7 +97,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "Compassionate, kind to other human beings or to animals.",
         exampleSentence: "What is humane treatment for a horse with a broken leg?",
         imageEmoji: "❤️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["kind", "compassionate"],
+        antonyms: ["cruel", "inhumane"]
     },
     {
         id: "irrational",
@@ -90,7 +108,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "Lacking sound judgment; not governed by reason.",
         exampleSentence: "As she approached the house, Candace felt an irrational fear inside herself.",
         imageEmoji: "🥴",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["unreasonable", "illogical"],
+        antonyms: ["rational", "logical"]
     },
     {
         id: "lurid",
@@ -99,7 +119,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "1. Causing horror; extremely gruesome. 2. Glowing with the redness of flames seen through a haze.",
         exampleSentence: "My parents will not give me permission to see that movie because of several lurid scenes it contains.",
         imageEmoji: "😱",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["gruesome", "shocking"],
+        antonyms: ["pleasant", "mild"]
     },
     {
         id: "perpetuate",
@@ -108,7 +130,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "To cause to continue indefinitely.",
         exampleSentence: "Your negative attitude toward studying science just perpetuates your inability to get a good grade in the class.",
         imageEmoji: "♾️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["prolong", "sustain"],
+        antonyms: ["stop", "discontinue"]
     },
     {
         id: "restive",
@@ -117,7 +141,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "Showing impatience because of restrictions or delays.",
         exampleSentence: "We grew restive as we awaited permission to return to our flooded house.",
         imageEmoji: "😤",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["restless", "impatient"],
+        antonyms: ["calm", "patient"]
     },
     {
         id: "stamina",
@@ -126,7 +152,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "Physical strength or courage to resist hardship, illness, or fatigue.",
         exampleSentence: "Jill claims that running five miles a day has built up her stamina.",
         imageEmoji: "💪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["endurance", "strength"],
+        antonyms: ["weakness"]
     },
     {
         id: "surveillance",
@@ -135,7 +163,9 @@ export const b8_l15_words: VocabularyWord[] = [
         definition: "Close observation of a person or area.",
         exampleSentence: "Because of the recent incidents of vandalism, the police have put the high school under closer surveillance.",
         imageEmoji: "🎥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["observation", "watch"],
+        antonyms: []
     }
 ];
 

@@ -7,7 +7,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(v.) To eat or wear away by degrees, usually by chemical action. corrosion (n.) The process or the result of corroding.",
         exampleSentence: "Exposure to the weather can corrode unprotected metal surfaces.",
         imageEmoji: "🧪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["erode", "rust", "deteriorate"],
+        antonyms: ["strengthen", "build", "reinforce"]
     },
     {
         id: "debris",
@@ -15,7 +17,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) 1. Broken, scattered remains. 2. Litter; rubbish.",
         exampleSentence: "Debris from buildings damaged by the hurricane littered the streets.",
         imageEmoji: "🗑️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rubble", "trash", "waste"],
+        antonyms: []
     },
     {
         id: "elated",
@@ -23,7 +27,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(adj.) Happy and excited; overjoyed. elation (n.) A feeling of great joy and excitement.",
         exampleSentence: "The elated winners jumped up and down.",
         imageEmoji: "🤩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["overjoyed", "ecstatic", "thrilled"],
+        antonyms: ["depressed", "sad", "miserable"]
     },
     {
         id: "exploit",
@@ -31,7 +37,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) A brave or daring act; an adventure. (v.) 1. To make full use of; to utilize. 2. To use in a selfish way; to take unfair advantage of.",
         exampleSentence: "The spy wrote a book about her exploits.",
         imageEmoji: "🧗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["feat", "adventure", "utilize"],
+        antonyms: []
     },
     {
         id: "leeway",
@@ -39,7 +47,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) An extra amount of time or space that allows some freedom.",
         exampleSentence: "The wide channel gives boats entering the harbor plenty of leeway.",
         imageEmoji: "↔️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["flexibility", "latitude", "margin"],
+        antonyms: ["restriction", "constraint"]
     },
     {
         id: "miniature",
@@ -47,7 +57,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(adj.) On a small scale. (n.) 1. A very small copy. 2. A small painting, especially a portrait.",
         exampleSentence: "A miniature railroad for young children ran through the park.",
         imageEmoji: "🤏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tiny", "small", "diminutive"],
+        antonyms: ["huge", "giant", "enormous"]
     },
     {
         id: "mobile",
@@ -55,7 +67,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) An artistic structure with parts that move easily. (adj.) Easily moved.",
         exampleSentence: "A huge mobile hangs in the National Gallery of Art in Washington, D.C.",
         imageEmoji: "📱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["movable", "portable"],
+        antonyms: ["stationary", "immobile", "fixed"]
     },
     {
         id: "onset",
@@ -63,7 +77,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) A start or a beginning.",
         exampleSentence: "The onset of winter was marked by a steep temperature drop.",
         imageEmoji: "🏁",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["beginning", "start", "commencement"],
+        antonyms: ["end", "conclusion", "finish"]
     },
     {
         id: "ooze",
@@ -71,7 +87,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) Soft, watery mud, as at the bottom of a lake or the sea. (v.) To leak out slowly.",
         exampleSentence: "Our feet sank into the ooze as we waded across the shallow pond.",
         imageEmoji: "💧",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mud", "slime", "seep"],
+        antonyms: []
     },
     {
         id: "pathetic",
@@ -79,7 +97,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(adj.) 1. Causing feelings of pity or sorrow. 2. Held in low esteem; arousing scorn.",
         exampleSentence: "The newly arrived refugees told a pathetic story of persecution by their tyrannical rulers.",
         imageEmoji: "😢",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["pitiful", "sad", "heartbreaking"],
+        antonyms: ["admirable", "cheerful", "happy"]
     },
     {
         id: "preliminary",
@@ -87,7 +107,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(adj.) Coming at the beginning; coming before the main event or activity.",
         exampleSentence: "The band director made a few preliminary remarks before the concert began.",
         imageEmoji: "🎬",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["introductory", "preparatory", "initial"],
+        antonyms: ["final", "concluding", "closing"]
     },
     {
         id: "quest",
@@ -95,7 +117,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(n.) A hunt or search.",
         exampleSentence: "The expedition set out on a quest for the lost treasure of Montezuma.",
         imageEmoji: "🔍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["search", "hunt", "pursuit"],
+        antonyms: []
     },
     {
         id: "restrain",
@@ -103,7 +127,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(v.) To hold back; to keep under control. restraint (n.) 1. A holding back or keeping under control. 2. Something used to control or hold in check.",
         exampleSentence: "The catcher tried to restrain the angry batter, but a brawl quickly erupted.",
         imageEmoji: "✋",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["control", "curb", "hold back"],
+        antonyms: ["release", "liberate", "free"]
     },
     {
         id: "salvage",
@@ -111,7 +137,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(v.) To save from destruction or loss. (n.) Property saved from loss or destruction.",
         exampleSentence: "Salvage what you can from the wreckage.",
         imageEmoji: "🛟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["save", "recover", "rescue"],
+        antonyms: ["abandon", "discard", "lose"]
     },
     {
         id: "scour",
@@ -119,7 +147,9 @@ export const b6_l17_words: VocabularyWord[] = [
         definition: "(v.) 1. To clean by scrubbing hard. 2. To search thoroughly.",
         exampleSentence: "We scoured the pots and pans until they gleamed.",
         imageEmoji: "🧽",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["scrub", "clean", "search"],
+        antonyms: ["dirty", "pollute"]
     }
 ];
 

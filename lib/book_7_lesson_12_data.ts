@@ -7,7 +7,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. To carry away by force; to kidnap.",
         exampleSentence: "Bandits stopped the car and abducted the driver.",
         imageEmoji: "🚙",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["kidnap", "seize", "capture"],
+        antonyms: ["release", "free", "let go"]
     },
     {
         id: "abode",
@@ -15,7 +17,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "n. The place where one lives; home.",
         exampleSentence: "My summer abode was a small cabin that I shared with two other camp counselors.",
         imageEmoji: "🏠",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["home", "house", "dwelling"],
+        antonyms: []
     },
     {
         id: "abyss",
@@ -23,7 +27,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "n. 1. A deep opening in the earth. 2. Anything too deep to measure.",
         exampleSentence: "We were afraid to look down as we crossed the abyss on a swaying rope bridge.",
         imageEmoji: "🕳️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["chasm", "gorge", "pit"],
+        antonyms: ["summit", "peak"]
     },
     {
         id: "arbitrate",
@@ -31,7 +37,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. To settle a disagreement between two parties by having a third party make a decision after hearing both sides.",
         exampleSentence: "The student council will arbitrate the dispute between the French club and the Spanish club.",
         imageEmoji: "⚖️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["mediate", "judge", "settle"],
+        antonyms: ["argue", "dispute"]
     },
     {
         id: "attribute",
@@ -39,7 +47,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. To think of as coming from or belonging to a particular person or thing. n. A quality or feature associated with a person or thing.",
         exampleSentence: "The song was wrongly attributed to the Beatles.",
         imageEmoji: "🏷️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["ascribe", "credit", "characteristic"],
+        antonyms: []
     },
     {
         id: "capricious",
@@ -47,7 +57,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "adj. Likely to change quickly for no obvious reason.",
         exampleSentence: "I am always changing from a winter coat to a spring jacket because of our capricious weather.",
         imageEmoji: "🌬️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fickle", "variable", "unpredictable"],
+        antonyms: ["steady", "constant", "predictable"]
     },
     {
         id: "compromise",
@@ -55,7 +67,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. 1. To settle a disagreement by having each side give up something. 2. To expose to the possibility of criticism or shame. n. A settlement reached by each side giving up something.",
         exampleSentence: "We compromised by getting a pizza with peppers on one half for my sister and mushrooms on the other half for me.",
         imageEmoji: "🤝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["agreement", "settlement", "concession"],
+        antonyms: ["disagreement", "dispute"]
     },
     {
         id: "devout",
@@ -63,7 +77,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "adj. 1. Very religious. 2. Sincere.",
         exampleSentence: "Devout Muslims try to make at least one visit to the holy city of Mecca.",
         imageEmoji: "🙏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["religious", "pious", "sincere"],
+        antonyms: ["irreverent", "insincere"]
     },
     {
         id: "distraught",
@@ -71,7 +87,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "adj. Deeply disturbed; very troubled.",
         exampleSentence: "The children were distraught when their pet rabbit died.",
         imageEmoji: "😟",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["upset", "distressed", "agitated"],
+        antonyms: ["calm", "composed", "happy"]
     },
     {
         id: "enlighten",
@@ -79,7 +97,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. To inform or instruct; to give knowledge or truth to.",
         exampleSentence: "I asked my dad to enlighten me as to why he wouldn't let me stay out late.",
         imageEmoji: "💡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["inform", "instruct", "teach"],
+        antonyms: ["confuse", "mislead", "deceive"]
     },
     {
         id: "incline",
@@ -87,7 +107,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. 1. To slope or lean. 2. To be likely to; to have a fondness for. 3. To bend or bow (the head). n. A sloping surface.",
         exampleSentence: "Instead of being vertical, the post inclines slightly to the left.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["slope", "lean", "tend"],
+        antonyms: ["straighten", "level"]
     },
     {
         id: "intervene",
@@ -95,7 +117,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "v. To enter in order to help or settle something.",
         exampleSentence: "The playground supervisor intervened when the children couldn't agree about whose turn it was.",
         imageEmoji: "✋",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["interfere", "intrude", "intercede"],
+        antonyms: ["ignore", "stand by"]
     },
     {
         id: "necessity",
@@ -103,7 +127,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "n. 1. Anything that cannot be done without or that is greatly needed. 2. The condition of being needed.",
         exampleSentence: "Insect repellent is a necessity when camping.",
         imageEmoji: "⛺",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["need", "requirement", "essential"],
+        antonyms: ["luxury", "extra"]
     },
     {
         id: "orbit",
@@ -111,7 +137,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "n. The path taken by an object around a heavenly body such as a star, planet, or moon. v. To put into or be in orbit.",
         exampleSentence: "The moon's orbit around Earth takes just over twenty-seven days.",
         imageEmoji: "🪐",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["path", "circuit", "revolution"],
+        antonyms: []
     },
     {
         id: "sacred",
@@ -119,7 +147,9 @@ export const b7_l12_words: VocabularyWord[] = [
         definition: "adj. 1. Holy; having to do with religion. 2. Worthy of being given the greatest honor or respect.",
         exampleSentence: "The Western Wall in Jerusalem is sacred to the Jewish people.",
         imageEmoji: "🕍",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["holy", "divine", "blessed"],
+        antonyms: ["profane", "secular"]
     }
 ];
 

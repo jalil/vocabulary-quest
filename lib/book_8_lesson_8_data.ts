@@ -9,7 +9,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Highly skilled; expert.",
         exampleSentence: "Blake is adept at decorating cakes, and he always brings a fancy cake to special events.",
         imageEmoji: "🎨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["skilled", "expert"],
+        antonyms: ["clumsy", "inept"]
     },
     {
         id: "audible",
@@ -18,7 +20,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Capable of being heard.",
         exampleSentence: "The sound of the harp was barely audible in the large hall.",
         imageEmoji: "🔊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hearable", "loud"],
+        antonyms: ["inaudible", "silent"]
     },
     {
         id: "azure",
@@ -27,7 +31,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "The blue color of a cloudless sky.",
         exampleSentence: "The azure of Caribbean waters is in striking contrast to the grayish green of more northern seas.",
         imageEmoji: "🔵",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["blue", "sky-blue"],
+        antonyms: []
     },
     {
         id: "banter",
@@ -36,7 +42,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "1. To exchange playful, teasing remarks. 2. Light, playful conversation.",
         exampleSentence: "The opposing players bantered nervously before the soccer match.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["joke", "tease"],
+        antonyms: []
     },
     {
         id: "capacious",
@@ -45,7 +53,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Able to hold a large amount; roomy.",
         exampleSentence: "The capacious closets of their new apartment would provide enough room for the clothes of her two teenagers, Mrs. Gupta decided.",
         imageEmoji: "👜",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["roomy", "spacious"],
+        antonyms: ["cramped", "small"]
     },
     {
         id: "copious",
@@ -54,7 +64,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Large in quantity; abundant.",
         exampleSentence: "Mediterranean cooking uses copious amounts of olive oil.",
         imageEmoji: "🏺",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["abundant", "plentiful"],
+        antonyms: ["scarce", "meager"]
     },
     {
         id: "crucial",
@@ -63,7 +75,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Extremely important; vital in resolving something.",
         exampleSentence: "It is crucial that I get to school on time so I don't miss the test.",
         imageEmoji: "❗",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["critical", "vital"],
+        antonyms: ["unimportant", "insignificant"]
     },
     {
         id: "decelerate",
@@ -72,7 +86,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "To slow down or to cause to slow down.",
         exampleSentence: "The train decelerated to make a stop at the station.",
         imageEmoji: "🛑",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["slow down", "brake"],
+        antonyms: ["accelerate", "speed up"]
     },
     {
         id: "deploy",
@@ -81,7 +97,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "1. To arrange troops or equipment in position for battle. 2. To put into use.",
         exampleSentence: "The failure to deploy air support led to the army's defeat.",
         imageEmoji: "🚀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["position", "arrange"],
+        antonyms: ["withdraw"]
     },
     {
         id: "facilitate",
@@ -90,7 +108,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "To make easier.",
         exampleSentence: "Living in Mexico for two years facilitated my learning Spanish.",
         imageEmoji: "✅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["ease", "help"],
+        antonyms: ["hinder", "obstruct"]
     },
     {
         id: "fastidious",
@@ -99,7 +119,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "1. Paying close attention to detail. 2. Difficult to please.",
         exampleSentence: "The mustard stain on his sweater suggested to Lilly that Simon was not as fastidious about his clothes as he was about his desk, which was spotless.",
         imageEmoji: "🧐",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["picky", "fussy"],
+        antonyms: ["easygoing", "sloppy"]
     },
     {
         id: "fitful",
@@ -108,7 +130,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "Not steady; irregular.",
         exampleSentence: "After a fitful sleep, I awoke feeling groggy and unprepared for the first day of school.",
         imageEmoji: "🛌",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["irregular", "restless"],
+        antonyms: ["steady", "constant"]
     },
     {
         id: "grapple",
@@ -117,7 +141,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "1. To struggle with in close combat; to wrestle. 2. To come to grips with. 3. An iron shaft with a claw for grasping and holding things.",
         exampleSentence: "Jake grappled with the dog to get it into the tub for a bath.",
         imageEmoji: "🤼",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["struggle", "wrestle"],
+        antonyms: []
     },
     {
         id: "pang",
@@ -126,7 +152,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "A sudden sharp feeling of pain or distress.",
         exampleSentence: "Jarvis felt a pang of regret when he sold his old bicycle.",
         imageEmoji: "💔",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["twinge", "stab"],
+        antonyms: []
     },
     {
         id: "precede",
@@ -135,7 +163,9 @@ export const b8_l8_words: VocabularyWord[] = [
         definition: "To go or come before in time, rank, or position.",
         exampleSentence: "Omar's eighth-grade graduation preceded his attempts to get a summer job.",
         imageEmoji: "⏮️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["come before", "lead"],
+        antonyms: ["follow", "succeed"]
     }
 ];
 

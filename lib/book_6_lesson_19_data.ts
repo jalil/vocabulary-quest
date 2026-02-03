@@ -7,7 +7,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(n.) 1. An opening made by battering. 2. A breaking or being broken. (v.) 1. To break through. 2. To fail to keep; to break.",
         exampleSentence: "Water poured through the breach in the dam.",
         imageEmoji: "💥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rupture", "break", "violation"],
+        antonyms: ["closure", "seal", "observance"]
     },
     {
         id: "clammy",
@@ -15,7 +17,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(adj.) Cold and damp.",
         exampleSentence: "The speaker was so nervous his hands were clammy with sweat.",
         imageEmoji: "😰",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["sticky", "moist", "damp"],
+        antonyms: ["dry", "warm"]
     },
     {
         id: "construct",
@@ -23,7 +27,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) To build; to make by fitting the parts together. construction (n.) 1. The act of building. 2. Something that is built.",
         exampleSentence: "We constructed the tree house from pieces of scrap lumber.",
         imageEmoji: "👷",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["build", "create", "assemble"],
+        antonyms: ["destroy", "demolish", "ruin"]
     },
     {
         id: "elaborate",
@@ -31,7 +37,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(adj.) Having great detail; done with much care. (v.) To give more details.",
         exampleSentence: "The elaborate meal took hours to prepare.",
         imageEmoji: "🎨",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["detailed", "complex", "intricate"],
+        antonyms: ["simple", "plain", "basic"]
     },
     {
         id: "fragrant",
@@ -39,7 +47,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(adj.) Having a pleasant smell. fragrance (n.) A sweet or pleasant smell.",
         exampleSentence: "We awoke to the fragrant aroma of freshly baked bread.",
         imageEmoji: "🌸",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["aromatic", "sweet-scented", "redolent"],
+        antonyms: ["stinky", "odorous", "foul"]
     },
     {
         id: "furnish",
@@ -47,7 +57,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) 1. To equip with what is needed; to supply. 2. To put furniture into. furnishings (n. pl.) Articles of furniture for the home or office.",
         exampleSentence: "The parents' club furnished most of the money for the art project.",
         imageEmoji: "🛋️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["supply", "provide", "equip"],
+        antonyms: ["deprive", "strip", "divest"]
     },
     {
         id: "haven",
@@ -55,7 +67,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(n.) A place of safety; a sanctuary.",
         exampleSentence: "The local school was a haven for those made homeless by the hurricane.",
         imageEmoji: "🛡️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["sanctuary", "refuge", "shelter"],
+        antonyms: ["danger", "threat", "peril"]
     },
     {
         id: "install",
@@ -63,7 +77,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) 1. To put in place or set up. 2. To place into office.",
         exampleSentence: "We want to install a large skylight over the kitchen sink.",
         imageEmoji: "🔧",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["set up", "establish", "put in"],
+        antonyms: ["remove", "uninstall", "dismantle"]
     },
     {
         id: "massive",
@@ -71,7 +87,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(adj.) Very large and solid; heavy.",
         exampleSentence: "A massive meteorite collided with the Mexican coast sixty-five million years ago, making a crater nearly two hundred miles across.",
         imageEmoji: "🏔️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["huge", "enormous", "gigantic"],
+        antonyms: ["tiny", "small", "minute"]
     },
     {
         id: "repel",
@@ -79,7 +97,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) 1. To drive away. 2. To throw off; to shed. 3. To disgust. repellent (n.) Something that repels. (adj.) 1. Able to repel. 2. Disgusting.",
         exampleSentence: "To repel mosquitoes, use this spray before going out in the woods.",
         imageEmoji: "🦟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["drive away", "repulse", "disgust"],
+        antonyms: ["attract", "draw", "charm"]
     },
     {
         id: "restore",
@@ -87,7 +107,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) 1. To give back. 2. To bring back to the original condition. restoration (n.) 1. The bringing back to the original condition. 2. The thing that is brought back to its original state.",
         exampleSentence: "The police restored the stolen goods to the rightful owners.",
         imageEmoji: "🔙",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["return", "reinstate", "renew"],
+        antonyms: ["damage", "destroy", "ruin"]
     },
     {
         id: "retaliate",
@@ -95,7 +117,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) To return an injury, usually in the same way. retaliation (n.) The act of retaliating.",
         exampleSentence: "When my friend hid my bat, I retaliated by hiding her softball mitt.",
         imageEmoji: "⚔️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["revenge", "avenge", "counterattack"],
+        antonyms: ["forgive", "pardon", "excuse"]
     },
     {
         id: "stench",
@@ -103,7 +127,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(n.) A bad smell.",
         exampleSentence: "The stench of rotting fish drove the investigators away from the dock.",
         imageEmoji: "🤢",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["stink", "odor", "reek"],
+        antonyms: ["fragrance", "perfume", "aroma"]
     },
     {
         id: "strew",
@@ -111,7 +137,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(v.) To scatter.",
         exampleSentence: "The wind strewed papers all over the yard.",
         imageEmoji: "🍃",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["scatter", "spread", "sprinkle"],
+        antonyms: ["gather", "collect", "pile"]
     },
     {
         id: "vicinity",
@@ -119,7 +147,9 @@ export const b6_l19_words: VocabularyWord[] = [
         definition: "(n.) The nearby or surrounding area.",
         exampleSentence: "Is there a library in the vicinity of your home?",
         imageEmoji: "📍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["neighborhood", "area", "proximity"],
+        antonyms: ["distance", "remoteness"]
     }
 ];
 

@@ -1,31 +1,33 @@
 import { Story, VocabularyWord } from "./types";
 
-const createWord = (id: string, word: string, definition: string, exampleSentence: string, imageEmoji: string): VocabularyWord => ({
+const createWord = (id: string, word: string, definition: string, exampleSentence: string, imageEmoji: string, synonyms?: string[], antonyms?: string[]): VocabularyWord => ({
     id,
     word,
     definition,
     category: "Grade 4",
     exampleSentence,
-    imageEmoji
+    imageEmoji,
+    synonyms,
+    antonyms
 });
 
 // Lesson 1 Words
 export const b4_l1_words: VocabularyWord[] = [
-    createWord("b4-l1-w1", "Benefit", "To help or be helpful to; to be useful to.", "That preschool program benefits young children.", "🎁"),
-    createWord("b4-l1-w2", "Complete", "Having no missing parts; whole. Finished.", "She bought a complete set of painting tools at a yard sale.", "✅"),
-    createWord("b4-l1-w3", "Develop", "To go through a process of growth.", "Running regularly develops strong leg muscles.", "📈"),
-    createWord("b4-l1-w4", "Dismay", "To cause feelings of fear, worry, or surprise.", "A large crack in the ceiling of our newly painted kitchen dismayed my parents.", "😨"),
-    createWord("b4-l1-w5", "Ease", "A state of being comfortable—without worry, pain, or trouble.", "My piano lessons allow me to play a concert with ease.", "😌"),
-    createWord("b4-l1-w6", "Hail", "Small lumps of frozen rain. To fall as frozen rain. To greet or welcome.", "The hail bouncing off the metal roof of the garage made a terrible noise.", "🌨️"),
-    createWord("b4-l1-w7", "Lack", "To be without. A shortage.", "He never sees the funny side of things, because he lacks a sense of humor.", "🕳️"),
-    createWord("b4-l1-w8", "Master", "Chief; main. Greatly skilled. To become skilled at.", "Rick is a master carpenter.", "🥋"),
-    createWord("b4-l1-w9", "Patriot", "One who loves, supports, and is loyal to his or her country.", "George Washington was a patriot who helped unite the United States.", "🇺🇸"),
-    createWord("b4-l1-w10", "Project", "A plan or idea for doing something. To stick out. To show on a screen.", "My science project is going to show what acid rain does to plants.", "📽️"),
-    createWord("b4-l1-w11", "Recommend", "To make a statement of praise. To give advice; to suggest.", "I loved The Secret Garden, and I highly recommend it.", "👍"),
-    createWord("b4-l1-w12", "Remark", "To say; to make a comment.", "My grandmother remarked on how well I looked.", "💬"),
-    createWord("b4-l1-w13", "Represent", "To stand for or in place of.", "Three dots represent the letter \"S\" in the Morse code.", "🏛️"),
-    createWord("b4-l1-w14", "Sufficient", "Enough to fill a need.", "Ten lessons on the oboe were sufficient to earn me a place in the school band.", "👌"),
-    createWord("b4-l1-w15", "Utter", "To make sounds with the voice; to speak.", "Please don't utter another word.", "🗣️"),
+    createWord("b4-l1-w1", "Benefit", "To help or be helpful to; to be useful to.", "That preschool program benefits young children.", "🎁", ["help", "assist", "aid"], ["harm", "hinder"]),
+    createWord("b4-l1-w2", "Complete", "Having no missing parts; whole. Finished.", "She bought a complete set of painting tools at a yard sale.", "✅", ["finish", "conclude"], ["start", "begin", "incomplete"]),
+    createWord("b4-l1-w3", "Develop", "To go through a process of growth.", "Running regularly develops strong leg muscles.", "📈", ["grow", "evolve", "expand"], ["decrease", "shrivel"]),
+    createWord("b4-l1-w4", "Dismay", "To cause feelings of fear, worry, or surprise.", "A large crack in the ceiling of our newly painted kitchen dismayed my parents.", "😨", ["alarm", "shock", "distress"], ["comfort", "reassure"]),
+    createWord("b4-l1-w5", "Ease", "A state of being comfortable—without worry, pain, or trouble.", "My piano lessons allow me to play a concert with ease.", "😌", ["comfort", "relief"], ["trouble", "pain", "difficulty"]),
+    createWord("b4-l1-w6", "Hail", "Small lumps of frozen rain. To fall as frozen rain. To greet or welcome.", "The hail bouncing off the metal roof of the garage made a terrible noise.", "🌨️", ["greet", "acclaim", "salute"], ["ignore", "shun"]),
+    createWord("b4-l1-w7", "Lack", "To be without. A shortage.", "He never sees the funny side of things, because he lacks a sense of humor.", "🕳️", ["shortage", "scarcity", "need"], ["abundance", "plenty"]),
+    createWord("b4-l1-w8", "Master", "Chief; main. Greatly skilled. To become skilled at.", "Rick is a master carpenter.", "🥋", ["expert", "chief", "conquer"], ["amateur", "novice", "learner"]),
+    createWord("b4-l1-w9", "Patriot", "One who loves, supports, and is loyal to his or her country.", "George Washington was a patriot who helped unite the United States.", "🇺🇸", ["loyalist", "nationalist"], ["traitor"]),
+    createWord("b4-l1-w10", "Project", "A plan or idea for doing something. To stick out. To show on a screen.", "My science project is going to show what acid rain does to plants.", "📽️", ["plan", "scheme", "protrude"], []),
+    createWord("b4-l1-w11", "Recommend", "To make a statement of praise. To give advice; to suggest.", "I loved The Secret Garden, and I highly recommend it.", "👍", ["suggest", "advise", "endorse"], ["oppose", "discourage"]),
+    createWord("b4-l1-w12", "Remark", "To say; to make a comment.", "My grandmother remarked on how well I looked.", "💬", ["comment", "observation", "statement"], ["silence"]),
+    createWord("b4-l1-w13", "Represent", "To stand for or in place of.", "Three dots represent the letter \"S\" in the Morse code.", "🏛️", ["symbolize", "stand for", "exemplify"], []),
+    createWord("b4-l1-w14", "Sufficient", "Enough to fill a need.", "Ten lessons on the oboe were sufficient to earn me a place in the school band.", "👌", ["enough", "adequate", "plenty"], ["insufficient", "lacking"]),
+    createWord("b4-l1-w15", "Utter", "To make sounds with the voice; to speak.", "Please don't utter another word.", "🗣️", ["speak", "say", "pronounce"], ["mute", "silence"]),
 ];
 
 // Story 1: Just the Right Word

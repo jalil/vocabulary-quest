@@ -65,6 +65,11 @@ export function Navbar() {
                         </div>
                     </div>
 
+                    {/* Search (Mobile) */}
+                    <Link href="/search" className="md:hidden p-2 rounded-lg hover:bg-slate-100">
+                        <span className="text-xl">🔍</span>
+                    </Link>
+
                     {/* Mobile Menu Toggle */}
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden p-2 rounded-lg hover:bg-slate-100">
                         <Menu className="w-6 h-6 text-slate-700" />

@@ -7,7 +7,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. Enough; sufficient.",
         exampleSentence: "One blanket will be adequate on such a warm night.",
         imageEmoji: "✅",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["sufficient", "enough", "satisfactory"],
+        antonyms: ["inadequate", "insufficient", "lacking"]
     },
     {
         id: "administer",
@@ -15,7 +17,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "v. 1. To manage or direct. 2. To give out as treatment or assistance.",
         exampleSentence: "The Red Cross administers the blood donor program.",
         imageEmoji: "🏥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["manage", "direct", "give"],
+        antonyms: []
     },
     {
         id: "agitate",
@@ -23,7 +27,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "v. 1. To disturb or upset. 2. To move with an irregular, fast, or violent action. 3. To stir up interest in and support for a cause.",
         exampleSentence: "Talk of sharks in the water agitated swimmers at the beach.",
         imageEmoji: "💢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["disturb", "upset", "stir up"],
+        antonyms: ["calm", "soothe", "quell"]
     },
     {
         id: "capitulate",
@@ -31,7 +37,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "v. To give in; to surrender.",
         exampleSentence: "The school board capitulated to the students' demands and changed the dress-code policy.",
         imageEmoji: "🏳️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["surrender", "yield", "give in"],
+        antonyms: ["resist", "hold out"]
     },
     {
         id: "citrus",
@@ -39,7 +47,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "n. 1. A fruit of the family that includes oranges, lemons, grapefruits, and limes. 2. A tree that produces these fruits. adj. Of or relating to these fruits or trees.",
         exampleSentence: "A citrus is an excellent source of vitamin C.",
         imageEmoji: "🍋",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: [],
+        antonyms: []
     },
     {
         id: "disrupt",
@@ -47,7 +57,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "v. 1. To break up the orderly course of. 2. To interrupt; to bring to a temporary halt.",
         exampleSentence: "Angry protesters disrupted the president's speech.",
         imageEmoji: "🛑",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["interrupt", "disturb", "break up"],
+        antonyms: ["organize", "arrange"]
     },
     {
         id: "hovel",
@@ -55,7 +67,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "n. An unpleasant, cramped, and dilapidated place to live.",
         exampleSentence: "In the eleventh century, the Saxons complained that they were forced to live in hovels, while their Norman conquerors had fine homes.",
         imageEmoji: "🏚️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["shack", "shed"],
+        antonyms: ["mansion", "palace"]
     },
     {
         id: "illiterate",
@@ -63,7 +77,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. Unable to read or write.",
         exampleSentence: "Volunteers are needed to help teach illiterate adults how to read.",
         imageEmoji: "📖",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["uneducated", "unread"],
+        antonyms: ["literate", "educated"]
     },
     {
         id: "indifferent",
@@ -71,7 +87,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. 1. Not concerned about; not caring. 2. Neither very good nor very bad; passable.",
         exampleSentence: "The authorities can no longer afford to be indifferent to the problem of nuclear-waste disposal.",
         imageEmoji: "😐",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unconcerned", "apathetic", "uncaring"],
+        antonyms: ["concerned", "caring", "interested"]
     },
     {
         id: "menial",
@@ -79,7 +97,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. Of or relating to low-level, humble work.",
         exampleSentence: "Oliver accepted menial work with low pay, because he was glad to have a job.",
         imageEmoji: "🧹",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["lowly", "humble", "unskilled"],
+        antonyms: ["skilled", "elevated", "noble"]
     },
     {
         id: "permanent",
@@ -87,7 +107,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. Lasting or expected to last for a long time.",
         exampleSentence: "A child's first permanent teeth appear at about the age of six.",
         imageEmoji: "🏛️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["lasting", "enduring", "eternal"],
+        antonyms: ["temporary", "fleeting", "transient"]
     },
     {
         id: "respite",
@@ -95,7 +117,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "n. A period of rest; a pause.",
         exampleSentence: "The rain brought a welcome respite from the tremendous heat.",
         imageEmoji: "⏸️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["break", "pause", "rest"],
+        antonyms: []
     },
     {
         id: "strenuous",
@@ -103,7 +127,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. 1. Needing much effort; using a lot of energy. 2. Very active; vigorous.",
         exampleSentence: "Chopping wood is strenuous work.",
         imageEmoji: "🏋️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["arduous", "difficult", "taxing"],
+        antonyms: ["easy", "effortless"]
     },
     {
         id: "toil",
@@ -111,7 +137,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "v. 1. To work long and hard. 2. To make one's way with difficulty. n. Hard and tiring labor.",
         exampleSentence: "Sugarcane cutters toil in the fields from dawn to dusk.",
         imageEmoji: "⚒️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["work", "labor", "drudgery"],
+        antonyms: ["rest", "leisure", "play"]
     },
     {
         id: "urgent",
@@ -119,7 +147,9 @@ export const b7_l5_words: VocabularyWord[] = [
         definition: "adj. Needing quick action or attention.",
         exampleSentence: "The county has an urgent need for a new hospital.",
         imageEmoji: "🚨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["pressing", "crucial", "critical"],
+        antonyms: ["unimportant", "trivial", "minor"]
     }
 ];
 

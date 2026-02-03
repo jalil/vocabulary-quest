@@ -9,7 +9,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "An opening or hole.",
         exampleSentence: "Tony could see an eye peering at him through a small aperture in the door.",
         imageEmoji: "🕳️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["opening", "gap"],
+        antonyms: ["closure", "blockage"]
     },
     {
         id: "cache",
@@ -18,7 +20,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "1. A hiding or storage place, especially for food or valuables. 2. Anything hidden or stored in such a place.",
         exampleSentence: "A hollowed-out book provided a cache for the family's jewels.",
         imageEmoji: "📦",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hoard", "stash"],
+        antonyms: []
     },
     {
         id: "combustible",
@@ -27,7 +31,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "Capable of catching fire or burning.",
         exampleSentence: "Don't store combustible rags near the furnace.",
         imageEmoji: "🔥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["flammable", "burnable"],
+        antonyms: ["noncombustible", "fireproof"]
     },
     {
         id: "delegate",
@@ -36,7 +42,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "1. A person appointed to act on behalf of others; a representative. 2. To assign or entrust to another.",
         exampleSentence: "Delegates from each section of the state attended the meeting.",
         imageEmoji: "👥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["representative", "assign"],
+        antonyms: []
     },
     {
         id: "inclement",
@@ -45,7 +53,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "1. Stormy. 2. Harsh; not merciful.",
         exampleSentence: "We had such inclement weather on the scheduled day of our field trip to the zoo that we postponed it.",
         imageEmoji: "⛈️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["stormy", "harsh"],
+        antonyms: ["mild", "pleasant"]
     },
     {
         id: "indelible",
@@ -54,7 +64,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "Not able to be erased; permanent.",
         exampleSentence: "The beauty of Venice made an indelible impression on the visitors.",
         imageEmoji: "🖊️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["permanent", "lasting"],
+        antonyms: ["erasable", "temporary"]
     },
     {
         id: "malady",
@@ -63,7 +75,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "A sickness or unhealthy condition.",
         exampleSentence: "Malaria is a malady prevalent in tropical areas.",
         imageEmoji: "🤒",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["illness", "disease"],
+        antonyms: ["health", "wellness"]
     },
     {
         id: "memoir",
@@ -72,7 +86,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "An account based on the author's personal experiences.",
         exampleSentence: "The Civil War anthology contains a moving memoir by a young Union officer.",
         imageEmoji: "📖",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["autobiography", "account"],
+        antonyms: []
     },
     {
         id: "paramount",
@@ -81,7 +97,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "Most important; chief.",
         exampleSentence: "It is paramount that my mother receive this message immediately.",
         imageEmoji: "🔝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["supreme", "chief"],
+        antonyms: ["minor", "unimportant"]
     },
     {
         id: "rectify",
@@ -90,7 +108,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "To correct or adjust.",
         exampleSentence: "The teacher rectified his grading error on my narrative essay.",
         imageEmoji: "🔧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["correct", "fix"],
+        antonyms: ["damage", "ruin"]
     },
     {
         id: "requisite",
@@ -99,7 +119,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "Required; necessary.",
         exampleSentence: "When Aunt Mercedes completed the requisite two-year course, she received her nursing degree.",
         imageEmoji: "✅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["required", "necessary"],
+        antonyms: ["optional", "unnecessary"]
     },
     {
         id: "squeamish",
@@ -108,7 +130,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "1. Easily made to feel upset or sick to the stomach. 2. Easily disgusted.",
         exampleSentence: "There is no reason to feel squeamish about giving blood.",
         imageEmoji: "🤢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["queasy", "sensitive"],
+        antonyms: ["tough", "resilient"]
     },
     {
         id: "tract",
@@ -117,7 +141,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "1. An area of land or water. 2. A system of organs in the body that performs some function together. 3. A pamphlet.",
         exampleSentence: "The students developed a tract of land in the center of the city for a vegetable garden.",
         imageEmoji: "🗺️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["area", "region"],
+        antonyms: []
     },
     {
         id: "tribulation",
@@ -126,7 +152,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "Great trouble or suffering.",
         exampleSentence: "The potato famine of 1845 caused great tribulation in Ireland.",
         imageEmoji: "😩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hardship", "suffering"],
+        antonyms: ["joy", "happiness"]
     },
     {
         id: "vignette",
@@ -135,7 +163,9 @@ export const b8_l18_words: VocabularyWord[] = [
         definition: "A short sketch that provides a clear picture.",
         exampleSentence: "The movie begins with a series of vignettes about life in Los Angeles.",
         imageEmoji: "🖼️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["sketch", "scene"],
+        antonyms: []
     }
 ];
 

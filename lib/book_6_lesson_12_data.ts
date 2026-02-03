@@ -7,7 +7,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) 1. To give up by leaving in a time of danger. 2. To lose or give up completely. 3. To withdraw help or support from one in need.",
         exampleSentence: "The captain gave the order to abandon the ship when it began to sink.",
         imageEmoji: "🏃",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["leave", "desert", "forsake"],
+        antonyms: ["keep", "retain", "stay"]
     },
     {
         id: "adversary",
@@ -15,7 +17,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) An enemy or opponent.",
         exampleSentence: "France and Germany were adversaries in two world wars but now enjoy friendly relations.",
         imageEmoji: "🤺",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["enemy", "opponent", "foe"],
+        antonyms: ["ally", "friend", "supporter"]
     },
     {
         id: "baffle",
@@ -23,7 +27,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To confuse; to prevent from understanding.",
         exampleSentence: "Alice was baffled by their inappropriate behavior and didn't know how to respond.",
         imageEmoji: "😕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["confuse", "puzzle", "bewilder"],
+        antonyms: ["clarify", "explain", "enlighten"]
     },
     {
         id: "blunder",
@@ -31,7 +37,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) A stupid or careless mistake. (v.) 1. To make such a mistake. 2. To move in a clumsy or careless way.",
         exampleSentence: "The mayor's rude comment was a major blunder that cost him the election.",
         imageEmoji: "🤦",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mistake", "error", "slip"],
+        antonyms: ["success", "accuracy"]
     },
     {
         id: "colossal",
@@ -39,7 +47,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(adj.) Very big; enormous.",
         exampleSentence: "The colossal size of the Great Wall is what impressed the tourists most.",
         imageEmoji: "🐘",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["huge", "enormous", "gigantic"],
+        antonyms: ["tiny", "small", "miniature"]
     },
     {
         id: "detect",
@@ -47,7 +57,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To discover something not easily noticed.",
         exampleSentence: "The witness did not detect anything unusual that day.",
         imageEmoji: "🕵️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["discover", "find", "notice"],
+        antonyms: ["miss", "overlook", "ignore"]
     },
     {
         id: "haul",
@@ -55,7 +67,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To pull or carry with effort. (n.) 1. The amount caught or taken at one time. 2. The distance traveled or to be traveled.",
         exampleSentence: "We haul the boat out of the water every winter.",
         imageEmoji: "🚛",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["pull", "drag", "carry"],
+        antonyms: ["push", "shove"]
     },
     {
         id: "overpower",
@@ -63,7 +77,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To get the better of; to defeat.",
         exampleSentence: "The spider overpowered the insect caught in its web.",
         imageEmoji: "💪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["defeat", "conquer", "overwhelm"],
+        antonyms: ["surrender", "yield"]
     },
     {
         id: "rejoice",
@@ -71,7 +87,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To be very happy.",
         exampleSentence: "Family members rejoiced when they heard that members of the Mount Everest expedition had returned safely.",
         imageEmoji: "🎉",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["celebrate", "exult", "cheer"],
+        antonyms: ["mourn", "grieve", "lament"]
     },
     {
         id: "scoff",
@@ -79,7 +97,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(v.) To mock; to ridicule.",
         exampleSentence: "People once scoffed at the idea of space travel.",
         imageEmoji: "😒",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mock", "ridicule", "jeer"],
+        antonyms: ["praise", "admire", "respect"]
     },
     {
         id: "sentinel",
@@ -87,7 +107,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) One who keeps watch or guards a point of entry.",
         exampleSentence: "Sentinels were posted to warn of the enemy's approach.",
         imageEmoji: "💂",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["guard", "sentry", "watchman"],
+        antonyms: []
     },
     {
         id: "siege",
@@ -95,7 +117,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) The surrounding of a place in order to force it to surrender.",
         exampleSentence: "The siege of Leningrad by the German army lasted from 1941 to 1944.",
         imageEmoji: "🏰",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["blockade", "encirclement"],
+        antonyms: []
     },
     {
         id: "sinister",
@@ -103,7 +127,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(adj.) Suggesting or leading to evil or harm.",
         exampleSentence: "The villain's sinister words, \"I'll be back!\" sent shivers down our spines.",
         imageEmoji: "😈",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["evil", "wicked", "threatening"],
+        antonyms: ["good", "benevolent", "auspicious"]
     },
     {
         id: "victor",
@@ -111,7 +137,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) The winner in a contest or struggle. victorious (adj.) Successful in a contest or battle.",
         exampleSentence: "The victors of the semifinal competition will meet in the finals tomorrow.",
         imageEmoji: "🥇",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["winner", "champion", "conqueror"],
+        antonyms: ["loser", "vanquished"]
     },
     {
         id: "woe",
@@ -119,7 +147,9 @@ export const b6_l12_words: VocabularyWord[] = [
         definition: "(n.) 1. Deep distress or misery. 2. Trouble; misfortune. woeful (adj.) 1. Full of woe; unhappy. 2. Very bad; wretched.",
         exampleSentence: "The students' woe was evident as they were led off to the principal's office.",
         imageEmoji: "😩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["misery", "sorrow", "distress"],
+        antonyms: ["joy", "happiness", "bliss"]
     }
 ];
 

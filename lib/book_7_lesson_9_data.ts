@@ -7,7 +7,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. To make speechless with amazement.",
         exampleSentence: "The announcement that my cat Patch had won \"best in show\" dumbfounded me.",
         imageEmoji: "😲",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["amaze", "astonish", "stun"],
+        antonyms: []
     },
     {
         id: "ensue",
@@ -15,7 +17,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. To follow; to come as a result of or at a later time.",
         exampleSentence: "When the principal declared the next day a holiday, shouting and clapping ensued.",
         imageEmoji: "➡️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["follow", "result", "succeed"],
+        antonyms: ["precede", "lead"]
     },
     {
         id: "era",
@@ -23,7 +27,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "n. A particular period in history.",
         exampleSentence: "The era of space exploration began in the 1950s.",
         imageEmoji: "🕰️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["period", "age", "epoch"],
+        antonyms: []
     },
     {
         id: "flourish",
@@ -31,7 +37,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. 1. To thrive or prosper. 2. To wave in the air. n. 1. A sweeping motion. 2. A showy burst of music. 3. A fancy line or curve added to something written.",
         exampleSentence: "Plants flourish in a greenhouse.",
         imageEmoji: "🌱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["thrive", "prosper", "bloom"],
+        antonyms: ["wither", "fail", "decline"]
     },
     {
         id: "garrison",
@@ -39,7 +47,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "n. 1. Soldiers stationed in a place to protect it. 2. A military place of protection, together with its soldiers and weapons. v. To provide soldiers with a place to live.",
         exampleSentence: "The garrison held off the enemy for four days before capitulating.",
         imageEmoji: "🏰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fort", "post", "base"],
+        antonyms: []
     },
     {
         id: "grievous",
@@ -47,7 +57,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "adj. Causing grief or pain; hard to bear.",
         exampleSentence: "It was a grievous loss to the entire family when our dog died.",
         imageEmoji: "😢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["severe", "serious", "painful"],
+        antonyms: ["minor", "trivial", "slight"]
     },
     {
         id: "hoard",
@@ -55,7 +67,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. To save and put away, especially secretly. n. Anything put away in such a manner.",
         exampleSentence: "Squirrels hoard acorns for the winter.",
         imageEmoji: "🥜",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["store", "stockpile", "save"],
+        antonyms: ["spend", "waste", "squander"]
     },
     {
         id: "inundate",
@@ -63,7 +77,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. 1. To cover, as with water from a flood. 2. To load with an excessive amount or number of something.",
         exampleSentence: "The valley was inundated when the dam burst.",
         imageEmoji: "🌊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["flood", "overwhelm", "swamp"],
+        antonyms: ["drain", "dry"]
     },
     {
         id: "invincible",
@@ -71,7 +87,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "adj. Impossible to defeat.",
         exampleSentence: "When the Yankees had a fifteen-game winning streak, we began to think they were invincible.",
         imageEmoji: "🛡️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unconquerable", "unbeatable", "indomitable"],
+        antonyms: ["vulnerable", "weak", "defenseless"]
     },
     {
         id: "nomad",
@@ -79,7 +97,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "n. A member of a group that settles briefly in one place and then moves on to another.",
         exampleSentence: "The Bedouins of the Sahara Desert are nomads.",
         imageEmoji: "⛺",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["wanderer", "drifter", "rover"],
+        antonyms: ["settler", "resident"]
     },
     {
         id: "placate",
@@ -87,7 +107,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. To stop from being angry; to calm.",
         exampleSentence: "I tried to placate the sad little boy by giving him a cookie.",
         imageEmoji: "🍪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["calm", "soothe", "appease"],
+        antonyms: ["anger", "provoke", "agitate"]
     },
     {
         id: "principal",
@@ -95,7 +117,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "adj. Most important. n. 1. A person or thing that is of the greatest importance. 2. The head of a school. 3. The sum of money owed, not including the interest.",
         exampleSentence: "The members of the choir voted on who would be the principal soloist.",
         imageEmoji: "🥇",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["main", "chief", "primary"],
+        antonyms: ["minor", "secondary", "subordinate"]
     },
     {
         id: "recede",
@@ -103,7 +127,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "v. 1. To move back or to drop to a lower level. 2. To become fainter.",
         exampleSentence: "The tide receded and exposed the rocks near the shore.",
         imageEmoji: "🔙",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["retreat", "withdraw", "ebb"],
+        antonyms: ["advance", "approach", "rise"]
     },
     {
         id: "ruthless",
@@ -111,7 +137,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "adj. Showing no mercy; pitiless.",
         exampleSentence: "Disease and inadequate supplies finally terminated the ruthless invader Attila the Hun in fifth-century Europe.",
         imageEmoji: "😈",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["merciless", "cruel", "pitiless"],
+        antonyms: ["merciful", "compassionate", "kind"]
     },
     {
         id: "sacrifice",
@@ -119,7 +147,9 @@ export const b7_l9_words: VocabularyWord[] = [
         definition: "n. 1. Something given up for the sake of another. 2. An offering to a god. v. 1. To give up something for another. 2. To offer something of value to a god.",
         exampleSentence: "The parents made many sacrifices so that their children could go to college.",
         imageEmoji: "🕯️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["offering", "surrender", "loss"],
+        antonyms: ["gain", "profit", "benefit"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. 1. To warn. 2. To criticize gently.",
         exampleSentence: "Rescue workers admonished us to stay away from the flooding river.",
         imageEmoji: "⚠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["warn", "scold", "reprimand"],
+        antonyms: ["praise", "commend"]
     },
     {
         id: "aghast",
@@ -15,7 +17,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "adj. Struck with horror; shocked.",
         exampleSentence: "We were aghast at what the storm had done to the neighborhood.",
         imageEmoji: "😱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["shocked", "horrified", "appalled"],
+        antonyms: ["bold", "unabashed"]
     },
     {
         id: "annihilate",
@@ -23,7 +27,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. To destroy completely; to reduce to utter ruin.",
         exampleSentence: "General Custer's army of over two hundred men was annihilated at the battle of the Little Bighorn in 1876.",
         imageEmoji: "💥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["destroy", "obliterate", "exterminate"],
+        antonyms: ["create", "build", "preserve"]
     },
     {
         id: "benefactor",
@@ -31,7 +37,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "n. A person who provides help, especially by giving money.",
         exampleSentence: "People who donated more than $100 were listed as benefactors of the library.",
         imageEmoji: "🎁",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["patron", "supporter", "backer"],
+        antonyms: ["malefactor", "opponent"]
     },
     {
         id: "bestow",
@@ -39,7 +47,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. To give as an honor; to present as a gift.",
         exampleSentence: "An Academy Award is the highest honor Hollywood can bestow on a film.",
         imageEmoji: "🏆",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["give", "grant", "present"],
+        antonyms: ["take", "withhold"]
     },
     {
         id: "devious",
@@ -47,7 +57,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "adj. 1. Having many twists and turns; winding. 2. Sneaky; not frank or honest.",
         exampleSentence: "The climbers followed a devious route up the mountain.",
         imageEmoji: "🐍",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["dishonest", "deceitful", "sly"],
+        antonyms: ["direct", "honest", "straightforward"]
     },
     {
         id: "devoid",
@@ -55,7 +67,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "adj. Lacking; empty; entirely without.",
         exampleSentence: "Although he had experienced great misfortune, he was devoid of bitterness.",
         imageEmoji: "🈳",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["empty", "lacking", "wanting"],
+        antonyms: ["full", "replete", "teeming"]
     },
     {
         id: "heed",
@@ -63,7 +77,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. To pay attention to. n. Attention; notice.",
         exampleSentence: "I hope you will heed my advice.",
         imageEmoji: "👂",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["listen to", "mind", "note"],
+        antonyms: ["ignore", "disregard"]
     },
     {
         id: "mortal",
@@ -71,7 +87,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "n. A human being, especially as contrasted with a god. adj. 1. Of or relating to human beings. 2. Causing death; fatal. 3. Very severe.",
         exampleSentence: "Achilles, a hero in Greek mythology, had a goddess for a mother and a mortal for a father.",
         imageEmoji: "💀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["human", "earthly"],
+        antonyms: ["immortal", "divine", "eternal"]
     },
     {
         id: "muse",
@@ -79,7 +97,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. To think about in a quiet, careful way.",
         exampleSentence: "Mother mused over whether to sell the house.",
         imageEmoji: "🤔",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["ponder", "contemplate", "reflect"],
+        antonyms: []
     },
     {
         id: "pioneer",
@@ -87,7 +107,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "n. A person who goes before others and opens the way for them to follow. v. To open the way for others.",
         exampleSentence: "Lucretia Mott and Elizabeth Cady Stanton, two nineteenth-century women, were pioneers in the women's rights movement.",
         imageEmoji: "🚀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["trailblazer", "innovator", "groundbreaker"],
+        antonyms: ["follower"]
     },
     {
         id: "plague",
@@ -95,7 +117,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "n. 1. A deadly disease that spreads rapidly from person to person. 2. Anything that causes destruction or suffering. v. To cause suffering or distress.",
         exampleSentence: "Those Londoners who could afford it fled to the country to escape the great plague of 1665.",
         imageEmoji: "🦠",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["epidemic", "disease", "affliction"],
+        antonyms: ["cure", "blessing"]
     },
     {
         id: "subside",
@@ -103,7 +127,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "v. 1. To sink to a lower level. 2. To become quieter or less active.",
         exampleSentence: "After the rain stopped, the floodwaters gradually subsided.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["decrease", "abate", "diminish"],
+        antonyms: ["increase", "rise", "intensify"]
     },
     {
         id: "unwitting",
@@ -111,7 +137,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "adj. Not done on purpose; unintended.",
         exampleSentence: "I tried to ignore the unwitting insult, but his comment hurt me just the same.",
         imageEmoji: "🤷",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unconscious", "unintentional", "unaware"],
+        antonyms: ["intentional", "conscious", "deliberate"]
     },
     {
         id: "wrath",
@@ -119,7 +147,9 @@ export const b7_l3_words: VocabularyWord[] = [
         definition: "n. Forceful anger; fury.",
         exampleSentence: "When I saw the girl being bullied, I was filled with wrath.",
         imageEmoji: "😡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["anger", "rage", "fury"],
+        antonyms: ["love", "peace", "calm"]
     }
 ];
 

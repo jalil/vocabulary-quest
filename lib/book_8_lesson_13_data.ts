@@ -9,7 +9,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "Intensely eager; passionate.",
         exampleSentence: "In spite of Miriam's ardent praise of Dontrell, I was not convinced of his ability.",
         imageEmoji: "🔥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["passionate", "eager"],
+        antonyms: ["indifferent", "apathetic"]
     },
     {
         id: "assail",
@@ -18,7 +20,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "1. To attack violently or verbally. 2. To trouble in the mind.",
         exampleSentence: "Critics assailed the book when it first appeared, but the reading public loved it.",
         imageEmoji: "⚔️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["attack", "assault"],
+        antonyms: ["defend", "protect"]
     },
     {
         id: "asset",
@@ -27,7 +31,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "1. Anything owned that is of value and can be sold or otherwise disposed of. 2. A quality that can be used to advantage.",
         exampleSentence: "The late Mr. Kim's assets include a valuable coin collection.",
         imageEmoji: "💎",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["possession", "advantage"],
+        antonyms: ["liability", "disadvantage"]
     },
     {
         id: "barter",
@@ -36,7 +42,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "To exchange goods or services without the use of money.",
         exampleSentence: "Instead of taking cash for fixing the Walkers' garage window, DeRay bartered for a batch of their famous gumbo.",
         imageEmoji: "🔄",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["trade", "swap"],
+        antonyms: []
     },
     {
         id: "bonanza",
@@ -45,7 +53,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "A source of great wealth; something that brings great riches.",
         exampleSentence: "The discovery of gold in 1848 was a bonanza for the newly acquired territory that would become the state of California.",
         imageEmoji: "💰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["windfall", "gold mine"],
+        antonyms: []
     },
     {
         id: "contagious",
@@ -54,7 +64,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "Able to be passed easily from one person to another.",
         exampleSentence: "They say that laughter is contagious.",
         imageEmoji: "😷",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["infectious", "spreading"],
+        antonyms: []
     },
     {
         id: "contemplate",
@@ -63,7 +75,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "1. To give careful thought to; to ponder. 2. To have a possible plan to; to intend.",
         exampleSentence: "Einstein contemplated the relationship between matter and energy.",
         imageEmoji: "🤔",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["ponder", "consider"],
+        antonyms: ["ignore", "disregard"]
     },
     {
         id: "deter",
@@ -72,7 +86,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "To discourage or prevent from taking action.",
         exampleSentence: "Yesterday's rough seas deterred the divers from exploring the sunken ship.",
         imageEmoji: "✋",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["discourage", "dissuade"],
+        antonyms: ["encourage", "persuade"]
     },
     {
         id: "flair",
@@ -81,7 +97,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "A natural gift or ability; a talent.",
         exampleSentence: "The comedian's flair for bantering with audience members has made him a popular entertainer.",
         imageEmoji: "✨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["talent", "gift"],
+        antonyms: ["inability"]
     },
     {
         id: "forfeit",
@@ -90,7 +108,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "To be forced to give up or lose.",
         exampleSentence: "If you leave the stadium before the end of the concert, you forfeit the right to return.",
         imageEmoji: "🏳️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["give up", "lose"],
+        antonyms: ["keep", "retain"]
     },
     {
         id: "innovation",
@@ -99,7 +119,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "Something new; a new way of doing something.",
         exampleSentence: "Adding apps to cell phones was an innovation that transformed cell-phone technology.",
         imageEmoji: "💡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["novelty", "invention"],
+        antonyms: []
     },
     {
         id: "mania",
@@ -108,7 +130,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "An intense or extreme enthusiasm or excitement.",
         exampleSentence: "The trendy new video-game system caused a mania in toy stores.",
         imageEmoji: "🤪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["craze", "obsession"],
+        antonyms: ["indifference"]
     },
     {
         id: "stymie",
@@ -117,7 +141,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "To thwart; to make difficulties for or find problems with.",
         exampleSentence: "Rosa's efforts to start her own lawn-mowing business were stymied when the mower kept breaking down.",
         imageEmoji: "🚧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["thwart", "block"],
+        antonyms: ["help", "assist"]
     },
     {
         id: "synonymous",
@@ -126,7 +152,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "Alike or close in meaning; closely related.",
         exampleSentence: "The company boasts that its name is synonymous with quality.",
         imageEmoji: "🔗",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["equivalent", "identical"],
+        antonyms: ["opposite", "antonymous"]
     },
     {
         id: "wrangle",
@@ -135,7 +163,9 @@ export const b8_l13_words: VocabularyWord[] = [
         definition: "To quarrel in a noisy or angry way.",
         exampleSentence: "Sue and Mario wrangled over whose turn it was to cut the grass.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["quarrel", "argue"],
+        antonyms: ["agree", "reconcile"]
     }
 ];
 

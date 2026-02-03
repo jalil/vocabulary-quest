@@ -7,7 +7,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(v.) 1. To go along with; to be together. 2. To play a musical instrument for or with.",
         exampleSentence: "Thunder often accompanies lightning.",
         imageEmoji: "👯",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["go with", "escort", "join"],
+        antonyms: ["leave", "abandon"]
     },
     {
         id: "beneficial",
@@ -15,7 +17,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(adj.) Being of use; helpful; favorable.",
         exampleSentence: "A balanced diet is beneficial to one's health.",
         imageEmoji: "🍎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["helpful", "useful", "advantageous"],
+        antonyms: ["harmful", "detrimental", "useless"]
     },
     {
         id: "captive",
@@ -23,7 +27,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) One that is held prisoner. (adj.) Unable to escape or get away. captivity (n.) The state of being held against one's will; loss of freedom.",
         exampleSentence: "The captives were closely guarded.",
         imageEmoji: "🔗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["prisoner", "hostage", "confined"],
+        antonyms: ["free", "liberated"]
     },
     {
         id: "convenient",
@@ -31,7 +37,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(adj.) Suitable for one's needs; making life easier or more comfortable. convenience (n.) Anything that makes life easier or more comfortable.",
         exampleSentence: "The bus stop is convenient because it's close to my house.",
         imageEmoji: "🏪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["handy", "suitable", "useful"],
+        antonyms: ["inconvenient", "unsuitable", "troublesome"]
     },
     {
         id: "ecstasy",
@@ -39,7 +47,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) A strong feeling of emotion, especially joy. ecstatic (adj.) Full of or causing ecstasy.",
         exampleSentence: "Fans screamed in ecstasy when their idol appeared on stage.",
         imageEmoji: "😍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["joy", "bliss", "rapture"],
+        antonyms: ["misery", "sorrow", "despair"]
     },
     {
         id: "expanse",
@@ -47,7 +57,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) A wide, open area or surface; a stretch.",
         exampleSentence: "Wheat grows on the broad expanse of the Kansas prairie.",
         imageEmoji: "🌾",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["area", "stretch", "vastness"],
+        antonyms: ["enclosure", "confinement"]
     },
     {
         id: "expedition",
@@ -55,7 +67,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) 1. A long journey by a group to explore or do battle. 2. A group that makes such a journey.",
         exampleSentence: "The expedition into the Brazilian rain forest lasted nearly a year.",
         imageEmoji: "🗺️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["journey", "voyage", "trek"],
+        antonyms: []
     },
     {
         id: "inept",
@@ -63,7 +77,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(adj.) 1. Clumsily or awkwardly expressed; not suitable for the occasion. 2. Lacking in skill or ability.",
         exampleSentence: "That inept remark you made upset those who overheard it.",
         imageEmoji: "🤡",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["clumsy", "unskilled", "incompetent"],
+        antonyms: ["skillful", "adroit", "competent"]
     },
     {
         id: "interpret",
@@ -71,7 +87,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(v.) 1. To translate into another language. 2. To explain the meaning of. 3. To understand in one's own way.",
         exampleSentence: "A native Parisian was hired to interpret the French minister's remarks for the audience.",
         imageEmoji: "🗣️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["explain", "translate", "clarify"],
+        antonyms: ["confuse", "obscure"]
     },
     {
         id: "invaluable",
@@ -79,7 +97,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(adj.) Too valuable to measure; priceless.",
         exampleSentence: "The students' help in organizing the boycott was invaluable.",
         imageEmoji: "💎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["priceless", "precious", "essential"],
+        antonyms: ["worthless", "cheap"]
     },
     {
         id: "linger",
@@ -87,7 +107,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(v.) To be slow in leaving or going away.",
         exampleSentence: "The students lingered in the hall, reluctant to go out into the cold.",
         imageEmoji: "⏳",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["stay", "remain", "loiter"],
+        antonyms: ["leave", "hurry", "rush"]
     },
     {
         id: "retrieve",
@@ -95,7 +117,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(v.) 1. To get back; to recover. 2. To find and bring back.",
         exampleSentence: "Campers can retrieve their lost items from the lost and found.",
         imageEmoji: "🐕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["recover", "regain", "fetch"],
+        antonyms: ["lose", "misplace"]
     },
     {
         id: "skirmish",
@@ -103,7 +127,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) A minor fight or battle. (v.) To take part in such a fight.",
         exampleSentence: "Apart from a few skirmishes, both sides kept the cease-fire that had been agreed to.",
         imageEmoji: "⚔️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["fight", "battle", "clash"],
+        antonyms: []
     },
     {
         id: "supplement",
@@ -111,7 +137,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) Something added to make up for something missing. (v.) To add to.",
         exampleSentence: "Those who eat a well-balanced diet probably do not need vitamin supplements.",
         imageEmoji: "💊",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["add to", "enhance", "complement"],
+        antonyms: ["subtract", "diminish"]
     },
     {
         id: "territory",
@@ -119,7 +147,9 @@ export const b6_l8_words: VocabularyWord[] = [
         definition: "(n.) 1. A particular area of land. 2. A land area under control of a particular group or government.",
         exampleSentence: "A dog will defend its territory.",
         imageEmoji: "🚩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["land", "region", "area"],
+        antonyms: []
     }
 ];
 

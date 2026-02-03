@@ -9,7 +9,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. Having a strong desire for, to the point of greed. 2. Eager; enthusiastic.",
         exampleSentence: "Kiara is an avid skateboarder who spends each weekend at the park.",
         imageEmoji: "🛹",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["eager", "enthusiastic", "keen"],
+        antonyms: ["indifferent", "apathetic", "uninterested"]
     },
     {
         id: "brusque",
@@ -18,7 +20,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "Abrupt in manner or speech; gruff.",
         exampleSentence: "The coach's brusque speech at halftime showed how unhappy he was with the players.",
         imageEmoji: "😤",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["abrupt", "gruff", "curt"],
+        antonyms: ["polite", "courteous", "friendly"]
     },
     {
         id: "concise",
@@ -27,7 +31,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "Short and to the point.",
         exampleSentence: "\"No Shoes, No Shirt, No Service\" is a concise way of explaining a dress code.",
         imageEmoji: "📝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["brief", "succinct", "terse"],
+        antonyms: ["wordy", "lengthy", "verbose"]
     },
     {
         id: "demean",
@@ -36,7 +42,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "To cause a lowering of self-esteem; to lower in reputation or character.",
         exampleSentence: "Don't demean yourself by trying to act like those bullies.",
         imageEmoji: "👎",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["degrade", "humiliate", "lower"],
+        antonyms: ["honor", "dignify", "praise"]
     },
     {
         id: "despicable",
@@ -45,7 +53,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "Deserving contempt or scorn.",
         exampleSentence: "Stealing from the class treasury was a despicable thing to do.",
         imageEmoji: "😠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["vile", "contemptible", "hateful"],
+        antonyms: ["admirable", "noble", "praiseworthy"]
     },
     {
         id: "emulate",
@@ -54,7 +64,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "To try to equal; to imitate.",
         exampleSentence: "Musicians around the world have tried to emulate Louis Armstrong's soulful trumpet playing.",
         imageEmoji: "🎺",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["imitate", "copy", "mimic"],
+        antonyms: []
     },
     {
         id: "evoke",
@@ -63,7 +75,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. To call forth; to produce. 2. To bring to mind, often by suggestion.",
         exampleSentence: "The mayor's appeal for volunteers to clean up the park evoked a huge response from people in my neighborhood.",
         imageEmoji: "📢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["call forth", "elicit", "inspire"],
+        antonyms: ["suppress", "stifle"]
     },
     {
         id: "excruciating",
@@ -72,7 +86,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "Very painful.",
         exampleSentence: "The ointment soothed the excruciating burn on Dalip's arm.",
         imageEmoji: "😫",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["agonizing", "unbearable", "intense"],
+        antonyms: ["pain-free", "soothing", "mild"]
     },
     {
         id: "inaugurate",
@@ -81,7 +97,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. To install in office with a formal ceremony. 2. To begin officially or mark the opening of.",
         exampleSentence: "Presidents of the United States are inaugurated in January following the November election.",
         imageEmoji: "🏛️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["install", "initiate", "commence"],
+        antonyms: ["close", "terminate", "end"]
     },
     {
         id: "pervade",
@@ -90,7 +108,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "To spread throughout.",
         exampleSentence: "Laughter pervades the house whenever Aunt Sara visits us.",
         imageEmoji: "🌫️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["spread", "permeate", "fill"],
+        antonyms: []
     },
     {
         id: "proprietor",
@@ -99,7 +119,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "An owner of a store or other business.",
         exampleSentence: "The proprietors of the downtown shops planned a sidewalk sale for the first weekend in June.",
         imageEmoji: "🏪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["owner", "businessperson", "keeper"],
+        antonyms: ["customer", "employee"]
     },
     {
         id: "pseudonym",
@@ -108,7 +130,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "A fictitious name used by an author; a pen name.",
         exampleSentence: "Female British authors of the nineteenth century often had to use a male pseudonym in order to get their books published.",
         imageEmoji: "🥸",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["pen name", "alias", "false name"],
+        antonyms: ["real name"]
     },
     {
         id: "rebuff",
@@ -117,7 +141,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. To reject bluntly. 2. To drive back.",
         exampleSentence: "Our teacher rebuffed all our requests to change the deadline for the project.",
         imageEmoji: "✋",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["reject", "refuse", "snub"],
+        antonyms: ["accept", "welcome", "embrace"]
     },
     {
         id: "resilient",
@@ -126,7 +152,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. Capable of recovering quickly from misfortune. 2. Returning quickly to an original shape or condition.",
         exampleSentence: "After she lost her job, my mom was so resilient, she went out and found another one.",
         imageEmoji: "💪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["strong", "flexible", "tough"],
+        antonyms: ["weak", "fragile", "delicate"]
     },
     {
         id: "turbulent",
@@ -135,7 +163,9 @@ export const b8_l1_words: VocabularyWord[] = [
         definition: "1. Chaotic; unruly. 2. Stormy; tempestuous.",
         exampleSentence: "My brother and I tried our best to stay calm during the turbulent period of our parents' divorce.",
         imageEmoji: "🌪️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["chaotic", "stormy", "unruly"],
+        antonyms: ["calm", "peaceful", "placid"]
     }
 ];
 

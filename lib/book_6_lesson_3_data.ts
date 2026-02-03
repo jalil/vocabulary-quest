@@ -7,7 +7,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) More than enough; plentiful. abundance (n.) A great amount.",
         exampleSentence: "If good weather continues, farmers can expect an abundant harvest.",
         imageEmoji: "🌊",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["plentiful", "ample"],
+        antonyms: ["scarce", "insufficient"]
     },
     {
         id: "arid",
@@ -15,7 +17,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) Having little or no rainfall; very dry.",
         exampleSentence: "Much of North Africa is arid land.",
         imageEmoji: "🌵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["dry", "parched"],
+        antonyms: ["wet", "humid"]
     },
     {
         id: "distinct",
@@ -23,7 +27,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not the same; different or separate. 2. Unmistakable; definite.",
         exampleSentence: "Apples come in over two thousand distinct varieties.",
         imageEmoji: "🍎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["different", "separate", "clear"],
+        antonyms: ["same", "indistinct", "vague"]
     },
     {
         id: "graze",
@@ -31,7 +37,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(v.) 1. To feed on growing grass. 2. To touch lightly in passing.",
         exampleSentence: "A small herd of cows grazed in the meadow.",
         imageEmoji: "🐄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["feed", "browse", "touch"],
+        antonyms: []
     },
     {
         id: "hectic",
@@ -39,7 +47,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) Full of feverish activity, haste, or confusion.",
         exampleSentence: "After a hectic week of sightseeing, the tourists were glad to go home and relax.",
         imageEmoji: "🤯",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["feverish", "hurried", "chaotic"],
+        antonyms: ["calm", "peaceful", "leisurely"]
     },
     {
         id: "horde",
@@ -47,7 +57,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) A large group or crowd, especially one on the move.",
         exampleSentence: "Hordes of swimmers head for the pool in summer.",
         imageEmoji: "👥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["crowd", "swarm", "mob"],
+        antonyms: ["few", "individual"]
     },
     {
         id: "humid",
@@ -55,7 +67,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) Having a large amount of water or moisture in the air. humidity (n.) The amount of moisture in the air.",
         exampleSentence: "Residents of Hong Kong escape the hot, humid weather by going inside where it is cool and dry.",
         imageEmoji: "😓",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["damp", "muggy", "moist"],
+        antonyms: ["dry", "arid"]
     },
     {
         id: "incredible",
@@ -63,7 +77,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) Hard or impossible to believe.",
         exampleSentence: "It seems incredible that humans and stars are made of the same stuff.",
         imageEmoji: "😲",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["unbelievable", "amazing"],
+        antonyms: ["believable", "credible"]
     },
     {
         id: "inhabit",
@@ -71,7 +87,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(v.) To live in or on. inhabitant (n.) A person or animal that lives in a certain place.",
         exampleSentence: "Millions of bison once inhabited the great plains of America.",
         imageEmoji: "🏠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["live in", "occupy", "dwell"],
+        antonyms: ["vacate", "abandon"]
     },
     {
         id: "peninsula",
@@ -79,7 +97,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) A piece of land, connected to a larger land mass, that juts out and is almost completely surrounded by water.",
         exampleSentence: "Bays along the Baja peninsula provide shelter for several kinds of whales.",
         imageEmoji: "🏝️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["cape", "headland"],
+        antonyms: []
     },
     {
         id: "rural",
@@ -87,7 +107,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(adj.) Of or relating to the country and the people who live there.",
         exampleSentence: "The villagers believe that a shopping mall has no place in a rural area.",
         imageEmoji: "🚜",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["country", "rustic"],
+        antonyms: ["urban", "city"]
     },
     {
         id: "sanctuary",
@@ -95,7 +117,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) 1. A place of safety or shelter. 2. Protection offered by such a place.",
         exampleSentence: "The neighboring country was a sanctuary to those who were being persecuted.",
         imageEmoji: "🕊️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["shelter", "refuge", "haven"],
+        antonyms: []
     },
     {
         id: "splendor",
@@ -103,7 +127,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) Magnificence; brilliance of appearance. splendid (adj.) Very impressive; magnificent.",
         exampleSentence: "The splendor of the palace at Versailles took our breath away.",
         imageEmoji: "🏰",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["magnificence", "brilliance", "grandeur"],
+        antonyms: ["squalor", "dullness"]
     },
     {
         id: "squalor",
@@ -111,7 +137,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) Filth; misery. squalid (adj.) Dirty and unfit for living, especially as a result of neglect.",
         exampleSentence: "People lived in squalor after their homes were destroyed by the hurricane.",
         imageEmoji: "🗑️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["filth", "misery", "dirtiness"],
+        antonyms: ["splendor", "luxury", "cleanliness"]
     },
     {
         id: "terrain",
@@ -119,7 +147,9 @@ export const b6_l3_words: VocabularyWord[] = [
         definition: "(n.) 1. An area of land; a region. 2. The surface features of a region.",
         exampleSentence: "After hiking for several days, we knew the terrain quite well.",
         imageEmoji: "⛰️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["ground", "land", "topography"],
+        antonyms: []
     }
 ];
 

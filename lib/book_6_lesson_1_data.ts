@@ -7,7 +7,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(n.) A fond or tender feeling. affectionate (adj.) Gentle and loving.",
         exampleSentence: "Hugging is one way to show affection.",
         imageEmoji: "🤗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["fondness", "tenderness", "love", "warmth"],
+        antonyms: ["hatred", "dislike", "animosity"]
     },
     {
         id: "appeal",
@@ -15,7 +17,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) 1. To make an earnest request; to ask. 2. To be of interest to; to be attractive to. (n.) 1. An earnest request for help. 2. The power to attract or be of interest.",
         exampleSentence: "Three students appealed for more time to finish the work.",
         imageEmoji: "🙏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["request", "plea", "attract", "interest"],
+        antonyms: ["repel", "bore"]
     },
     {
         id: "clasp",
@@ -23,7 +27,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) To grasp or hold tightly. (n.) 1. A strong grasp or hold. 2. Something, such as a hook or fastener, that holds two parts together.",
         exampleSentence: "The dancers clasped hands and circled the maypole.",
         imageEmoji: "🤝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["grasp", "grip", "fastener", "hook"],
+        antonyms: ["release", "loose"]
     },
     {
         id: "conspicuous",
@@ -31,7 +37,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(adj.) Easily or plainly seen.",
         exampleSentence: "His great height made him conspicuous in any crowd.",
         imageEmoji: "👀",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["noticeable", "prominent", "obvious"],
+        antonyms: ["hidden", "inconspicuous", "obscure"]
     },
     {
         id: "contribute",
@@ -39,7 +47,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) 1. To give along with others who are giving. 2. To have a part in bringing about. contribution (n.) That which is given. contributor (n.) One who gives.",
         exampleSentence: "I contributed a spinach salad to the potluck supper.",
         imageEmoji: "🎁",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["give", "donate", "supply"],
+        antonyms: ["take", "withhold"]
     },
     {
         id: "declare",
@@ -47,7 +57,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) To make known; to state openly. declaration (n.) A public statement.",
         exampleSentence: "\"I will not share a room with my sister anymore,\" she declared.",
         imageEmoji: "🗣️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["state", "announce", "proclaim"],
+        antonyms: ["conceal", "suppress"]
     },
     {
         id: "eloquent",
@@ -55,7 +67,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(adj.) Skilled at speaking or writing; having the power to move people. eloquence (n.) Skill at speaking or writing; the power to move people.",
         exampleSentence: "Anne Frank's eloquent diary often moves readers to tears.",
         imageEmoji: "✍️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["expressive", "moving", "articulate"],
+        antonyms: ["inarticulate", "dull"]
     },
     {
         id: "exhibit",
@@ -63,7 +77,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) To show in public. (n.) An item or collection of items in a public show. exhibition (n.) A large-scale public show.",
         exampleSentence: "Local artists exhibited their paintings at the library.",
         imageEmoji: "🖼️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["show", "display", "demonstrate"],
+        antonyms: ["hide", "conceal"]
     },
     {
         id: "ferry",
@@ -71,7 +87,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(n.) A boat that carries people and goods back and forth across a stretch of water. (v.) To move people or goods by boat across a stretch of water.",
         exampleSentence: "The ferry will stop running when the new bridge opens.",
         imageEmoji: "⛴️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["boat", "transport", "shuttle", "convey"],
+        antonyms: []
     },
     {
         id: "immigrant",
@@ -79,7 +97,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(n.) A person who comes into a country to live there.",
         exampleSentence: "Many Polish immigrants settled in Chicago.",
         imageEmoji: "🧳",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["newcomer", "settler"],
+        antonyms: ["native", "emigrant"]
     },
     {
         id: "lofty",
@@ -87,7 +107,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(adj.) 1. Very tall or high. 2. Noble in feeling or ideals. 3. Showing a too-proud or superior attitude.",
         exampleSentence: "Lofty elm trees provided welcome shade along the streets.",
         imageEmoji: "🏙️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tall", "high", "noble", "arrogant"],
+        antonyms: ["low", "short", "humble"]
     },
     {
         id: "pedestal",
@@ -95,7 +117,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(n.) A base or support on which something stands.",
         exampleSentence: "At the museum, I backed up to get a better view of the painting and almost knocked the sculpture off its pedestal.",
         imageEmoji: "🏛️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["base", "stand", "support"],
+        antonyms: []
     },
     {
         id: "persecute",
@@ -103,7 +127,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) To treat cruelly or harshly because of political, religious, or other differences. persecution (n.) The state or condition of being persecuted.",
         exampleSentence: "The First Amendment to the United States Constitution does not allow anyone to be persecuted based on religious beliefs.",
         imageEmoji: "🚫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["oppress", "harass", "mistreat"],
+        antonyms: ["comfort", "support"]
     },
     {
         id: "poverty",
@@ -111,7 +137,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(n.) The state of being poor.",
         exampleSentence: "The food stamp program was started to help feed families living in poverty.",
         imageEmoji: "🏚️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["neediness", "destitution"],
+        antonyms: ["wealth", "riches", "abundance"]
     },
     {
         id: "unveil",
@@ -119,7 +147,9 @@ export const b6_l1_words: VocabularyWord[] = [
         definition: "(v.) 1. To remove a covering from. 2. To make known or reveal for the first time.",
         exampleSentence: "The American Red Cross held a ceremony to unveil the portrait of its founder, Clara Barton.",
         imageEmoji: "🎭",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["reveal", "expose", "uncover"],
+        antonyms: ["cover", "hide", "mask"]
     }
 ];
 

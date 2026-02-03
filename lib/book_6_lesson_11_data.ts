@@ -7,7 +7,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) To shorten by leaving out certain parts. abbreviation (n.) The result of abbreviating.",
         exampleSentence: "Main Street can be abbreviated to Main St.",
         imageEmoji: "✂️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["shorten", "abridge", "condense"],
+        antonyms: ["lengthen", "extend", "expand"]
     },
     {
         id: "appropriate",
@@ -15,7 +17,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) Suitable or right for the purpose. (v.) To set aside for a particular purpose.",
         exampleSentence: "Sandals are not appropriate footwear for hiking.",
         imageEmoji: "👍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["suitable", "proper", "fitting"],
+        antonyms: ["inappropriate", "unsuitable", "improper"]
     },
     {
         id: "exclude",
@@ -23,7 +27,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) To leave out; to keep from being a part of.",
         exampleSentence: "The gym teacher excluded everyone who could not run a mile from the advanced gym class.",
         imageEmoji: "🚫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["leave out", "bar", "ban"],
+        antonyms: ["include", "admit", "welcome"]
     },
     {
         id: "fanciful",
@@ -31,7 +37,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not based on reason; unrealistic. 2. Not real; imaginary.",
         exampleSentence: "One inventor came up with a fanciful scheme to turn water into gasoline.",
         imageEmoji: "🦄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["imaginary", "unreal", "whimsical"],
+        antonyms: ["realistic", "practical", "serious"]
     },
     {
         id: "futile",
@@ -39,7 +47,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) Certain to fail; hopeless or useless.",
         exampleSentence: "Before giving up, we made several futile attempts to retrieve the car keys that had fallen into the lake.",
         imageEmoji: "😩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["useless", "hopeless", "vain"],
+        antonyms: ["useful", "successful", "effective"]
     },
     {
         id: "grudge",
@@ -47,7 +57,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(n.) A feeling of resentment. (v.) To be unwilling to give. grudging (adj.) Done or said with reluctance.",
         exampleSentence: "Rosa held a grudge against her friends because of the way they treated her brother.",
         imageEmoji: "😠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["resentment", "bitterness", "grievance"],
+        antonyms: ["forgiveness", "goodwill"]
     },
     {
         id: "inspire",
@@ -55,7 +67,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) To fill with emotion or great excitement. inspiration (n.) The power to affect the mind or the emotions; anything that has this effect.",
         exampleSentence: "Einstein's discoveries inspired me to become a scientist.",
         imageEmoji: "💡",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["encourage", "motivate", "stimulate"],
+        antonyms: ["discourage", "dishearten"]
     },
     {
         id: "majority",
@@ -63,7 +77,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(n.) 1. The greater number or part; more than half. 2. The amount by which one number of votes is greater than another.",
         exampleSentence: "The majority of teachers at this school live in town.",
         imageEmoji: "📊",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["most", "bulk", "mass"],
+        antonyms: ["minority"]
     },
     {
         id: "persevere",
@@ -71,7 +87,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) To refuse to give up despite difficulties. perseverance (n.) Continued efforts in spite of difficulties.",
         exampleSentence: "The workers persevered through the blizzard until the house for the needy family was complete.",
         imageEmoji: "💪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["persist", "carry on", "endure"],
+        antonyms: ["give up", "quit"]
     },
     {
         id: "possess",
@@ -79,7 +97,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) 1. To have or to own. 2. To get power or control over. possession (n.) 1. The act of owning or holding. 2. The thing that is held or owned.",
         exampleSentence: "The children possess three pairs of shoes.",
         imageEmoji: "🗝️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["own", "have", "hold"],
+        antonyms: ["lack", "want"]
     },
     {
         id: "prejudice",
@@ -87,7 +107,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(n.) An opinion or strong feeling formed without careful thought or regard to the facts. (v.) To cause to have such a feeling. prejudiced (adj.) Having such a feeling.",
         exampleSentence: "Her prejudice against tomatoes keeps her from trying many delicious dishes.",
         imageEmoji: "🙈",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["bias", "bigotry", "unfairness"],
+        antonyms: ["fairness", "impartiality", "justice"]
     },
     {
         id: "resolute",
@@ -95,7 +117,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) Determined not to give in; unyielding.",
         exampleSentence: "The shelter was resolute about finding good homes for the kittens.",
         imageEmoji: "😤",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["determined", "firm", "steadfast"],
+        antonyms: ["irresolute", "wavering", "undecided"]
     },
     {
         id: "sneer",
@@ -103,7 +127,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(v.) To look down on with scorn; to mock or insult by words or manner. (n.) A scornful look; a mocking or insulting remark.",
         exampleSentence: "\"That was the most mediocre acting I've ever seen,\" someone sneered.",
         imageEmoji: "😏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mock", "scorn", "jeer"],
+        antonyms: ["praise", "compliment"]
     },
     {
         id: "unanimous",
@@ -111,7 +137,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) Without any disagreement. unanimity (n.) The condition of being unanimous.",
         exampleSentence: "The motion passed by a unanimous vote of 57 to 0.",
         imageEmoji: "🤝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["agreed", "united", "accordant"],
+        antonyms: ["divided", "split"]
     },
     {
         id: "unruly",
@@ -119,7 +147,9 @@ export const b6_l11_words: VocabularyWord[] = [
         definition: "(adj.) 1. Badly behaved. 2. Hard to control.",
         exampleSentence: "An unruly child in a restaurant can be very annoying to the other diners.",
         imageEmoji: "🤪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["disorderly", "wild", "rowdy"],
+        antonyms: ["orderly", "well-behaved", "disciplined"]
     }
 ];
 

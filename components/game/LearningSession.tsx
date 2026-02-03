@@ -480,7 +480,8 @@ export function LearningSession({ lesson, onComplete, onExit }: { lesson: DayLes
                         className="flex-1 flex flex-col items-center w-full"
                     >
                         {/* Mita Word Study Logic */}
-                        {lesson.wordStudy && lesson.wordStudy.length > 0 ? (
+                        {/* Mita Word Study Logic */}
+                        {lesson.wordStudy && lesson.wordStudy.length > 0 && lesson.wordStudy[Math.min(currentWordIndex, lesson.wordStudy.length - 1)] ? (
                             <QuizStep
                                 // Safely access current index for custom questions
                                 customQuestion={lesson.wordStudy[Math.min(currentWordIndex, lesson.wordStudy.length - 1)]}

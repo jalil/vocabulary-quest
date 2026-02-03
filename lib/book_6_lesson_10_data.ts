@@ -7,7 +7,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) 1. To look forward to; to expect. 2. To be aware of and to provide for beforehand.",
         exampleSentence: "We anticipated having a good time at the party.",
         imageEmoji: "🔮",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["expect", "foresee", "await"],
+        antonyms: ["doubt", "question"]
     },
     {
         id: "bankrupt",
@@ -15,7 +17,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(adj.) 1. Unable to pay one's debts and freed by law from doing so. 2. Left without any worth or value. (v.) To leave without worth or value.",
         exampleSentence: "The store owner was bankrupt after the business failed.",
         imageEmoji: "💸",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["broke", "insolvent", "ruined"],
+        antonyms: ["wealthy", "solvent", "prosperous"]
     },
     {
         id: "brief",
@@ -23,7 +27,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(adj.) Short; not long-lasting. (v.) To give a short explanation or set of instructions to. (n.) A statement giving the main points in a case, for use in a court of law.",
         exampleSentence: "The guests had time for just a brief visit, so they did not linger when it was time to leave.",
         imageEmoji: "⏱️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["short", "concise", "fleeting"],
+        antonyms: ["long", "lengthy", "detailed"]
     },
     {
         id: "brisk",
@@ -31,7 +37,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(adj.) 1. Quick; active. 2. Stimulating; refreshing.",
         exampleSentence: "The runners kept up a brisk pace at the start of the race.",
         imageEmoji: "🏃",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["quick", "energetic", "lively"],
+        antonyms: ["slow", "sluggish", "lazy"]
     },
     {
         id: "budget",
@@ -39,7 +47,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(n.) A plan for spending money during a certain period. (v.) To plan the use of carefully.",
         exampleSentence: "The extravagant dinner caused the family to overspend their weekly food budget.",
         imageEmoji: "💰",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["plan", "allocate", "allot"],
+        antonyms: ["squander", "waste"]
     },
     {
         id: "compete",
@@ -47,7 +57,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) To try to win against others. competition (n.) 1. The act of trying to win against others. 2. A contest. competitor (n.) One who competes against others.",
         exampleSentence: "Five students competed for first prize.",
         imageEmoji: "🏆",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["contest", "vie", "rival"],
+        antonyms: ["cooperate", "collaborate"]
     },
     {
         id: "complicate",
@@ -55,7 +67,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) To make difficult. complicated (adj.) Not easy or simple; having many different parts.",
         exampleSentence: "An extra guest may complicate the seating arrangements.",
         imageEmoji: "🧩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["confuse", "muddle", "entangle"],
+        antonyms: ["simplify", "clarify"]
     },
     {
         id: "effect",
@@ -63,7 +77,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) To make happen. (n.) A result. effective (adj.) 1. Bringing about the desired result. 2. In operation; active. 3. Making a strong and favorable impression.",
         exampleSentence: "The new principal will effect many changes.",
         imageEmoji: "💥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["result", "outcome", "consequence"],
+        antonyms: ["cause", "origin"]
     },
     {
         id: "err",
@@ -71,7 +87,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) To be wrong or to do wrong. error (n.) A mistake. erroneous (adj.) Mistaken; wrong.",
         exampleSentence: "I erred when I accused you of lying.",
         imageEmoji: "❌",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mistake", "blunder", "sin"],
+        antonyms: ["correct", "rectify"]
     },
     {
         id: "factor",
@@ -79,7 +97,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(n.) Something that contributes to a result.",
         exampleSentence: "Paying attention and studying diligently are two factors in getting good grades.",
         imageEmoji: "➕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["element", "component", "part"],
+        antonyms: ["whole", "total"]
     },
     {
         id: "fad",
@@ -87,7 +107,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(n.) Something that is very popular for a short time, then forgotten.",
         exampleSentence: "Ankle bracelets were the fad one summer.",
         imageEmoji: "💫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["trend", "craze", "vagary"],
+        antonyms: ["tradition", "classic"]
     },
     {
         id: "gripe",
@@ -95,7 +117,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(v.) 1. To complain. 2. To annoy or irritate. (n.) A complaint.",
         exampleSentence: "The children always gripe about having to get up early.",
         imageEmoji: "🗣️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["complain", "grumble", "moan"],
+        antonyms: ["praise", "compliment"]
     },
     {
         id: "knack",
@@ -103,7 +127,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(n.) A special talent or skill; ability to do something easily.",
         exampleSentence: "My mother has a knack for making friends wherever she goes.",
         imageEmoji: "🤹",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["talent", "skill", "ability"],
+        antonyms: ["inability", "clumsiness"]
     },
     {
         id: "leisure",
@@ -111,7 +137,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(n.) Free time not taken up with work. leisurely (adj.) Slow; relaxed.",
         exampleSentence: "My father's sixty-hour work week allows little time for leisure.",
         imageEmoji: "🏖️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["free time", "relaxation", "rest"],
+        antonyms: ["work", "labor", "toil"]
     },
     {
         id: "unique",
@@ -119,7 +147,9 @@ export const b6_l10_words: VocabularyWord[] = [
         definition: "(adj.) The only one of its kind.",
         exampleSentence: "The platypus, a mammal that lays eggs, is unique among animals.",
         imageEmoji: "🦄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["singular", "exclusive", "one-of-a-kind"],
+        antonyms: ["common", "ordinary", "typical"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) 1. To change to fit new conditions. 2. To make changes in something to make it useful. adaptation (n.) 1. A changing to fit new conditions. 2. Something that is changed from something else.",
         exampleSentence: "Whales were once land animals but adapted well to life in the ocean.",
         imageEmoji: "🦎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["adjust", "modify", "change"],
+        antonyms: ["preserve", "keep"]
     },
     {
         id: "deplete",
@@ -15,7 +17,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) To use up.",
         exampleSentence: "Unless we are frugal, we will deplete our savings by the end of March.",
         imageEmoji: "📉",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["use up", "exhaust", "drain"],
+        antonyms: ["replenish", "fill", "restore"]
     },
     {
         id: "efficient",
@@ -23,7 +27,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(adj.) Producing results without waste.",
         exampleSentence: "Tube lights are more efficient than light bulbs.",
         imageEmoji: "⚡",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["effective", "productive", "organized"],
+        antonyms: ["inefficient", "wasteful", "disorganized"]
     },
     {
         id: "fatigue",
@@ -31,7 +37,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(n.) A feeling of tiredness from work or exercise. (v.) To make or become tired.",
         exampleSentence: "Although overcome with fatigue, the runner persevered to the finish line.",
         imageEmoji: "😫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tiredness", "exhaustion", "weariness"],
+        antonyms: ["energy", "vigor", "vitality"]
     },
     {
         id: "gait",
@@ -39,7 +47,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(n.) The way a person or animal moves on foot.",
         exampleSentence: "A horse's gait changes as it goes from a walk to a trot.",
         imageEmoji: "🐎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["walk", "pace", "stride"],
+        antonyms: []
     },
     {
         id: "glare",
@@ -47,7 +57,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) 1. To shine with a strong, harsh light. 2. To stare angrily at. (n.) 1. A strong, blinding light. 2. An angry stare. glaring (adj.) 1. Shining with a harsh, brilliant light. 2. Very obvious.",
         exampleSentence: "The bright sun glared off the icy snowbanks, making it difficult to see.",
         imageEmoji: "😠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["stare", "frown", "scowl"],
+        antonyms: ["smile", "grin"]
     },
     {
         id: "habitat",
@@ -55,7 +67,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(n.) The place or type of place where a plant or animal is normally found.",
         exampleSentence: "The habitat of the saguaro cactus is the desert of southwest Arizona.",
         imageEmoji: "🌵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["home", "environment", "territory"],
+        antonyms: []
     },
     {
         id: "oblivious",
@@ -63,7 +77,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(adj.) Not aware of. oblivion (n.) A state of forgetting or being forgotten.",
         exampleSentence: "The audience was oblivious to everything except the actor's inspired performance.",
         imageEmoji: "🤷",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["unaware", "unconscious", "ignorant"],
+        antonyms: ["aware", "conscious", "mindful"]
     },
     {
         id: "outmoded",
@@ -71,7 +87,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(adj.) No longer needed or fashionable.",
         exampleSentence: "The coming of the railroad made the stagecoach an outmoded way to travel.",
         imageEmoji: "💾",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["old-fashioned", "obsolete", "dated"],
+        antonyms: ["modern", "new", "current"]
     },
     {
         id: "prominent",
@@ -79,7 +97,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(adj.) 1. Projecting; standing out. 2. Very easy to see; easily noticed. 3. Famous; well known.",
         exampleSentence: "Mount Rushmore is a prominent feature of the Black Hills in South Dakota.",
         imageEmoji: "🌟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["famous", "well-known", "important"],
+        antonyms: ["unknown", "obscure", "insignificant"]
     },
     {
         id: "quench",
@@ -87,7 +107,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) 1. To put out; to extinguish. 2. To satisfy with a liquid.",
         exampleSentence: "Not even reading three books on the subject could quench his interest in the mysterious stories about the haunted house.",
         imageEmoji: "🥤",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["satisfy", "slake", "extinguish"],
+        antonyms: ["ignite", "start"]
     },
     {
         id: "rigor",
@@ -95,7 +117,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(n.) (often plural) 1. A condition that makes life difficult. 2. Strictness or severity. rigorous (adj.) 1. Severe; extreme. 2. Thorough; complete.",
         exampleSentence: "The orange tree couldn't survive the rigors of a Canadian winter.",
         imageEmoji: "⛓️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["difficulty", "severity", "hardship"],
+        antonyms: ["ease", "comfort", "luxury"]
     },
     {
         id: "sear",
@@ -103,7 +127,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) 1. To wither; to dry up. 2. To burn the surface of with sudden heat.",
         exampleSentence: "A long drought, as well as heat, can sear grass.",
         imageEmoji: "🔥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["burn", "scorch", "char"],
+        antonyms: ["freeze", "cool"]
     },
     {
         id: "transport",
@@ -111,7 +137,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) To carry or move from one place to another. (n.) The act of carrying from one place to another.",
         exampleSentence: "A large truck transports sets and costumes for the acting company.",
         imageEmoji: "🚚",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["carry", "move", "convey"],
+        antonyms: ["hold", "keep"]
     },
     {
         id: "wend",
@@ -119,7 +147,9 @@ export const b6_l13_words: VocabularyWord[] = [
         definition: "(v.) To travel; to go on one's way.",
         exampleSentence: "It took two weeks to wend our way over the mountain pass.",
         imageEmoji: "🚶",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["travel", "go", "proceed"],
+        antonyms: ["stay", "remain"]
     }
 ];
 

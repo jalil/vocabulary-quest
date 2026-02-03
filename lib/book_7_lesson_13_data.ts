@@ -7,7 +7,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Requiring much effort; very difficult.",
         exampleSentence: "Frequent sandstorms made the arduous trek across the Sahara Desert even more difficult.",
         imageEmoji: "😓",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["difficult", "hard", "strenuous"],
+        antonyms: ["easy", "effortless"]
     },
     {
         id: "canny",
@@ -15,7 +17,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Shrewd and careful; watchful of one's own interests.",
         exampleSentence: "A canny student knows what to study for a test.",
         imageEmoji: "🤑",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["shrewd", "smart", "clever"],
+        antonyms: ["foolish", "silly"]
     },
     {
         id: "climax",
@@ -23,7 +27,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "n. The highest point; the greatest moment or event.",
         exampleSentence: "Roberto Clemente's winning home run in the World Series was a terrific climax to the season.",
         imageEmoji: "🏔️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["peak", "summit", "highlight"],
+        antonyms: ["low point", "bottom"]
     },
     {
         id: "endorse",
@@ -31,7 +37,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "v. 1. To sign the back of a check before cashing or depositing it. 2. To approve of; to support. 3. To be favorably associated with a product in return for payment.",
         exampleSentence: "The bank teller wouldn't cash my dad's check until he had endorsed it.",
         imageEmoji: "✍️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["support", "approve", "sign"],
+        antonyms: ["oppose", "reject", "criticize"]
     },
     {
         id: "exuberant",
@@ -39,7 +47,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Happy and excited; bubbling over with enthusiasm.",
         exampleSentence: "Our friends gave us an exuberant welcome when we arrived.",
         imageEmoji: "🤩",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["enthusiastic", "energetic", "excited"],
+        antonyms: ["depressed", "lethargic", "sad"]
     },
     {
         id: "intrepid",
@@ -47,7 +57,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Feeling or showing no fear; brave; courageous.",
         exampleSentence: "The intrepid astronauts brought their crippled Apollo 13 spacecraft safely back to Earth.",
         imageEmoji: "🦸",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["brave", "fearless", "courageous"],
+        antonyms: ["cowardly", "fearful", "timid"]
     },
     {
         id: "kindle",
@@ -55,7 +67,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "v. 1. To start burning. 2. To cause to become excited or stirred up.",
         exampleSentence: "A spark from the woodstove kindled some oily rags and started the fire.",
         imageEmoji: "🔥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["start", "ignite", "spark"],
+        antonyms: ["extinguish", "put out"]
     },
     {
         id: "lucrative",
@@ -63,7 +77,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Producing wealth or profit.",
         exampleSentence: "Our project team believes that a dog-walking service could be a lucrative business.",
         imageEmoji: "💰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["profitable", "rewarding", "moneymaking"],
+        antonyms: ["unprofitable", "losing"]
     },
     {
         id: "mentor",
@@ -71,7 +87,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "n. A wise and loyal friend and adviser.",
         exampleSentence: "As president of the college she founded, Mary McLeod Bethune was a mentor to many young African American women.",
         imageEmoji: "🧙‍♂️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["teacher", "guide", "coach"],
+        antonyms: ["student", "pupil", "follower"]
     },
     {
         id: "obsession",
@@ -79,7 +97,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "n. An interest, idea, or feeling that fills one's mind and leaves little room for anything else.",
         exampleSentence: "Finishing her second novel has become an obsession and leaves her little time for other activities.",
         imageEmoji: "🤪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fixation", "passion", "mania"],
+        antonyms: ["indifference", "apathy"]
     },
     {
         id: "personable",
@@ -87,7 +107,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Pleasing in manner and appearance.",
         exampleSentence: "The restaurant's personable staff made our meal a pleasant one.",
         imageEmoji: "💁",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["pleasant", "charming", "likeable"],
+        antonyms: ["unpleasant", "rude", "disagreeable"]
     },
     {
         id: "proficient",
@@ -95,7 +117,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Able to do something very well; skillful.",
         exampleSentence: "All the mechanics in this garage are proficient in car repairing.",
         imageEmoji: "🛠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["skilled", "expert", "capable"],
+        antonyms: ["incompetent", "unskilled", "inept"]
     },
     {
         id: "scanty",
@@ -103,7 +127,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "adj. Not enough or just barely enough; small in size or amount.",
         exampleSentence: "After a scanty meal of bread and an apple, we continued our journey.",
         imageEmoji: "🤏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["scarce", "insufficient", "meager"],
+        antonyms: ["abundant", "plentiful", "enough"]
     },
     {
         id: "strait",
@@ -111,7 +137,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "n. A narrow body of water connecting two larger ones. straits n. Trouble or need.",
         exampleSentence: "The Strait of Gibraltar connects the Mediterranean Sea and the Atlantic Ocean.",
         imageEmoji: "🌊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["channel", "difficulty", "crisis"],
+        antonyms: []
     },
     {
         id: "zest",
@@ -119,7 +147,9 @@ export const b7_l13_words: VocabularyWord[] = [
         definition: "n. Great enjoyment; excitement.",
         exampleSentence: "Learning to cook meals from many cultures has added zest to our dinners.",
         imageEmoji: "🍋",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["enthusiasm", "enjoyment", "flavor"],
+        antonyms: ["boredom", "apathy", "distaste"]
     }
 ];
 

@@ -8,7 +8,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) A feeling of fear or nervous wonder and respect. (v.) To fill with awe. awesome (adj.) Causing feelings of awe.",
         exampleSentence: "The view of Earth from space filled the astronauts with awe.",
         imageEmoji: "😲",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["wonder", "admiration", "reverence"],
+        antonyms: ["disdain", "scorn", "boredom"]
     },
     {
         id: "catastrophe",
@@ -16,7 +18,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) Something that causes great loss and suffering; a terrible disaster.",
         exampleSentence: "The earthquake was a catastrophe that claimed thousands of victims.",
         imageEmoji: "🌋",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["disaster", "calamity", "tragedy"],
+        antonyms: ["blessing", "boon", "miracle"]
     },
     {
         id: "collide",
@@ -24,7 +28,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(v.) To come together with great force. collision (n.) The act of colliding.",
         exampleSentence: "The two skaters were injured when they collided on the ice.",
         imageEmoji: "💥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["crashe", "smash", "hit"],
+        antonyms: ["avoid", "miss"]
     },
     {
         id: "consequence",
@@ -32,7 +38,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) 1. A result or outcome. 2. Importance.",
         exampleSentence: "Receiving a scolding was the consequence of my rude behavior.",
         imageEmoji: "👉",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["result", "effect", "outcome"],
+        antonyms: ["cause", "origin", "source"]
     },
     {
         id: "deceive",
@@ -40,7 +48,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(v.) To cause to believe something that is not true. deceptive (adj.) Intended to or likely to deceive or mislead. deception (n.) An act of deceiving.",
         exampleSentence: "The Wizard of Oz tried to deceive Dorothy by pretending to perform real magic.",
         imageEmoji: "🎭",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["mislead", "trick", "fool"],
+        antonyms: ["guide", "enlighten", "be honest"]
     },
     {
         id: "fatality",
@@ -48,7 +58,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) A death resulting from an accident or a disaster.",
         exampleSentence: "Fortunately there were no fatalities when the train ran off the track.",
         imageEmoji: "⚰️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["death", "casualty", "loss"],
+        antonyms: ["survival"]
     },
     {
         id: "improvise",
@@ -56,7 +68,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(v.) 1. To compose or perform without preparation. 2. To make do with whatever is on hand.",
         exampleSentence: "The actors occasionally improvise a scene based on suggestions from the audience.",
         imageEmoji: "🎭",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["invent", "ad-lib", "device"],
+        antonyms: ["plan", "prepare", "rehearse"]
     },
     {
         id: "loom",
@@ -64,7 +78,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) A machine or device for weaving cloth. (v.) 1. To appear in a sudden and frightening way. 2. To get close.",
         exampleSentence: "These blankets were woven on a small hand loom.",
         imageEmoji: "🧵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["appear", "emerge", "threaten"],
+        antonyms: ["disappear", "vanish", "fade"]
     },
     {
         id: "lull",
@@ -72,7 +88,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(v.) To cause to relax. (n.) A temporary calm or quiet period.",
         exampleSentence: "The sound of the ocean lulled us to sleep.",
         imageEmoji: "😴",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["soothe", "calm", "hush"],
+        antonyms: ["agitate", "disturb", "excite"]
     },
     {
         id: "placid",
@@ -80,7 +98,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(adj.) Calm and peaceful.",
         exampleSentence: "The wind suddenly picked up, ruffling the placid surface of the lake.",
         imageEmoji: "🌊",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["calm", "peaceful", "quiet"],
+        antonyms: ["stormy", "agitated", "rough"]
     },
     {
         id: "predicament",
@@ -88,7 +108,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) A difficult or trying situation.",
         exampleSentence: "Running out of gas at night on a deserted road put the travelers in a predicament.",
         imageEmoji: "😬",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["dilemma", "plight", "difficulty"],
+        antonyms: ["solution", "resolution", "benefit"]
     },
     {
         id: "priority",
@@ -96,7 +118,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) The state or condition of being before another in importance or time.",
         exampleSentence: "Chandra's first priority was to clean her room before her friends came over.",
         imageEmoji: "1️⃣",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["precedence", "importance", "urgency"],
+        antonyms: ["unimportance"]
     },
     {
         id: "reinforce",
@@ -104,7 +128,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(v.) To increase or strengthen. reinforcements (n. pl.) Extra people such as soldiers or police sent to provide help.",
         exampleSentence: "Telling frightened children that there is nothing to worry about only reinforces their fear.",
         imageEmoji: "🧱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["strengthen", "bolster", "support"],
+        antonyms: ["weaken", "undermine", "sapper"]
     },
     {
         id: "stern",
@@ -112,7 +138,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(n.) The rear part of a boat. (adj.) Unpleasantly severe.",
         exampleSentence: "The front of the boat rose out of the water when everyone rushed to the stern.",
         imageEmoji: "⛵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["strict", "severe", "harsh"],
+        antonyms: ["kind", "lenient", "gentle"]
     },
     {
         id: "treacherous",
@@ -120,7 +148,9 @@ export const b6_l16_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not to be trusted. 2. Actually dangerous while seeming to be safe.",
         exampleSentence: "A treacherous sentinel let the enemy pass through the gate.",
         imageEmoji: "🐍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["dangerous", "unreliable", "deceptive"],
+        antonyms: ["safe", "harmful", "reliable"]
     }
 ];
 

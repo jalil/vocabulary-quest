@@ -9,7 +9,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "To relieve or make more bearable.",
         exampleSentence: "Gargling with saltwater alleviates a sore throat.",
         imageEmoji: "😌",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["relieve", "ease"],
+        antonyms: ["worsen", "aggravate"]
     },
     {
         id: "antidote",
@@ -18,7 +20,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "1. A remedy that relieves the effects of a poison. 2. Anything that offers relief from an undesirable condition.",
         exampleSentence: "Scientists are looking for a snakebite antidote that might save thousands of lives.",
         imageEmoji: "🧪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["remedy", "cure"],
+        antonyms: ["poison", "toxin"]
     },
     {
         id: "bedlam",
@@ -27,7 +31,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "A very confused and noisy scene or situation.",
         exampleSentence: "Bedlam broke out in the auditorium among students and parents when it was announced that the school was going to be closed.",
         imageEmoji: "😵",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["chaos", "mayhem"],
+        antonyms: ["order", "peace"]
     },
     {
         id: "cajole",
@@ -36,7 +42,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "To urge with gentle and repeated requests; to coax.",
         exampleSentence: "Willa allowed herself to be cajoled into acting as class treasurer.",
         imageEmoji: "🙏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["coax", "persuade"],
+        antonyms: ["force", "bullying"]
     },
     {
         id: "glib",
@@ -45,7 +53,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Marked by an ease in speaking or writing that often shows lack of concern or sincerity.",
         exampleSentence: "The candidate's glib responses to questions made it difficult to understand his opinion.",
         imageEmoji: "🤥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["slick", "superficial"],
+        antonyms: ["sincere", "earnest"]
     },
     {
         id: "haggard",
@@ -54,7 +64,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Having a tired look; worn out.",
         exampleSentence: "The haggard faces of the refugees spoke of many fearful days and sleepless nights.",
         imageEmoji: "😫",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["exhausted", "gaunt"],
+        antonyms: ["healthy", "rested"]
     },
     {
         id: "immaculate",
@@ -63,7 +75,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "1. Perfectly clean; spotless. 2. Without a flaw; faultless.",
         exampleSentence: "The dining room's white linen tablecloths were starched and immaculate at the beginning of the reception.",
         imageEmoji: "✨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["spotless", "pristine"],
+        antonyms: ["dirty", "filthy"]
     },
     {
         id: "incessant",
@@ -72,7 +86,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Going on without interruption; continual.",
         exampleSentence: "Last night, we hardly slept because of the incessant noise from the apartment downstairs.",
         imageEmoji: "🔄",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["constant", "ceaseless"],
+        antonyms: ["intermittent", "occasional"]
     },
     {
         id: "indulgent",
@@ -81,7 +97,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Inclined to give in easily; lenient.",
         exampleSentence: "The indulgent grandparents bought the new baby every stuffed animal they saw.",
         imageEmoji: "🎁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["lenient", "permissive"],
+        antonyms: ["strict", "severe"]
     },
     {
         id: "loll",
@@ -90,7 +108,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "1. To sit back in a relaxed way; to sprawl. 2. To hang loosely; to droop.",
         exampleSentence: "I lolled in the hammock for most of that humid summer afternoon.",
         imageEmoji: "🛋️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["lounge", "relax"],
+        antonyms: ["hurry"]
     },
     {
         id: "pittance",
@@ -99,7 +119,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "A very small amount, especially of money.",
         exampleSentence: "Even though the summer job pays only a pittance, I decided to take it because I needed the experience.",
         imageEmoji: "🪙",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["trifle", "scrap"],
+        antonyms: ["fortune", "abundance"]
     },
     {
         id: "pungent",
@@ -108,7 +130,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "1. Having a sharp taste or smell. 2. Sharply critical; biting.",
         exampleSentence: "A pungent sauce of pineapple and ginger was served with the pork.",
         imageEmoji: "🧅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["sharp", "strong"],
+        antonyms: ["mild", "bland"]
     },
     {
         id: "rue",
@@ -117,7 +141,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "To feel regret or sorrow over.",
         exampleSentence: "After his outburst, he began to rue his angry words.",
         imageEmoji: "😔",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["regret", "lament"],
+        antonyms: ["celebrate", "rejoice"]
     },
     {
         id: "strident",
@@ -126,7 +152,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Harsh and grating; loud and shrill.",
         exampleSentence: "The counselor's strident voice awakened the campers every morning.",
         imageEmoji: "📢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["harsh", "shrill"],
+        antonyms: ["soft", "pleasant"]
     },
     {
         id: "vehement",
@@ -135,7 +163,9 @@ export const b8_l16_words: VocabularyWord[] = [
         definition: "Expressing strong feeling; intense.",
         exampleSentence: "When suggested that he had slept through the concert, he made a vehement denial.",
         imageEmoji: "😤",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["intense", "passionate"],
+        antonyms: ["mild", "apathetic"]
     }
 ];
 

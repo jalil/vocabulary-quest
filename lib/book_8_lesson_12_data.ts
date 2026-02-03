@@ -9,7 +9,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "To agree to; to consent to, often after urging from another.",
         exampleSentence: "Nasri acceded to the wishes of his classmates and stopped tapping his fingers on the table during study hall.",
         imageEmoji: "👍",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["agree", "consent"],
+        antonyms: ["refuse", "deny"]
     },
     {
         id: "affluent",
@@ -18,7 +20,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Generously supplied with money or possessions; wealthy.",
         exampleSentence: "Although Cicely was not from an affluent family, she could attend an expensive school because of the scholarship she had won.",
         imageEmoji: "💰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["wealthy", "rich"],
+        antonyms: ["poor", "impoverished"]
     },
     {
         id: "arbitrary",
@@ -27,7 +31,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Determined by chance or whim rather than by reason or necessity.",
         exampleSentence: "Even though our choice of restaurant was arbitrary, the food was delicious.",
         imageEmoji: "🎲",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["random", "whimsical"],
+        antonyms: ["rational", "reasoned"]
     },
     {
         id: "artisan",
@@ -36,7 +42,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "One able to do skilled work with the hands; a craftsperson.",
         exampleSentence: "Artisans working with leather, yarn, and clay displayed their products at the local crafts fair.",
         imageEmoji: "🏺",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["craftsperson", "expert"],
+        antonyms: []
     },
     {
         id: "dismantle",
@@ -45,7 +53,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "To take apart.",
         exampleSentence: "Wong helped Matt dismantle the engine so they could begin work on the repair.",
         imageEmoji: "🔧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["disassemble", "take apart"],
+        antonyms: ["assemble", "build"]
     },
     {
         id: "immerse",
@@ -54,7 +64,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "1. To cover with liquid. 2. To completely engage the attention of.",
         exampleSentence: "To prepare the salad, Eva first blanched the vegetables by immersing them in boiling water.",
         imageEmoji: "🛁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["submerge", "absorb"],
+        antonyms: []
     },
     {
         id: "irksome",
@@ -63,7 +75,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Annoying; tedious.",
         exampleSentence: "All the steps preliminary to painting the ceiling—scraping, patching, and sanding—were irksome to Nevaeh, who wanted to finish the job quickly.",
         imageEmoji: "😒",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["annoying", "tedious"],
+        antonyms: ["pleasant", "enjoyable"]
     },
     {
         id: "legacy",
@@ -72,7 +86,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "1. Money or property left to another in a will. 2. Something passed on to those who come after.",
         exampleSentence: "This silver pocket watch is my legacy from Grandfather Gomez.",
         imageEmoji: "📜",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["inheritance", "bequest"],
+        antonyms: []
     },
     {
         id: "ostentatious",
@@ -81,7 +97,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Extravagantly showy or ornate.",
         exampleSentence: "My grandmother favors ostentatious furnishings, but my dad prefers simple furniture and decorations.",
         imageEmoji: "🦚",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["showy", "flashy"],
+        antonyms: ["modest", "plain"]
     },
     {
         id: "panorama",
@@ -90,7 +108,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "1. A complete view of a surrounding area. 2. A thorough presentation of a subject.",
         exampleSentence: "We took the elevator up to the observation deck so we could view the panorama of New York City and all its suburbs.",
         imageEmoji: "🌄",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["view", "vista"],
+        antonyms: []
     },
     {
         id: "philanthropy",
@@ -99,7 +119,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "The attempt to improve the well-being of those in need by donating money or aid.",
         exampleSentence: "The philanthropy of the Tan family has provided the money for this cancer research center.",
         imageEmoji: "🤝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["charity", "generosity"],
+        antonyms: []
     },
     {
         id: "prestige",
@@ -108,7 +130,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "High standing; respect earned by accomplishments.",
         exampleSentence: "Winning the Nobel Prize brings much prestige.",
         imageEmoji: "🏆",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["status", "reputation"],
+        antonyms: ["disgrace", "shame"]
     },
     {
         id: "prolific",
@@ -117,7 +141,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Abundantly productive.",
         exampleSentence: "Although Maya Angelou was a prolific poet, she is known primarily for her series of autobiographies.",
         imageEmoji: "✍️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["productive", "fruitful"],
+        antonyms: ["unproductive", "barren"]
     },
     {
         id: "reticent",
@@ -126,7 +152,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "Inclined to keep one's thoughts and feelings to oneself; quiet and reserved.",
         exampleSentence: "When we asked her about her parents, Adriana grew reticent.",
         imageEmoji: "🤐",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["reserved", "quiet"],
+        antonyms: ["talkative", "outgoing"]
     },
     {
         id: "tycoon",
@@ -135,7 +163,9 @@ export const b8_l12_words: VocabularyWord[] = [
         definition: "A wealthy and powerful businessperson.",
         exampleSentence: "Sam Walton, the business tycoon who founded Walmart, worked at many different jobs while he was in school, including milking cows and waiting tables.",
         imageEmoji: "💼",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["magnate", "baron"],
+        antonyms: []
     }
 ];
 

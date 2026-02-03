@@ -7,7 +7,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(adj.) Showing too much pride in oneself. arrogance (n.) A feeling of too much pride in oneself.",
         exampleSentence: "You were arrogant to claim that you knew all the answers.",
         imageEmoji: "😤",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["haughty", "conceited", "proud"],
+        antonyms: ["humble", "modest"]
     },
     {
         id: "boycott",
@@ -15,7 +17,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To join others in refusing to support an organization. (n.) The act of boycotting.",
         exampleSentence: "Customers plan to boycott that store if it continues to discriminate.",
         imageEmoji: "🚫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["refuse", "reject", "ban"],
+        antonyms: ["support", "patronize"]
     },
     {
         id: "campaign",
@@ -23,7 +27,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(n.) 1. A series of actions intended to accomplish a goal. 2. A series of military actions in a particular area. (v.) To take part in actions planned to accomplish a particular goal.",
         exampleSentence: "Picking up litter was the first step in the campaign to clean up the town center.",
         imageEmoji: "📢",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["crusade", "operation", "drive"],
+        antonyms: []
     },
     {
         id: "ceremony",
@@ -31,7 +37,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(n.) A formal event held in honor of a special occasion.",
         exampleSentence: "The bride and groom exchanged rings during the wedding ceremony.",
         imageEmoji: "🎎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["ritual", "service", "observance"],
+        antonyms: []
     },
     {
         id: "custody",
@@ -39,7 +47,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(n.) 1. Control over and responsibility for care. 2. In the keeping of the police; in jail.",
         exampleSentence: "The stolen Picasso painting was returned to the custody of the Museum of Modern Art.",
         imageEmoji: "👮",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["care", "protection", "imprisonment"],
+        antonyms: []
     },
     {
         id: "degrade",
@@ -47,7 +57,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To bring shame or disgrace upon. degrading (adj.) Causing shame or disgrace.",
         exampleSentence: "By lying to cover up his cheating, Sam degraded himself even more.",
         imageEmoji: "😔",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["shame", "disgrace", "humiliate"],
+        antonyms: ["honor", "respect", "dignify"]
     },
     {
         id: "detain",
@@ -55,7 +67,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To stop or hold; to keep from going on.",
         exampleSentence: "The hall monitor detained us until we could prove we had permission to leave the classroom.",
         imageEmoji: "🛑",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["hold", "keep", "delay"],
+        antonyms: ["release", "free"]
     },
     {
         id: "extend",
@@ -63,7 +77,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) 1. To reach out. 2. To offer. 3. To make longer. 4. To stretch or spread outward from a certain point.",
         exampleSentence: "The conductor extended her arms as a signal to the orchestra to be ready.",
         imageEmoji: "📏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["stretch", "expand", "offer"],
+        antonyms: ["shorten", "withdraw"]
     },
     {
         id: "integrate",
@@ -71,7 +87,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To unite into a whole; especially to end the separation of people of different races. integration (n.) The act of uniting or bringing together, especially people of different races.",
         exampleSentence: "In 1948, President Truman integrated the armed forces of the United States.",
         imageEmoji: "🤝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["unite", "mix", "combine"],
+        antonyms: ["segregate", "separate"]
     },
     {
         id: "segregate",
@@ -79,7 +97,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To keep separate or apart. segregation (n.) The act of keeping separate or apart.",
         exampleSentence: "Ranchers segregate sick animals from the herd to prevent diseases from spreading.",
         imageEmoji: "💔",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["separate", "isolate", "divide"],
+        antonyms: ["integrate", "mix"]
     },
     {
         id: "supreme",
@@ -87,7 +107,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(adj.) 1. The highest in rank or position. 2. Of the greatest importance.",
         exampleSentence: "The supreme commander was happy to retire after years of responsibility.",
         imageEmoji: "👑",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["highest", "greatest", "paramount"],
+        antonyms: ["lowest", "least"]
     },
     {
         id: "triumph",
@@ -95,7 +117,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(n.) 1. A noteworthy success. 2. The joy winning brings. (v.) To win.",
         exampleSentence: "Helen Keller’s graduation from college was a triumph.",
         imageEmoji: "🏆",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["victory", "success", "win"],
+        antonyms: ["defeat", "failure", "loss"]
     },
     {
         id: "vacate",
@@ -103,7 +127,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) To make empty, as by leaving.",
         exampleSentence: "We will vacate the house at the end of June to let the painters work.",
         imageEmoji: "🚪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["leave", "empty", "abandon"],
+        antonyms: ["occupy", "inhabit"]
     },
     {
         id: "verdict",
@@ -111,7 +137,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(n.) 1. The decision reached at the end of a trial. 2. A judgment or opinion.",
         exampleSentence: "The jury found him innocent, and the crowd cheered the verdict.",
         imageEmoji: "⚖️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["judgment", "decision", "ruling"],
+        antonyms: []
     },
     {
         id: "violate",
@@ -119,7 +147,9 @@ export const b6_l2_words: VocabularyWord[] = [
         definition: "(v.) 1. To break, as a law or a promise. 2. To treat in an improper or disrespectful way. violation (n.) A breaking of or failing to keep something like a law or a promise.",
         exampleSentence: "The students were warned that anyone who violated the dress code would be sent home.",
         imageEmoji: "🚱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["break", "breach", "disobey"],
+        antonyms: ["obey", "observe", "respect"]
     }
 ];
 

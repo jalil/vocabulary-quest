@@ -7,7 +7,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) To increase in number or amount; to pile up, collect, or gather.",
         exampleSentence: "An inch of snow accumulated overnight.",
         imageEmoji: "📈",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["gather", "collect", "pile up"],
+        antonyms: ["disperse", "scatter"]
     },
     {
         id: "aggravate",
@@ -15,7 +17,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) 1. To make worse. 2. To anger or annoy. aggravation (n.) 1. Annoyance; exasperation. 2. A source of annoyance or exasperation.",
         exampleSentence: "The skater aggravated an old knee injury when she fell.",
         imageEmoji: "😠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["worsen", "annoy", "irritate"],
+        antonyms: ["soothe", "calm", "alleviate"]
     },
     {
         id: "conserve",
@@ -23,7 +27,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) To save by using carefully. conservation (n.) The saving or protection of something through careful use.",
         exampleSentence: "Lower speed limits help conserve gasoline.",
         imageEmoji: "💧",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["save", "preserve", "keep"],
+        antonyms: ["waste", "squander"]
     },
     {
         id: "contaminate",
@@ -31,7 +37,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) To harm by contact with something undesirable. contamination (n.) The act of or result of contaminating.",
         exampleSentence: "Chemicals spilled last year continue to contaminate the lake.",
         imageEmoji: "☣️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["pollute", "taint", "infect"],
+        antonyms: ["purify", "clean"]
     },
     {
         id: "diminish",
@@ -39,7 +47,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) To make or become smaller or less; to reduce.",
         exampleSentence: "The popcorn we ate after school diminished our hunger.",
         imageEmoji: "📉",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["decrease", "reduce", "lessen"],
+        antonyms: ["increase", "grow", "expand"]
     },
     {
         id: "drastic",
@@ -47,7 +57,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(adj.) Severe; extreme.",
         exampleSentence: "Criminals receive drastic punishment in this new novel.",
         imageEmoji: "😱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["extreme", "severe", "harsh"],
+        antonyms: ["mild", "moderate"]
     },
     {
         id: "extravagant",
@@ -55,7 +67,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(adj.) Spending, costing, or using more than is required. extravagance (n.) 1. The quality of being wasteful or spending more than is necessary. 2. A thing that costs more than one can afford.",
         exampleSentence: "Shawn's buying lunch for everyone was an extravagant thing to do.",
         imageEmoji: "💸",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["wasteful", "excessive", "lavish"],
+        antonyms: ["frugal", "thrifty", "economical"]
     },
     {
         id: "frugal",
@@ -63,7 +77,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(adj.) Careful in spending or using something.",
         exampleSentence: "The bill for the splendid wedding ceremony shocked my frugal relatives.",
         imageEmoji: "🐖",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["thrifty", "economical", "sparing"],
+        antonyms: ["extravagant", "wasteful"]
     },
     {
         id: "impurity",
@@ -71,7 +87,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(n.) Something that is harmful or dirty.",
         exampleSentence: "Filtering removes the impurities from water.",
         imageEmoji: "🧪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["contaminant", "pollutant", "dirt"],
+        antonyms: ["purity"]
     },
     {
         id: "peril",
@@ -79,7 +97,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(n.) Danger; something that is dangerous. imperil (v.) To place in danger. perilous (adj.) Dangerous.",
         exampleSentence: "The sailor understood the peril involved in a solo crossing of the Atlantic Ocean.",
         imageEmoji: "⚠️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["danger", "hazard", "risk"],
+        antonyms: ["safety", "security"]
     },
     {
         id: "perpetual",
@@ -87,7 +107,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(adj.) Lasting or seeming to last forever or for a long time; continuous.",
         exampleSentence: "A perpetual rain has been falling for nine days.",
         imageEmoji: "♾️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["continuous", "constant", "endless"],
+        antonyms: ["temporary", "brief", "intermittent"]
     },
     {
         id: "resource",
@@ -95,7 +117,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(n.) 1. A supply that can be used when there is a need. 2. Skill in dealing with difficult situations. resourceful (adj.) Able to deal with difficult problems.",
         exampleSentence: "Coal and lumber are natural resources.",
         imageEmoji: "🧱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["supply", "asset", "reserve"],
+        antonyms: []
     },
     {
         id: "substitute",
@@ -103,7 +127,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) To replace one thing or person for another. (n.) Something or someone that replaces another. (adj.) Acting in place of someone or something else.",
         exampleSentence: "Cooks sometimes substitute lemon for vinegar in salad dressing.",
         imageEmoji: "🔄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["replace", "exchange", "alternative"],
+        antonyms: []
     },
     {
         id: "sustain",
@@ -111,7 +137,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(v.) 1. To keep up; to support. 2. To suffer; to undergo.",
         exampleSentence: "Their firm belief that they would be rescued sustained them.",
         imageEmoji: "🏗️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["support", "maintain", "uphold"],
+        antonyms: ["abandon", "weaken"]
     },
     {
         id: "vital",
@@ -119,7 +147,9 @@ export const b6_l9_words: VocabularyWord[] = [
         definition: "(adj.) 1. Necessary for continued life or prosperity. 2. Full of lively spirit. 3. Of the greatest importance.",
         exampleSentence: "Clean water is vital for our health.",
         imageEmoji: "❤️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["necessary", "essential", "crucial"],
+        antonyms: ["unimportant", "trivial"]
     }
 ];
 

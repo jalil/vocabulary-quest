@@ -9,7 +9,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "1. A wall-like structure used as a defense. 2. A person or thing that protects or defends.",
         exampleSentence: "A wall of sandbags acted as a bulwark against the rising floodwaters.",
         imageEmoji: "🧱",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["defense", "protection"],
+        antonyms: ["weakness", "vulnerability"]
     },
     {
         id: "culminate",
@@ -18,7 +20,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "To reach or bring to the highest point.",
         exampleSentence: "The Fourth of July celebrations culminated in a spectacular fireworks display.",
         imageEmoji: "🎆",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["conclude", "climax"],
+        antonyms: ["begin", "start"]
     },
     {
         id: "engulf",
@@ -27,7 +31,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "To swallow up by covering completely; to overwhelm.",
         exampleSentence: "During the hurricane, a huge wave engulfed the boat and almost swept the crew overboard.",
         imageEmoji: "🌊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["swallow", "overwhelm"],
+        antonyms: []
     },
     {
         id: "feasible",
@@ -36,7 +42,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Able to be done; possible or likely.",
         exampleSentence: "Building a new library is feasible if the town allots sufficient funds for it.",
         imageEmoji: "👍",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["possible", "achievable"],
+        antonyms: ["impossible", "impractical"]
     },
     {
         id: "glut",
@@ -45,7 +53,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "1. A much larger supply than is needed. 2. To supply a much larger amount than is needed. 3. To eat or consume to excess.",
         exampleSentence: "A glut of office space in downtown buildings resulted in a sharp drop in rents.",
         imageEmoji: "🏢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["surplus", "excess"],
+        antonyms: ["shortage", "scarcity"]
     },
     {
         id: "havoc",
@@ -54,7 +64,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "1. Widespread destruction or devastation. 2. Great confusion.",
         exampleSentence: "This morning we warily surveyed the havoc caused by yesterday's storm.",
         imageEmoji: "🌪️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["chaos", "destruction"],
+        antonyms: ["order", "peace"]
     },
     {
         id: "impregnable",
@@ -63,7 +75,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Impossible to attack successfully.",
         exampleSentence: "The citadel was impregnable because of its hilltop location and strong defenses.",
         imageEmoji: "🏰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["invincible", "unconquerable"],
+        antonyms: ["vulnerable", "weak"]
     },
     {
         id: "indefatigable",
@@ -72,7 +86,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Not easily made tired; tireless.",
         exampleSentence: "Rescuers were indefatigable in their all-night efforts to reach the trapped miners.",
         imageEmoji: "🏃",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["tireless", "unflagging"],
+        antonyms: ["lazy", "lethargic"]
     },
     {
         id: "onslaught",
@@ -81,7 +97,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "A fierce attack.",
         exampleSentence: "The Union troops were able to repulse the onslaught of the Confederate forces at Gettysburg.",
         imageEmoji: "⚔️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["attack", "assault"],
+        antonyms: ["defense", "retreat"]
     },
     {
         id: "phenomenon",
@@ -90,7 +108,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "1. Any fact or event that can be observed or described. 2. An unusual fact, event, or person.",
         exampleSentence: "The Aurora Borealis, or Northern Lights, is a phenomenon visible in the night sky in the far north.",
         imageEmoji: "🌠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["event", "occurrence"],
+        antonyms: []
     },
     {
         id: "picturesque",
@@ -99,7 +119,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Like a picture; pleasing or charming to look at.",
         exampleSentence: "The view of the sun setting over the water was picturesque.",
         imageEmoji: "📸",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["scenic", "charming"],
+        antonyms: ["ugly", "unattractive"]
     },
     {
         id: "simultaneous",
@@ -108,7 +130,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Happening or existing at the same time.",
         exampleSentence: "When the thunder and lightning are almost simultaneous, the storm is very close to you.",
         imageEmoji: "⚡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["concurrent", "coincident"],
+        antonyms: []
     },
     {
         id: "stipulate",
@@ -117,7 +141,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "To require as part of an agreement or contract.",
         exampleSentence: "My agreement with my coach stipulates that I must attend all practice sessions.",
         imageEmoji: "📝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["specify", "require"],
+        antonyms: []
     },
     {
         id: "susceptible",
@@ -126,7 +152,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "Open or subject to; easily influenced or affected by.",
         exampleSentence: "Because I am susceptible to hay fever, I take an antihistamine.",
         imageEmoji: "🤧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["vulnerable", "prone"],
+        antonyms: ["immune", "resistant"]
     },
     {
         id: "wrest",
@@ -135,7 +163,9 @@ export const b8_l19_words: VocabularyWord[] = [
         definition: "1. To pull away from with a twist. 2. To take by force or as if by force.",
         exampleSentence: "Tamika wrested the ball from the player on the opposing team.",
         imageEmoji: "🤼",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["snatch", "seize"],
+        antonyms: ["give", "yield"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. A lack of interest or concern. apathetic adj. Unconcerned; uninterested.",
         exampleSentence: "I feel nothing but apathy when it comes to sports.",
         imageEmoji: "😐",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["lack of interest", "indifference"],
+        antonyms: ["interest", "concern", "enthusiasm"]
     },
     {
         id: "badger",
@@ -15,7 +17,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. To keep bothering. n. A strongly built, burrowing mammal common in many northern parts of the world.",
         exampleSentence: "She kept badgering her parents until they let her go to the party.",
         imageEmoji: "🦡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["bother", "pester", "annoy"],
+        antonyms: ["leave alone", "please"]
     },
     {
         id: "compel",
@@ -23,7 +27,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. To force or require to do something.",
         exampleSentence: "A strong sense of duty compels firefighters to risk their lives.",
         imageEmoji: "✊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["force", "require", "make"],
+        antonyms: ["allow", "permit"]
     },
     {
         id: "delude",
@@ -31,7 +37,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. To mislead; to deceive. delusion n. A false or mistaken belief.",
         exampleSentence: "Despite never having practiced the long jump in track, Emmanuel deluded himself into thinking he could win.",
         imageEmoji: "🤪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fool", "trick", "deceive"],
+        antonyms: ["enlighten", "inform"]
     },
     {
         id: "deplore",
@@ -39,7 +47,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. 1. To feel or express sorrow or regret. 2. To disapprove of strongly. deplorable adj. Very bad; wretched.",
         exampleSentence: "My father deplored the fact that he hadn't spent more time with his children when they were young.",
         imageEmoji: "👎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["hate", "dislike", "regret"],
+        antonyms: ["approve", "praise", "like"]
     },
     {
         id: "derelict",
@@ -47,7 +57,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "adj. 1. Dilapidated and abandoned. 2. Lacking a sense of duty; neglectful. n. A poor, homeless person.",
         exampleSentence: "The derelict building will be torn down soon.",
         imageEmoji: "🏚️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["abandoned", "neglected", "beggar"],
+        antonyms: ["cared for", "responsible"]
     },
     {
         id: "detriment",
@@ -55,7 +67,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. 1. Damage or harm. 2. Anything that causes harm. detrimental adj. Damaging; harmful.",
         exampleSentence: "She willingly stayed home with her young children to the detriment of her career.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["harm", "damage", "loss"],
+        antonyms: ["benefit", "gain", "advantage"]
     },
     {
         id: "diversity",
@@ -63,7 +77,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. 1. The condition of being different or having differences. 2. Variety.",
         exampleSentence: "I was struck by the diversity in the personalities of the twins.",
         imageEmoji: "🌈",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["variety", "difference", "range"],
+        antonyms: ["sameness", "uniformity"]
     },
     {
         id: "emit",
@@ -71,7 +87,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. 1. To give off or send out. 2. To utter or express. emission n. Something that is emitted.",
         exampleSentence: "A candle emits very little light.",
         imageEmoji: "🕯️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["give off", "send out", "release"],
+        antonyms: ["absorb", "take in"]
     },
     {
         id: "foster",
@@ -79,7 +97,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "v. To promote the growth of; to encourage. adj. Giving or receiving care in a family that is not related by birth or adoption.",
         exampleSentence: "The music teacher fostered an interest in jazz in her students.",
         imageEmoji: "🌱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["help", "encourage", "promote"],
+        antonyms: ["hinder", "discourage"]
     },
     {
         id: "inanimate",
@@ -87,7 +107,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "adj. Lacking qualities associated with living things.",
         exampleSentence: "A stone is an inanimate object.",
         imageEmoji: "🪨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["dead", "lifeless", "dull"],
+        antonyms: ["alive", "living", "lively"]
     },
     {
         id: "incentive",
@@ -95,7 +117,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. Something that makes a person want to try or work harder.",
         exampleSentence: "A local benefactor offers $1,000 scholarships as an incentive to students to stay in school.",
         imageEmoji: "💰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reason", "motive", "encouragement"],
+        antonyms: ["deterrent", "discouragement"]
     },
     {
         id: "omen",
@@ -103,7 +127,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. An event or sign that is believed to indicate the future. ominous adj. Of or like a bad omen; threatening.",
         exampleSentence: "Do you believe that a black cat is an omen of bad luck?",
         imageEmoji: "🐈‍⬛",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["sign", "warning", "signal"],
+        antonyms: []
     },
     {
         id: "species",
@@ -111,7 +137,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "n. A group of plants or animals that are similar in some ways.",
         exampleSentence: "There are over a million different species of beetle in the world.",
         imageEmoji: "🐞",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["kind", "type", "sort"],
+        antonyms: []
     },
     {
         id: "toxic",
@@ -119,7 +147,9 @@ export const b7_l20_words: VocabularyWord[] = [
         definition: "adj. Causing harm; poisonous.",
         exampleSentence: "Pokeweed can be toxic to birds that eat its seeds.",
         imageEmoji: "☠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["poisonous", "harmful", "deadly"],
+        antonyms: ["safe", "harmless", "healthy"]
     }
 ];
 

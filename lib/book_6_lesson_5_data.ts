@@ -7,7 +7,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(n.) (usually plural) A playful or funny act.",
         exampleSentence: "The antics of the clown made the crowd roar with laughter.",
         imageEmoji: "🤡",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["prank", "trick", "caper"],
+        antonyms: []
     },
     {
         id: "attire",
@@ -15,7 +17,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(n.) Clothes, especially fine and expensive clothes. (v.) To dress up or be dressed up.",
         exampleSentence: "One often needs special attire to be in a wedding party.",
         imageEmoji: "👗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["clothing", "apparel", "dress"],
+        antonyms: []
     },
     {
         id: "captivate",
@@ -23,7 +27,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(v.) To please greatly; to win over by special charm.",
         exampleSentence: "The cast's superb acting captivated the audience.",
         imageEmoji: "🤩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["charm", "fascinate", "enchant"],
+        antonyms: ["bore", "repel", "disgust"]
     },
     {
         id: "deft",
@@ -31,7 +37,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Quick and sure; skillful at handling.",
         exampleSentence: "A deft juggler can keep five or more objects in the air at one time.",
         imageEmoji: "🤹",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["skillful", "dexterous", "adroit"],
+        antonyms: ["clumsy", "awkward", "inept"]
     },
     {
         id: "diligent",
@@ -39,7 +47,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Working with great care and effort.",
         exampleSentence: "Diligent students succeed in reaching their goals.",
         imageEmoji: "📝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["hardworking", "industrious", "careful"],
+        antonyms: ["lazy", "careless", "negligent"]
     },
     {
         id: "eclipse",
@@ -47,7 +57,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(n.) The total or partial hiding of one heavenly body by another. (v.) To do or be better than; to outshine.",
         exampleSentence: "An eclipse of the sun occurs when the moon passes directly in front of it.",
         imageEmoji: "🌑",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["obscure", "overshadow", "outshine"],
+        antonyms: []
     },
     {
         id: "evolve",
@@ -55,7 +67,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(v.) To develop and change gradually over time. evolution (n.) The changes that take place as something evolves.",
         exampleSentence: "Scientists think that modern birds may have evolved from dinosaurs.",
         imageEmoji: "🦕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["develop", "progress", "advance"],
+        antonyms: []
     },
     {
         id: "innate",
@@ -63,7 +77,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Having from birth; occurring naturally rather than being learned.",
         exampleSentence: "The singer's innate musical ability showed itself at a very early age.",
         imageEmoji: "👶",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["inborn", "natural", "inherent"],
+        antonyms: ["learned", "acquired"]
     },
     {
         id: "inscribe",
@@ -71,7 +87,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(v.) To write, print, or etch into as a permanent record. inscription (n.) The act of inscribing or what is inscribed.",
         exampleSentence: "Most of the gravestones were simply inscribed with the person's name, date of birth, and date of death.",
         imageEmoji: "🪦",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["engrave", "carve", "write"],
+        antonyms: []
     },
     {
         id: "posture",
@@ -79,7 +97,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(n.) The way one holds one's body; a pose or position. (v.) To assume a particular position, especially a pretended one.",
         exampleSentence: "You can improve your posture by throwing your shoulders back.",
         imageEmoji: "🧘",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["stance", "pose", "position"],
+        antonyms: []
     },
     {
         id: "shroud",
@@ -87,7 +107,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(n.) 1. Something that covers or hides from view. 2. Cloth used to wrap a dead body before burial. (v.) To block from sight.",
         exampleSentence: "A shroud of mystery surrounds the couple's disappearance.",
         imageEmoji: "🌫️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["cover", "wrap", "veil"],
+        antonyms: ["uncover", "reveal", "expose"]
     },
     {
         id: "stifle",
@@ -95,7 +117,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(v.) 1. To cut off the air from; to smother. 2. To hold back; to check.",
         exampleSentence: "Thick smoke stifled those who sat around the campfire.",
         imageEmoji: "😶",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["smother", "suppress", "choke"],
+        antonyms: ["encourage", "release", "vent"]
     },
     {
         id: "tentative",
@@ -103,7 +127,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Not fully worked out or final; hesitating or uncertain.",
         exampleSentence: "The deadline is tentative and may be extended.",
         imageEmoji: "🤔",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["hesitant", "uncertain", "provisional"],
+        antonyms: ["definite", "certain", "final"]
     },
     {
         id: "tranquil",
@@ -111,7 +137,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Calm; peaceful. tranquility (n.) The state of being tranquil.",
         exampleSentence: "The sea was tranquil with no hint of the approaching storm.",
         imageEmoji: "😌",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["calm", "peaceful", "serene"],
+        antonyms: ["stormy", "agitated", "loud"]
     },
     {
         id: "versatile",
@@ -119,7 +147,9 @@ export const b6_l5_words: VocabularyWord[] = [
         definition: "(adj.) Able to do many different things or to be used in many different ways. versatility (n.) The state or condition of being versatile.",
         exampleSentence: "She is a versatile musician who can play eight instruments.",
         imageEmoji: "🛠️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["adaptable", "flexible", "all-around"],
+        antonyms: ["limited", "specialized"]
     }
 ];
 

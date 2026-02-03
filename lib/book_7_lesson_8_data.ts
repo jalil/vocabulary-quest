@@ -7,7 +7,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. Sharp, irritating, or bitter to the sense of taste or smell.",
         exampleSentence: "Burning rubber gives off acrid fumes.",
         imageEmoji: "👃",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["pungent", "sharp", "harsh"],
+        antonyms: ["pleasant", "sweet", "fragrant"]
     },
     {
         id: "casualty",
@@ -15,7 +17,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "n. A person killed or injured in a war or accident.",
         exampleSentence: "There were many casualties of the 2011 tsunami, or tidal wave, that struck Japan.",
         imageEmoji: "🤕",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["victim", "fatality", "loss"],
+        antonyms: ["survivor"]
     },
     {
         id: "congested",
@@ -23,7 +27,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. 1. Overcrowded; filled too full. 2. Filled with fluid.",
         exampleSentence: "We take the subway during rush hour to avoid the congested city streets.",
         imageEmoji: "🚦",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["crowded", "stuffed", "clogged"],
+        antonyms: ["clear", "empty", "unblocked"]
     },
     {
         id: "cope",
@@ -31,7 +37,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "v. To manage problems or difficulties successfully.",
         exampleSentence: "Extra police were on duty to cope with the large crowds expected for the parade.",
         imageEmoji: "💪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["manage", "deal", "handle"],
+        antonyms: ["fail", "collapse"]
     },
     {
         id: "headlong",
@@ -39,7 +47,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. With great speed or force; reckless. adv. Recklessly; without time for careful thought.",
         exampleSentence: "The crowd made a headlong rush for the best seats as soon as the doors were opened.",
         imageEmoji: "🏃💨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reckless", "hasty", "impulsive"],
+        antonyms: ["cautious", "slow", "deliberate"]
     },
     {
         id: "hurtle",
@@ -47,7 +57,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "v. To move with great force and speed.",
         exampleSentence: "A snowball hurtled past my ear.",
         imageEmoji: "☄️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["rush", "speed", "race"],
+        antonyms: ["crawl", "creep"]
     },
     {
         id: "impede",
@@ -55,7 +67,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "v. To get in the way of; to interfere with the movement of.",
         exampleSentence: "An overturned truck impeded the flow of traffic.",
         imageEmoji: "🚧",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["hinder", "obstruct", "block"],
+        antonyms: ["help", "assist", "facilitate"]
     },
     {
         id: "inevitable",
@@ -63,7 +77,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. Bound to happen; unavoidable.",
         exampleSentence: "A certain amount of wear on even the best tires is inevitable with normal use.",
         imageEmoji: "📅",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unavoidable", "certain", "inescapable"],
+        antonyms: ["avoidable", "uncertain", "preventable"]
     },
     {
         id: "initiate",
@@ -71,7 +87,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "v. 1. To put into effect; to bring into use. 2. To take in as a member. n. The act of beginning.",
         exampleSentence: "The school initiated the new dress code on September 6.",
         imageEmoji: "🎬",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["start", "begin", "launch"],
+        antonyms: ["end", "finish", "terminate"]
     },
     {
         id: "irate",
@@ -79,7 +97,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. Very angry; furious.",
         exampleSentence: "Irate citizens demanded that the chemical company stop polluting the lake.",
         imageEmoji: "😡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["angry", "furious", "enraged"],
+        antonyms: ["calm", "happy", "pleased"]
     },
     {
         id: "lax",
@@ -87,7 +107,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. 1. Not strictly enforced; undemanding; careless. 2. Not tight; loose.",
         exampleSentence: "Frequent inspections are designed to ensure that airline safety procedures have not become lax.",
         imageEmoji: "🛋️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["slack", "careless", "loose"],
+        antonyms: ["strict", "tight", "careful"]
     },
     {
         id: "negligent",
@@ -95,7 +117,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. Failing to take proper care of or to give proper attention to.",
         exampleSentence: "You were negligent when you failed to lock the car doors.",
         imageEmoji: "🤷",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["careless", "neglectful", "remiss"],
+        antonyms: ["careful", "attentive", "diligent"]
     },
     {
         id: "smolder",
@@ -103,7 +127,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "v. 1. To burn slowly without bursting into flames. 2. To exist in a hidden state before bursting into the open.",
         exampleSentence: "Hot ashes smolder long after the flames of a campfire have died down.",
         imageEmoji: "🔥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["burn", "smoke", "fume"],
+        antonyms: []
     },
     {
         id: "stringent",
@@ -111,7 +137,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "adj. Strict; severe.",
         exampleSentence: "The stringent rules state that no exceptions can be made.",
         imageEmoji: "📏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["strict", "severe", "rigid"],
+        antonyms: ["lenient", "flexible", "lax"]
     },
     {
         id: "throng",
@@ -119,7 +147,9 @@ export const b7_l8_words: VocabularyWord[] = [
         definition: "n. A large number of people gathered together; a crowd. v. To gather or move in large numbers.",
         exampleSentence: "A throng of supporters cheered the president's arrival in Seattle.",
         imageEmoji: "👥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["crowd", "mob", "swarm"],
+        antonyms: ["individual", "scattering"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. To praise strongly or applaud loudly. n. Strong praise or loud applause; approval.",
         exampleSentence: "Audiences acclaimed the new student play.",
         imageEmoji: "👏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["praise", "applaud", "cheer"],
+        antonyms: ["criticize", "condemn", "boo"]
     },
     {
         id: "bigot",
@@ -15,7 +17,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "n. One who is not tolerant of those people who are different in some way; a prejudiced person. bigotry n. The intolerant attitude or behavior of such a person.",
         exampleSentence: "Only a bigot would claim that one race is superior to another.",
         imageEmoji: "🚫",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["racist", "extremist", "partisan"],
+        antonyms: ["moderate", "liberal", "humanitarian"]
     },
     {
         id: "covet",
@@ -23,7 +27,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. To have a strong and envious desire for, especially for something belonging to another. coveted adj. Greatly prized; highly desired.",
         exampleSentence: "The little girl coveted her teacher's blue notebook.",
         imageEmoji: "👀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["desire", "envy", "crave"],
+        antonyms: ["despise", "hate", "scorn"]
     },
     {
         id: "deceased",
@@ -31,7 +37,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "adj. Dead, with regard to a person. n. (with the) One who has died recently.",
         exampleSentence: "The man's thoughts often turned to his deceased wife.",
         imageEmoji: "⚰️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["dead", "late", "departed"],
+        antonyms: ["alive", "living", "existing"]
     },
     {
         id: "formidable",
@@ -39,7 +47,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "adj. 1. Causing fear or apprehension. 2. Difficult.",
         exampleSentence: "A team with a fourteen-game winning streak is a formidable opponent.",
         imageEmoji: "😰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fearsome", "difficult", "impressive"],
+        antonyms: ["easy", "weak", "harmless"]
     },
     {
         id: "ghetto",
@@ -47,7 +57,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "n. A section of a city occupied by a minority group of people, usually because of poverty or social pressure.",
         exampleSentence: "The Warsaw ghetto in Poland was the location of the largest uprising during World War II.",
         imageEmoji: "🏘️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["slum", "quarter", "enclave"],
+        antonyms: []
     },
     {
         id: "momentous",
@@ -55,7 +67,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "adj. Very important.",
         exampleSentence: "The day of high school graduation is a momentous one for students.",
         imageEmoji: "🎓",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["important", "historic", "significant"],
+        antonyms: ["trivial", "unimportant", "insignificant"]
     },
     {
         id: "oppress",
@@ -63,7 +77,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. 1. To weigh down with worry. 2. To keep down by severe and unjust use of force. oppression n. The act or state of being oppressed. oppressive adj. Very harsh or burdensome.",
         exampleSentence: "Fear of the difficult math exam oppressed the students.",
         imageEmoji: "⚖️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["subdue", "persecute", "burden"],
+        antonyms: ["liberate", "free", "relieve"]
     },
     {
         id: "overwhelm",
@@ -71,7 +87,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. 1. To defeat utterly and completely. 2. To deeply affect the mind or emotions of. 3. To upset; to turn over. overwhelming adj. Great in strength or effect.",
         exampleSentence: "Sioux and Cheyenne warriors overwhelmed General Custer's army at the Battle of Little Big Horn in 1876.",
         imageEmoji: "🌊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["defeat", "crush", "submerge"],
+        antonyms: ["help", "encourage"]
     },
     {
         id: "perceive",
@@ -79,7 +97,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. 1. To become aware of through the senses, especially the sense of sight. 2. To take in information through the mind. perception n. The act of perceiving or the thing perceived.",
         exampleSentence: "I perceived a figure in the distance but could not make out who it was.",
         imageEmoji: "👁️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["see", "notice", "understand"],
+        antonyms: ["miss", "ignore", "overlook"]
     },
     {
         id: "premiere",
@@ -87,7 +107,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "n. The first showing of a play, film, etc.",
         exampleSentence: "The play, a big success in London, has its North American premiere this Saturday.",
         imageEmoji: "🎬",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["debut", "opening", "first"],
+        antonyms: ["finale", "closing", "last"]
     },
     {
         id: "prospective",
@@ -95,7 +117,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "adj. Expected or likely to happen or become.",
         exampleSentence: "The prospective bride and groom want to have a June wedding.",
         imageEmoji: "🔜",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["expected", "potential", "future"],
+        antonyms: ["past", "former", "current"]
     },
     {
         id: "spurn",
@@ -103,7 +127,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "v. To refuse in a scornful way.",
         exampleSentence: "I spurned their offer of help because there were too many conditions attached to it.",
         imageEmoji: "😤",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reject", "scorn", "refuse"],
+        antonyms: ["accept", "welcome", "embrace"]
     },
     {
         id: "staunch",
@@ -111,7 +137,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "adj. Faithful; true; strong.",
         exampleSentence: "Mr. Fielding, a staunch supporter of Little League baseball, donated the uniforms for our team.",
         imageEmoji: "🛡️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["loyal", "faithful", "strong"],
+        antonyms: ["disloyal", "weak", "unfaithful"]
     },
     {
         id: "theme",
@@ -119,7 +147,9 @@ export const b7_l18_words: VocabularyWord[] = [
         definition: "n. 1. A dominant idea, as in art, literature, or music; a topic or subject. 2. A short essay on a single subject. 3. A series of musical notes on which variations are made; a melody that is associated with a film or television show.",
         exampleSentence: "The theme of the story is the danger of excessive pride.",
         imageEmoji: "📝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["topic", "subject", "idea"],
+        antonyms: []
     }
 ];
 

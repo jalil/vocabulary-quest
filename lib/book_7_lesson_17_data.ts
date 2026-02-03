@@ -7,7 +7,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. 1. To choose for an office or position. 2. To set or decide upon. appointment n. 1. The act of appointing or being appointed. 2. An arrangement or agreement to meet.",
         exampleSentence: "The president appoints justices to the Supreme Court.",
         imageEmoji: "👉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["choose", "designate", "select"],
+        antonyms: ["dismiss", "reject", "fire"]
     },
     {
         id: "assent",
@@ -15,7 +17,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To give one's consent; to agree. n. An act of agreeing or acceptance.",
         exampleSentence: "The principal assented to our proposal to wear jeans on Fridays.",
         imageEmoji: "👍",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["agree", "consent", "accept"],
+        antonyms: ["dissent", "refuse", "reject"]
     },
     {
         id: "concur",
@@ -23,7 +27,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To be in agreement.",
         exampleSentence: "Dr. Alvarez concurred with Dr. Yan's opinion that the patient did not require surgery.",
         imageEmoji: "🤝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["agree", "coincide", "approve"],
+        antonyms: ["disagree", "differ", "oppose"]
     },
     {
         id: "consult",
@@ -31,7 +37,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. 1. To seek information or advice. 2. To talk things over in order to reach a decision. consultation n. A discussion; a meeting to seek advice. consultant n. One whose advice is sought.",
         exampleSentence: "I consulted several reference books to get information about asteroids hitting Earth.",
         imageEmoji: "🗣️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["ask", "confer", "discuss"],
+        antonyms: ["ignore", "neglect"]
     },
     {
         id: "dissuade",
@@ -39,7 +47,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To prevent or discourage someone from doing something.",
         exampleSentence: "My friend dissuaded me from skiing the trail called White Heat.",
         imageEmoji: "🙅",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["discourage", "deter", "prevent"],
+        antonyms: ["persuade", "encourage", "urge"]
     },
     {
         id: "flabbergast",
@@ -47,7 +57,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To surprise so greatly that one is speechless; to amaze.",
         exampleSentence: "His preposterous story about being abducted by space aliens flabbergasted me.",
         imageEmoji: "😲",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["amaze", "shock", "astound"],
+        antonyms: ["bore", "expect"]
     },
     {
         id: "haggle",
@@ -55,7 +67,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To argue about, especially about the price of something.",
         exampleSentence: "Mom haggled with the dealer for a while before agreeing on a price for the painting.",
         imageEmoji: "🏷️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["bargain", "negotiate", "wrangle"],
+        antonyms: ["agree", "accept"]
     },
     {
         id: "perturb",
@@ -63,7 +77,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To make uneasy; to upset greatly.",
         exampleSentence: "I was perturbed when our late departure caused me to miss my first class.",
         imageEmoji: "😟",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["upset", "disturb", "worry"],
+        antonyms: ["calm", "soothe", "comfort"]
     },
     {
         id: "procure",
@@ -71,7 +87,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To get by making an effort; to obtain.",
         exampleSentence: "By foraging in the woods, I was able to procure enough kindling to start a fire.",
         imageEmoji: "🤲",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["obtain", "acquire", "get"],
+        antonyms: ["lose", "forfeit"]
     },
     {
         id: "receptive",
@@ -79,7 +97,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "adj. Ready and able to receive ideas or suggestions.",
         exampleSentence: "I told her I would be receptive to hearing her side of the story.",
         imageEmoji: "👂",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["open", "willing", "responsive"],
+        antonyms: ["closed", "hostile", "resistant"]
     },
     {
         id: "repudiate",
@@ -87,7 +107,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. To refuse to support; to reject.",
         exampleSentence: "New discoveries often cause scientists to repudiate earlier beliefs.",
         imageEmoji: "👎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reject", "deny", "renounce"],
+        antonyms: ["accept", "confirm", "acknowledge"]
     },
     {
         id: "resolve",
@@ -95,7 +117,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. 1. To make a firm promise to oneself. 2. To solve. n. A fixed purpose or intention.",
         exampleSentence: "I resolve to work even harder at my studies.",
         imageEmoji: "🙏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["decide", "determine", "solve"],
+        antonyms: ["hesitate", "waver"]
     },
     {
         id: "signify",
@@ -103,7 +127,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "v. 1. To be a sign of; to mean. 2. To make known or clear. significant adj. Full of meaning; important. significance n. Importance; meaning.",
         exampleSentence: "A nod of the head signifies agreement.",
         imageEmoji: "🛑",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["mean", "indicate", "signal"],
+        antonyms: ["hide", "conceal"]
     },
     {
         id: "sovereign",
@@ -111,7 +137,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "adj. 1. Highest; chief. 2. Not controlled by others. n. A king or queen; a monarch. sovereignty n. Freedom from political control by a foreign power.",
         exampleSentence: "Creativity is a sovereign quality in fiction writing.",
         imageEmoji: "👑",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["supreme", "independent", "ruler"],
+        antonyms: ["subordinate", "dependent", "subject"]
     },
     {
         id: "trifling",
@@ -119,7 +147,9 @@ export const b7_l17_words: VocabularyWord[] = [
         definition: "adj. Of little value, importance, or meaning.",
         exampleSentence: "Their objections to the plan are trifling and should be ignored.",
         imageEmoji: "🤏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["trivial", "unimportant", "insignificant"],
+        antonyms: ["important", "significant", "major"]
     }
 ];
 

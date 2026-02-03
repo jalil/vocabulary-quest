@@ -7,7 +7,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "v. To become weaker; to decrease.",
         exampleSentence: "The speaker waited until the applause had abated before continuing.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["decrease", "subside", "lessen"],
+        antonyms: ["increase", "intensify", "rise"]
     },
     {
         id: "acknowledge",
@@ -15,7 +17,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "v. 1. To admit the existence of. 2. To express recognition or thanks for.",
         exampleSentence: "Did the teacher acknowledge that you had turned in your paper?",
         imageEmoji: "🙋",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["admit", "recognize", "grant"],
+        antonyms: ["deny", "ignore", "reject"]
     },
     {
         id: "agent",
@@ -23,7 +27,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. 1. A person who acts or does business for another. 2. Something that brings about a result.",
         exampleSentence: "The author's agent found a company to publish his latest mystery story.",
         imageEmoji: "🕵️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["representative", "broker", "factor"],
+        antonyms: []
     },
     {
         id: "authority",
@@ -31,7 +37,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. 1. The right to give orders, make decisions, or take action. 2. An expert source of information.",
         exampleSentence: "Only the Congress of the United States has the authority to declare war.",
         imageEmoji: "👮",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["power", "command", "expert"],
+        antonyms: ["subordination", "weakness"]
     },
     {
         id: "devastate",
@@ -39,7 +47,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "v. To ruin or destroy completely.",
         exampleSentence: "Farmers in the Midwest fear that lack of rain will devastate the wheat crop.",
         imageEmoji: "🌪️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["destroy", "ruin", "wreck"],
+        antonyms: ["create", "construct", "restore"]
     },
     {
         id: "epidemic",
@@ -47,7 +57,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. The rapid spreading of a disease to many people at one time. adj. Spreading rapidly as a disease over a wide area.",
         exampleSentence: "The flu epidemic of 1918 killed over twenty million people in the Northern Hemisphere.",
         imageEmoji: "😷",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["outbreak", "plague", "widespread"],
+        antonyms: ["contained", "limited"]
     },
     {
         id: "estimate",
@@ -55,7 +67,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. A number that is not exact; a careful guess. v. To figure out roughly; to make an approximate calculation.",
         exampleSentence: "The mechanic's estimate for repairing the car is $1000.",
         imageEmoji: "🔢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["guess", "approximation", "calculate"],
+        antonyms: ["exactness", "fact"]
     },
     {
         id: "evict",
@@ -63,7 +77,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "v. To force out of property by taking legal action.",
         exampleSentence: "The landlord threatened to evict the tenants for not paying the rent.",
         imageEmoji: "🚫",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["eject", "expel", "oust"],
+        antonyms: ["admit", "welcome", "house"]
     },
     {
         id: "impartial",
@@ -71,7 +87,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "adj. Not favoring one side more than another; fair.",
         exampleSentence: "A judge should be impartial in the courtroom.",
         imageEmoji: "⚖️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fair", "neutral", "unbiased"],
+        antonyms: ["biased", "prejudiced", "unfair"]
     },
     {
         id: "industrious",
@@ -79,7 +97,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "adj. Hardworking; not lazy.",
         exampleSentence: "The more industrious students were rewarded at the end of the year with scholarships.",
         imageEmoji: "🐝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["hardworking", "diligent", "busy"],
+        antonyms: ["lazy", "idle", "slothful"]
     },
     {
         id: "infuriate",
@@ -87,7 +107,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "v. To make very angry.",
         exampleSentence: "Cruelty to animals infuriates me.",
         imageEmoji: "😡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["anger", "enrage", "madden"],
+        antonyms: ["calm", "soothe", "please"]
     },
     {
         id: "irrelevant",
@@ -95,7 +117,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "adj. Having nothing to do with the subject.",
         exampleSentence: "It's irrelevant whether I want to go to the party because I'm too sick to go.",
         imageEmoji: "🤷",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["unrelated", "immaterial", "beside the point"],
+        antonyms: ["relevant", "pertinent", "appropriate"]
     },
     {
         id: "precise",
@@ -103,7 +127,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "adj. Exact; specific.",
         exampleSentence: "Do you know the precise time that your class starts?",
         imageEmoji: "🎯",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["exact", "accurate", "specific"],
+        antonyms: ["imprecise", "vague", "inexact"]
     },
     {
         id: "sham",
@@ -111,7 +137,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. Something fake or false. adj. Not genuine; fake. v. To pretend.",
         exampleSentence: "Their offer to make us rich turned out to be a sham.",
         imageEmoji: "🃏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fake", "hoax", "fraud"],
+        antonyms: ["genuine", "real", "authentic"]
     },
     {
         id: "trek",
@@ -119,7 +147,9 @@ export const b7_l1_words: VocabularyWord[] = [
         definition: "n. A long, slow, and difficult journey. v. To travel slowly and with difficulty.",
         exampleSentence: "The hikers were exhausted after their trek over the mountain.",
         imageEmoji: "🥾",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["journey", "expedition", "hike"],
+        antonyms: []
     }
 ];
 

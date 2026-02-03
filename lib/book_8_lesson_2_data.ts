@@ -9,7 +9,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. A wearing away or rubbing away by friction. 2. A scraped or worn area.",
         exampleSentence: "Natalie's fall during the basketball game resulted in an abrasion on her knee.",
         imageEmoji: "🤕",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["scrape", "injury"],
+        antonyms: ["healing"]
     },
     {
         id: "clad",
@@ -18,7 +20,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "Clothed or covered.",
         exampleSentence: "Clad in a black rubber suit, the diver jumped from the side of the rescue boat.",
         imageEmoji: "👗",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["dressed", "clothed"],
+        antonyms: ["naked", "bare"]
     },
     {
         id: "corroborate",
@@ -27,7 +31,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "To provide evidence to make more certain; to confirm.",
         exampleSentence: "Because he was standing at the stoplight when the accident occurred, Javier could corroborate the driver's statement.",
         imageEmoji: "✅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["confirm", "verify"],
+        antonyms: ["contradict", "deny"]
     },
     {
         id: "cursory",
@@ -36,7 +42,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "Done in a hurry and with little attention to detail.",
         exampleSentence: "Sherlock Holmes made a cursory search of the bedroom before going into the dining room to question the family.",
         imageEmoji: "🏃",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hasty", "superficial"],
+        antonyms: ["thorough", "detailed"]
     },
     {
         id: "dehydrate",
@@ -45,7 +53,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. To remove the water from. 2. To cause to lose bodily fluids.",
         exampleSentence: "The hot, dry desert air dehydrated the hikers, who had not brought enough water.",
         imageEmoji: "💧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["dry out", "parch"],
+        antonyms: ["hydrate", "moisten"]
     },
     {
         id: "derive",
@@ -54,7 +64,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. To take or receive from a source. 2. To obtain through reasoning.",
         exampleSentence: "After practicing so diligently, Hugo derived great satisfaction from the enthusiastic applause following his performance.",
         imageEmoji: "💡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["get", "obtain"],
+        antonyms: ["give", "lose"]
     },
     {
         id: "electrify",
@@ -63,7 +75,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. To wire or equip with electric power. 2. To thrill or shock.",
         exampleSentence: "Marissa's skating performance, which included a layback spin and several perfectly executed triple axels, electrified the audience.",
         imageEmoji: "⚡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["thrill", "shock"],
+        antonyms: ["bore", "calm"]
     },
     {
         id: "endeavor",
@@ -72,7 +86,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "To attempt earnestly. A serious, earnest effort toward a goal.",
         exampleSentence: "The person we spoke to at the school office said she would endeavor to find the papers we needed.",
         imageEmoji: "🎯",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["attempt", "try"],
+        antonyms: ["give up", "quit"]
     },
     {
         id: "gingerly",
@@ -81,7 +97,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "Cautious; very careful. Extremely cautiously.",
         exampleSentence: "Mr. Wu made a gingerly attempt to finish the science experiment without spilling the liquid.",
         imageEmoji: "🐾",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["cautiously", "carefully"],
+        antonyms: ["carelessly", "recklessly"]
     },
     {
         id: "grimace",
@@ -90,7 +108,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "To make a face expressing feelings of pain, disgust, or contempt. A facial expression that seems to express pain, contempt, or disgust.",
         exampleSentence: "Hana grimaced when her computer froze and she realized she'd lost her book report.",
         imageEmoji: "😬",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["scowl", "frown"],
+        antonyms: ["smile", "grin"]
     },
     {
         id: "gruesome",
@@ -99,7 +119,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "Causing horror or disgust.",
         exampleSentence: "The book told the gruesome details of living in Europe during the time of the Black Plague.",
         imageEmoji: "🧟",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["horrible", "ghastly"],
+        antonyms: ["pleasant", "delightful"]
     },
     {
         id: "inventory",
@@ -108,7 +130,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. A list of possessions or goods on hand. 2. The stock of goods on hand. To make a complete list of.",
         exampleSentence: "Before buying school supplies for the coming year, we make an inventory of all the supplies we already have.",
         imageEmoji: "📦",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["list", "stock"],
+        antonyms: []
     },
     {
         id: "simulate",
@@ -117,7 +141,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. To take on the qualities of another; to imitate. 2. To pretend.",
         exampleSentence: "AstroTurf simulates real grass.",
         imageEmoji: "🤖",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["imitate", "pretend"],
+        antonyms: ["be real"]
     },
     {
         id: "succumb",
@@ -126,7 +152,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "1. To give up or give in to; to yield. 2. To cease to exist; to die.",
         exampleSentence: "After twenty-four hours on their feet, the relief workers succumbed to exhaustion, falling soundly asleep on their cots.",
         imageEmoji: "🏳️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["yield", "surrender"],
+        antonyms: ["resist", "withstand"]
     },
     {
         id: "surmise",
@@ -135,7 +163,9 @@ export const b8_l2_words: VocabularyWord[] = [
         definition: "To suppose something without sufficient evidence. A guess.",
         exampleSentence: "Heloise surmised that her visitors were late because of traffic.",
         imageEmoji: "🤔",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["guess", "infer"],
+        antonyms: ["know", "prove"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "n. 1. A person with a very strong desire for something that is habit-forming and sometimes harmful. 2. A person who is a very enthusiastic fan. v. To cause someone to have a very strong desire for something.",
         exampleSentence: "Junk-food addicts can try to change their eating habits.",
         imageEmoji: "🍬",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fanatic", "enthusiast"],
+        antonyms: []
     },
     {
         id: "aspire",
@@ -15,7 +17,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To have a strong desire to get or do something; to seek.",
         exampleSentence: "Every NFL team aspires to win the Super Bowl.",
         imageEmoji: "🏆",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["aim", "seek", "desire"],
+        antonyms: []
     },
     {
         id: "bias",
@@ -23,7 +27,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "n. A preference that prevents one from being impartial; prejudice. v. To cause someone to have prejudice; to influence.",
         exampleSentence: "The lawyers in town insist that Judge Lewis shows bias in favor of women.",
         imageEmoji: "⚖️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["prejudice", "partiality", "favoritism"],
+        antonyms: ["fairness", "impartiality", "neutrality"]
     },
     {
         id: "blatant",
@@ -31,7 +37,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "adj. Very obvious in an offensive or shameless way.",
         exampleSentence: "Josiah's invitation to the entire class to come to his party was a blatant attempt to win votes in the student-council election.",
         imageEmoji: "📢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["obvious", "flagrant", "glaring"],
+        antonyms: ["subtle", "hidden", "inconspicuous"]
     },
     {
         id: "candid",
@@ -39,7 +47,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "adj. Expressed honestly and without holding back unpleasant truths.",
         exampleSentence: "Tony asked the teacher for her candid opinion about his poem.",
         imageEmoji: "🗣️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["honest", "frank", "open"],
+        antonyms: ["evasive", "guarded", "secretive"]
     },
     {
         id: "confront",
@@ -47,7 +57,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. 1. To stand up to; to face boldly. 2. To put or bring face-to-face.",
         exampleSentence: "Do you intend to confront the people who have been spreading rumors about you?",
         imageEmoji: "😠",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["face", "challenge", "oppose"],
+        antonyms: ["avoid", "evade", "dodge"]
     },
     {
         id: "debut",
@@ -55,7 +67,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "n. A first public appearance. v. To make a first public appearance.",
         exampleSentence: "Radio broadcasting made its debut in 1920.",
         imageEmoji: "🎭",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["premiere", "introduction", "launch"],
+        antonyms: ["finale", "farewell"]
     },
     {
         id: "enroll",
@@ -63,7 +77,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To sign up to become a member of some group or activity; to register.",
         exampleSentence: "A scholarship made it possible for me to enroll in art school.",
         imageEmoji: "📝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["register", "sign up", "join"],
+        antonyms: ["withdraw", "drop out"]
     },
     {
         id: "fluster",
@@ -71,7 +87,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To make nervous, embarrassed, or confused.",
         exampleSentence: "The question flustered me, so I was unable to think of an answer quickly.",
         imageEmoji: "😳",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["confuse", "agitate", "rattle"],
+        antonyms: ["calm", "soothe", "compose"]
     },
     {
         id: "impunity",
@@ -79,7 +97,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "n. Freedom from being harmed or punished.",
         exampleSentence: "Those who think they can litter with impunity are sadly mistaken.",
         imageEmoji: "🔓",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["immunity", "exemption", "freedom"],
+        antonyms: ["liability", "penalty", "punishment"]
     },
     {
         id: "intensify",
@@ -87,7 +107,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To increase; to strengthen or deepen.",
         exampleSentence: "Volunteers will intensify their efforts to find the missing cat.",
         imageEmoji: "📈",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["increase", "strengthen", "escalate"],
+        antonyms: ["decrease", "weaken", "diminish"]
     },
     {
         id: "intimidate",
@@ -95,7 +117,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To frighten, especially by threatening someone.",
         exampleSentence: "The pitcher's scowl was intended to intimidate the batter.",
         imageEmoji: "👹",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["frighten", "threaten", "bully"],
+        antonyms: ["reassure", "encourage", "comfort"]
     },
     {
         id: "obnoxious",
@@ -103,7 +127,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "adj. Very unpleasant; disgusting.",
         exampleSentence: "An obnoxious diner at the next table ruined our meal by complaining in a very loud voice.",
         imageEmoji: "🤢",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["offensive", "unpleasant", "disgusting"],
+        antonyms: ["pleasant", "agreeable", "delightful"]
     },
     {
         id: "retort",
@@ -111,7 +137,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "v. To answer, especially in a quick or clever way. n. A quick or clever reply.",
         exampleSentence: "\"Spiders are afraid of me,\" I retorted when my friend said I was afraid of spiders.",
         imageEmoji: "💬",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reply", "counter", "rejoinder"],
+        antonyms: []
     },
     {
         id: "stint",
@@ -119,7 +147,9 @@ export const b7_l6_words: VocabularyWord[] = [
         definition: "n. 1. A period of time devoted to a job or some task. 2. A limit or restriction. v. To limit or restrict.",
         exampleSentence: "After finishing college, Catalina had a two-year stint in the Peace Corps in Kenya.",
         imageEmoji: "⏳",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["period", "spell", "turn"],
+        antonyms: []
     }
 ];
 

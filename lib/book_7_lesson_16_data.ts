@@ -7,7 +7,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "n. 1. A payment made as a reward, especially one made by the authorities. 2. That which is given freely, by nature or a generous person. bountiful adj. Plentiful.",
         exampleSentence: "The town offered a $25 bounty for each predatory animal that was trapped.",
         imageEmoji: "💰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["reward", "prize", "generosity"],
+        antonyms: ["penalty", "fine", "scarcity"]
     },
     {
         id: "camouflage",
@@ -15,7 +17,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "n. 1. The hiding of something as a result of its appearance. 2. Something used as a cover or disguise. v. To hide or conceal, especially by disguising the appearance of.",
         exampleSentence: "The green color of a praying mantis is its natural means of camouflage.",
         imageEmoji: "🦎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["disguise", "mask", "concealment"],
+        antonyms: ["exposure", "revelation"]
     },
     {
         id: "ebb",
@@ -23,7 +27,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. 1. To recede, fall back, or pull away from. 2. To fall to a lower level or weaker state; to dwindle. n. The passing to a lower level or weaker state.",
         exampleSentence: "The rocks near the shore were exposed as the tide ebbed.",
         imageEmoji: "🌊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["recede", "retreat", "decline"],
+        antonyms: ["flow", "rise", "increase"]
     },
     {
         id: "forage",
@@ -31,7 +37,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. To search for food or supplies. n. Food such as hay or grain for farm animals.",
         exampleSentence: "We foraged in the forest for firewood.",
         imageEmoji: "🦌",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["search", "hunt", "scrounge"],
+        antonyms: []
     },
     {
         id: "harass",
@@ -39,7 +47,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. 1. To trouble or annoy by attacking repeatedly. 2. To cause to become worried or weary.",
         exampleSentence: "Swarms of mosquitoes harassed us as we left the tent.",
         imageEmoji: "🦟",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["bother", "pester", "annoy"],
+        antonyms: ["comfort", "soothe", "aid"]
     },
     {
         id: "insulate",
@@ -47,7 +57,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. To cover with a material that keeps electricity, heat, or sound from escaping. insulation n. Material that is used to insulate.",
         exampleSentence: "The builder used fiberglass to insulate the walls.",
         imageEmoji: "🧣",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["protect", "cover", "shield"],
+        antonyms: ["expose", "strip"]
     },
     {
         id: "lethargic",
@@ -55,7 +67,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "adj. Slow moving; sleepy or tired. lethargy n. A state of laziness, tiredness, or of not caring.",
         exampleSentence: "Extreme heat often makes people lethargic.",
         imageEmoji: "🥱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["sluggish", "tired", "lazy"],
+        antonyms: ["energetic", "active", "lively"]
     },
     {
         id: "maneuver",
@@ -63,7 +77,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "n. 1. A planned military movement. 2. A skillful move or clever trick. v. 1. To perform military movements with. 2. To move or manage in a skillful way.",
         exampleSentence: "A frontal attack on a well-defended position is not a maneuver I would recommend.",
         imageEmoji: "♟️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["move", "tactic", "trick"],
+        antonyms: ["inaction"]
     },
     {
         id: "mottled",
@@ -71,7 +87,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "adj. Marked with different colored patches or blotches.",
         exampleSentence: "The granite had a mottled pink and gray appearance.",
         imageEmoji: "🐆",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["spotted", "speckled", "blotchy"],
+        antonyms: ["solid", "plain"]
     },
     {
         id: "murky",
@@ -79,7 +97,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "adj. Dark; gloomy.",
         exampleSentence: "I gazed over the side of the boat into the murky depths of the ocean.",
         imageEmoji: "🌫️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["dark", "cloudy", "gloomy"],
+        antonyms: ["clear", "bright"]
     },
     {
         id: "proximity",
@@ -87,7 +107,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "n. The state of being close or next to; nearness.",
         exampleSentence: "My family looked for a house with proximity to the school.",
         imageEmoji: "📏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["nearness", "closeness", "vicinity"],
+        antonyms: ["distance", "remoteness"]
     },
     {
         id: "replenish",
@@ -95,7 +117,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. To fill up again.",
         exampleSentence: "We replenished our water bottles at a little stream.",
         imageEmoji: "🚰",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["refill", "restock", "restore"],
+        antonyms: ["empty", "deplete", "drain"]
     },
     {
         id: "sleek",
@@ -103,7 +127,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "adj. 1. Smooth and glossy. 2. Having slender, graceful lines.",
         exampleSentence: "The dog's coat was sleek from daily brushing.",
         imageEmoji: "🐎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["smooth", "glossy", "streamlined"],
+        antonyms: ["rough", "dull", "clumsy"]
     },
     {
         id: "wary",
@@ -111,7 +137,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "adj. On one's guard; watchful; suspicious.",
         exampleSentence: "She advised me to be wary of the large crack in the sidewalk.",
         imageEmoji: "👀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["cautious", "watchful", "alert"],
+        antonyms: ["careless", "trustful", "reckless"]
     },
     {
         id: "wean",
@@ -119,7 +147,9 @@ export const b7_l16_words: VocabularyWord[] = [
         definition: "v. 1. To cause to stop depending on a mother's milk for nourishment. 2. To detach from something one has grown accustomed to.",
         exampleSentence: "Puppies are weaned at six weeks.",
         imageEmoji: "🍼",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["detach", "discourage", "accustom"],
+        antonyms: ["addict", "attach"]
     }
 ];
 

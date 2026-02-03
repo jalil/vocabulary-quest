@@ -7,7 +7,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "v. To state as a fact but without offering proof.",
         exampleSentence: "I always pack my own lunch, so I don't know why Sari would allege that I took hers.",
         imageEmoji: "🗣️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["claim", "assert", "declare"],
+        antonyms: ["prove", "deny"]
     },
     {
         id: "conclusive",
@@ -15,7 +17,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. Putting an end to doubt; convincing.",
         exampleSentence: "The sales receipt was conclusive proof that the shirt had been paid for.",
         imageEmoji: "🧾",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["decisive", "convincing", "final"],
+        antonyms: ["inconclusive", "doubtful"]
     },
     {
         id: "counterpart",
@@ -23,7 +27,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "n. A person or thing that is similar to another.",
         exampleSentence: "The British prime minister is the counterpart of the American president.",
         imageEmoji: "👥",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["equivalent", "match", "peer"],
+        antonyms: ["opposite"]
     },
     {
         id: "dismal",
@@ -31,7 +37,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. 1. Dark or extremely gloomy. 2. Causing misery or sadness; depressing.",
         exampleSentence: "The dismal weather kept us inside for most of our summer vacation.",
         imageEmoji: "🌧️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["gloomy", "depressing", "miserable"],
+        antonyms: ["bright", "cheerful", "happy"]
     },
     {
         id: "enthrall",
@@ -39,7 +47,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "v. To hold the attention of as though under a spell.",
         exampleSentence: "The acrobats on the trapeze enthralled the circus audience.",
         imageEmoji: "🎪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["captivate", "charm", "fascinate"],
+        antonyms: ["bore", "repel"]
     },
     {
         id: "exotic",
@@ -47,7 +57,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. Fascinating because of being very different from the ordinary.",
         exampleSentence: "Rare orchids and other exotic flowers decorated the tables at the wedding.",
         imageEmoji: "🌺",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["foreign", "strange", "unusual"],
+        antonyms: ["native", "familiar", "ordinary"]
     },
     {
         id: "incredulous",
@@ -55,7 +67,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. 1. Doubtful; skeptical. 2. Showing disbelief.",
         exampleSentence: "The teacher was incredulous when the student claimed to have read the novel in two hours.",
         imageEmoji: "🤨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["skeptical", "disbelieving", "doubtful"],
+        antonyms: ["gullible", "trusting", "believing"]
     },
     {
         id: "legendary",
@@ -63,7 +77,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. 1. Well known; famous and much talked about over a long period of time. 2. Relating to a story (usually untrue) handed down from the past.",
         exampleSentence: "Harriet Tubman, who led more than three hundred enslaved people to freedom, is a legendary figure in American history.",
         imageEmoji: "🦸‍♀️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["famous", "fabled", "mythical"],
+        antonyms: ["unknown", "obscure"]
     },
     {
         id: "lurk",
@@ -71,7 +87,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "v. To prowl or lie hidden, as though about to attack.",
         exampleSentence: "The farmer frightened away the fox that lurked by the henhouse.",
         imageEmoji: "🦊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["skulk", "prowl", "hide"],
+        antonyms: ["appear", "reveal"]
     },
     {
         id: "menagerie",
@@ -79,7 +97,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "n. A collection of animals kept in cages for showing to the public.",
         exampleSentence: "The owner of the menagerie assured us that the animals were well cared for.",
         imageEmoji: "🦁",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["collection", "zoo", "exhibit"],
+        antonyms: []
     },
     {
         id: "naive",
@@ -87,7 +107,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. 1. Inexperienced; ready to accept without analyzing. 2. Simple in a childlike way; innocent.",
         exampleSentence: "I was naive to believe that sending off the coupon would win me a free vacation in Hawaii.",
         imageEmoji: "👶",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["innocent", "gullible", "simple"],
+        antonyms: ["sophisticated", "experienced", "cynical"]
     },
     {
         id: "pander",
@@ -95,7 +117,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "v. To give or promise what is wanted in order to please someone.",
         exampleSentence: "I believe that she panders to students by giving them better grades than they deserve.",
         imageEmoji: "🤝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["gratify", "indulge", "cater"],
+        antonyms: ["deny", "refuse"]
     },
     {
         id: "plausible",
@@ -103,7 +127,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. Seeming to be true but not necessarily so.",
         exampleSentence: "Lin Shao's explanation of why she was late seems plausible, so I'll accept it.",
         imageEmoji: "🤔",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["believable", "credible", "reasonable"],
+        antonyms: ["implausible", "unbelievable", "unlikely"]
     },
     {
         id: "preposterous",
@@ -111,7 +137,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. Too absurd to be believed; ridiculous.",
         exampleSentence: "You cannot believe this preposterous newspaper story that a six-month-old baby speaks three languages.",
         imageEmoji: "🤪",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["absurd", "ridiculous", "foolish"],
+        antonyms: ["sensible", "reasonable", "serious"]
     },
     {
         id: "scrupulous",
@@ -119,7 +147,9 @@ export const b7_l14_words: VocabularyWord[] = [
         definition: "adj. 1. Marked by close attention to the smallest detail. 2. Acting in a correct and honest manner.",
         exampleSentence: "Daniela kept a scrupulous record of all her homework assignments.",
         imageEmoji: "📝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["careful", "precise", "honest"],
+        antonyms: ["careless", "slapdash", "dishonest"]
     }
 ];
 

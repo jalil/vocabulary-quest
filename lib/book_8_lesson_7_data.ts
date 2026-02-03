@@ -9,7 +9,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "An abnormal fear of narrow, enclosed spaces.",
         exampleSentence: "Although Juanita is in the Navy, her claustrophobia prevents her from serving in submarines.",
         imageEmoji: "🚪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["fear of enclosed spaces"],
+        antonyms: []
     },
     {
         id: "colleague",
@@ -18,7 +20,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "An associate or coworker of similar status.",
         exampleSentence: "On her birthday, Mom's colleagues surprised her by taking her out to lunch.",
         imageEmoji: "👥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["coworker", "associate"],
+        antonyms: []
     },
     {
         id: "condescend",
@@ -27,7 +31,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "1. To lower oneself to a position one considers inferior. 2. To behave in an offensively superior manner.",
         exampleSentence: "Sarita said she would never condescend to respond to the jealous person who stole her new shoes.",
         imageEmoji: "🤨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["stoop", "patronize"],
+        antonyms: ["respect", "honor"]
     },
     {
         id: "contingent",
@@ -36,7 +42,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "1. Conditional; depending on something else. 2. Likely, but not certain to happen; possible. 3. A group that is part of a larger one.",
         exampleSentence: "Jackson's plans for attending the university were contingent on receiving a scholarship.",
         imageEmoji: "🚩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["dependent", "conditional"],
+        antonyms: ["certain", "independent"]
     },
     {
         id: "daunt",
@@ -45,7 +53,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "To discourage or intimidate.",
         exampleSentence: "Learning that she needed medical treatment did not daunt Miranda but instead gave her hope for her future.",
         imageEmoji: "😟",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["discourage", "intimidate"],
+        antonyms: ["encourage", "hearten"]
     },
     {
         id: "deluge",
@@ -54,7 +64,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "1. A downpour of rain; a flood. 2. A flood of anything. To flood or overwhelm.",
         exampleSentence: "Opening the dam just north of the Grand Canyon sent a deluge to the dry river beds in the canyon.",
         imageEmoji: "🌊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["flood", "downpour"],
+        antonyms: ["drought", "trickle"]
     },
     {
         id: "dispel",
@@ -63,7 +75,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "To clear away; to remove or get rid of, as if by scattering.",
         exampleSentence: "I wanted Tanis to reassure me, but her letter, instead of dispelling my fears, increased them.",
         imageEmoji: "💨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["scatter", "dismiss"],
+        antonyms: ["gather", "collect"]
     },
     {
         id: "dub",
@@ -72,7 +86,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "To give a title, nickname, or description to.",
         exampleSentence: "The pirate Edward Teach has been dubbed \"Blackbeard.\"",
         imageEmoji: "🏷️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["name", "call"],
+        antonyms: []
     },
     {
         id: "fanfare",
@@ -81,7 +97,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "1. A sounding of trumpets or other brass instruments. 2. Any showy display.",
         exampleSentence: "When the president strides into the auditorium, he is greeted with loud fanfare.",
         imageEmoji: "🎺",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["display", "flourish"],
+        antonyms: []
     },
     {
         id: "fledgling",
@@ -90,7 +108,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "1. A young bird just learning to fly. 2. A young and inexperienced person.",
         exampleSentence: "The fledglings took short trial flights over the yard from their nest on the porch.",
         imageEmoji: "🐣",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["beginner", "novice"],
+        antonyms: ["expert", "pro"]
     },
     {
         id: "inane",
@@ -99,7 +119,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "Empty; shallow or silly.",
         exampleSentence: "Susan, bored by the inane chatter of her classmates, went back to reading her book.",
         imageEmoji: "🤪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["silly", "foolish"],
+        antonyms: ["wise", "serious"]
     },
     {
         id: "mettle",
@@ -108,7 +130,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "Courage to bear up under difficult circumstances; spirit.",
         exampleSentence: "In spite of the bully's threats, the children showed their mettle by refusing to say anything about their friend.",
         imageEmoji: "💪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["courage", "spirit"],
+        antonyms: ["cowardice", "weakness"]
     },
     {
         id: "negligible",
@@ -117,7 +141,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "Small and unimportant, not worth noticing.",
         exampleSentence: "The team's mistakes in the final tournament were negligible, having no effect on the result.",
         imageEmoji: "🤏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["insignificant", "unimportant"],
+        antonyms: ["significant", "important"]
     },
     {
         id: "protract",
@@ -126,7 +152,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "To draw out or lengthen (in time).",
         exampleSentence: "Our trip was protracted unnecessarily because my dad drove right past the correct exit.",
         imageEmoji: "📏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["extend", "prolong"],
+        antonyms: ["shorten", "abbreviate"]
     },
     {
         id: "replica",
@@ -135,7 +163,9 @@ export const b8_l7_words: VocabularyWord[] = [
         definition: "A copy or reproduction, especially one on a smaller scale than the original.",
         exampleSentence: "A replica of the Statue of Liberty stood on my grandmother's shelf, a reminder of her first glimpse of her new country.",
         imageEmoji: "🗿",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["copy", "duplicate"],
+        antonyms: ["original"]
     }
 ];
 

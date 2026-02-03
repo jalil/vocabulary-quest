@@ -6,6 +6,8 @@ export interface VocabularyWord {
     exampleSentence: string;
     imageEmoji: string; // Using emoji for MVP, can be replace with URL
     category?: string; // e.g. "SAT", "Science"
+    synonyms?: string[];
+    antonyms?: string[];
 }
 
 export type StoryType = 'fiction' | 'non-fiction' | 'review-riddle' | 'story' | 'exercise';

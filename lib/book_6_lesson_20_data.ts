@@ -7,7 +7,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) To talk in a loud and bullying manner. (n.) Loud, boastful or threatening talk or commotion. blustering (adj.) Blowing loudly and violently.",
         exampleSentence: "\"It's none of your business,\" he blustered when asked why he had stolen the money.",
         imageEmoji: "🌬️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rant", "roar", "storm"],
+        antonyms: ["be quiet", "whisper"]
     },
     {
         id: "council",
@@ -15,7 +17,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) A group of people who meet to decide or plan something, give advice, or make laws.",
         exampleSentence: "Members of the town council are elected for a two-year term.",
         imageEmoji: "👥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["board", "committee", "panel"],
+        antonyms: []
     },
     {
         id: "dwell",
@@ -23,7 +27,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) 1. To live or reside. 2. To keep thinking about. dwelling (n.) A house or home.",
         exampleSentence: "How long did you dwell in the house where you were born?",
         imageEmoji: "🏠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["live", "reside", "inhabit"],
+        antonyms: ["move", "leave", "vacate"]
     },
     {
         id: "exterminate",
@@ -31,7 +37,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) To kill or destroy completely.",
         exampleSentence: "The hardware store sells products to exterminate ants and cockroaches.",
         imageEmoji: "🚫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["destroy", "eliminate", "eradicate"],
+        antonyms: ["create", "build", "generate"]
     },
     {
         id: "fee",
@@ -39,7 +47,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) A fixed sum of money charged.",
         exampleSentence: "The admission fee for the art museum is five dollars.",
         imageEmoji: "💵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["charge", "cost", "price"],
+        antonyms: []
     },
     {
         id: "garment",
@@ -47,7 +57,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) Any piece of clothing.",
         exampleSentence: "These delicate garments should be washed by hand.",
         imageEmoji: "👗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["clothing", "apparel", "dress"],
+        antonyms: []
     },
     {
         id: "infest",
@@ -55,7 +67,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) To overrun in a way that causes harm or annoyance.",
         exampleSentence: "Drastic measures are needed to deal with rats that infest the neighborhood.",
         imageEmoji: "🐀",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["overrun", "invade", "plague"],
+        antonyms: ["clean", "purify", "clear"]
     },
     {
         id: "insist",
@@ -63,7 +77,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) To take a stand and hold firmly to it. insistent (adj.) Unyielding; firm.",
         exampleSentence: "Her parents insist that she vacate her room so the walls can be scoured and painted.",
         imageEmoji: "😤",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["demand", "persist", "maintain"],
+        antonyms: ["waver", "give up", "yield"]
     },
     {
         id: "paltry",
@@ -71,7 +87,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(adj.) Very small and worthless; hardly worth considering.",
         exampleSentence: "Five dollars may seem a paltry sum today, but in 1914 it was a day's wage for an automobile worker.",
         imageEmoji: "🤏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["meager", "insignificant", "trivial"],
+        antonyms: ["significant", "substantial", "important"]
     },
     {
         id: "peculiar",
@@ -79,7 +97,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(adj.) 1. Odd; strange. 2. Limited to a person, country, group, or thing.",
         exampleSentence: "It seems peculiar that such a frugal person would give everyone extravagant gifts.",
         imageEmoji: "🤪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["strange", "odd", "weird"],
+        antonyms: ["normal", "ordinary", "common"]
     },
     {
         id: "rash",
@@ -87,7 +107,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) 1. A breaking out of red spots on the skin. 2. A series of outbreaks. (adj.) Too hasty or reckless.",
         exampleSentence: "This ointment will soothe the baby's rash.",
         imageEmoji: "🤒",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["hasty", "reckless", "impulsive"],
+        antonyms: ["careful", "cautious", "thoughtful"]
     },
     {
         id: "revenge",
@@ -95,7 +117,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) 1. The desire to return harm for harm done. 2. The act of paying back wrong done. (v.) To get even for a wrong done; to retaliate.",
         exampleSentence: "Revenge for past wrongs was the only thing on their minds.",
         imageEmoji: "😠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["vengeance", "retribution", "reprisal"],
+        antonyms: ["forgiveness", "pardon", "mercy"]
     },
     {
         id: "rodent",
@@ -103,7 +127,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) An animal with sharp teeth for gnawing. (adj.) Of or relating to rodents.",
         exampleSentence: "Small rodents such as gerbils and hamsters are popular pets.",
         imageEmoji: "🐹",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rat", "mouse", "beaver"],
+        antonyms: []
     },
     {
         id: "swarm",
@@ -111,7 +137,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(v.) To move in large numbers. (n.) A large, moving crowd or mass.",
         exampleSentence: "Soccer fans swarmed into the stadium for the final game of the series.",
         imageEmoji: "🐝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["crowd", "horde", "mob"],
+        antonyms: []
     },
     {
         id: "vat",
@@ -119,7 +147,9 @@ export const b6_l20_words: VocabularyWord[] = [
         definition: "(n.) A large container such as a tub or barrel used for holding liquids.",
         exampleSentence: "Olive oil is stored in these large vats.",
         imageEmoji: "🛢️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tub", "tank", "barrel"],
+        antonyms: []
     }
 ];
 

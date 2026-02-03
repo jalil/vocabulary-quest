@@ -7,7 +7,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "v. To ask earnestly; to beg.",
         exampleSentence: "I beseech you to stay just one more day.",
         imageEmoji: "🙏",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["beg", "implore", "entreat"],
+        antonyms: ["demand", "command"]
     },
     {
         id: "consternation",
@@ -15,7 +17,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. Amazement or fear that makes one feel confused.",
         exampleSentence: "We were filled with consternation when we saw that our car had been towed.",
         imageEmoji: "😱",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["alarm", "dismay", "confusion"],
+        antonyms: ["composure", "tranquility", "calm"]
     },
     {
         id: "delectable",
@@ -23,7 +27,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "adj. Pleasing to the senses, especially to the sense of taste; delicious.",
         exampleSentence: "My grandfather's homemade apple pie is delectable.",
         imageEmoji: "🥧",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["delicious", "delightful", "tasty"],
+        antonyms: ["untasty", "gross", "repulsive"]
     },
     {
         id: "garland",
@@ -31,7 +37,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. A wreath or chain of leaves and flowers.",
         exampleSentence: "The islanders greet new arrivals with garlands of fresh flowers to put around their necks.",
         imageEmoji: "🌺",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["wreath", "chain", "lei"],
+        antonyms: []
     },
     {
         id: "gratify",
@@ -39,7 +47,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "v. 1. To please or satisfy. 2. To give in to what is wanted or requested.",
         exampleSentence: "The Red Cross was gratified by the response to its appeal for blood donors.",
         imageEmoji: "😌",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["please", "satisfy", "delight"],
+        antonyms: ["displease", "frustrate", "disappoint"]
     },
     {
         id: "haughty",
@@ -47,7 +57,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "adj. Showing too much pride in oneself and scorn or contempt for others.",
         exampleSentence: "Sofia's haughty manner made her unpopular.",
         imageEmoji: "😤",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["arrogant", "proud", "snooty"],
+        antonyms: ["humble", "modest", "meek"]
     },
     {
         id: "impetuous",
@@ -55,7 +67,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "adj. Likely to act without thinking; hasty.",
         exampleSentence: "I regretted my impetuous decision to invite everyone at Marcello's party to come over to my place.",
         imageEmoji: "🏃",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["impulsive", "rash", "hasty"],
+        antonyms: ["cautious", "careful", "prudent"]
     },
     {
         id: "lavish",
@@ -63,7 +77,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "adj. 1. Much more than enough. 2. Very costly. v. To give freely or generously.",
         exampleSentence: "The Chinese New Year's celebration included a lavish fifteen-course meal.",
         imageEmoji: "💎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["extravagant", "generous", "profuse"],
+        antonyms: ["scarce", "meager", "stingy"]
     },
     {
         id: "pluck",
@@ -71,7 +87,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "v. 1. To pull off or out; to pick. 2. To remove the feathers from. 3. To pull at and let go. n. Courage; bravery.",
         exampleSentence: "I was tempted to pluck a rose from the bush, but the sight of the thorns stopped me.",
         imageEmoji: "🌹",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["pull", "picking", "courage"],
+        antonyms: ["cowardice", "fear", "timidity"]
     },
     {
         id: "ponder",
@@ -79,7 +97,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "v. To think about; to consider carefully.",
         exampleSentence: "Lost in thought, the chess player pondered her next move.",
         imageEmoji: "🤔",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["consider", "contemplate", "mull over"],
+        antonyms: ["ignore", "disregard"]
     },
     {
         id: "privilege",
@@ -87,7 +107,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. A special favor, right, or advantage given to a person or group.",
         exampleSentence: "Free parking at Reagan National Airport is one of the privileges enjoyed by members of Congress.",
         imageEmoji: "🅿️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["advantage", "benefit", "prerogative"],
+        antonyms: ["disadvantage", "handicap", "restriction"]
     },
     {
         id: "prostrate",
@@ -95,7 +117,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "adj. 1. Lying flat. 2. Lying facedown, especially to show respect. 3. Completely overcome; weak and helpless.",
         exampleSentence: "Having fainted, he lay prostrate on the floor.",
         imageEmoji: "🙇",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["flat", "prone", "overcome"],
+        antonyms: ["upright", "standing"]
     },
     {
         id: "rapture",
@@ -103,7 +127,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. A state of great joy, delight, or love.",
         exampleSentence: "The Scot was filled with rapture at the sound of bagpipes.",
         imageEmoji: "🤩",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["ecstasy", "bliss", "joy"],
+        antonyms: ["misery", "despair", "agony"]
     },
     {
         id: "revelry",
@@ -111,7 +137,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. Noisy merrymaking.",
         exampleSentence: "Sounds of revelry came from the locker room after the game.",
         imageEmoji: "🥳",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["celebration", "festivity", "merrymaking"],
+        antonyms: ["mourning", "sadness", "gloom"]
     },
     {
         id: "whim",
@@ -119,7 +147,9 @@ export const b7_l7_words: VocabularyWord[] = [
         definition: "n. A sudden wish to do something without a particular reason; a fanciful idea.",
         exampleSentence: "Purchasing a puppy is not something to be done on a whim.",
         imageEmoji: "💭",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["impulse", "fancy", "caprice"],
+        antonyms: ["plan", "purpose", "intent"]
     }
 ];
 

@@ -6,64 +6,78 @@ export const b8_l11_words: VocabularyWord[] = [
         id: "augment",
         word: "augment",
         pronunciation: "/ɔːɡˈment/",
-        definition: "To increase in size, amount, or degree.",
-        exampleSentence: "In order to buy a new bike before summer, Iris augmented her savings by babysitting the twins next door.",
+        definition: "To make greater, as in size, quantity, or strength; to supplement.",
+        exampleSentence: "The king attempting to augment his army by hiring Danish mercenaries.",
         imageEmoji: "📈",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["increase", "add to"],
+        antonyms: ["decrease", "reduce"]
     },
     {
         id: "benign",
         word: "benign",
         pronunciation: "/bɪˈnaɪn/",
-        definition: "1. Kind; gracious; gentle. 2. Favorable; not threatening.",
+        definition: "1. Gentle; kindly. 2. Not threatening to life or health; not malignant.",
         exampleSentence: "Friendly nurses were a benign presence in the hospital.",
         imageEmoji: "😊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["gentle", "kind"],
+        antonyms: ["harmful", "malicious"]
     },
     {
         id: "connoisseur",
         word: "connoisseur",
         pronunciation: "/ˌkɒnəˈsɜːr/",
         definition: "A person with extensive knowledge, especially of the fine arts; a person of refined taste.",
-        exampleSentence: "A connoisseur of rare stamps would recognize the famous English \"penny black\" at once.",
+        exampleSentence: "A connoisseur of rare stamps would recognize the value of this one.",
         imageEmoji: "🧐",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["expert", "enthusiast"],
+        antonyms: ["novice", "amateur"]
     },
     {
         id: "discern",
         word: "discern",
         pronunciation: "/dɪˈsɜːrn/",
         definition: "1. To detect with the eyes. 2. To understand or comprehend. 3. To recognize as separate or different.",
-        exampleSentence: "About forty-five minutes after the ferry left Block Island, the passengers could discern the coast of Rhode Island before them.",
+        exampleSentence: "About forty-five minutes after the ferry left Block Island, the passengers could discern the coast of Rhode Island.",
         imageEmoji: "👀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["perceive", "detect"],
+        antonyms: ["ignore", "overlook"]
     },
     {
         id: "embellish",
         word: "embellish",
         pronunciation: "/ɪmˈbelɪʃ/",
-        definition: "1. To make beautiful by adding decorative elements. 2. To add fictitious details to.",
-        exampleSentence: "The entire surface of the black cloth had been embellished with colored threads stitched in elaborate patterns.",
+        definition: "1. To make beautiful by adding decorative elements. 2. To add fictitious detail to.",
+        exampleSentence: "The entire surface of the black silk dress was embellished with gold thread and beads.",
         imageEmoji: "🎀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["decorate", "adorn"],
+        antonyms: ["simplify", "strip"]
     },
     {
         id: "execute",
         word: "execute",
         pronunciation: "/ˈeksɪkjuːt/",
         definition: "1. To carry out; to perform. 2. To create, as a work of art. 3. To put to death as a legal penalty.",
-        exampleSentence: "The karate instructor told me to execute a front snap kick.",
-        imageEmoji: "✅",
-        category: "Grade 8"
+        exampleSentence: "The karate instructor told me to execute a side kick.",
+        imageEmoji: "🥋",
+        category: "Grade 8",
+        synonyms: ["perform", "carry out"],
+        antonyms: ["neglect", "fail"]
     },
     {
         id: "exemplify",
         word: "exemplify",
         pronunciation: "/ɪɡˈzemplɪfaɪ/",
         definition: "To illustrate by being an example of.",
-        exampleSentence: "The poetry of Langston Hughes exemplifies some of the best work of the writers of the Harlem Renaissance.",
-        imageEmoji: "💡",
-        category: "Grade 8"
+        exampleSentence: "The poetry of Langston Hughes exemplifies the mood of the Harlem Renaissance.",
+        imageEmoji: "🌟",
+        category: "Grade 8",
+        synonyms: ["illustrate", "demonstrate"],
+        antonyms: ["contradict"]
     },
     {
         id: "grotesque",
@@ -71,44 +85,54 @@ export const b8_l11_words: VocabularyWord[] = [
         pronunciation: "/ɡroʊˈtesk/",
         definition: "So distorted or strange as to appear bizarre or comical.",
         exampleSentence: "The grotesque masks worn by the dancers frightened the children.",
-        imageEmoji: "👺",
-        category: "Grade 8"
+        imageEmoji: "👹",
+        category: "Grade 8",
+        synonyms: ["distorted", "bizarre"],
+        antonyms: ["beautiful", "normal"]
     },
     {
         id: "hallowed",
         word: "hallowed",
         pronunciation: "/ˈhæloʊd/",
         definition: "Greatly respected; holy; sacred.",
-        exampleSentence: "Arlington National Cemetery is hallowed ground because it is the burial place for soldiers who have died in war.",
+        exampleSentence: "Arlington National Cemetery is hallowed ground because it is the burial place for American soldiers.",
         imageEmoji: "🙏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["holy", "sacred"],
+        antonyms: ["unholy", "profane"]
     },
     {
         id: "impersonate",
         word: "impersonate",
         pronunciation: "/ɪmˈpɜːrsəneɪt/",
-        definition: "1. To assume the character or appearance of. 2. To mimic.",
-        exampleSentence: "The solution to the mystery became clear to the detective when he learned that one woman had impersonated another when renting the apartment.",
+        definition: "To assume the character or appearance of.",
+        exampleSentence: "The solution to the mystery became clear to the detective when he learned that one woman had impersonated another when cheating at cards.",
         imageEmoji: "🎭",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["mimic", "copy"],
+        antonyms: []
     },
     {
         id: "malevolent",
         word: "malevolent",
         pronunciation: "/məˈlevələnt/",
         definition: "Showing ill will or hatred; producing harm or evil.",
-        exampleSentence: "The bully's malevolent plan was to frighten the younger students on the bus so they would give him their lunch money.",
-        imageEmoji: "😈",
-        category: "Grade 8"
+        exampleSentence: "I could feel the malevolent glare of the man sitting across the aisle.",
+        imageEmoji: "👿",
+        category: "Grade 8",
+        synonyms: ["malicious", "evil"],
+        antonyms: ["benevolent", "kind"]
     },
     {
         id: "ornate",
         word: "ornate",
         pronunciation: "/ɔːrˈneɪt/",
         definition: "Heavily and elaborately decorated.",
-        exampleSentence: "The tour guide pointed out the ornate carving over the arched doorway.",
-        imageEmoji: "🏛️",
-        category: "Grade 8"
+        exampleSentence: "The tour guide pointed out the ornate carving over the fireplace.",
+        imageEmoji: "⛪",
+        category: "Grade 8",
+        synonyms: ["decorative", "elaborate"],
+        antonyms: ["plain", "simple"]
     },
     {
         id: "pastoral",
@@ -117,25 +141,31 @@ export const b8_l11_words: VocabularyWord[] = [
         definition: "1. Having to do with shepherds and herders. 2. Relating to country life, and often presented as charmingly simple.",
         exampleSentence: "The Industrial Revolution contributed to the disappearance of a pastoral way of life.",
         imageEmoji: "🐑",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["rural", "rustic"],
+        antonyms: ["urban", "city"]
     },
     {
         id: "precarious",
         word: "precarious",
-        pronunciation: "/prɪˈkeəriəs/",
+        pronunciation: "/prɪˈkiriəs/",
         definition: "Not safe or secure; dangerously uncertain.",
-        exampleSentence: "Having cut through the thick vines to get a better view of the waterfall, the hikers did not understand how precarious their situation was until they tried to return to the trail and could not find it.",
-        imageEmoji: "🧗",
-        category: "Grade 8"
+        exampleSentence: "Having cut through the thick vines to get a better view of the waterfall, the hikers found themselves in a precarious position at the edge of the cliff.",
+        imageEmoji: "⚠️",
+        category: "Grade 8",
+        synonyms: ["dangerous", "unstable"],
+        antonyms: ["safe", "secure"]
     },
     {
         id: "renown",
         word: "renown",
         pronunciation: "/rɪˈnaʊn/",
         definition: "Fame; honor.",
-        exampleSentence: "By 1964, the Beatles had achieved worldwide renown for their rock-and-roll music.",
-        imageEmoji: "🌟",
-        category: "Grade 8"
+        exampleSentence: "Sir Isaac Newton enjoys world renown for his discovery of the laws of gravity.",
+        imageEmoji: "🏆",
+        category: "Grade 8",
+        synonyms: ["fame", "glory"],
+        antonyms: ["obscurity"]
     }
 ];
 

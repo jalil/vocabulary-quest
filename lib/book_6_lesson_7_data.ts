@@ -7,7 +7,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(n.) A rough, noisy fight. (v.) To fight noisily.",
         exampleSentence: "Teachers walk the halls between classes to prevent brawls between students.",
         imageEmoji: "👊",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["fight", "scuffle", "fray"],
+        antonyms: ["agreement", "peace"]
     },
     {
         id: "casual",
@@ -15,7 +17,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not planned. 2. Not regular; occasional. 3. Suitable for everyday use; comfortable.",
         exampleSentence: "Several friends got together for a casual meeting after the movie.",
         imageEmoji: "👕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["informal", "occasional", "relaxed"],
+        antonyms: ["formal", "planned", "permanent"]
     },
     {
         id: "constant",
@@ -23,7 +27,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not changing. 2. Loyal; faithful. 3. Without a pause; unending.",
         exampleSentence: "When I ride my bike, I try to maintain a constant speed.",
         imageEmoji: "⏱️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["steady", "continuous", "faithful"],
+        antonyms: ["changeable", "variable", "fickle"]
     },
     {
         id: "excel",
@@ -31,7 +37,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(v.) To do well; to be better or greater than others.",
         exampleSentence: "Jackie Robinson excelled as both a fielder and a batter.",
         imageEmoji: "🌟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["surpass", "outshine", "shine"],
+        antonyms: ["fail", "fall behind"]
     },
     {
         id: "exhaust",
@@ -39,7 +47,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(v.) 1. To use up. 2. To tire out. (n.) The waste gases from an engine; also, the system that pumps out such waste gases.",
         exampleSentence: "Lost on the mountain, the climbers exhausted their supplies after two days.",
         imageEmoji: "💨",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["deplete", "tire", "drain"],
+        antonyms: ["replenish", "energize", "refresh"]
     },
     {
         id: "hardy",
@@ -47,7 +57,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) Able to survive under bad conditions; tough.",
         exampleSentence: "Sage is a hardy plant that can be left outside during the winter.",
         imageEmoji: "🌵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tough", "robust", "sturdy"],
+        antonyms: ["weak", "frail", "delicate"]
     },
     {
         id: "mediocre",
@@ -55,7 +67,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) Of low to medium quality; barely passable.",
         exampleSentence: "Mediocre grades make it difficult to get into a good college.",
         imageEmoji: "😐",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["average", "ordinary", "undistinguished"],
+        antonyms: ["outstanding", "superior", "excellent"]
     },
     {
         id: "monotonous",
@@ -63,7 +77,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) Always the same; not varying; boring. monotony (n.) Lack of variety resulting in boredom.",
         exampleSentence: "Making photocopies is monotonous work.",
         imageEmoji: "🥱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["boring", "dull", "repetitive"],
+        antonyms: ["interesting", "varied", "exciting"]
     },
     {
         id: "originate",
@@ -71,7 +87,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(v.) To bring or come into being. origin (n.) A beginning or coming into being.",
         exampleSentence: "The custom of sending Valentine cards originated in the 1800s.",
         imageEmoji: "🌱",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["begin", "arise", "start"],
+        antonyms: ["end", "terminate", "conclude"]
     },
     {
         id: "punctuate",
@@ -79,7 +97,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(v.) 1. To add marks such as commas and periods to writing to make the meaning clear. 2. To interrupt from time to time. punctuation (n.) The use of marks such as commas and periods in writing.",
         exampleSentence: "Choose the best way to punctuate this sentence.",
         imageEmoji: "🖊️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["interrupt", "emphasize", "mark"],
+        antonyms: []
     },
     {
         id: "ravenous",
@@ -87,7 +107,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) 1. Very hungry. 2. Eager for whatever satisfies one's needs or wants.",
         exampleSentence: "The skaters were ravenous because they'd skipped lunch.",
         imageEmoji: "🍔",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["starving", "famished", "voracious"],
+        antonyms: ["full", "satisfied", "satiated"]
     },
     {
         id: "realistic",
@@ -95,7 +117,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(adj.) 1. Closely resembling real life. 2. Aware of things as they are; practical.",
         exampleSentence: "This video game has very realistic race-car sounds.",
         imageEmoji: "🎮",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["practical", "pragmatic", "lifelike"],
+        antonyms: ["impractical", "unrealistic", "idealistic"]
     },
     {
         id: "soothe",
@@ -103,7 +127,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(v.) 1. To make calm and relaxed. 2. To relieve soreness; to make less painful.",
         exampleSentence: "The principal tried to soothe the angry students by promising to consider their demands.",
         imageEmoji: "😌",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["calm", "comfort", "pacify"],
+        antonyms: ["agitate", "upset", "aggravate"]
     },
     {
         id: "stampede",
@@ -111,7 +137,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(n.) A sudden rush of animals or people, usually caused by fear. (v.) 1. To take part in a stampede. 2. To cause to rush off in panic.",
         exampleSentence: "A breeze carried the lion's scent to the antelope and began a stampede of the herd.",
         imageEmoji: "🐂",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rush", "charge", "panic"],
+        antonyms: ["retreat", "halt"]
     },
     {
         id: "veteran",
@@ -119,7 +147,9 @@ export const b6_l7_words: VocabularyWord[] = [
         definition: "(n.) 1. A person who has served in the armed forces. 2. A person with much experience. (adj.) Experienced.",
         exampleSentence: "Veterans in their uniforms marched in the Memorial Day parade.",
         imageEmoji: "🎖️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["expert", "old hand", "master"],
+        antonyms: ["novice", "beginner", "rookie"]
     }
 ];
 

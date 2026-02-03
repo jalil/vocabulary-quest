@@ -7,7 +7,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. 1. Something that completes or makes perfect. 2. The number or amount that makes up a whole. v. To bring to completion or perfection.",
         exampleSentence: "The shelf has a full complement of books.",
         imageEmoji: "🧩",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["supplement", "completes", "enhances"],
+        antonyms: ["detract", "clash"]
     },
     {
         id: "component",
@@ -15,7 +17,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. Any of the more important parts of a whole. adj. Contributing to form a whole.",
         exampleSentence: "The circuit board is the main component of a cell phone.",
         imageEmoji: "⚙️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["part", "element", "piece"],
+        antonyms: ["whole", "entirety"]
     },
     {
         id: "conjure",
@@ -23,7 +27,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "v. 1. To call forth by magic, or as if by magic. 2. (with up) To bring to mind; to recall or evoke.",
         exampleSentence: "The aroma of baking bread conjures up memories of my childhood.",
         imageEmoji: "🪄",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["summon", "evoke", "produce"],
+        antonyms: ["suppress", "repress"]
     },
     {
         id: "emphasize",
@@ -31,7 +37,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "v. To give special attention to; to stress.",
         exampleSentence: "The teacher emphasized that homework must be turned in on time.",
         imageEmoji: "❗️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["stress", "highlight", "accentuate"],
+        antonyms: ["ignore", "understate"]
     },
     {
         id: "homage",
@@ -39,7 +47,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. Honor or respect shown publicly.",
         exampleSentence: "On Veterans Day, we pay homage to those who served their country.",
         imageEmoji: "🙇",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["respect", "honor", "tribute"],
+        antonyms: ["disrespect", "insult"]
     },
     {
         id: "impromptu",
@@ -47,7 +57,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "adj. Unplanned. adv. Without preparation.",
         exampleSentence: "She gave a charming impromptu speech when called upon by the host.",
         imageEmoji: "🎤",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["spontaneous", "improvised", "unrehearsed"],
+        antonyms: ["planned", "rehearsed", "prepared"]
     },
     {
         id: "lush",
@@ -55,7 +67,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "adj. Marked by richness of growth, especially of vegetation.",
         exampleSentence: "Arid volcanic terrain contrasts sharply with lush mountains on the island's opposite side.",
         imageEmoji: "🌿",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["abundant", "green", "luxuriant"],
+        antonyms: ["barren", "sparse", "dry"]
     },
     {
         id: "medley",
@@ -63,7 +77,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. 1. A mixture of often unrelated things. 2. A selection of music from various sources, played as one piece.",
         exampleSentence: "The concert ended with a medley of patriotic tunes.",
         imageEmoji: "🎶",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["mixture", "assortment", "variety"],
+        antonyms: ["single", "uniform"]
     },
     {
         id: "oblige",
@@ -71,7 +87,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "v. 1. To require someone to do something for legal, social, or moral reasons. 2. To earn the gratitude of. 3. To do a favor for.",
         exampleSentence: "Joining the book club obliges you to buy four selections over the year.",
         imageEmoji: "🤝",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["force", "require", "compel"],
+        antonyms: ["free", "release"]
     },
     {
         id: "pretentious",
@@ -79,7 +97,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "adj. Drawing undeserved or inappropriate attention to oneself; showy.",
         exampleSentence: "Was it pretentious of John Hancock to sign his name so conspicuously to the Declaration of Independence?",
         imageEmoji: "🦚",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["showy", "ostentatious", "flashy"],
+        antonyms: ["modest", "humble", "plain"]
     },
     {
         id: "prowess",
@@ -87,7 +107,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. Great skill or ability.",
         exampleSentence: "The political prowess of President Franklin D. Roosevelt made him an outstanding world leader.",
         imageEmoji: "🏆",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["skill", "ability", "expertise"],
+        antonyms: ["incompetence", "inability"]
     },
     {
         id: "rustic",
@@ -95,7 +117,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "adj. 1. Of or relating to country life or people. 2. Lacking elegance or polish. n. A country person, especially one thought of as simple or crude.",
         exampleSentence: "The pictures of grazing cows gave a certain rustic charm to the room.",
         imageEmoji: "🏡",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["rural", "country", "simple"],
+        antonyms: ["urban", "city", "sophisticated"]
     },
     {
         id: "subtle",
@@ -103,7 +127,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "adj. 1. So slight as to be not easily seen or understood. 2. Able to understand fine shades of meaning.",
         exampleSentence: "Jeff's subtle hints that he wanted a skateboard for his birthday went unnoticed by his parents.",
         imageEmoji: "🤫",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["slight", "delicate", "faint"],
+        antonyms: ["obvious", "blatant", "strong"]
     },
     {
         id: "vocation",
@@ -111,7 +137,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "n. A person's employment; occupation.",
         exampleSentence: "Carpentry started out as a hobby but soon became my grandmother's vocation.",
         imageEmoji: "🔨",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["career", "job", "profession"],
+        antonyms: ["hobby", "pastime"]
     },
     {
         id: "warble",
@@ -119,7 +147,9 @@ export const b7_l15_words: VocabularyWord[] = [
         definition: "v. To sing in a melodious manner.",
         exampleSentence: "Somewhere in the gathering darkness, a nightingale began to warble.",
         imageEmoji: "🐦",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["sing", "trill", "chirp"],
+        antonyms: ["shriek", "screech"]
     }
 ];
 

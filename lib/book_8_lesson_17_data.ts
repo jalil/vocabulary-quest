@@ -9,7 +9,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. A feeling of agreement or harmony; a formal agreement. 2. To grant or bestow upon.",
         exampleSentence: "The members of the jury were in accord when the vote was taken.",
         imageEmoji: "🤝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["agreement", "harmony"],
+        antonyms: ["disagreement", "conflict"]
     },
     {
         id: "affirm",
@@ -18,7 +20,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "To declare positively.",
         exampleSentence: "My brother will affirm that the signature is mine.",
         imageEmoji: "✅",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["declare", "assert"],
+        antonyms: ["deny", "refute"]
     },
     {
         id: "bequeath",
@@ -27,7 +31,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. To pass on to others. 2. To leave to another in one's will.",
         exampleSentence: "Through her example of hard work, our mother has bequeathed to all her children an outstanding work ethic.",
         imageEmoji: "📜",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["leave", "bestow"],
+        antonyms: []
     },
     {
         id: "citadel",
@@ -36,7 +42,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "A fortress on a hill; a stronghold.",
         exampleSentence: "The old section of Quebec City is surrounded by walls and dominated by a citadel.",
         imageEmoji: "🏰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["fortress", "stronghold"],
+        antonyms: []
     },
     {
         id: "confer",
@@ -45,7 +53,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. To grant or bestow. 2. To consult.",
         exampleSentence: "The school board president conferred diplomas upon all the high school graduates.",
         imageEmoji: "🎓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["grant", "consult"],
+        antonyms: ["withdraw", "withhold"]
     },
     {
         id: "coup",
@@ -54,7 +64,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. A successful action that brings about a striking change. 2. The overthrow of a government, especially by a group that has military or political power.",
         exampleSentence: "Developing the new arts program was a coup for the young principal.",
         imageEmoji: "💥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["overthrow", "triumph"],
+        antonyms: ["failure"]
     },
     {
         id: "dignitary",
@@ -63,7 +75,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "A person who holds a high rank or position of honor.",
         exampleSentence: "Dignitaries from the United Nations attended the White House dinner.",
         imageEmoji: "🎩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["VIP", "official"],
+        antonyms: ["commoner"]
     },
     {
         id: "embroil",
@@ -72,7 +86,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "To involve in an argument or conflict.",
         exampleSentence: "The two countries were embroiled in a bitter dispute over the border.",
         imageEmoji: "🌪️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["involve", "entangle"],
+        antonyms: ["exclude", "untangle"]
     },
     {
         id: "epoch",
@@ -81,7 +97,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "An extended period of time marked by a series of related events.",
         exampleSentence: "The invention of printing marked the beginning of a new epoch in the communication of ideas.",
         imageEmoji: "⏳",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["era", "age"],
+        antonyms: []
     },
     {
         id: "impeccable",
@@ -90,7 +108,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "Free from fault or flaw; perfect.",
         exampleSentence: "The ballet dancer's performance was impeccable.",
         imageEmoji: "💎",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["flawless", "perfect"],
+        antonyms: ["flawed", "imperfect"]
     },
     {
         id: "institute",
@@ -99,7 +119,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. To establish, organize, or set in operation. 2. An organization set up to promote education, research, or similar activities.",
         exampleSentence: "The new principal instituted a dress code for all students.",
         imageEmoji: "🏢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["establish", "organize"],
+        antonyms: ["abolish", "terminate"]
     },
     {
         id: "patriarch",
@@ -108,7 +130,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "The male founder or ruler, such as of a family or tribe.",
         exampleSentence: "The Bedouin tribe was ruled by a patriarch who had the power of life and death over his subjects.",
         imageEmoji: "👴",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["leader", "elder"],
+        antonyms: []
     },
     {
         id: "rapport",
@@ -117,7 +141,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "A feeling of harmonious connection between people or groups of people.",
         exampleSentence: "Successful teachers have a good rapport with their students.",
         imageEmoji: "🤝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["bond", "connection"],
+        antonyms: ["discord", "conflict"]
     },
     {
         id: "renounce",
@@ -126,7 +152,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "To give up a right, claim, or title.",
         exampleSentence: "We renounced our right to the family business when we moved away.",
         imageEmoji: "🚫",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["reject", "give up"],
+        antonyms: ["accept", "claim"]
     },
     {
         id: "rhetoric",
@@ -135,7 +163,9 @@ export const b8_l17_words: VocabularyWord[] = [
         definition: "1. The art of using language skillfully. 2. Exaggerated or insincere language that is without real meaning or worth.",
         exampleSentence: "We studied rhetoric to improve our debating skills.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["oratory", "eloquence"],
+        antonyms: []
     }
 ];
 

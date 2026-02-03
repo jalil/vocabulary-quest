@@ -9,7 +9,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "To shrink from in disgust; to detest.",
         exampleSentence: "We abhor cruelty in all its forms.",
         imageEmoji: "🤢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hate", "detest"],
+        antonyms: ["love", "admire"]
     },
     {
         id: "affable",
@@ -18,7 +20,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "Pleasant; approachable; gracious.",
         exampleSentence: "Maribel's affable manner brought her many friends.",
         imageEmoji: "👋",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["friendly", "pleasant"],
+        antonyms: ["unfriendly", "rude"]
     },
     {
         id: "amiss",
@@ -27,7 +31,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. In a wrong or imperfect way. 2. Out of order; wrong.",
         exampleSentence: "Don't take amiss my suggestion for improving your drawing.",
         imageEmoji: "❌",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["wrong", "faulty"],
+        antonyms: ["right", "perfect"]
     },
     {
         id: "despondent",
@@ -36,7 +42,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "Depressed from loss of hope or confidence; utterly discouraged.",
         exampleSentence: "I was completely despondent that our dog had run away.",
         imageEmoji: "😞",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["depressed", "hopeless"],
+        antonyms: ["hopeful", "cheerful"]
     },
     {
         id: "entreat",
@@ -45,7 +53,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "To ask earnestly; to beg.",
         exampleSentence: "\"Please, please, let me have a lizard,\" Augustin entreated his parents. \"I promise to take care of it!\"",
         imageEmoji: "🙏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["beg", "plead"],
+        antonyms: ["command", "demand"]
     },
     {
         id: "haunt",
@@ -54,7 +64,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. To stay in one's mind continually. 2. To visit frequently. 3. To appear in the form of a ghost.",
         exampleSentence: "Even though I heard the song a year ago, the music continues to haunt me.",
         imageEmoji: "👻",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["torment", "plague"],
+        antonyms: ["comfort", "soothe"]
     },
     {
         id: "impel",
@@ -63,7 +75,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. To drive or to propel. 2. To urge or drive by force or moral pressure.",
         exampleSentence: "A raging current impelled their raft downstream toward the waterfall.",
         imageEmoji: "⏩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["force", "drive"],
+        antonyms: ["hinder", "prevent"]
     },
     {
         id: "interminable",
@@ -72,7 +86,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "Endless; seeming to be without end.",
         exampleSentence: "We had an interminable wait at the amusement park entrance because of the enormous crowds trying to get in.",
         imageEmoji: "⏳",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["endless", "long"],
+        antonyms: ["short", "brief"]
     },
     {
         id: "irascible",
@@ -81,7 +97,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "Quick-tempered; irritable.",
         exampleSentence: "My grandfather looked kindly, but he was really quite irascible.",
         imageEmoji: "😠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["irritable", "grumpy"],
+        antonyms: ["calm", "pleasant"]
     },
     {
         id: "profound",
@@ -90,7 +108,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. Intense; deeply felt. 2. Having understanding or knowledge that goes beneath the surface, beyond the obvious.",
         exampleSentence: "Parents who had been separated from their children at the beginning of the war felt profound joy when they were reunited in the refugee camp.",
         imageEmoji: "🧠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["deep", "intense"],
+        antonyms: ["shallow", "superficial"]
     },
     {
         id: "recluse",
@@ -99,7 +119,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "A person who lives apart from society and often alone.",
         exampleSentence: "Ahmed became a recluse when he was trying to finish writing his book, refusing to leave his apartment for days on end.",
         imageEmoji: "🏠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["hermit", "loner"],
+        antonyms: ["socialite"]
     },
     {
         id: "reverberate",
@@ -108,7 +130,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "To be repeated as in a series of echoes or vibrations.",
         exampleSentence: "We loved to hear our shouts reverberate as we ran through the old tunnel.",
         imageEmoji: "🔊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["echo", "resound"],
+        antonyms: []
     },
     {
         id: "sage",
@@ -117,7 +141,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. Having wisdom and good judgment. 2. A person known for wisdom and good judgment. 3. An aromatic grayish-green plant used in cooking.",
         exampleSentence: "Ben Franklin's Poor Richard's Almanack offered sage advice to the colonists.",
         imageEmoji: "🌿",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["wise", "smart"],
+        antonyms: ["foolish", "stupid"]
     },
     {
         id: "tirade",
@@ -126,7 +152,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "A long, angry speech.",
         exampleSentence: "We lost interest in Marni's endless tirades about how people disrespected her.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["rant", "outburst"],
+        antonyms: ["compliment", "praise"]
     },
     {
         id: "tremulous",
@@ -135,7 +163,9 @@ export const b8_l4_words: VocabularyWord[] = [
         definition: "1. Marked by trembling or shaking. 2. Timid or fearful.",
         exampleSentence: "The little girl tried to look brave when she fell and scraped her knee, but her tremulous lower lip betrayed her.",
         imageEmoji: "😰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["shaking", "fearful"],
+        antonyms: ["steady", "brave"]
     }
 ];
 

@@ -7,7 +7,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. 1. Growing or living in or on water. 2. Done in or upon water.",
         exampleSentence: "Water lilies are aquatic plants.",
         imageEmoji: "💧",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["water", "marine", "sea"],
+        antonyms: ["terrestrial", "land"]
     },
     {
         id: "assert",
@@ -15,7 +17,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "v. To say firmly; to declare.",
         exampleSentence: "Charlie asserted that the money entrusted to him was in a safe place.",
         imageEmoji: "🗣️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["declare", "state", "maintain"],
+        antonyms: ["deny", "retract", "withhold"]
     },
     {
         id: "avert",
@@ -23,7 +27,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "v. 1. To turn away. 2. To keep from happening.",
         exampleSentence: "I averted my eyes from the scary scenes in the movie.",
         imageEmoji: "🙈",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["turn away", "prevent", "avoid"],
+        antonyms: ["cause", "attract", "invite"]
     },
     {
         id: "bleak",
@@ -31,7 +37,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. 1. Without much hope. 2. Cold and dreary; exposed to cold winds and bad weather.",
         exampleSentence: "The family's future looked bleak when both parents lost their jobs.",
         imageEmoji: "🌫️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["hopeless", "dreary", "grim"],
+        antonyms: ["bright", "cheerful", "promising"]
     },
     {
         id: "blithe",
@@ -39,7 +47,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. 1. Cheerful; carefree. 2. Not showing proper care; heedless.",
         exampleSentence: "The children's blithe mood is contagious.",
         imageEmoji: "😊",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["cheerful", "carefree", "lighthearted"],
+        antonyms: ["sad", "worried", "anxious"]
     },
     {
         id: "docile",
@@ -47,7 +57,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. Well behaved; easy to handle.",
         exampleSentence: "Because it was my first attempt at riding, I was given the most docile horse in the stable.",
         imageEmoji: "🐴",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["tame", "gentle", "submissive"],
+        antonyms: ["wild", "aggressive", "stubborn"]
     },
     {
         id: "dwindle",
@@ -55,7 +67,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "v. To continue becoming less; to grow smaller in number or amount.",
         exampleSentence: "My hopes of winning the arm-wrestling match dwindled when I saw the size of my opponent's muscles.",
         imageEmoji: "📉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["decrease", "diminish", "shrink"],
+        antonyms: ["increase", "grow", "expand"]
     },
     {
         id: "lethal",
@@ -63,7 +77,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. Causing, or capable of causing, death.",
         exampleSentence: "A rattlesnake's bite can be lethal.",
         imageEmoji: "☠️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["deadly", "fatal", "mortal"],
+        antonyms: ["harmless", "safe", "benign"]
     },
     {
         id: "monitor",
@@ -71,7 +87,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "v. To watch closely and frequently; to observe and make note. n. A video screen used to display information.",
         exampleSentence: "Some cities monitor the amount of pollution in the air.",
         imageEmoji: "📺",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["watch", "observe", "check"],
+        antonyms: ["ignore", "neglect", "overlook"]
     },
     {
         id: "mutilate",
@@ -79,7 +97,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "v. To hurt or damage by cutting into, cutting off, or cutting out.",
         exampleSentence: "Bakari had to mutilate the old book to use it as a base for his diorama.",
         imageEmoji: "✂️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["mangle", "disfigure", "damage"],
+        antonyms: ["repair", "fix", "mend"]
     },
     {
         id: "nimble",
@@ -87,7 +107,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. 1. Able to move quickly and easily. 2. Showing quickness of thinking; clever.",
         exampleSentence: "Trinity's nimble fingers plucked the harp strings with amazing speed.",
         imageEmoji: "🐇",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["agile", "quick", "spry"],
+        antonyms: ["clumsy", "slow", "awkward"]
     },
     {
         id: "plight",
@@ -95,7 +117,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "n. A difficult or dangerous condition or situation.",
         exampleSentence: "The plight of homeless people was the principal subject of tonight's evening news.",
         imageEmoji: "🆘",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["predicament", "difficulty", "trouble"],
+        antonyms: ["solution", "relief", "advantage"]
     },
     {
         id: "ponderous",
@@ -103,7 +127,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. Heavy and slow moving.",
         exampleSentence: "The elephant made its way with ponderous steps through the water.",
         imageEmoji: "🐘",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["heavy", "clumsy", "lumbering"],
+        antonyms: ["light", "graceful", "nimble"]
     },
     {
         id: "verge",
@@ -111,7 +137,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "n. An edge, border, or brink. v. To come close to the edge or border of.",
         exampleSentence: "After being on the verge of extinction, the bald eagle made a remarkable comeback in the 1980s.",
         imageEmoji: "🧗",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["edge", "brink", "border"],
+        antonyms: ["center", "middle"]
     },
     {
         id: "vigilant",
@@ -119,7 +147,9 @@ export const b7_l10_words: VocabularyWord[] = [
         definition: "adj. Watchful; ready for danger.",
         exampleSentence: "Health authorities remain vigilant for any signs of the epidemic's return.",
         imageEmoji: "👀",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["watchful", "alert", "attentive"],
+        antonyms: ["careless", "sleepy", "inattentive"]
     }
 ];
 

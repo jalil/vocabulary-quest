@@ -7,7 +7,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) To break down into separate parts in order to study. analysis (n.) An examination of the whole in order to examine its various parts.",
         exampleSentence: "Experts who analyze auto accidents say that one of the major causes is a distracted driver.",
         imageEmoji: "🔬",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["examine", "study", "investigate"],
+        antonyms: ["synthesize", "combine"]
     },
     {
         id: "apprehensive",
@@ -15,7 +17,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(adj.) Worried or uneasy about what might happen. apprehension (n.) Worry about what might happen; dread.",
         exampleSentence: "Talk about another war made us apprehensive.",
         imageEmoji: "😟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["anxious", "worried", "nervous"],
+        antonyms: ["confident", "calm", "assured"]
     },
     {
         id: "coincide",
@@ -23,7 +27,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) 1. To be in the same place or occur at the same time. 2. To be exactly the same; to agree. coincidence (n.) Occurrences that seem to be related but are connected only by chance.",
         exampleSentence: "Graduation day coincides with Akeesha's birthday.",
         imageEmoji: "⏰",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["concur", "correspond", "match"],
+        antonyms: ["differ", "diverge"]
     },
     {
         id: "compose",
@@ -31,7 +37,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) 1. To make by combining. 2. To create or write, as a poem or a song. 3. To quiet or calm.",
         exampleSentence: "Concrete is composed of cement, sand, and water.",
         imageEmoji: "🎶",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["create", "write", "calm"],
+        antonyms: ["destroy", "agitate", "disturb"]
     },
     {
         id: "disk",
@@ -39,7 +47,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(n.) Any thin, circular object.",
         exampleSentence: "The checkers pieces were plastic disks.",
         imageEmoji: "💿",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["circle", "plate", "disc"],
+        antonyms: []
     },
     {
         id: "envelop",
@@ -47,7 +57,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) To hide or cover on all sides.",
         exampleSentence: "Darkness enveloped the town when the electric power station shut down.",
         imageEmoji: "🌫️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["cover", "surround", "wrap"],
+        antonyms: ["reveal", "uncover", "expose"]
     },
     {
         id: "exist",
@@ -55,7 +67,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) 1. To be real. 2. To be found; to occur. 3. To stay alive.",
         exampleSentence: "Did the lost world of Atlantis really exist?",
         imageEmoji: "🦕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["be", "live", "survive"],
+        antonyms: ["die", "perish", "cease"]
     },
     {
         id: "extraordinary",
@@ -63,7 +77,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(adj.) Very unusual; remarkable.",
         exampleSentence: "When the hockey team won the Olympic gold medal, it was an extraordinary achievement.",
         imageEmoji: "🌟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["remarkable", "amazing", "exceptional"],
+        antonyms: ["ordinary", "common", "usual"]
     },
     {
         id: "fuse",
@@ -71,7 +87,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) To join together by or as if by melting. fusion (n.) A fusing or joining together.",
         exampleSentence: "Heat from the fire had fused the metal parts into a solid piece.",
         imageEmoji: "🔗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["join", "merge", "blend"],
+        antonyms: ["separate", "divide"]
     },
     {
         id: "mere",
@@ -79,7 +97,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(adj.) Nothing more than; only.",
         exampleSentence: "It is a mere half mile into town.",
         imageEmoji: "🤏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["simple", "plain", "bare"],
+        antonyms: []
     },
     {
         id: "revolve",
@@ -87,7 +107,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(v.) To go around something in a circle; to turn around in a circle.",
         exampleSentence: "The rim of a wheel revolves around its hub.",
         imageEmoji: "🔄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["turn", "rotate", "spin"],
+        antonyms: []
     },
     {
         id: "scale",
@@ -95,7 +117,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(n.) 1. Any of the hard, thin plates that cover fish and certain reptiles. 2. A series of musical notes that go higher and higher or lower and lower. 3. An instrument for measuring weight. 4. The way size on a map or model compares with the size of the thing it stands for. 5. A series of steps, degrees, or stages. (v.) To climb or climb over.",
         exampleSentence: "Remove the scales from the fish before you cook it.",
         imageEmoji: "🐟",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["climb", "ascend", "measure"],
+        antonyms: ["descend"]
     },
     {
         id: "solar",
@@ -103,7 +127,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(adj.) Of or having to do with the sun.",
         exampleSentence: "A solar eclipse occurs when the moon passes directly in front of the sun.",
         imageEmoji: "☀️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["sun"],
+        antonyms: ["lunar"]
     },
     {
         id: "trace",
@@ -111,7 +137,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(n.) 1. A very small amount. 2. A mark or sign left behind by someone or something. (v.) 1. To follow the trail or tracks of; to locate. 2. To copy by following the lines of a drawing through thin paper.",
         exampleSentence: "The traces of lead found in the water will not jeopardize the health of those who drink it.",
         imageEmoji: "🔎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["track", "trail", "mark"],
+        antonyms: []
     },
     {
         id: "velocity",
@@ -119,7 +147,9 @@ export const b6_l15_words: VocabularyWord[] = [
         definition: "(n.) Rate of movement; speed.",
         exampleSentence: "The velocity of a pitcher's fastball can exceed 90 miles per hour.",
         imageEmoji: "💨",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["speed", "pace", "tempo"],
+        antonyms: []
     }
 ];
 

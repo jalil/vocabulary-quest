@@ -9,7 +9,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "1. Getting along well with others; affable. 2. Suited to one's needs or tastes; agreeable.",
         exampleSentence: "The people in the small town were very congenial when the tourist asked many questions.",
         imageEmoji: "🤝",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["friendly", "agreeable"],
+        antonyms: ["disagreeable", "unfriendly"]
     },
     {
         id: "decipher",
@@ -18,7 +20,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "1. To convert from a code or secret writing into ordinary language; to decode. 2. To interpret the meaning of something puzzling; to solve.",
         exampleSentence: "You decipher the coded message by replacing numbers with the corresponding letters.",
         imageEmoji: "🧩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["decode", "solve"],
+        antonyms: ["encode", "confuse"]
     },
     {
         id: "dissect",
@@ -27,7 +31,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "1. To cut into in order to study. 2. To study closely; to analyze.",
         exampleSentence: "Students taking the biology course dissect a dead frog to learn about the internal organs.",
         imageEmoji: "🐸",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["analyze", "examine"],
+        antonyms: []
     },
     {
         id: "enigma",
@@ -36,7 +42,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "Anything that is puzzling, mysterious, or hard to figure out.",
         exampleSentence: "Even after many studies, the purpose of the huge, complex designs formed in the dirt of the Peruvian desert remains an enigma.",
         imageEmoji: "❓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["mystery", "puzzle"],
+        antonyms: []
     },
     {
         id: "ineffectual",
@@ -45,7 +53,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "Not bringing about the desired result; futile.",
         exampleSentence: "My attempt to grow tomato plants from seed has been ineffectual, with most withering before they sprout leaves.",
         imageEmoji: "🥀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["futile", "useless"],
+        antonyms: ["effective", "successful"]
     },
     {
         id: "infallible",
@@ -54,7 +64,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "1. Incapable of making an error; never wrong. 2. Unlikely to fail or go wrong.",
         exampleSentence: "The dictionary is an infallible resource for checking word spellings and meanings.",
         imageEmoji: "🎯",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["perfect", "reliable"],
+        antonyms: ["fallible", "imperfect"]
     },
     {
         id: "irrepressible",
@@ -63,7 +75,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "Incapable of being controlled or held back.",
         exampleSentence: "Charlie's irrepressible sense of humor helps make history class fun.",
         imageEmoji: "😂",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["uncontrollable", "unstoppable"],
+        antonyms: ["repressible", "controllable"]
     },
     {
         id: "luminous",
@@ -72,7 +86,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "1. Giving off light. 2. Clear; easy to understand.",
         exampleSentence: "Do you have a watch with a luminous face that you can bring on our camping trip?",
         imageEmoji: "💡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["bright", "glowing"],
+        antonyms: ["dim", "dull"]
     },
     {
         id: "millennium",
@@ -81,7 +97,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "A period of one thousand years.",
         exampleSentence: "A millennium is ten times as long as the one-hundred-year period of a century.",
         imageEmoji: "⏳",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["thousand years"],
+        antonyms: []
     },
     {
         id: "mire",
@@ -90,7 +108,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "An area of wet, swampy ground; deep mud. (v.) To get stuck as if in a mire; unable to make progress.",
         exampleSentence: "Last night's heavy rains have turned the field into a mire, delaying the soccer match for several days.",
         imageEmoji: "🌧️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["swamp", "mud"],
+        antonyms: []
     },
     {
         id: "pestilence",
@@ -99,7 +119,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "A rapidly spreading and usually fatal disease.",
         exampleSentence: "The pestilence that swept through Europe in the 1300s killed three-quarters of the population.",
         imageEmoji: "🦠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["plague", "disease"],
+        antonyms: []
     },
     {
         id: "stagnate",
@@ -108,7 +130,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "To fail to develop, change, or move.",
         exampleSentence: "Students' minds may stagnate if they are not challenged.",
         imageEmoji: "🛑",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["stalled", "idle"],
+        antonyms: ["progress", "develop"]
     },
     {
         id: "sublime",
@@ -117,7 +141,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "Great or noble in expression, thought, or manner; splendid.",
         exampleSentence: "Standing on the rim of the Grand Canyon at dawn, we had a sublime panorama of the canyon walls changing color in the morning light.",
         imageEmoji: "🏔️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["splendid", "majestic"],
+        antonyms: ["ordinary", "common"]
     },
     {
         id: "vie",
@@ -126,7 +152,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "To compete for, as in a contest.",
         exampleSentence: "By January, the top eight schools in the state vied for the debate championship.",
         imageEmoji: "🏆",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["compete", "contend"],
+        antonyms: ["cooperate"]
     },
     {
         id: "voluminous",
@@ -135,7 +163,9 @@ export const b8_l14_words: VocabularyWord[] = [
         definition: "Having great bulk or volume; ample.",
         exampleSentence: "The museum will exhibit a select group of bowls and jugs from its voluminous collection of Pueblo pottery.",
         imageEmoji: "📦",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["huge", "ample"],
+        antonyms: ["tiny", "scant"]
     }
 ];
 

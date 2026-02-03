@@ -9,7 +9,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "1. To cause to feel unfriendly where friendliness once existed. 2. To cause to feel alone and cut off from.",
         exampleSentence: "Be careful not to alienate voters, because we need their support.",
         imageEmoji: "😒",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["estrange", "distance"],
+        antonyms: ["unite", "befriend"]
     },
     {
         id: "fervent",
@@ -18,7 +20,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Having or showing great warmth or deep feeling; intensely eager.",
         exampleSentence: "Looking meaningfully at the jury, the lawyer made a fervent plea for his client's life.",
         imageEmoji: "🔥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["passionate", "intense"],
+        antonyms: ["apathetic", "cool"]
     },
     {
         id: "forbearance",
@@ -27,7 +31,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "A showing of self-control or patience.",
         exampleSentence: "With unusual forbearance, the principal asked the unruly student to explain the reason for his vandalism.",
         imageEmoji: "🧘",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["patience", "restraint"],
+        antonyms: ["impatience", "anger"]
     },
     {
         id: "gullible",
@@ -36,7 +42,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Easily tricked or cheated; too trusting.",
         exampleSentence: "I was gullible enough to believe him when he said he would be on time.",
         imageEmoji: "😲",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["naive", "trusting"],
+        antonyms: ["cynical", "suspicious"]
     },
     {
         id: "hindrance",
@@ -45,7 +53,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Any person or thing that is an obstacle.",
         exampleSentence: "Heavy traffic on the expressway is always a hindrance to my getting to school on time.",
         imageEmoji: "🚧",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["obstacle", "barrier"],
+        antonyms: ["help", "aid"]
     },
     {
         id: "inflammatory",
@@ -54,7 +64,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Causing anger or trouble.",
         exampleSentence: "Even though the defendant's rhetoric was inflammatory, the Supreme Court upheld his right to freedom of speech.",
         imageEmoji: "😡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["provocative", "incendiary"],
+        antonyms: ["calming", "soothing"]
     },
     {
         id: "ordain",
@@ -63,7 +75,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "1. To order or prearrange. 2. To install as a minister, priest, or rabbi, often in a special ceremony.",
         exampleSentence: "The U.S. Constitution ordains three separate branches of government: the executive, the legislative, and the judicial.",
         imageEmoji: "📜",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["decree", "appoint"],
+        antonyms: []
     },
     {
         id: "ovation",
@@ -72,7 +86,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "An enthusiastic reception; long and loud applause.",
         exampleSentence: "When the pianist stepped onto the stage, the audience rose with a spontaneous ovation.",
         imageEmoji: "👏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["applause", "acclaim"],
+        antonyms: ["booing", "hissing"]
     },
     {
         id: "overt",
@@ -81,7 +97,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Not hidden; public.",
         exampleSentence: "After months of making small hints about my clothes, my older sister finally made an overt offer to buy me a new spring wardrobe.",
         imageEmoji: "🔓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["open", "obvious"],
+        antonyms: ["hidden", "covert"]
     },
     {
         id: "recant",
@@ -90,7 +108,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "To take back an opinion or statement; to confess to being wrong.",
         exampleSentence: "After he talked to a lawyer, the young man recanted his confession and pleaded 'not guilty'.",
         imageEmoji: "🔙",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["withdraw", "retract"],
+        antonyms: ["reaffirm", "assert"]
     },
     {
         id: "rejoinder",
@@ -99,7 +119,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "A reply to what has been said.",
         exampleSentence: "Uncle Paco was famous in our family for his funny, sharp rejoinders.",
         imageEmoji: "💬",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["reply", "retort"],
+        antonyms: []
     },
     {
         id: "reproach",
@@ -108,7 +130,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "1. To find fault with; to blame. 2. Blame, disgrace, or discredit.",
         exampleSentence: "My mother reproached me for forgetting my little brother's birthday.",
         imageEmoji: "👉",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["blame", "scold"],
+        antonyms: ["praise", "commend"]
     },
     {
         id: "servile",
@@ -117,7 +141,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "Excessively humble; overly willing to serve or to please.",
         exampleSentence: "Mari's servile attention to the teacher was her way of trying to get a good grade.",
         imageEmoji: "🙇",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["submissive", "fawning"],
+        antonyms: ["dominant", "assertive"]
     },
     {
         id: "surpass",
@@ -126,7 +152,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "To exceed or go beyond.",
         exampleSentence: "The fact that Marta finished her first marathon surpassed her wildest dreams.",
         imageEmoji: "🚀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["exceed", "outdo"],
+        antonyms: ["fall short", "fail"]
     },
     {
         id: "vilify",
@@ -135,7 +163,9 @@ export const b8_l20_words: VocabularyWord[] = [
         definition: "To make vicious remarks about someone in a way that damages that person's character; to slander.",
         exampleSentence: "The candidates for governor agreed not to vilify each other in their commercials.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["malign", "defame"],
+        antonyms: ["praise", "glorify"]
     }
 ];
 

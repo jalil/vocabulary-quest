@@ -7,7 +7,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Wise in a clever or practical way.",
         exampleSentence: "An astute shopper compares prices carefully before making a purchase.",
         imageEmoji: "🧠",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["shrewd", "sharp", "clever"],
+        antonyms: ["stupid", "foolish", "naive"]
     },
     {
         id: "authentic",
@@ -15,7 +17,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Genuine; true.",
         exampleSentence: "An authority on old maps declared that the sixteenth-century chart of the Florida Keys is authentic.",
         imageEmoji: "✅",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["genuine", "real", "valid"],
+        antonyms: ["fake", "counterfeit", "false"]
     },
     {
         id: "delicacy",
@@ -23,7 +27,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "n. 1. A choice item of food. 2. Great consideration for the feelings of others.",
         exampleSentence: "Smoked salmon is a delicacy.",
         imageEmoji: "🍣",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["treat", "luxury", "tidbit"],
+        antonyms: []
     },
     {
         id: "derogatory",
@@ -31,7 +37,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Expressing a low opinion; intended to hurt the reputation of a person or thing.",
         exampleSentence: "His habit of making derogatory comments about other students made him unpopular.",
         imageEmoji: "👎",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["disparaging", "critical", "insulting"],
+        antonyms: ["complimentary", "flattering", "praising"]
     },
     {
         id: "devour",
@@ -39,7 +47,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "v. 1. To eat up hungrily. 2. To take in eagerly with the eyes or ears.",
         exampleSentence: "We were so hungry after school, we devoured all the fruit in the refrigerator.",
         imageEmoji: "🍽️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["consume", "eat", "gulp"],
+        antonyms: []
     },
     {
         id: "figment",
@@ -47,7 +57,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "n. Something that is made up in the mind but that has no connection with reality.",
         exampleSentence: "The monster in the closet is a figment of the child's imagination.",
         imageEmoji: "🦄",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["fabrication", "invention", "illusion"],
+        antonyms: ["fact", "reality"]
     },
     {
         id: "mythical",
@@ -55,7 +67,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Imaginary; not real.",
         exampleSentence: "Unicorns are mythical creatures.",
         imageEmoji: "🐉",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["imaginary", "legendary", "fabulous"],
+        antonyms: ["real", "factual", "actual"]
     },
     {
         id: "plumage",
@@ -63,7 +77,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "n. A bird's feathers.",
         exampleSentence: "Parrots have brightly colored plumage.",
         imageEmoji: "🦚",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["feathers", "down"],
+        antonyms: []
     },
     {
         id: "predatory",
@@ -71,7 +87,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. 1. Living by killing and eating other animals. 2. Living by using, controlling, or hurting others.",
         exampleSentence: "Crocodiles are predatory reptiles.",
         imageEmoji: "🦈",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["hunting", "ravenous", "rapacious"],
+        antonyms: ["vegetarian", "herbivorous"]
     },
     {
         id: "prior",
@@ -79,7 +97,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. 1. Coming earlier in time. 2. Coming before in order or importance.",
         exampleSentence: "I was unable to see you this morning because I had a prior appointment.",
         imageEmoji: "⏮️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["previous", "earlier", "preceding"],
+        antonyms: ["later", "subsequent", "following"]
     },
     {
         id: "scavenge",
@@ -87,7 +107,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "v. To search through or pick over, looking for something usable.",
         exampleSentence: "People with metal detectors scavenge the beach looking for coins.",
         imageEmoji: "🗑️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["forage", "rummage", "search"],
+        antonyms: []
     },
     {
         id: "slaughter",
@@ -95,7 +117,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "v. 1. To kill in order to obtain meat. 2. To kill people or animals in large numbers or in a cruel way. n. 1. The killing of an animal for food. 2. The act of killing on a large scale or in a cruel way.",
         exampleSentence: "The hogs are rounded up before they are slaughtered.",
         imageEmoji: "🥩",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["kill", "butcher", "massacre"],
+        antonyms: ["save", "protect"]
     },
     {
         id: "solitude",
@@ -103,7 +127,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "n. The condition of being alone or at some distance from people.",
         exampleSentence: "We enjoyed the solitude of a walk on the deserted beach.",
         imageEmoji: "🧘",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["isolation", "loneliness", "seclusion"],
+        antonyms: ["company", "society", "crowd"]
     },
     {
         id: "ungainly",
@@ -111,7 +137,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Moving in a clumsy or awkward way.",
         exampleSentence: "Walruses, graceful in the water, are ungainly creatures on land.",
         imageEmoji: "🥴",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["clumsy", "awkward", "lumbering"],
+        antonyms: ["graceful", "elegant", "agile"]
     },
     {
         id: "vulnerable",
@@ -119,7 +147,9 @@ export const b7_l2_words: VocabularyWord[] = [
         definition: "adj. Open to attack; easily injured physically or emotionally.",
         exampleSentence: "Elderly people are more vulnerable to disease than younger people.",
         imageEmoji: "🛡️",
-        category: "Grade 7"
+        category: "Grade 7",
+        synonyms: ["susceptible", "exposed", "weak"],
+        antonyms: ["protected", "safe", "secure"]
     }
 ];
 

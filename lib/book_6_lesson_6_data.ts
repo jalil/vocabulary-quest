@@ -7,7 +7,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(n.) The things that are worn by a person; clothing.",
         exampleSentence: "Partygoers dressed in their finest apparel for New Year's Eve.",
         imageEmoji: "👗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["clothing", "attire", "garments"],
+        antonyms: []
     },
     {
         id: "appreciate",
@@ -15,7 +17,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) 1. To see the worth or quality of. 2. To increase in value.",
         exampleSentence: "I appreciate handmade gifts my friends made for me.",
         imageEmoji: "👍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["value", "admire", "treasure"],
+        antonyms: ["depreciate", "undervalue"]
     },
     {
         id: "continuous",
@@ -23,7 +27,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(adj.) Going on without stopping.",
         exampleSentence: "The continuous flow of traffic makes it impossible to cross the street here.",
         imageEmoji: "♾️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["nonstop", "unbroken", "constant"],
+        antonyms: ["intermittent", "broken", "occasional"]
     },
     {
         id: "dissolve",
@@ -31,7 +37,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) 1. To make or become liquid. 2. To bring or to come to an end.",
         exampleSentence: "Sugar dissolves easily in warm water.",
         imageEmoji: "🫠",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["melt", "liquefy", "end"],
+        antonyms: ["harden", "solidify"]
     },
     {
         id: "domesticate",
@@ -39,7 +47,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) To tame; to bring plants or animals under human control. domesticated (adj.) Brought under human control; tamed or cultivated.",
         exampleSentence: "Some people claim that they can domesticate skunks and that they make good pets.",
         imageEmoji: "🐕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tame", "cultivate", "train"],
+        antonyms: ["wild"]
     },
     {
         id: "emerge",
@@ -47,7 +57,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) 1. To come into view; to appear. 2. To become known.",
         exampleSentence: "A large brown bear emerged from the cave.",
         imageEmoji: "🐻",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["appear", "arise", "surface"],
+        antonyms: ["disappear", "vanish", "fade"]
     },
     {
         id: "fiber",
@@ -55,7 +67,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(n.) 1. A thin, threadlike part of animal hair or plant tissue; also, an artificial thread that resembles this. 2. An arrangement of body cells that forms muscles and nerves. 3. A food substance that provides bulk but is not digested.",
         exampleSentence: "Cotton, wool, and rayon fibers can all be spun into yarn to make cloth.",
         imageEmoji: "🧵",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["thread", "strand", "filament"],
+        antonyms: []
     },
     {
         id: "function",
@@ -63,7 +77,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) To serve a purpose. (n.) 1. The special purpose something is used for. 2. An important ceremony or gathering.",
         exampleSentence: "This couch also functions as a bed.",
         imageEmoji: "⚙️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["operate", "work", "serve"],
+        antonyms: []
     },
     {
         id: "hatch",
@@ -71,7 +87,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) 1. To come or to bring forth from an egg. 2. To think up. (n.) A small opening with a door or cover.",
         exampleSentence: "A little yellow chick hatched last night.",
         imageEmoji: "🐣",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["emerge", "invent", "create"],
+        antonyms: []
     },
     {
         id: "inhibit",
@@ -79,7 +97,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) To prevent from doing something or to prevent from happening. inhibited (adj.) Held back because of shyness.",
         exampleSentence: "Oil inhibits the formation of rust on metal.",
         imageEmoji: "🚫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["prevent", "hinder", "restrain"],
+        antonyms: ["encourage", "allow", "permit"]
     },
     {
         id: "minute",
@@ -87,7 +107,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(adj.) Very small; tiny.",
         exampleSentence: "A minute speck of dust in one's eye can be very annoying.",
         imageEmoji: "🔬",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["tiny", "microscopic", "miniature"],
+        antonyms: ["huge", "enormous", "gigantic"]
     },
     {
         id: "motion",
@@ -95,7 +117,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(n.) 1. Movement. 2. A suggestion on which members at a meeting must vote. (v.) To signal. motionless (adj.) Not moving; stationary.",
         exampleSentence: "The motion of the train almost put me to sleep.",
         imageEmoji: "👋",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["movement", "gesture", "signal"],
+        antonyms: ["stillness", "rest"]
     },
     {
         id: "sheathe",
@@ -103,7 +127,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) To cover with something that protects.",
         exampleSentence: "Metal workers will sheathe the ship's bottom with copper plates.",
         imageEmoji: "🗡️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["cover", "enclose", "wrap"],
+        antonyms: ["unsheathe", "expose"]
     },
     {
         id: "shed",
@@ -111,7 +137,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) 1. To lose; to give up. 2. To cause to flow. 3. To throw off water without letting it soak through. 4. To send out or give off.",
         exampleSentence: "Cats shed hair in the summer.",
         imageEmoji: "🐕",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["cast off", "molt", "discard"],
+        antonyms: ["keep", "retain"]
     },
     {
         id: "transfer",
@@ -119,7 +147,9 @@ export const b6_l6_words: VocabularyWord[] = [
         definition: "(v.) To move, carry, send, or change from one person or place to another. (n.) 1. The act of transferring. 2. A ticket used for transferring from one bus or train to another.",
         exampleSentence: "Transfer your notes to a fresh notebook.",
         imageEmoji: "🚌",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["move", "relocate", "transport"],
+        antonyms: []
     }
 ];
 

@@ -9,7 +9,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "1. Willing to take risks; daring. 2. Showing disrespect or a lack of courtesy.",
         exampleSentence: "The students came up with an audacious plan to build a neighborhood park where there was currently a garbage dump.",
         imageEmoji: "🦁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["bold", "daring"],
+        antonyms: ["timid", "cowardly"]
     },
     {
         id: "audacity",
@@ -18,7 +20,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Willingness to take risks by showing excessive boldness.",
         exampleSentence: "Olly was the only boy with the audacity to ask for more food.",
         imageEmoji: "😲",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["boldness", "nerve"],
+        antonyms: ["timidity", "fear"]
     },
     {
         id: "confiscate",
@@ -27,7 +31,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "To seize, by force if necessary; to take possession of.",
         exampleSentence: "Ms. Martinez confiscated my phone and told me I could have it back when class was over.",
         imageEmoji: "✋",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["seize", "take"],
+        antonyms: ["return", "give back"]
     },
     {
         id: "conscientious",
@@ -36,7 +42,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "1. Thorough; careful. 2. Honest; principled.",
         exampleSentence: "Because of our conscientious preparations, the science fair was enjoyable and informative for everyone.",
         imageEmoji: "🧐",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["careful", "honest"],
+        antonyms: ["careless", "dishonest"]
     },
     {
         id: "depict",
@@ -45,7 +53,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "To give a picture of; to describe.",
         exampleSentence: "These seafaring novels depict life aboard a navy sailing ship with great accuracy.",
         imageEmoji: "🖼️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["show", "describe"],
+        antonyms: ["hide", "conceal"]
     },
     {
         id: "embark",
@@ -54,7 +64,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "1. To go on board a ship or airplane at the start of a voyage. 2. To start out; to begin.",
         exampleSentence: "Around nine o'clock, we embarked for a day of whale watching.",
         imageEmoji: "🚢",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["start", "begin"],
+        antonyms: ["end", "finish"]
     },
     {
         id: "inkling",
@@ -63,7 +75,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "A slight suspicion; a vague idea.",
         exampleSentence: "As she opened the door, Shala had no inkling that her friends were hidden in the darkened room, waiting to shout, \"Surprise!\"",
         imageEmoji: "💡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["clue", "hint"],
+        antonyms: ["certainty", "knowledge"]
     },
     {
         id: "lackadaisical",
@@ -72,7 +86,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Showing little spirit or enthusiasm.",
         exampleSentence: "When the students came after school to work on their reports, the librarian was quite lackadaisical about enforcing the no-talking rule.",
         imageEmoji: "🥱",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["lazy", "unenthusiastic"],
+        antonyms: ["energetic", "enthusiastic"]
     },
     {
         id: "mutiny",
@@ -81,7 +97,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Deliberate refusal to obey orders given by those in command, especially by sailors. To rebel openly against a commander.",
         exampleSentence: "The 1917 mutiny by French soldiers could have caused France to lose the war.",
         imageEmoji: "⚔️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["rebellion", "revolt"],
+        antonyms: ["obedience", "loyalty"]
     },
     {
         id: "pilfer",
@@ -90,7 +108,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "To steal repeatedly small amounts or things that are of little value.",
         exampleSentence: "Pip pilfered bread and other bits of food from the kitchen to feed the injured mouse he was caring for.",
         imageEmoji: "🐁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["steal", "take"],
+        antonyms: ["give", "return"]
     },
     {
         id: "profusion",
@@ -99,7 +119,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "A plentiful supply; a great or generous amount.",
         exampleSentence: "Daffodils grew in profusion along the river bank.",
         imageEmoji: "🌼",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["abundance", "plenty"],
+        antonyms: ["scarcity", "lack"]
     },
     {
         id: "profuse",
@@ -108,7 +130,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Given or occurring in generous amounts; abundant.",
         exampleSentence: "Jerry's profuse apologies convinced me he was sorry he had hurt my feelings.",
         imageEmoji: "🙏",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["abundant", "plentiful"],
+        antonyms: ["sparse", "scarce"]
     },
     {
         id: "prudent",
@@ -117,7 +141,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Very careful; showing judgment and wisdom.",
         exampleSentence: "Lost in the forest, Aadhya argued it was more prudent to wait until morning to find the trail than to continue wandering in the dark.",
         imageEmoji: "🦉",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["careful", "wise"],
+        antonyms: ["reckless", "foolish"]
     },
     {
         id: "prudence",
@@ -126,7 +152,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "The avoidance of risk; carefulness in what one says or does.",
         exampleSentence: "Although the knight was shaking with anger, he exercised prudence, saying nothing to the king who had insulted him.",
         imageEmoji: "🛡️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["caution", "wisdom"],
+        antonyms: ["recklessness", "folly"]
     },
     {
         id: "rankle",
@@ -135,7 +163,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "To cause continuing anger or irritation.",
         exampleSentence: "The unfair criticism still rankled Deena, even though her friend later apologized.",
         imageEmoji: "😡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["annoy", "irritate"],
+        antonyms: ["soothe", "please"]
     },
     {
         id: "rebuke",
@@ -144,7 +174,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "To criticize strongly; to reprimand. A sharp criticism.",
         exampleSentence: "Mrs. Meyer rebuked Ben for his insulting remark in class.",
         imageEmoji: "👉",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["scold", "criticize"],
+        antonyms: ["praise", "compliment"]
     },
     {
         id: "serene",
@@ -153,7 +185,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Calm and untroubled; peaceful.",
         exampleSentence: "The nurse's serene manner comforted the patients.",
         imageEmoji: "😌",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["calm", "peaceful"],
+        antonyms: ["agitated", "storm"]
     },
     {
         id: "serenity",
@@ -162,7 +196,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "A calm and untroubled state.",
         exampleSentence: "My grandmother's constant serenity has a calming effect during times of crisis.",
         imageEmoji: "🧘",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["calmness", "peace"],
+        antonyms: ["agitation", "chaos"]
     },
     {
         id: "slovenly",
@@ -171,7 +207,9 @@ export const b8_l5_words: VocabularyWord[] = [
         definition: "Untidy; carelessly done.",
         exampleSentence: "My mother would not let me leave for the field trip until I cleaned my slovenly bedroom.",
         imageEmoji: "🧹",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["messy", "untidy"],
+        antonyms: ["neat", "tidy"]
     }
 ];
 

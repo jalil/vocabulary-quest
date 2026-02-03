@@ -1,31 +1,33 @@
 import { Story, VocabularyWord } from "./types";
 
-const createWord = (id: string, word: string, definition: string, exampleSentence: string, imageEmoji: string): VocabularyWord => ({
+const createWord = (id: string, word: string, definition: string, exampleSentence: string, imageEmoji: string, synonyms?: string[], antonyms?: string[]): VocabularyWord => ({
     id,
     word,
     definition,
     category: "Grade 4",
     exampleSentence,
-    imageEmoji
+    imageEmoji,
+    synonyms,
+    antonyms
 });
 
 // Lesson 7 Words
 export const b4_l7_words: VocabularyWord[] = [
-    createWord("b4-l7-w1", "Alter", "To change in some way; to make or become different.", "Let's alter our uniforms so they will fit better.", "✂️"),
-    createWord("b4-l7-w2", "Confuse", "To make or become unclear or mixed up in the mind. To mistake one person or thing for another. A state of disorder.", "That math problem totally confused me.", "😵"),
-    createWord("b4-l7-w3", "Distribute", "To give out; to divide among several or many. To be spread over.", "DeRay distributed programs before the concert.", "📤"),
-    createWord("b4-l7-w4", "Eject", "To force or throw out.", "When the seventh graders refused to listen, the coach ejected them from the team meeting.", "⏏️"),
-    createWord("b4-l7-w5", "Embrace", "To hold closely in one's arms; to hug. To take up seriously.", "My parents embraced me when I got home from school.", "🤗"),
-    createWord("b4-l7-w6", "Equip", "To provide with what is needed.", "All new cars now come equipped with airbags.", "🛠️"),
-    createWord("b4-l7-w7", "Flexible", "Able to bend easily. Able to adjust to new or different situations.", "Dancers and gymnasts have very flexible bodies.", "🤸"),
-    createWord("b4-l7-w8", "Instant", "A moment; a very short period of time. Happening or done at once; quick.", "It took Luis only an instant to calculate the amount of paint we would need.", "⏱️"),
-    createWord("b4-l7-w9", "Keen", "Having a sharp edge. Showing a strong interest; eager. Having sharp senses; quick to understand.", "The keen blade of the knife sliced through the loaf of bread with ease.", "🔪"),
-    createWord("b4-l7-w10", "Limp", "To walk in an uneven way. An uneven or lopsided walk. Not stiff or firm.", "I limped for two weeks after I fell on the ice.", "🚶"),
-    createWord("b4-l7-w11", "Scurry", "To move quickly, with rapid little steps.", "The squirrel scurried up the tree as we approached.", "🐿️"),
-    createWord("b4-l7-w12", "Seize", "To grasp suddenly; to grab hold of. To take by force of the law.", "He seized my hand and begged me not to go.", "✊"),
-    createWord("b4-l7-w13", "Shallow", "Not deep. With little seriousness or deep thought.", "We went wading in a shallow stream.", "🌊"),
-    createWord("b4-l7-w14", "Surround", "To enclose on all sides. The things or conditions around a person or place.", "The garden was surrounded by a high fence.", "🧱"),
-    createWord("b4-l7-w15", "Victim", "One who is hurt or killed, or one who suffers.", "The scoundrel denied that he had cheated his victims of their life savings.", "🤕")
+    createWord("b4-l7-w1", "Alter", "To change in some way; to make or become different.", "Let's alter our uniforms so they will fit better.", "✂️", ["change", "modify", "adjust"], ["preserve", "keep"]),
+    createWord("b4-l7-w2", "Confuse", "To make or become unclear or mixed up in the mind. To mistake one person or thing for another. A state of disorder.", "That math problem totally confused me.", "😵", ["puzzle", "perplex", "bewilder"], ["clarify", "enlighten"]),
+    createWord("b4-l7-w3", "Distribute", "To give out; to divide among several or many. To be spread over.", "DeRay distributed programs before the concert.", "📤", ["dispense", "issue", "spread"], ["collect", "gather", "hoard"]),
+    createWord("b4-l7-w4", "Eject", "To force or throw out.", "When the seventh graders refused to listen, the coach ejected them from the team meeting.", "⏏️", ["expel", "dismiss", "throw out"], ["accept", "admit", "welcome"]),
+    createWord("b4-l7-w5", "Embrace", "To hold closely in one's arms; to hug. To take up seriously.", "My parents embraced me when I got home from school.", "🤗", ["hug", "clasp", "adopt"], ["reject", "release"]),
+    createWord("b4-l7-w6", "Equip", "To provide with what is needed.", "All new cars now come equipped with airbags.", "🛠️", ["supply", "furnish", "outfit"], ["strip"]),
+    createWord("b4-l7-w7", "Flexible", "Able to bend easily. Able to adjust to new or different situations.", "Dancers and gymnasts have very flexible bodies.", "🤸", ["pliable", "bendable", "adaptable"], ["rigid", "stiff", "inflexible"]),
+    createWord("b4-l7-w8", "Instant", "A moment; a very short period of time. Happening or done at once; quick.", "It took Luis only an instant to calculate the amount of paint we would need.", "⏱️", ["moment", "flash", "immediate"], ["delay", "eternity"]),
+    createWord("b4-l7-w9", "Keen", "Having a sharp edge. Showing a strong interest; eager. Having sharp senses; quick to understand.", "The keen blade of the knife sliced through the loaf of bread with ease.", "🔪", ["sharp", "eager", "intense"], ["dull", "blunt", "indifferent"]),
+    createWord("b4-l7-w10", "Limp", "To walk in an uneven way. An uneven or lopsided walk. Not stiff or firm.", "I limped for two weeks after I fell on the ice.", "🚶", ["hobble", "stagger", "flaccid"], ["march", "strut", "stiff"]),
+    createWord("b4-l7-w11", "Scurry", "To move quickly, with rapid little steps.", "The squirrel scurried up the tree as we approached.", "🐿️", ["scuttle", "dash", "scamper"], ["plod", "stroll", "amble"]),
+    createWord("b4-l7-w12", "Seize", "To grasp suddenly; to grab hold of. To take by force of the law.", "He seized my hand and begged me not to go.", "✊", ["grab", "grasp", "clutch"], ["release", "let go"]),
+    createWord("b4-l7-w13", "Shallow", "Not deep. With little seriousness or deep thought.", "We went wading in a shallow stream.", "🌊", ["surface", "slight"], ["deep", "profound"]),
+    createWord("b4-l7-w14", "Surround", "To enclose on all sides. The things or conditions around a person or place.", "The garden was surrounded by a high fence.", "🧱", ["circle", "enclose", "encompass"], []),
+    createWord("b4-l7-w15", "Victim", "One who is hurt or killed, or one who suffers.", "The scoundrel denied that he had cheated his victims of their life savings.", "🤕", ["sufferer", "prey", "casualty"], ["attacker", "culprit"])
 ];
 
 // Story 1: Finding Meanings

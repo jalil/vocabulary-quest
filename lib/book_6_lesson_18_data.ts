@@ -7,7 +7,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(adv.) Away from one's own country.",
         exampleSentence: "Mark Twain wrote humorous stories of his travels abroad.",
         imageEmoji: "✈️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["overseas", "internationally", "away"],
+        antonyms: ["home", "domestically", "locally"]
     },
     {
         id: "anguish",
@@ -15,7 +17,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(n.) Extreme pain of the body or mind. (v.) To suffer extreme doubts or uncertainties.",
         exampleSentence: "I felt anguish when no one turned up for the vote to protect the forest.",
         imageEmoji: "😫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["agony", "torment", "misery"],
+        antonyms: ["joy", "delight", "relief"]
     },
     {
         id: "commence",
@@ -23,7 +27,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) To start; to begin.",
         exampleSentence: "The school year commences on September 9.",
         imageEmoji: "🏁",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["start", "begin", "initiate"],
+        antonyms: ["end", "conclude", "finish"]
     },
     {
         id: "commend",
@@ -31,7 +37,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) 1. To speak of with approval; to praise. 2. To put in the care of.",
         exampleSentence: "The teacher commended the students who excelled on the test.",
         imageEmoji: "👏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["praise", "applaud", "recommend"],
+        antonyms: ["criticize", "blame", "censure"]
     },
     {
         id: "controversy",
@@ -39,7 +47,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(n.) A public dispute that arouses strong feelings. controversial (adj.) Causing controversy.",
         exampleSentence: "The plan to build a new power station in an unspoiled rural area created controversy.",
         imageEmoji: "🗣️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["dispute", "disagreement", "debate"],
+        antonyms: ["agreement", "accord", "harmony"]
     },
     {
         id: "cordial",
@@ -47,7 +57,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(adj.) Sincerely warm and friendly.",
         exampleSentence: "The guests received a cordial welcome at the party.",
         imageEmoji: "🤝",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["friendly", "warm", "genial"],
+        antonyms: ["hostile", "cold", "unfriendly"]
     },
     {
         id: "dissent",
@@ -55,7 +67,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) To disagree. (n.) The expression of a difference of opinion.",
         exampleSentence: "Only one senator dissented when the vote was taken.",
         imageEmoji: "👎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["disagree", "object", "opposition"],
+        antonyms: ["agree", "concur", "consent"]
     },
     {
         id: "earnest",
@@ -63,7 +77,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(adj.) Serious and important; not light and playful.",
         exampleSentence: "The tornado victim's earnest appeal for help could not be ignored.",
         imageEmoji: "😐",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["serious", "sincere", "solemn"],
+        antonyms: ["frivolous", "insincere", "lighthearted"]
     },
     {
         id: "elicit",
@@ -71,7 +87,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) To draw out or to cause.",
         exampleSentence: "The fiery speech elicited an angry response from the crowd.",
         imageEmoji: "🎣",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["evoke", "extract", "provoke"],
+        antonyms: ["suppress", "hide", "repress"]
     },
     {
         id: "exhilaration",
@@ -79,7 +97,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(n.) Excitement; a state of elation. exhilarating (adj.) Exciting; stimulating. exhilarate (v.) To excite; to cause to feel lively.",
         exampleSentence: "The baseball fans showed their exhilaration by running onto the field and carrying the players off on their shoulders.",
         imageEmoji: "🎢",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["excitement", "elation", "joy"],
+        antonyms: ["boredom", "depression", "gloom"]
     },
     {
         id: "genuine",
@@ -87,7 +107,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(adj.) 1. Real; being what it seems to be. 2. Honest; sincere.",
         exampleSentence: "This is a genuine diamond, not a fake.",
         imageEmoji: "💎",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["real", "authentic", "sincere"],
+        antonyms: ["fake", "false", "artificial"]
     },
     {
         id: "hoax",
@@ -95,7 +117,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(n.) An act intended to fool or deceive others. (v.) To fool; to play a trick on.",
         exampleSentence: "We knew the player's injury was a hoax when he jumped to his feet and laughed at us.",
         imageEmoji: "🃏",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["trick", "deception", "swindle"],
+        antonyms: ["truth", "reality", "fact"]
     },
     {
         id: "manipulate",
@@ -103,7 +127,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) 1. To operate using the hands, especially in a skillful way. 2. To control in a secret or unfair way.",
         exampleSentence: "The deft players manipulated the controls of the video game with incredible speed.",
         imageEmoji: "🎮",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["handle", "control", "maneuver"],
+        antonyms: ["leave alone", "mess up"]
     },
     {
         id: "recount",
@@ -111,7 +137,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(v.) To give a detailed account of. (n.) A second count, as of the vote in an election.",
         exampleSentence: "The judge asked the witness to recount what happened just before the accident.",
         imageEmoji: "📖",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["narrate", "tell", "describe"],
+        antonyms: []
     },
     {
         id: "skeptic",
@@ -119,7 +147,9 @@ export const b6_l18_words: VocabularyWord[] = [
         definition: "(n.) A person who is not easy to convince unless positive proof is offered. skeptical (adj.) Showing doubt or an unwillingness to believe. skepticism (n.) An attitude of doubt or disbelief.",
         exampleSentence: "When it comes to astrology, my cousin remains a skeptic.",
         imageEmoji: "🤨",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["doubter", "cynic", "unbeliever"],
+        antonyms: ["believer", "optimist"]
     }
 ];
 

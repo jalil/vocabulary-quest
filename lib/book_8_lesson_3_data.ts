@@ -9,7 +9,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "Of an unknown source or unrevealed name.",
         exampleSentence: "We wish we could thank the person who gave this anonymous donation to our library fund.",
         imageEmoji: "👤",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["nameless", "unknown"],
+        antonyms: ["named", "identified"]
     },
     {
         id: "anthology",
@@ -18,7 +20,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "A collection of various writings, such as songs, stories, or poems.",
         exampleSentence: "This anthology of science-fiction stories includes some by Ray Bradbury, Julian May, and Ursula Le Guin.",
         imageEmoji: "📚",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["collection", "compilation"],
+        antonyms: []
     },
     {
         id: "conjecture",
@@ -27,7 +31,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "A conclusion based on guesswork or insufficient evidence. To form an opinion while lacking sufficient evidence.",
         exampleSentence: "Dad's conjecture that the derelict building would be a problem proved to be correct when it caught on fire.",
         imageEmoji: "🤔",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["guess", "theory"],
+        antonyms: ["fact", "certainty"]
     },
     {
         id: "disposition",
@@ -36,7 +42,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. A person's usual mood; temperament. 2. A regular tendency or inclination.",
         exampleSentence: "People enjoy Alice's company because of her sunny disposition.",
         imageEmoji: "😊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["mood", "temperament"],
+        antonyms: []
     },
     {
         id: "encompass",
@@ -45,7 +53,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. To enclose or encircle. 2. To include.",
         exampleSentence: "Except for one narrow pass, mountains encompass the village of Neudorf on all sides.",
         imageEmoji: "🏰",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["include", "surround"],
+        antonyms: ["exclude", "omit"]
     },
     {
         id: "extricate",
@@ -54,7 +64,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "To free from a difficult or tangled situation.",
         exampleSentence: "Extricating our bags from the bus's crowded storage area was much simpler than we thought it would be.",
         imageEmoji: "🔓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["free", "release"],
+        antonyms: ["entangle", "trap"]
     },
     {
         id: "generation",
@@ -63,7 +75,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. One step in the line of descent of a family. 2. All the people born and living about the same time. 3. The average span of time between the birth of parents and their children.",
         exampleSentence: "Four generations were represented at Naomi's family reunion last summer.",
         imageEmoji: "👪",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["age group"],
+        antonyms: []
     },
     {
         id: "guile",
@@ -72,7 +86,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "Cunning or deceit in dealing with others; trickery.",
         exampleSentence: "The Grimm brothers vividly described the wolf's guile toward Little Red Riding Hood.",
         imageEmoji: "🦊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["trickery", "deceit"],
+        antonyms: ["honesty", "candor"]
     },
     {
         id: "imperative",
@@ -81,7 +97,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. Urgent; pressing. 2. Having the power or authority to command.",
         exampleSentence: "It is imperative that I finish this English assignment before tomorrow's deadline.",
         imageEmoji: "🚨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["urgent", "essential"],
+        antonyms: ["optional", "unnecessary"]
     },
     {
         id: "instill",
@@ -90,7 +108,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "To introduce gradually in order to establish securely.",
         exampleSentence: "Juanita's love of animals was instilled in her during the summer vacations she spent at her uncle's farm as a child.",
         imageEmoji: "🌱",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["implant", "infuse"],
+        antonyms: ["remove", "eliminate"]
     },
     {
         id: "modify",
@@ -99,7 +119,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. To make less extreme or severe. 2. To make changes in. 3. In grammar, to limit or restrict in meaning.",
         exampleSentence: "My parents agreed to modify my weekend curfew after I promised to study Monday through Thursday evenings.",
         imageEmoji: "✏️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["change", "alter"],
+        antonyms: ["keep", "maintain"]
     },
     {
         id: "pivot",
@@ -108,7 +130,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. A small bar or rod on which something else turns. 2. A person or thing on which others depend. To turn on or as if on a pivot.",
         exampleSentence: "The gate swung shut easily on its well-oiled pivot.",
         imageEmoji: "🔩",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["turn", "rotate"],
+        antonyms: []
     },
     {
         id: "pivotal",
@@ -117,7 +141,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "Vitally important; significant.",
         exampleSentence: "The first human landing on Mars will be a pivotal event in the history of space exploration.",
         imageEmoji: "🌟",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["important", "crucial"],
+        antonyms: ["unimportant", "minor"]
     },
     {
         id: "prevalent",
@@ -126,7 +152,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "Commonly occurring; widely accepted or practiced.",
         exampleSentence: "Both chicken pox and the flu were prevalent in Edison Middle School last winter.",
         imageEmoji: "🦠",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["common", "widespread"],
+        antonyms: ["rare", "uncommon"]
     },
     {
         id: "recur",
@@ -135,7 +163,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. To come up again or to happen again. 2. To come to mind again.",
         exampleSentence: "The same musical themes recur throughout all the movies in the series.",
         imageEmoji: "🔁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["repeat", "happen again"],
+        antonyms: ["stop", "cease"]
     },
     {
         id: "spontaneous",
@@ -144,7 +174,9 @@ export const b8_l3_words: VocabularyWord[] = [
         definition: "1. Voluntary and unplanned. 2. Occurring or produced without human labor.",
         exampleSentence: "The crowd burst into a spontaneous chant of \"Go! Go! Go!\" as the first two runners neared the finish line.",
         imageEmoji: "🎊",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["unplanned", "impulsive"],
+        antonyms: ["planned", "rehearsed"]
     }
 ];
 

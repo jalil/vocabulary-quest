@@ -7,7 +7,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(adv.) Up in the air, especially in flight.",
         exampleSentence: "A strong breeze kept the kites aloft.",
         imageEmoji: "🪁",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["overhead", "skyward", "high up"],
+        antonyms: ["grounded", "down"]
     },
     {
         id: "attain",
@@ -15,7 +17,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) 1. To reach; to arrive at. 2. To achieve.",
         exampleSentence: "Redwood trees attain heights of over three hundred feet.",
         imageEmoji: "🧗",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["achieve", "reach", "accomplish"],
+        antonyms: ["fail", "miss", "lose"]
     },
     {
         id: "buffet",
@@ -23,7 +27,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(n.) 1. A piece of furniture with drawers and shelves for the storage and display of plates, dishes, and bowls. 2. A meal laid out for guests to help themselves. (v.) To pound repeatedly; to batter.",
         exampleSentence: "This splendid antique buffet contains a valuable collection of china.",
         imageEmoji: "🍽️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["batter", "pound", "strike"],
+        antonyms: []
     },
     {
         id: "elude",
@@ -31,7 +37,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To escape by being quick or clever. elusive (adj.) 1. Hard to find or capture. 2. Hard to explain or make clear.",
         exampleSentence: "The mouse eluded the cat by slipping through a crack in the wall.",
         imageEmoji: "🏃",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["escape", "avoid", "evade"],
+        antonyms: ["confront", "encounter", "face"]
     },
     {
         id: "flammable",
@@ -39,7 +47,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(adj.) Able to catch fire easily.",
         exampleSentence: "Building materials must be fireproofed so they are not flammable.",
         imageEmoji: "🔥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["combustible", "inflammable"],
+        antonyms: ["fireproof", "nonflammable"]
     },
     {
         id: "hover",
@@ -47,7 +57,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To remain in place over an object or location.",
         exampleSentence: "Hummingbirds hover by beating their wings sixty times a second.",
         imageEmoji: "🚁",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["float", "drift", "hang"],
+        antonyms: ["sink", "plunge"]
     },
     {
         id: "inflate",
@@ -55,7 +67,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To fill with air or other gas.",
         exampleSentence: "Inflate your bike tires to the correct pressure.",
         imageEmoji: "🎈",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["blow up", "expand", "fill"],
+        antonyms: ["deflate", "empty"]
     },
     {
         id: "jeopardy",
@@ -63,7 +77,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(n.) Danger. jeopardize (v.) To put in danger of loss or injury.",
         exampleSentence: "Mountaineers who climb without partners put their lives in jeopardy.",
         imageEmoji: "⚠️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["danger", "risk", "peril"],
+        antonyms: ["safety", "security"]
     },
     {
         id: "moor",
@@ -71,7 +87,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To hold in place with ropes or anchors. mooring (n.) A place to which a boat or aircraft can be moored.",
         exampleSentence: "After the sailors moored the boat to the dock, they went ashore.",
         imageEmoji: "⚓",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["anchor", "secure", "tie up"],
+        antonyms: ["untie", "release", "set sail"]
     },
     {
         id: "plummet",
@@ -79,7 +97,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To fall suddenly toward the earth or to a lower level; to plunge.",
         exampleSentence: "We tried not to panic as the apartment elevator plummeted to the basement.",
         imageEmoji: "📉",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["plunge", "drop", "dive"],
+        antonyms: ["soar", "rise", "ascend"]
     },
     {
         id: "pollute",
@@ -87,7 +107,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To make impure or dirty. pollution (n.) The action of polluting; the state of being polluted.",
         exampleSentence: "Teachers help keep your mind from being polluted by incorrect information.",
         imageEmoji: "🏭",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["contaminate", "foul", "taint"],
+        antonyms: ["purify", "clean", "cleanse"]
     },
     {
         id: "propel",
@@ -95,7 +117,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(v.) To push or drive forward.",
         exampleSentence: "Two engines propelled the speedboat.",
         imageEmoji: "🚀",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["push", "drive", "thrust"],
+        antonyms: ["stop", "brake", "halt"]
     },
     {
         id: "stationary",
@@ -103,7 +127,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(adj.) 1. Not moving. 2. Not changing.",
         exampleSentence: "A stationary bicycle is used for exercise.",
         imageEmoji: "🛑",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["fixed", "immobile", "stable"],
+        antonyms: ["moving", "mobile", "shifting"]
     },
     {
         id: "superb",
@@ -111,7 +137,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(adj.) Of the highest quality; grand; splendid.",
         exampleSentence: "The view from the mountaintop was superb.",
         imageEmoji: "👌",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["excellent", "magnificent", "splendid"],
+        antonyms: ["inferior", "poor", "mediocre"]
     },
     {
         id: "swivel",
@@ -119,7 +147,9 @@ export const b6_l4_words: VocabularyWord[] = [
         definition: "(n.) A fastening that allows any part joined to it to swing freely. (v.) To turn freely around a fixed point.",
         exampleSentence: "This chair has a swivel that enables it to turn in a full circle.",
         imageEmoji: "🔄",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["rotate", "spin", "turn"],
+        antonyms: []
     }
 ];
 

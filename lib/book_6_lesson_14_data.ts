@@ -7,7 +7,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(adj.) Wanting to do good; kind.",
         exampleSentence: "A benevolent employee paid for the team's Little League uniforms.",
         imageEmoji: "😇",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["kind", "generous", "charitable"],
+        antonyms: ["malevolent", "cruel", "unkind"]
     },
     {
         id: "consent",
@@ -15,7 +17,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To agree; to allow to happen. (n.) Permission; approval.",
         exampleSentence: "The judges consented to hear the case.",
         imageEmoji: "👍",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["agree", "permit", "allow"],
+        antonyms: ["refuse", "forbid", "disagree"]
     },
     {
         id: "discreet",
@@ -23,7 +27,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(adj.) Showing care or wisdom in what one says or does. discretion (n.) The ability to handle matters wisely.",
         exampleSentence: "The counselor made discreet inquiries into the student's past.",
         imageEmoji: "🤫",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["careful", "cautious", "tactful"],
+        antonyms: ["indiscreet", "careless", "imprudent"]
     },
     {
         id: "engross",
@@ -31,7 +37,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To take up one's complete attention. engrossing (adj.) Taking up one's complete attention.",
         exampleSentence: "The puzzle so engrossed me that I lost track of time.",
         imageEmoji: "🤩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["absorb", "captivate", "occupy"],
+        antonyms: ["bore", "distract"]
     },
     {
         id: "esteem",
@@ -39,7 +47,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To think highly of; to respect. (n.) Respect; high regard. esteemed (adj.) Highly regarded.",
         exampleSentence: "Historians esteem Eleanor Roosevelt for her human rights work.",
         imageEmoji: "🏆",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["respect", "admire", "value"],
+        antonyms: ["scorn", "disdain", "disrespect"]
     },
     {
         id: "exaggerate",
@@ -47,7 +57,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To describe something as larger or greater than it really is. exaggeration (n.) Something that is exaggerated.",
         exampleSentence: "Some donors exaggerate the value of their contributions to the campaign.",
         imageEmoji: "🤥",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["overstate", "magnify", "embellish"],
+        antonyms: ["understate", "minimize"]
     },
     {
         id: "extensive",
@@ -55,7 +67,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(adj.) 1. Covering a large area. 2. Ambitious; far-reaching.",
         exampleSentence: "Central Park is an extensive green expanse in the middle of Manhattan.",
         imageEmoji: "🏞️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["vast", "wide", "broad"],
+        antonyms: ["limited", "narrow", "small"]
     },
     {
         id: "fantastic",
@@ -63,7 +77,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(adj.) 1. Almost unbelievable. 2. Unusual; odd.",
         exampleSentence: "The guests on the talk show told a fantastic tale of being followed by creatures from outer space.",
         imageEmoji: "🛸",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["incredible", "unbelievable", "wondrous"],
+        antonyms: ["ordinary", "believable", "common"]
     },
     {
         id: "intrigue",
@@ -71,7 +87,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) 1. To fascinate. 2. To plot in a secret way; to scheme. (n.) A secret plot or scheme.",
         exampleSentence: "The way stage magicians do their tricks intrigues me.",
         imageEmoji: "🎩",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["fascinate", "interest", "plot"],
+        antonyms: ["bore"]
     },
     {
         id: "marvel",
@@ -79,7 +97,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(n.) A wonderful or amazing thing. (v.) To be filled with wonder or amazement. marvelous (adj.) 1. Causing wonder; astonishing. 2. Of the highest quality; splendid.",
         exampleSentence: "The Amazon River is one of the great marvels of nature.",
         imageEmoji: "😲",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["wonder", "miracle", "spectacle"],
+        antonyms: []
     },
     {
         id: "mission",
@@ -87,7 +107,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(n.) 1. A special or important task or assignment. 2. A group sent on an important assignment.",
         exampleSentence: "The ambassador's mission was to arrange a meeting with the prime minister.",
         imageEmoji: "🚀",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["task", "assignment", "quest"],
+        antonyms: []
     },
     {
         id: "opportunity",
@@ -95,7 +117,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(n.) 1. A time that is right for doing something. 2. A chance for getting ahead.",
         exampleSentence: "Isabella was waiting for the opportunity to talk to her mother alone.",
         imageEmoji: "🚪",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["chance", "occasion", "opening"],
+        antonyms: []
     },
     {
         id: "relinquish",
@@ -103,7 +127,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To let go; to give up.",
         exampleSentence: "The little boy who found the lost puppy didn't want to relinquish it.",
         imageEmoji: "👐",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["give up", "surrender", "yield"],
+        antonyms: ["keep", "hold", "retain"]
     },
     {
         id: "tyrant",
@@ -111,7 +137,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(n.) A ruler or person who has complete power and uses it in cruel or unjust ways. tyranny (n.) Rule by a tyrant.",
         exampleSentence: "The tyrant lived in splendor while his people lived in squalor.",
         imageEmoji: "👑",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["dictator", "despot", "oppressor"],
+        antonyms: []
     },
     {
         id: "vanquish",
@@ -119,7 +147,9 @@ export const b6_l14_words: VocabularyWord[] = [
         definition: "(v.) To defeat utterly and completely; to overcome.",
         exampleSentence: "Success quickly vanquishes fear.",
         imageEmoji: "⚔️",
-        category: "Grade 6"
+        category: "Grade 6",
+        synonyms: ["defeat", "conquer", "overcome"],
+        antonyms: ["surrender", "lose"]
     }
 ];
 

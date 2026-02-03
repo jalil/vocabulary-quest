@@ -6,28 +6,34 @@ export const b8_l10_words: VocabularyWord[] = [
         id: "abject",
         word: "abject",
         pronunciation: "/ˈæbdʒekt/",
-        definition: "Most miserable; wretched.",
-        exampleSentence: "The stray dog lived in abject conditions until the neighbor children began to care for her.",
-        imageEmoji: "🏚️",
-        category: "Grade 8"
+        definition: "1. Most miserable; wretched. 2. Lacking self-respect; dishonorable.",
+        exampleSentence: "King Edward VIII's abject abdication of the throne surprised the world.",
+        imageEmoji: "😞",
+        category: "Grade 8",
+        synonyms: ["miserable", "hopeless"],
+        antonyms: ["noble", "proud"]
     },
     {
         id: "advocate",
         word: "advocate",
         pronunciation: "/ˈædvəkeɪt/",
-        definition: "1. To plead in favor of; to defend. 2. One who argues for or defends a person, group, or idea.",
+        definition: "To plead in favor of; to defend. One who argues for or defends a person, group, or idea.",
         exampleSentence: "This organization advocates the release of all people imprisoned for their beliefs.",
-        imageEmoji: "🗣️",
-        category: "Grade 8"
+        imageEmoji: "📢",
+        category: "Grade 8",
+        synonyms: ["supporter", "defender"],
+        antonyms: ["opponent", "critic"]
     },
     {
         id: "atrocity",
         word: "atrocity",
         pronunciation: "/əˈtrɒsəti/",
         definition: "An act of great cruelty and wickedness.",
-        exampleSentence: "It is important to talk about and try to prevent the atrocities we see every day on the news.",
+        exampleSentence: "The war crimes judges in The Hague heard gruesome details of the atrocities committed during the war.",
         imageEmoji: "😱",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["horror", "outrage"],
+        antonyms: ["kindness", "act of mercy"]
     },
     {
         id: "commemorate",
@@ -36,70 +42,86 @@ export const b8_l10_words: VocabularyWord[] = [
         definition: "To serve as a memorial to; to remember in a solemn manner.",
         exampleSentence: "The tablet on the front of the house commemorates its importance as a station on the Underground Railroad.",
         imageEmoji: "🎗️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["honor", "remember"],
+        antonyms: ["forget", "ignore"]
     },
     {
         id: "dialect",
         word: "dialect",
         pronunciation: "/ˈdaɪəlekt/",
         definition: "A form of a language spoken in a certain geographical region that has its own grammar, pronunciation, and vocabulary.",
-        exampleSentence: "A Spanish-speaking person from Madrid might not completely understand a dialect spoken in Cuba.",
-        imageEmoji: "💬",
-        category: "Grade 8"
+        exampleSentence: "A Spanish-speaking person from Madrid might not understand the dialect spoken in Cuba.",
+        imageEmoji: "🗣️",
+        category: "Grade 8",
+        synonyms: ["language", "speech"],
+        antonyms: []
     },
     {
         id: "dire",
         word: "dire",
         pronunciation: "/ˈdaɪər/",
         definition: "Having terrible consequences; urgent or desperate.",
-        exampleSentence: "The murder of an Austrian crown prince in 1914 had extremely dire consequences.",
+        exampleSentence: "The hurricane struck the Florida Keys with dire results.",
         imageEmoji: "⚠️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["terrible", "urgent"],
+        antonyms: ["good", "minor"]
     },
     {
         id: "elite",
         word: "elite",
         pronunciation: "/eɪˈliːt/",
-        definition: "A group that enjoys superior status to others.",
-        exampleSentence: "People in the social elite of New York City use private cars so they do not have to ride the subways.",
+        definition: "A group that enjoys superior status to others. Considered superior to others.",
+        exampleSentence: "The elite of the Austrian army were known accurately as the Imperial Guard.",
         imageEmoji: "💎",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["best", "top"],
+        antonyms: ["worst", "bottom"]
     },
     {
         id: "enhance",
         word: "enhance",
         pronunciation: "/ɪnˈhæns/",
         definition: "To make greater or better.",
-        exampleSentence: "The large window in our new kitchen enhances the room's light, airy feeling.",
+        exampleSentence: "The large window in our new kitchen enhances the room's light and airiness.",
         imageEmoji: "✨",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["improve", "increase"],
+        antonyms: ["worsen", "decrease"]
     },
     {
         id: "flagrant",
         word: "flagrant",
         pronunciation: "/ˈfleɪɡrənt/",
         definition: "Clearly offensive or bad; conspicuously acting against what is right.",
-        exampleSentence: "Leaving school grounds early is a flagrant violation of school rules.",
-        imageEmoji: "🚫",
-        category: "Grade 8"
+        exampleSentence: "Leaving school grounds during recess is a flagrant violation of the rules.",
+        imageEmoji: "🚩",
+        category: "Grade 8",
+        synonyms: ["glaring", "obvious"],
+        antonyms: ["hidden", "subtle"]
     },
     {
         id: "languish",
         word: "languish",
         pronunciation: "/ˈlæŋɡwɪʃ/",
         definition: "To lose hope, strength, or vitality because of neglect or bad conditions.",
-        exampleSentence: "We languished on the porch as the rain soaked the picnic blanket and all the food we had laid out.",
+        exampleSentence: "We languished on the porch as the rain soaked the picnic blanket.",
         imageEmoji: "🥀",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["weaken", "waste away"],
+        antonyms: ["thrive", "flourish"]
     },
     {
         id: "mute",
         word: "mute",
         pronunciation: "/mjuːt/",
         definition: "1. To soften or tone down the sound of. 2. Not speaking or not able to speak; silent.",
-        exampleSentence: "The state legislature has agreed to build walls at the airport to mute the roar of the jet engines for nearby residents.",
+        exampleSentence: "The state legislature has so far been mute on the subject of raising taxes.",
         imageEmoji: "🔇",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["silent", "quiet"],
+        antonyms: ["loud", "noisy"]
     },
     {
         id: "raze",
@@ -108,25 +130,31 @@ export const b8_l10_words: VocabularyWord[] = [
         definition: "To level to the ground; to destroy completely.",
         exampleSentence: "Just as the row of seventeenth-century buildings was about to be razed, the preservation society requested a delay.",
         imageEmoji: "🏗️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["destroy", "demolish"],
+        antonyms: ["build", "construct"]
     },
     {
         id: "reprisal",
         word: "reprisal",
         pronunciation: "/rɪˈpraɪzl/",
         definition: "A retaliation for an injury.",
-        exampleSentence: "We decided there would be no reprisals for the high school students who painted graffiti on the walls.",
+        exampleSentence: "The rocket attack came as a reprisal for the bombing of the embassy.",
         imageEmoji: "⚔️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["retaliation", "revenge"],
+        antonyms: ["forgiveness"]
     },
     {
         id: "turmoil",
         word: "turmoil",
         pronunciation: "/ˈtɜːrmɔɪl/",
         definition: "A state of confusion or agitation; tumult.",
-        exampleSentence: "With flood waters rising and an order to evacuate our home in an hour, my family was in a turmoil, trying to decide what to do first.",
-        imageEmoji: "🌀",
-        category: "Grade 8"
+        exampleSentence: "With floodwaters rising and people panicking, the town was in a state of turmoil.",
+        imageEmoji: "🌪️",
+        category: "Grade 8",
+        synonyms: ["chaos", "disorder"],
+        antonyms: ["peace", "order"]
     },
     {
         id: "wreak",
@@ -134,8 +162,10 @@ export const b8_l10_words: VocabularyWord[] = [
         pronunciation: "/riːk/",
         definition: "1. To bring about or inflict. 2. To express or vent.",
         exampleSentence: "The tornado wreaked destruction along the path it followed through the center of town.",
-        imageEmoji: "🌪️",
-        category: "Grade 8"
+        imageEmoji: "💥",
+        category: "Grade 8",
+        synonyms: ["inflict", "cause"],
+        antonyms: []
     }
 ];
 

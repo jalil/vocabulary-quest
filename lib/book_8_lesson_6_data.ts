@@ -9,7 +9,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "1. Total absence of government. 2. Lack of order; total confusion.",
         exampleSentence: "Government officials fled, leaving the country in a state of anarchy.",
         imageEmoji: "🏴",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["chaos", "disorder"],
+        antonyms: ["order", "law"]
     },
     {
         id: "apprehend",
@@ -18,7 +20,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "1. To seize; to arrest. 2. To grasp the meaning of; to understand.",
         exampleSentence: "John Brown was apprehended when he tried to confiscate weapons at Harper's Ferry, Virginia, in 1859.",
         imageEmoji: "👮",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["arrest", "catch"],
+        antonyms: ["release", "free"]
     },
     {
         id: "arraign",
@@ -27,7 +31,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "To bring before a court to face charges.",
         exampleSentence: "The man who vandalized the artwork has been arraigned and will soon go to trial for his actions.",
         imageEmoji: "⚖️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["charge", "accuse"],
+        antonyms: []
     },
     {
         id: "assimilate",
@@ -36,7 +42,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "1. To absorb into a population. 2. To take in a part and absorb into the whole.",
         exampleSentence: "By the second generation, the immigrants had been assimilated into Canadian society.",
         imageEmoji: "🌍",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["absorb", "integrate"],
+        antonyms: ["reject", "isolate"]
     },
     {
         id: "bizarre",
@@ -45,7 +53,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "Strikingly out of the ordinary; peculiar.",
         exampleSentence: "The terrifying clown mask, resting in a bed of violets near the side of the road, created a bizarre image.",
         imageEmoji: "🤡",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["strange", "odd"],
+        antonyms: ["normal", "ordinary"]
     },
     {
         id: "calamity",
@@ -54,7 +64,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "An event that causes great suffering and harm; a disaster.",
         exampleSentence: "The train engineer averted a calamity by slamming on the brakes as soon as she saw the car stalled on the tracks.",
         imageEmoji: "💥",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["disaster", "tragedy"],
+        antonyms: ["blessing", "miracle"]
     },
     {
         id: "conspire",
@@ -63,7 +75,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "1. To plan together secretly to do something wrong or illegal. 2. To join or act together.",
         exampleSentence: "The high school students had conspired to cut school, but their parents learned of their plan.",
         imageEmoji: "🤫",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["plot", "scheme"],
+        antonyms: []
     },
     {
         id: "dissension",
@@ -72,7 +86,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "A difference of opinion; disagreement.",
         exampleSentence: "Because there was so much dissension at the student council meeting about the plans for the school dance, there is still no date or theme chosen.",
         imageEmoji: "🗣️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["disagreement", "conflict"],
+        antonyms: ["agreement", "harmony"]
     },
     {
         id: "elapse",
@@ -81,7 +97,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "To pass or slip by (used with time).",
         exampleSentence: "Five years elapsed before they saw their cousins again.",
         imageEmoji: "⏳",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["pass"],
+        antonyms: []
     },
     {
         id: "imminent",
@@ -90,7 +108,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "About to happen; likely to occur in the very near future.",
         exampleSentence: "The clouds rolling in made rain seem imminent.",
         imageEmoji: "⛈️",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["approaching", "near"],
+        antonyms: ["distant", "far"]
     },
     {
         id: "interrogate",
@@ -99,7 +119,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "To ask questions of, especially in a thorough or formal manner.",
         exampleSentence: "The assistant principal will interrogate the students involved in the fight to learn what might have caused it.",
         imageEmoji: "❓",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["question", "quiz"],
+        antonyms: ["answer", "reply"]
     },
     {
         id: "lionize",
@@ -108,7 +130,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "To treat as a celebrity.",
         exampleSentence: "After he won the national chess championship, Kwame was lionized by his classmates.",
         imageEmoji: "🦁",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["celebrate", "honor"],
+        antonyms: ["ignore", "criticize"]
     },
     {
         id: "meticulous",
@@ -117,7 +141,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "Extremely careful; attentive to small details.",
         exampleSentence: "All the parachutists gave their gear a meticulous final check before leaping from the plane.",
         imageEmoji: "🔍",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["careful", "precise"],
+        antonyms: ["careless", "sloppy"]
     },
     {
         id: "shackle",
@@ -126,7 +152,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "1. A ring or band put around the arm or leg to prevent free movement. 2. Something that prevents free action. To prevent freedom of action.",
         exampleSentence: "The pirates' captives were crammed into ships where they sat in shackles for the duration of the voyage.",
         imageEmoji: "🔗",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["chain", "bind"],
+        antonyms: ["free", "release"]
     },
     {
         id: "swelter",
@@ -135,7 +163,9 @@ export const b8_l6_words: VocabularyWord[] = [
         definition: "To suffer from or to be overcome by great heat.",
         exampleSentence: "We sweltered in the hot sun because there was no shade in the field where we were playing soccer.",
         imageEmoji: "🥵",
-        category: "Grade 8"
+        category: "Grade 8",
+        synonyms: ["burn", "sweat"],
+        antonyms: ["freeze", "shiver"]
     }
 ];
 
